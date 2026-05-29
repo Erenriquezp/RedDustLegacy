@@ -40,7 +40,17 @@ public class PlayerAnimatorController : MonoBehaviour
         // Flip del sprite según dirección (sin rotar el transform)
         if (_rb.linearVelocity.x != 0f)
             _sprite.flipX = _rb.linearVelocity.x < 0f;
-    }
+
+         // Velocidad de animación Run proporcional a la velocidad real
+         // (solo afecta cuando está en Run, Idle queda en 1x)
+         float speedRatio = Mathf.Abs(_rb.linearVelocity.x) / 12f; // 12 = maxRunSpeed
+         _animator.SetFloat(_speedHash, speedRatio, 0.05f, Time.deltaTime);
+
+         // Escala el clip de Run entre 0.8x y 1.2x según la velocidad
+         _animator.speed = _animator.GetCurrentAnimatorStateInfo(0).IsName("Run")
+            ? Mathf.Lerp(0.8f, 1.2f, speedRatio)
+            : 1f;
+      }
 
     // ── Callback desde PlayerController ──────────────────────────────
     private void HandleGroundedChanged(bool isGrounded)

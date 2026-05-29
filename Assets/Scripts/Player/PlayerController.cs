@@ -187,39 +187,45 @@ public class PlayerController : MonoBehaviour
     }
 
     private void HandleJump()
-    {
-        // Variable height: cortar subida al soltar el botón
-        if (!_jumpHeld && _frameVelocity.y > 0f)
-            _frameVelocity.y *= _stats.jumpCutMultiplier;
-    }
+   {
+      // Cortar el salto al soltar el botón (variable height)
+      if (!_jumpHeld && _frameVelocity.y > 0f && !_isGrounded)
+         _frameVelocity.y = Mathf.MoveTowards(
+               _frameVelocity.y, 0f, 
+               _frameVelocity.y * (1f - _stats.jumpCutMultiplier) * Time.deltaTime * 15f
+         );
+   }
     #endregion
 
     // ═════════════════════════════════════════════════════════════════════
     #region Gravity
 
-    private void ApplyGravity()
-    {
-        if (_isDashing)
-        {
-            _frameVelocity.y = 0f; // gravity scale 0 durante dash
-            return;
-        }
+   private void ApplyGravity()
+   {
+      if (_isDashing)
+      {
+         _frameVelocity.y = 0f;
+         return;
+      }
 
-        if (_isWallSliding)
-        {
-            _frameVelocity.y = Mathf.Max(_frameVelocity.y, _stats.wallSlideSpeed);
-            return;
-        }
+      if (_isWallSliding)
+      {
+         _frameVelocity.y = Mathf.Max(_frameVelocity.y, _stats.wallSlideSpeed);
+         return;
+      }
 
-        float gravity = -_stats.gravityScale;
+      // Gravedad hacia abajo (negativa en Y)
+      float gravityThisFrame = -_stats.gravityScale * Time.deltaTime;
 
-        // Caída más pesada que subida (game feel)
-        if (_frameVelocity.y < 0f)
-            gravity *= _stats.fallGravityMultiplier;
+      // Caída más pesada que subida
+      if (_frameVelocity.y < 0f)
+         gravityThisFrame *= _stats.fallGravityMultiplier;
 
-        _frameVelocity.y += gravity * Time.deltaTime;
-        _frameVelocity.y  = Mathf.Max(_frameVelocity.y, _stats.maxFallSpeed);
-    }
+      _frameVelocity.y += gravityThisFrame;
+
+      // Cap de velocidad terminal
+      _frameVelocity.y = Mathf.Max(_frameVelocity.y, _stats.maxFallSpeed);
+   }
     #endregion
 
     // ═════════════════════════════════════════════════════════════════════

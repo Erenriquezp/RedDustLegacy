@@ -13,24 +13,21 @@ MonoBehaviour:
   m_Name: RoverStats_Default
   m_EditorClassIdentifier: Assembly-CSharp::RoverStatsSO
   maxRunSpeed: 7.5
-  runAcceleration: 25
-  runDecceleration: 40
-  accelInAir: 0.65
-  deccelInAir: 0.65
-  jumpForce: 16
+  groundAcceleration: 40
+  groundDeceleration: 63
+  airControlFactor: 0.65
+  jumpForce: 22
   jumpCutMultiplier: 0.5
-  jumpCoyoteTime: 0.12
+  coyoteTime: 0.12
   jumpBufferTime: 0.1
-  gravityScale: -20
-  fallGravityMultiplier: 1.8
-  fastFallGravityMultiplier: 2.5
   maxFallSpeed: -26
   dashSpeed: 28
-  dashTime: 0.18
+  dashDuration: 0.2
   dashCooldown: 1.2
   dashSleepTime: 0.028
-  dashesInAir: 1
-  maxSI: 100
-  startingSI: 74
-  cellRestoreAmount: 20
-  maxCells: 2
+  wallSlideSpeed: -2
+  wallJumpForceX: 14
+  wallJumpForceY: 18
+  wallJumpInputLock: 0.15
+  gravityScale: 20
+  fallGravityMultiplier: 1.8
