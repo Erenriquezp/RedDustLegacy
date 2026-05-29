@@ -1,0 +1,782 @@
+fileFormatVersion: 2
+guid: 1de26f1d28e000c4681883ab8c0cd4ff
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 685115271066484062
+    second: Opportunity-idle_0
+  - first:
+      213: 6194098096043895944
+    second: Opportunity-idle_1
+  - first:
+      213: 519518736394896705
+    second: Opportunity-idle_2
+  - first:
+      213: 6960653068250462330
+    second: Opportunity-idle_3
+  - first:
+      213: 4471043938313625651
+    second: Opportunity-idle_4
+  - first:
+      213: -2359140722406436247
+    second: Opportunity-idle_5
+  - first:
+      213: 4826127224532705224
+    second: Opportunity-idle_6
+  - first:
+      213: -1595617589122588387
+    second: Opportunity-idle_7
+  - first:
+      213: 3868882381377150969
+    second: Opportunity-idle_8
+  - first:
+      213: 1771810148983871413
+    second: Opportunity-idle_9
+  - first:
+      213: 7566286638664529187
+    second: Opportunity-idle_10
+  - first:
+      213: 4151543740119231549
+    second: Opportunity-idle_11
+  - first:
+      213: -6452564198441799166
+    second: Opportunity-idle_12
+  - first:
+      213: -7854877501017553934
+    second: Opportunity-idle_13
+  - first:
+      213: -1353836133175142925
+    second: Opportunity-idle_14
+  - first:
+      213: -1532459474936242559
+    second: Opportunity-idle_15
+  - first:
+      213: -7238206221686354145
+    second: Opportunity-idle_16
+  - first:
+      213: 4972601677365141228
+    second: Opportunity-idle_17
+  - first:
+      213: -5245594038002277213
+    second: Opportunity-idle_18
+  - first:
+      213: 5396955516272031168
+    second: Opportunity-idle_19
+  - first:
+      213: 7749422649063510833
+    second: Opportunity-idle_20
+  - first:
+      213: 1995937441646334310
+    second: Opportunity-idle_21
+  - first:
+      213: -7785112848213951660
+    second: Opportunity-idle_22
+  - first:
+      213: -1946752211388835778
+    second: Opportunity-idle_23
+  - first:
+      213: 2181814090494590863
+    second: Opportunity-idle_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Opportunity-idle_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1068
+        width: 176
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5dfc1a85b4028900800000000000000
+      internalID: 685115271066484062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-idle_1
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1068
+        width: 176
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88cae9e866bd5f550800000000000000
+      internalID: 6194098096043895944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-idle_2
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1068
+        width: 176
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1454af8c983b53700800000000000000
+      internalID: 519518736394896705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-idle_3
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1068
+        width: 176
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a783dc12615399060800000000000000
+      internalID: 6960653068250462330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-idle_4
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 1068
+        width: 177
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 330e856f5c65c0e30800000000000000
+      internalID: 4471043938313625651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-idle_5
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 812
+        width: 182
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9625ec12306a24fd0800000000000000
+      internalID: -2359140722406436247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-idle_6
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 812
+        width: 194
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf1d1b0429d9f240800000000000000
+      internalID: 4826127224532705224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-idle_7
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 812
+        width: 205
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d11abf2b14a3bd9e0800000000000000
+      internalID: -1595617589122588387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-idle_8
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 812
+        width: 217
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ff90c3170801b530800000000000000
+      internalID: 3868882381377150969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-idle_9
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 812
+        width: 174
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b79d9b61fbb69810800000000000000
+      internalID: 1771810148983871413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-idle_10
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 556
+        width: 174
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32532662c99d00960800000000000000
+      internalID: 7566286638664529187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-idle_11
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 556
+        width: 175
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3cad4b290f3d9930800000000000000
+      internalID: 4151543740119231549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-idle_12
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 556
+        width: 175
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20239757c03e376a0800000000000000
+      internalID: -6452564198441799166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-idle_13
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 556
+        width: 175
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f304ad978eddf290800000000000000
+      internalID: -7854877501017553934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-idle_14
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 556
+        width: 176
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5d106b535363de0800000000000000
+      internalID: -1353836133175142925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-idle_15
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 300
+        width: 176
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e5eb31a3c9bbae0800000000000000
+      internalID: -1532459474936242559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-idle_16
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 300
+        width: 176
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1fcc518ac9bc8b90800000000000000
+      internalID: -7238206221686354145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-idle_17
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 300
+        width: 175
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee5cdc21ea320540800000000000000
+      internalID: 4972601677365141228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-idle_18
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 300
+        width: 175
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a4a7f8c308e337b0800000000000000
+      internalID: -5245594038002277213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-idle_19
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 300
+        width: 175
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c5baff9276d5ea40800000000000000
+      internalID: 5396955516272031168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-idle_20
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 44
+        width: 174
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1331cc357da7b8b60800000000000000
+      internalID: 7749422649063510833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-idle_21
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 44
+        width: 174
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6615b3b378ef2bb10800000000000000
+      internalID: 1995937441646334310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-idle_22
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 44
+        width: 175
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45bb0e1ac19b5f390800000000000000
+      internalID: -7785112848213951660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-idle_23
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 44
+        width: 175
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3856769d2fbbf4e0800000000000000
+      internalID: -1946752211388835778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-idle_24
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 44
+        width: 175
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8f3fd50b5c574e10800000000000000
+      internalID: 2181814090494590863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 05ffc047646a47247a48e83e775a35cb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Opportunity-idle_0: 685115271066484062
+      Opportunity-idle_1: 6194098096043895944
+      Opportunity-idle_10: 7566286638664529187
+      Opportunity-idle_11: 4151543740119231549
+      Opportunity-idle_12: -6452564198441799166
+      Opportunity-idle_13: -7854877501017553934
+      Opportunity-idle_14: -1353836133175142925
+      Opportunity-idle_15: -1532459474936242559
+      Opportunity-idle_16: -7238206221686354145
+      Opportunity-idle_17: 4972601677365141228
+      Opportunity-idle_18: -5245594038002277213
+      Opportunity-idle_19: 5396955516272031168
+      Opportunity-idle_2: 519518736394896705
+      Opportunity-idle_20: 7749422649063510833
+      Opportunity-idle_21: 1995937441646334310
+      Opportunity-idle_22: -7785112848213951660
+      Opportunity-idle_23: -1946752211388835778
+      Opportunity-idle_24: 2181814090494590863
+      Opportunity-idle_3: 6960653068250462330
+      Opportunity-idle_4: 4471043938313625651
+      Opportunity-idle_5: -2359140722406436247
+      Opportunity-idle_6: 4826127224532705224
+      Opportunity-idle_7: -1595617589122588387
+      Opportunity-idle_8: 3868882381377150969
+      Opportunity-idle_9: 1771810148983871413
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

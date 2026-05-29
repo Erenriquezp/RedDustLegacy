@@ -1,0 +1,806 @@
+fileFormatVersion: 2
+guid: 6f8a7505e7313304cbcfbf64d29f3a9b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6787393255269398823
+    second: Drone Detector-idle-v1_0
+  - first:
+      213: 6874367671692589229
+    second: Drone Detector-idle-v1_1
+  - first:
+      213: 1277147036305971350
+    second: Drone Detector-idle-v1_2
+  - first:
+      213: 3898557577143225367
+    second: Drone Detector-idle-v1_3
+  - first:
+      213: 5253780356695112068
+    second: Drone Detector-idle-v1_4
+  - first:
+      213: -2085028851610887245
+    second: Drone Detector-idle-v1_5
+  - first:
+      213: 8922967186727461190
+    second: Drone Detector-idle-v1_6
+  - first:
+      213: 6628227264986825100
+    second: Drone Detector-idle-v1_7
+  - first:
+      213: -7109684374499659250
+    second: Drone Detector-idle-v1_8
+  - first:
+      213: -3875615675869421650
+    second: Drone Detector-idle-v1_9
+  - first:
+      213: -8080472921344206436
+    second: Drone Detector-idle-v1_10
+  - first:
+      213: 6771402646073505003
+    second: Drone Detector-idle-v1_11
+  - first:
+      213: 1395928051895567075
+    second: Drone Detector-idle-v1_12
+  - first:
+      213: -5259418114083946455
+    second: Drone Detector-idle-v1_13
+  - first:
+      213: -7111353832809147112
+    second: Drone Detector-idle-v1_14
+  - first:
+      213: -7635234152014571260
+    second: Drone Detector-idle-v1_15
+  - first:
+      213: -4897805035191318581
+    second: Drone Detector-idle-v1_16
+  - first:
+      213: 3997662550690089034
+    second: Drone Detector-idle-v1_17
+  - first:
+      213: -6819455460944081192
+    second: Drone Detector-idle-v1_18
+  - first:
+      213: -317950619375056230
+    second: Drone Detector-idle-v1_19
+  - first:
+      213: -7608978728169280882
+    second: Drone Detector-idle-v1_20
+  - first:
+      213: 1999057161705375546
+    second: Drone Detector-idle-v1_21
+  - first:
+      213: 1377253809113587437
+    second: Drone Detector-idle-v1_22
+  - first:
+      213: 3545856610235257724
+    second: Drone Detector-idle-v1_23
+  - first:
+      213: -1020120255301494869
+    second: Drone Detector-idle-v1_24
+  - first:
+      213: 3317721086121287627
+    second: Drone Detector-idle-v1_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Drone Detector-idle-v1_0
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1108
+        width: 112
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 729f63b543aa13e50800000000000000
+      internalID: 6787393255269398823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone Detector-idle-v1_1
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1108
+        width: 112
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da87aa6b9f8a66f50800000000000000
+      internalID: 6874367671692589229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone Detector-idle-v1_2
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1108
+        width: 111
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 698d5f0867659b110800000000000000
+      internalID: 1277147036305971350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone Detector-idle-v1_3
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 1108
+        width: 112
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c870206757a1630800000000000000
+      internalID: 3898557577143225367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone Detector-idle-v1_4
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 1107
+        width: 113
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 489bcb0166d29e840800000000000000
+      internalID: 5253780356695112068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone Detector-idle-v1_5
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 851
+        width: 117
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bbda417e4d7013e0800000000000000
+      internalID: -2085028851610887245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone Detector-idle-v1_6
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 851
+        width: 120
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6416b53616fb4db70800000000000000
+      internalID: 8922967186727461190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone Detector-idle-v1_7
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 851
+        width: 126
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c81491464913cfb50800000000000000
+      internalID: 6628227264986825100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone Detector-idle-v1_8
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 853
+        width: 131
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e027dc8eab3555d90800000000000000
+      internalID: -7109684374499659250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone Detector-idle-v1_9
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 853
+        width: 136
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaf1ed1a31c073ac0800000000000000
+      internalID: -3875615675869421650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone Detector-idle-v1_10
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 597
+        width: 140
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c999d12b0b46cdf80800000000000000
+      internalID: -8080472921344206436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone Detector-idle-v1_11
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 598
+        width: 142
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be4f95684dad8fd50800000000000000
+      internalID: 6771402646073505003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone Detector-idle-v1_12
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 598
+        width: 143
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e20d31da255f5310800000000000000
+      internalID: 1395928051895567075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone Detector-idle-v1_13
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 599
+        width: 140
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92085c0471bc207b0800000000000000
+      internalID: -5259418114083946455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone Detector-idle-v1_14
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 599
+        width: 137
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8155c4bdd556f4d90800000000000000
+      internalID: -7111353832809147112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone Detector-idle-v1_15
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 344
+        width: 133
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4099d30fdf23a0690800000000000000
+      internalID: -7635234152014571260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone Detector-idle-v1_16
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 344
+        width: 128
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc74d4a2540870cb0800000000000000
+      internalID: -4897805035191318581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone Detector-idle-v1_17
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 344
+        width: 128
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a48c3c9c8ec8a7730800000000000000
+      internalID: 3997662550690089034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone Detector-idle-v1_18
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 343
+        width: 130
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de84d8a36d6c51a0800000000000000
+      internalID: -6819455460944081192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone Detector-idle-v1_19
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 423
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ac804a899669bf0800000000000000
+      internalID: -317950619375056230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone Detector-idle-v1_20
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 342
+        width: 135
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a67fb292a776690800000000000000
+      internalID: -7608978728169280882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone Detector-idle-v1_21
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 85
+        width: 138
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a374629a5e31ebb10800000000000000
+      internalID: 1999057161705375546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone Detector-idle-v1_22
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 84
+        width: 142
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deed4c9da0dfc1310800000000000000
+      internalID: 1377253809113587437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone Detector-idle-v1_23
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 83
+        width: 143
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c731b8ddcc9653130800000000000000
+      internalID: 3545856610235257724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone Detector-idle-v1_24
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 82
+        width: 139
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba7d29a580ec7d1f0800000000000000
+      internalID: -1020120255301494869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone Detector-idle-v1_25
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 84
+        width: 131
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcf1512ffb9ea0e20800000000000000
+      internalID: 3317721086121287627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Drone Detector-idle-v1_0: 6787393255269398823
+      Drone Detector-idle-v1_1: 6874367671692589229
+      Drone Detector-idle-v1_10: -8080472921344206436
+      Drone Detector-idle-v1_11: 6771402646073505003
+      Drone Detector-idle-v1_12: 1395928051895567075
+      Drone Detector-idle-v1_13: -5259418114083946455
+      Drone Detector-idle-v1_14: -7111353832809147112
+      Drone Detector-idle-v1_15: -7635234152014571260
+      Drone Detector-idle-v1_16: -4897805035191318581
+      Drone Detector-idle-v1_17: 3997662550690089034
+      Drone Detector-idle-v1_18: -6819455460944081192
+      Drone Detector-idle-v1_19: -317950619375056230
+      Drone Detector-idle-v1_2: 1277147036305971350
+      Drone Detector-idle-v1_20: -7608978728169280882
+      Drone Detector-idle-v1_21: 1999057161705375546
+      Drone Detector-idle-v1_22: 1377253809113587437
+      Drone Detector-idle-v1_23: 3545856610235257724
+      Drone Detector-idle-v1_24: -1020120255301494869
+      Drone Detector-idle-v1_25: 3317721086121287627
+      Drone Detector-idle-v1_3: 3898557577143225367
+      Drone Detector-idle-v1_4: 5253780356695112068
+      Drone Detector-idle-v1_5: -2085028851610887245
+      Drone Detector-idle-v1_6: 8922967186727461190
+      Drone Detector-idle-v1_7: 6628227264986825100
+      Drone Detector-idle-v1_8: -7109684374499659250
+      Drone Detector-idle-v1_9: -3875615675869421650
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b71633531eeaac4e834c3b651fc5a61, type: 3}
+  m_Name: RoverStats_Default
+  m_EditorClassIdentifier: Assembly-CSharp::RoverStatsSO
+  maxRunSpeed: 7.5
+  runAcceleration: 25
+  runDecceleration: 40
+  accelInAir: 0.65
+  deccelInAir: 0.65
+  jumpForce: 16
+  jumpCutMultiplier: 0.5
+  jumpCoyoteTime: 0.12
+  jumpBufferTime: 0.1
+  gravityScale: -20
+  fallGravityMultiplier: 1.8
+  fastFallGravityMultiplier: 2.5
+  maxFallSpeed: -26
+  dashSpeed: 28
+  dashTime: 0.18
+  dashCooldown: 1.2
+  dashSleepTime: 0.028
+  dashesInAir: 1
+  maxSI: 100
+  startingSI: 74
+  cellRestoreAmount: 20
+  maxCells: 2
