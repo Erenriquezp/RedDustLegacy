@@ -1,12 +1,13 @@
 // Assets/Scripts/Player/PlayerAnimatorController.cs
 using UnityEngine;
 
-[RequireComponent(typeof(Animator), typeof(PlayerController))]
+[RequireComponent(typeof(PlayerController))]
 public class PlayerAnimatorController : MonoBehaviour
 {
     // ── Hash de parámetros (más rápido que strings) ───────────────────
     private static readonly int _speedHash     = Animator.StringToHash("Speed");
     private static readonly int _isGroundedHash = Animator.StringToHash("IsGrounded");
+    private RoverStatsSO _stats;
 
     private Animator         _animator;
     private PlayerController _controller;
@@ -15,10 +16,23 @@ public class PlayerAnimatorController : MonoBehaviour
 
     private void Awake()
     {
-        _animator   = GetComponent<Animator>();
+        _animator   = GetComponentInChildren<Animator>();
         _controller = GetComponent<PlayerController>();
-        _rb         = GetComponent<Rigidbody2D>();
+        _rb         = GetComponent<Rigidbody2D>();           // ← debe estar en el padre
         _sprite     = GetComponentInChildren<SpriteRenderer>();
+        _stats = _controller.GetStats();
+
+        // Debug temporal — borra después
+        if (_animator == null)
+        Debug.LogError("❌ Animator no encontrado en hijos de Player");
+        else
+            Debug.Log($"✅ Animator encontrado: {_animator.gameObject.name} | Controller: {_animator.runtimeAnimatorController}");
+
+        if (_rb == null)
+            Debug.LogError("❌ Rigidbody2D no encontrado en Player");
+
+        if (_stats == null)
+            Debug.LogError("❌ RoverStats no encontrado");
     }
 
     private void OnEnable()
@@ -30,27 +44,18 @@ public class PlayerAnimatorController : MonoBehaviour
     {
         _controller.OnGroundedChanged -= HandleGroundedChanged;
     }
-
-    private void Update()
+   private void Update()
     {
-        // Speed: valor absoluto de velocidad horizontal normalizado [0,1]
-        float normalizedSpeed = Mathf.Abs(_rb.linearVelocity.x) / 12f; // 12 = maxRunSpeed del SO
-        _animator.SetFloat(_speedHash, normalizedSpeed, 0.05f, Time.deltaTime); // dampTime suaviza la transición
+        if (_animator == null || _animator.runtimeAnimatorController == null) return;
 
-        // Flip del sprite según dirección (sin rotar el transform)
+        // Leer desde el action cacheado — limpio y sin hardcode de teclas
+        float inputX = _controller.GetMoveInput();
+        float normalizedSpeed = Mathf.Abs(inputX) > 0.01f ? 1f : 0f;
+        _animator.SetFloat(_speedHash, normalizedSpeed);
+
         if (_rb.linearVelocity.x != 0f)
             _sprite.flipX = _rb.linearVelocity.x < 0f;
-
-         // Velocidad de animación Run proporcional a la velocidad real
-         // (solo afecta cuando está en Run, Idle queda en 1x)
-         float speedRatio = Mathf.Abs(_rb.linearVelocity.x) / 12f; // 12 = maxRunSpeed
-         _animator.SetFloat(_speedHash, speedRatio, 0.05f, Time.deltaTime);
-
-         // Escala el clip de Run entre 0.8x y 1.2x según la velocidad
-         _animator.speed = _animator.GetCurrentAnimatorStateInfo(0).IsName("Run")
-            ? Mathf.Lerp(0.8f, 1.2f, speedRatio)
-            : 1f;
-      }
+    }
 
     // ── Callback desde PlayerController ──────────────────────────────
     private void HandleGroundedChanged(bool isGrounded)

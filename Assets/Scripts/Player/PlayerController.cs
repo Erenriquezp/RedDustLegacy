@@ -3,37 +3,40 @@ using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-[RequireComponent(typeof(Rigidbody2D), typeof(CapsuleCollider2D))]
+[RequireComponent(typeof(Rigidbody2D), typeof(CapsuleCollider2D), typeof(PlayerInput))]
 public class PlayerController : MonoBehaviour
 {
-    // ── Datos ────────────────────────────────────────────────────────────
+    // ── Datos ─────────────────────────────────────────────────────────────
     [SerializeField] private RoverStatsSO _stats;
 
-    // ── Ground detection ─────────────────────────────────────────────────
+    // ── Ground detection ──────────────────────────────────────────────────
     [Header("Ground Check")]
-    [SerializeField] private Transform  _groundCheckPoint;
-    [SerializeField] private Vector2    _groundCheckSize  = new(0.7f, 0.05f);
-    [SerializeField] private LayerMask  _groundLayer;
+    [SerializeField] private Transform _groundCheckPoint;
+    [SerializeField] private Vector2   _groundCheckSize = new(0.7f, 0.05f);
+    [SerializeField] private LayerMask _groundLayer;
 
-    // ── Wall detection ───────────────────────────────────────────────────
+    // ── Wall detection ────────────────────────────────────────────────────
     [Header("Wall Check")]
-    [SerializeField] private Transform  _wallCheckPoint;
-    [SerializeField] private Vector2    _wallCheckSize    = new(0.05f, 0.8f);
-    [SerializeField] private LayerMask  _wallLayer;
+    [SerializeField] private Transform _wallCheckPoint;
+    [SerializeField] private Vector2   _wallCheckSize = new(0.05f, 0.8f);
+    [SerializeField] private LayerMask _wallLayer;
 
-    // ── Eventos públicos (desacoplamiento) ───────────────────────────────
-    public event Action<bool>  OnGroundedChanged;   // para Animator
-    public event Action        OnJumped;
-    public event Action        OnDashed;
-    public event Action        OnWallJumped;
-    public event Action<bool>  OnWallSliding;
+    // ── Eventos públicos ──────────────────────────────────────────────────
+    public event Action<bool> OnGroundedChanged;
+    public event Action       OnJumped;
+    public event Action       OnDashed;
+    public event Action       OnWallJumped;
+    public event Action<bool> OnWallSliding;
 
-    // ── Componentes ──────────────────────────────────────────────────────
+    // ── Componentes ───────────────────────────────────────────────────────
     private Rigidbody2D _rb;
+    private PlayerInput _playerInput;
+    private InputAction _moveAction;
 
-    // ── Estado interno ───────────────────────────────────────────────────
+    // ── Estado interno ────────────────────────────────────────────────────
     private Vector2 _frameVelocity;
     private float   _inputX;
+    private int     _facingDir = 1;
 
     // Timers
     private float _coyoteTimer;
@@ -47,22 +50,35 @@ public class PlayerController : MonoBehaviour
     private bool _isTouchingWall;
     private bool _isWallSliding;
     private bool _isDashing;
-    private bool _hasAerialDash;    // un dash aéreo por salto
+    private bool _hasAerialDash;
     private bool _jumpHeld;
     private bool _jumpConsumed;
-    private int  _facingDir = 1;    // 1 = derecha, -1 = izquierda
+
+    // ── API pública ───────────────────────────────────────────────────────
+    public RoverStatsSO GetStats()  => _stats;
+    public float GetMoveInput() => _moveAction != null ? _moveAction.ReadValue<Vector2>().x : 0f;
+    public bool         IsGrounded  => _isGrounded;
+    public bool         IsDashing   => _isDashing;
+    public int          FacingDir   => _facingDir;
 
     // ═════════════════════════════════════════════════════════════════════
     #region Unity Lifecycle
-    private void Awake() => _rb = GetComponent<Rigidbody2D>();
+
+    private void Awake()
+    {
+        _rb          = GetComponent<Rigidbody2D>();
+        _playerInput = GetComponent<PlayerInput>();
+        // Cachear la acción Move para polling directo cada frame
+        _moveAction  = _playerInput.actions["Move"];
+    }
 
     private void Start()
     {
-        _rb.gravityScale        = 0f; // manejamos gravedad manualmente
-        _rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
-        _rb.interpolation       = RigidbodyInterpolation2D.Interpolate;
-        _rb.constraints         = RigidbodyConstraints2D.FreezeRotation;
-        _hasAerialDash          = true;
+        _rb.gravityScale             = 0f;
+        _rb.collisionDetectionMode   = CollisionDetectionMode2D.Continuous;
+        _rb.interpolation            = RigidbodyInterpolation2D.Interpolate;
+        _rb.constraints              = RigidbodyConstraints2D.FreezeRotation;
+        _hasAerialDash               = true;
     }
 
     private void Update()
@@ -77,14 +93,14 @@ public class PlayerController : MonoBehaviour
         ApplyGravity();
         ApplyVelocity();
     }
+
     #endregion
 
     // ═════════════════════════════════════════════════════════════════════
-    #region Input (New Input System callbacks)
+    #region Input Callbacks (PlayerInput → Invoke Unity Events)
 
-    // Conectar en el Inspector via PlayerInput component
-    public void OnMoveInput(InputAction.CallbackContext ctx)
-        => _inputX = ctx.ReadValue<Vector2>().x;
+    // Jump y Dash usan callbacks porque son acciones puntuales (started/canceled).
+    // Move usa polling directo en HandleRun() para evitar oscilaciones por eventos.
 
     public void OnJumpInput(InputAction.CallbackContext ctx)
     {
@@ -93,14 +109,17 @@ public class PlayerController : MonoBehaviour
             _jumpBufferTimer = _stats.jumpBufferTime;
             _jumpHeld        = true;
         }
-        if (ctx.canceled)
+        else if (ctx.canceled)
+        {
             _jumpHeld = false;
+        }
     }
 
     public void OnDashInput(InputAction.CallbackContext ctx)
     {
         if (ctx.started) TryStartDash();
     }
+
     #endregion
 
     // ═════════════════════════════════════════════════════════════════════
@@ -116,11 +135,10 @@ public class PlayerController : MonoBehaviour
         _isTouchingWall = Physics2D.OverlapBox(
             _wallCheckPoint.position, _wallCheckSize, 0f, _wallLayer);
 
-        // Restaurar dash aéreo al aterrizar
         if (!wasGrounded && _isGrounded)
         {
-            _hasAerialDash  = true;
-            _jumpConsumed   = false;
+            _hasAerialDash = true;
+            _jumpConsumed  = false;
             OnGroundedChanged?.Invoke(true);
         }
         else if (wasGrounded && !_isGrounded)
@@ -129,6 +147,7 @@ public class PlayerController : MonoBehaviour
             OnGroundedChanged?.Invoke(false);
         }
     }
+
     #endregion
 
     // ═════════════════════════════════════════════════════════════════════
@@ -137,12 +156,13 @@ public class PlayerController : MonoBehaviour
     private void TickTimers()
     {
         float dt = Time.deltaTime;
-        if (_coyoteTimer          > 0) _coyoteTimer          -= dt;
-        if (_jumpBufferTimer      > 0) _jumpBufferTimer      -= dt;
-        if (_dashCooldownTimer    > 0) _dashCooldownTimer    -= dt;
-        if (_dashDurationTimer    > 0) _dashDurationTimer    -= dt;
-        if (_wallJumpInputLockTimer > 0) _wallJumpInputLockTimer -= dt;
+        if (_coyoteTimer             > 0f) _coyoteTimer             -= dt;
+        if (_jumpBufferTimer         > 0f) _jumpBufferTimer         -= dt;
+        if (_dashCooldownTimer       > 0f) _dashCooldownTimer       -= dt;
+        if (_dashDurationTimer       > 0f) _dashDurationTimer       -= dt;
+        if (_wallJumpInputLockTimer  > 0f) _wallJumpInputLockTimer  -= dt;
     }
+
     #endregion
 
     // ═════════════════════════════════════════════════════════════════════
@@ -151,19 +171,26 @@ public class PlayerController : MonoBehaviour
     private void HandleRun()
     {
         if (_isDashing) return;
-        if (_wallJumpInputLockTimer > 0f) return; // bloqueo post-wall jump
+        if (_wallJumpInputLockTimer > 0f) return;
+
+        // Polling directo — valor estable sin oscilaciones de callback
+        _inputX = _moveAction != null ? _moveAction.ReadValue<Vector2>().x : 0f;
 
         float targetSpeed = _inputX * _stats.maxRunSpeed;
-        float accel       = _isGrounded ? _stats.groundAcceleration : _stats.groundAcceleration * _stats.airControlFactor;
-        float decel       = _isGrounded ? _stats.groundDeceleration : _stats.groundDeceleration * _stats.airControlFactor;
+        float accel       = _isGrounded
+            ? _stats.groundAcceleration
+            : _stats.groundAcceleration * _stats.airControlFactor;
+        float decel       = _isGrounded
+            ? _stats.groundDeceleration
+            : _stats.groundDeceleration * _stats.airControlFactor;
         float rate        = Mathf.Abs(targetSpeed) > 0.01f ? accel : decel;
 
-        _frameVelocity.x  = Mathf.MoveTowards(_frameVelocity.x, targetSpeed, rate * Time.deltaTime);
+        _frameVelocity.x = Mathf.MoveTowards(_frameVelocity.x, targetSpeed, rate * Time.deltaTime);
 
-        // Flip sprite
-        if (_inputX != 0)
-            _facingDir = _inputX > 0 ? 1 : -1;
+        if (_inputX != 0f)
+            _facingDir = _inputX > 0f ? 1 : -1;
     }
+
     #endregion
 
     // ═════════════════════════════════════════════════════════════════════
@@ -171,7 +198,6 @@ public class PlayerController : MonoBehaviour
 
     private void HandleJumpBuffer()
     {
-        // Consume buffer si hay suelo disponible (suelo real o coyote)
         bool canJump = (_isGrounded || _coyoteTimer > 0f) && !_jumpConsumed;
         if (_jumpBufferTimer > 0f && canJump)
             ExecuteJump();
@@ -179,53 +205,52 @@ public class PlayerController : MonoBehaviour
 
     private void ExecuteJump()
     {
-        _frameVelocity.y  = _stats.jumpForce;
-        _coyoteTimer       = 0f;
-        _jumpBufferTimer   = 0f;
-        _jumpConsumed      = true;
+        _frameVelocity.y = _stats.jumpForce;
+        _coyoteTimer     = 0f;
+        _jumpBufferTimer = 0f;
+        _jumpConsumed    = true;
         OnJumped?.Invoke();
     }
 
     private void HandleJump()
-   {
-      // Cortar el salto al soltar el botón (variable height)
-      if (!_jumpHeld && _frameVelocity.y > 0f && !_isGrounded)
-         _frameVelocity.y = Mathf.MoveTowards(
-               _frameVelocity.y, 0f, 
-               _frameVelocity.y * (1f - _stats.jumpCutMultiplier) * Time.deltaTime * 15f
-         );
-   }
+    {
+        // Variable height: suaviza el corte al soltar el botón
+        if (!_jumpHeld && _frameVelocity.y > 0f && !_isGrounded)
+            _frameVelocity.y = Mathf.MoveTowards(
+                _frameVelocity.y, 0f,
+                _frameVelocity.y * (1f - _stats.jumpCutMultiplier) * Time.deltaTime * 15f
+            );
+    }
+
     #endregion
 
     // ═════════════════════════════════════════════════════════════════════
     #region Gravity
 
-   private void ApplyGravity()
-   {
-      if (_isDashing)
-      {
-         _frameVelocity.y = 0f;
-         return;
-      }
+    private void ApplyGravity()
+    {
+        if (_isDashing)
+        {
+            _frameVelocity.y = 0f;
+            return;
+        }
 
-      if (_isWallSliding)
-      {
-         _frameVelocity.y = Mathf.Max(_frameVelocity.y, _stats.wallSlideSpeed);
-         return;
-      }
+        if (_isWallSliding)
+        {
+            _frameVelocity.y = Mathf.Max(_frameVelocity.y, _stats.wallSlideSpeed);
+            return;
+        }
 
-      // Gravedad hacia abajo (negativa en Y)
-      float gravityThisFrame = -_stats.gravityScale * Time.deltaTime;
+        float gravityThisFrame = -_stats.gravityScale * Time.deltaTime;
 
-      // Caída más pesada que subida
-      if (_frameVelocity.y < 0f)
-         gravityThisFrame *= _stats.fallGravityMultiplier;
+        // Caída más pesada que subida (game feel)
+        if (_frameVelocity.y < 0f)
+            gravityThisFrame *= _stats.fallGravityMultiplier;
 
-      _frameVelocity.y += gravityThisFrame;
+        _frameVelocity.y += gravityThisFrame;
+        _frameVelocity.y  = Mathf.Max(_frameVelocity.y, _stats.maxFallSpeed);
+    }
 
-      // Cap de velocidad terminal
-      _frameVelocity.y = Mathf.Max(_frameVelocity.y, _stats.maxFallSpeed);
-   }
     #endregion
 
     // ═════════════════════════════════════════════════════════════════════
@@ -243,7 +268,6 @@ public class PlayerController : MonoBehaviour
         if (!_isGrounded)
             _hasAerialDash = false;
 
-        // dashSleepTime: congelar física brevemente
         StartCoroutine(DashSleep());
         OnDashed?.Invoke();
     }
@@ -254,8 +278,7 @@ public class PlayerController : MonoBehaviour
 
         if (_dashDurationTimer > 0f)
         {
-            // Input de dirección o facing direction
-            float dir = _inputX != 0 ? Mathf.Sign(_inputX) : _facingDir;
+            float dir        = _inputX != 0f ? Mathf.Sign(_inputX) : _facingDir;
             _frameVelocity.x = dir * _stats.dashSpeed;
             _frameVelocity.y = 0f;
         }
@@ -271,6 +294,7 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSecondsRealtime(_stats.dashSleepTime);
         Time.timeScale = 1f;
     }
+
     #endregion
 
     // ═════════════════════════════════════════════════════════════════════
@@ -284,34 +308,34 @@ public class PlayerController : MonoBehaviour
         if (wasWallSliding != _isWallSliding)
             OnWallSliding?.Invoke(_isWallSliding);
 
-        // Wall Jump: se ejecuta si hay jump buffer activo tocando pared
         if (_isWallSliding && _jumpBufferTimer > 0f)
             ExecuteWallJump();
     }
 
     private void ExecuteWallJump()
     {
-        // Saltar en dirección opuesta a la pared
-        int wallDir = _isTouchingWall ? _facingDir : -_facingDir;
-        _frameVelocity.x = -wallDir * _stats.wallJumpForceX;
-        _frameVelocity.y = _stats.wallJumpForceY;
+        int wallDir          = _isTouchingWall ? _facingDir : -_facingDir;
+        _frameVelocity.x     = -wallDir * _stats.wallJumpForceX;
+        _frameVelocity.y     = _stats.wallJumpForceY;
 
         _wallJumpInputLockTimer = _stats.wallJumpInputLock;
         _jumpBufferTimer        = 0f;
         _isWallSliding          = false;
-        _hasAerialDash          = true; // restaurar dash al wall jump
+        _hasAerialDash          = true;
 
         OnWallJumped?.Invoke();
     }
+
     #endregion
 
     // ═════════════════════════════════════════════════════════════════════
     #region Apply
 
     private void ApplyVelocity() => _rb.linearVelocity = _frameVelocity;
+
     #endregion
 
-    // ── Gizmos de debug ──────────────────────────────────────────────────
+    // ── Gizmos ────────────────────────────────────────────────────────────
     private void OnDrawGizmosSelected()
     {
         if (_groundCheckPoint != null)
