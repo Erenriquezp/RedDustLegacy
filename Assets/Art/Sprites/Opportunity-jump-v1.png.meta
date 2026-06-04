@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: fb8e4779bda7b0f43a89903e947ea278
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4139350974428498769
+    second: Opportunity-jump-v1_0
+  - first:
+      213: -2232864011384460986
+    second: Opportunity-jump-v1_1
+  - first:
+      213: 5020926907855401900
+    second: Opportunity-jump-v1_2
+  - first:
+      213: -4091100719070051859
+    second: Opportunity-jump-v1_3
+  - first:
+      213: -1200695207729848722
+    second: Opportunity-jump-v1_4
+  - first:
+      213: 8816646891884782756
+    second: Opportunity-jump-v1_5
+  - first:
+      213: 7660547312642663470
+    second: Opportunity-jump-v1_6
+  - first:
+      213: -2545147869809585957
+    second: Opportunity-jump-v1_7
+  - first:
+      213: 6065338220863803851
+    second: Opportunity-jump-v1_8
+  - first:
+      213: -3924226525060867726
+    second: Opportunity-jump-v1_9
+  - first:
+      213: -4214391335995680652
+    second: Opportunity-jump-v1_10
+  - first:
+      213: -6177668244366808183
+    second: Opportunity-jump-v1_11
+  - first:
+      213: -7294724519348924666
+    second: Opportunity-jump-v1_12
+  - first:
+      213: 8330882261208814696
+    second: Opportunity-jump-v1_13
+  - first:
+      213: -4226903536971659832
+    second: Opportunity-jump-v1_14
+  - first:
+      213: 5283604554690281468
+    second: Opportunity-jump-v1_15
+  - first:
+      213: -1223670885656204586
+    second: Opportunity-jump-v1_16
+  - first:
+      213: -8177329267163348788
+    second: Opportunity-jump-v1_17
+  - first:
+      213: 8593031307368085524
+    second: Opportunity-jump-v1_18
+  - first:
+      213: -4384517755896111209
+    second: Opportunity-jump-v1_19
+  - first:
+      213: 1392734429855580099
+    second: Opportunity-jump-v1_20
+  - first:
+      213: 5785658074314822510
+    second: Opportunity-jump-v1_21
+  - first:
+      213: 4473501974036949875
+    second: Opportunity-jump-v1_22
+  - first:
+      213: 7936690070921837787
+    second: Opportunity-jump-v1_23
+  - first:
+      213: -5624312769880725457
+    second: Opportunity-jump-v1_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Opportunity-jump-v1_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1078
+        width: 165
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15b4a7fa7cde17930800000000000000
+      internalID: 4139350974428498769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-jump-v1_1
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1078
+        width: 165
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 649eca903064301e0800000000000000
+      internalID: -2232864011384460986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-jump-v1_2
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1078
+        width: 165
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca3fbe1bb6aeda540800000000000000
+      internalID: 5020926907855401900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-jump-v1_3
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1079
+        width: 164
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de10c73529d7937c0800000000000000
+      internalID: -4091100719070051859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-jump-v1_4
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 1086
+        width: 164
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e9fb3f116465fe0800000000000000
+      internalID: -1200695207729848722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-jump-v1_5
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 841
+        width: 166
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a428d4b2a50b5a70800000000000000
+      internalID: 8816646891884782756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-jump-v1_6
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 851
+        width: 166
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e24a32b813bbf4a60800000000000000
+      internalID: 7660547312642663470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-jump-v1_7
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 856
+        width: 165
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd058274f71ddacd0800000000000000
+      internalID: -2545147869809585957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-jump-v1_8
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 859
+        width: 165
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc1df21f9f86c2450800000000000000
+      internalID: 6065338220863803851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-jump-v1_9
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 854
+        width: 164
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279d49354c85a89c0800000000000000
+      internalID: -3924226525060867726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-jump-v1_10
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 588
+        width: 163
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4785e71a8697385c0800000000000000
+      internalID: -4214391335995680652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-jump-v1_11
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 571
+        width: 163
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b2e426673844aa0800000000000000
+      internalID: -6177668244366808183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-jump-v1_12
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 567
+        width: 163
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f00e1e2bee3ca90800000000000000
+      internalID: -7294724519348924666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-jump-v1_13
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 567
+        width: 165
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86454f4174d3d9370800000000000000
+      internalID: 8330882261208814696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-jump-v1_14
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 567
+        width: 165
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c546f2d0a50755c0800000000000000
+      internalID: -4226903536971659832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-jump-v1_15
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 310
+        width: 164
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff33f74952235940800000000000000
+      internalID: 5283604554690281468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-jump-v1_16
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 310
+        width: 164
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da697210d5a40fe0800000000000000
+      internalID: -1223670885656204586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-jump-v1_17
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 310
+        width: 164
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc0c25b5b5a448e80800000000000000
+      internalID: -8177329267163348788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-jump-v1_18
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 310
+        width: 165
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4183c7b3274904770800000000000000
+      internalID: 8593031307368085524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-jump-v1_19
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 310
+        width: 165
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79f5b68c4501723c0800000000000000
+      internalID: -4384517755896111209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-jump-v1_20
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 54
+        width: 165
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf7ffdb59cf35310800000000000000
+      internalID: 1392734429855580099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-jump-v1_21
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 54
+        width: 165
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e63d7676d59ca4050800000000000000
+      internalID: 5785658074314822510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-jump-v1_22
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 54
+        width: 165
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b2b700852151e30800000000000000
+      internalID: 4473501974036949875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-jump-v1_23
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 54
+        width: 165
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdc7aa1b199c42e60800000000000000
+      internalID: 7936690070921837787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-jump-v1_24
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 54
+        width: 165
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28e09da55d62f1b0800000000000000
+      internalID: -5624312769880725457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Opportunity-jump-v1_0: 4139350974428498769
+      Opportunity-jump-v1_1: -2232864011384460986
+      Opportunity-jump-v1_10: -4214391335995680652
+      Opportunity-jump-v1_11: -6177668244366808183
+      Opportunity-jump-v1_12: -7294724519348924666
+      Opportunity-jump-v1_13: 8330882261208814696
+      Opportunity-jump-v1_14: -4226903536971659832
+      Opportunity-jump-v1_15: 5283604554690281468
+      Opportunity-jump-v1_16: -1223670885656204586
+      Opportunity-jump-v1_17: -8177329267163348788
+      Opportunity-jump-v1_18: 8593031307368085524
+      Opportunity-jump-v1_19: -4384517755896111209
+      Opportunity-jump-v1_2: 5020926907855401900
+      Opportunity-jump-v1_20: 1392734429855580099
+      Opportunity-jump-v1_21: 5785658074314822510
+      Opportunity-jump-v1_22: 4473501974036949875
+      Opportunity-jump-v1_23: 7936690070921837787
+      Opportunity-jump-v1_24: -5624312769880725457
+      Opportunity-jump-v1_3: -4091100719070051859
+      Opportunity-jump-v1_4: -1200695207729848722
+      Opportunity-jump-v1_5: 8816646891884782756
+      Opportunity-jump-v1_6: 7660547312642663470
+      Opportunity-jump-v1_7: -2545147869809585957
+      Opportunity-jump-v1_8: 6065338220863803851
+      Opportunity-jump-v1_9: -3924226525060867726
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
