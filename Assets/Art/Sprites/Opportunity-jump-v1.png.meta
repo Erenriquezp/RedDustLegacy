@@ -109,7 +109,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -188,12 +188,12 @@ TextureImporter:
       name: Opportunity-jump-v1_0
       rect:
         serializedVersion: 2
-        x: 46
-        y: 1078
-        width: 165
-        height: 151
+        x: 47
+        y: 1079
+        width: 163
+        height: 149
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -210,12 +210,12 @@ TextureImporter:
       name: Opportunity-jump-v1_1
       rect:
         serializedVersion: 2
-        x: 302
-        y: 1078
-        width: 165
-        height: 150
+        x: 303
+        y: 1079
+        width: 163
+        height: 148
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -232,12 +232,12 @@ TextureImporter:
       name: Opportunity-jump-v1_2
       rect:
         serializedVersion: 2
-        x: 558
-        y: 1078
-        width: 165
-        height: 148
+        x: 559
+        y: 1079
+        width: 163
+        height: 146
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -254,12 +254,12 @@ TextureImporter:
       name: Opportunity-jump-v1_3
       rect:
         serializedVersion: 2
-        x: 815
-        y: 1079
-        width: 164
-        height: 152
+        x: 816
+        y: 1080
+        width: 162
+        height: 149
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -276,12 +276,12 @@ TextureImporter:
       name: Opportunity-jump-v1_4
       rect:
         serializedVersion: 2
-        x: 1071
-        y: 1086
-        width: 164
-        height: 157
+        x: 1072
+        y: 1087
+        width: 162
+        height: 155
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -298,12 +298,12 @@ TextureImporter:
       name: Opportunity-jump-v1_5
       rect:
         serializedVersion: 2
-        x: 46
-        y: 841
-        width: 166
-        height: 158
+        x: 47
+        y: 842
+        width: 164
+        height: 155
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -320,12 +320,12 @@ TextureImporter:
       name: Opportunity-jump-v1_6
       rect:
         serializedVersion: 2
-        x: 303
-        y: 851
-        width: 166
-        height: 155
+        x: 304
+        y: 852
+        width: 163
+        height: 153
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -342,12 +342,12 @@ TextureImporter:
       name: Opportunity-jump-v1_7
       rect:
         serializedVersion: 2
-        x: 559
-        y: 856
-        width: 165
-        height: 154
+        x: 560
+        y: 857
+        width: 163
+        height: 152
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -364,12 +364,12 @@ TextureImporter:
       name: Opportunity-jump-v1_8
       rect:
         serializedVersion: 2
-        x: 815
-        y: 859
-        width: 165
-        height: 151
+        x: 816
+        y: 860
+        width: 163
+        height: 149
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -386,12 +386,12 @@ TextureImporter:
       name: Opportunity-jump-v1_9
       rect:
         serializedVersion: 2
-        x: 1071
-        y: 854
-        width: 164
-        height: 152
+        x: 1072
+        y: 855
+        width: 162
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -408,12 +408,12 @@ TextureImporter:
       name: Opportunity-jump-v1_10
       rect:
         serializedVersion: 2
-        x: 47
-        y: 588
-        width: 163
-        height: 155
+        x: 48
+        y: 589
+        width: 161
+        height: 152
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -430,12 +430,12 @@ TextureImporter:
       name: Opportunity-jump-v1_11
       rect:
         serializedVersion: 2
-        x: 303
-        y: 571
-        width: 163
-        height: 159
+        x: 304
+        y: 572
+        width: 161
+        height: 157
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -452,12 +452,12 @@ TextureImporter:
       name: Opportunity-jump-v1_12
       rect:
         serializedVersion: 2
-        x: 559
-        y: 567
-        width: 163
-        height: 150
+        x: 560
+        y: 568
+        width: 161
+        height: 148
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -474,12 +474,12 @@ TextureImporter:
       name: Opportunity-jump-v1_13
       rect:
         serializedVersion: 2
-        x: 815
-        y: 567
-        width: 165
-        height: 143
+        x: 816
+        y: 568
+        width: 162
+        height: 141
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -496,12 +496,12 @@ TextureImporter:
       name: Opportunity-jump-v1_14
       rect:
         serializedVersion: 2
-        x: 1071
-        y: 567
-        width: 165
-        height: 144
+        x: 1072
+        y: 568
+        width: 163
+        height: 142
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -518,12 +518,12 @@ TextureImporter:
       name: Opportunity-jump-v1_15
       rect:
         serializedVersion: 2
-        x: 47
-        y: 310
-        width: 164
-        height: 149
+        x: 48
+        y: 311
+        width: 162
+        height: 146
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -540,12 +540,12 @@ TextureImporter:
       name: Opportunity-jump-v1_16
       rect:
         serializedVersion: 2
-        x: 303
-        y: 310
-        width: 164
-        height: 151
+        x: 304
+        y: 311
+        width: 162
+        height: 149
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -562,12 +562,12 @@ TextureImporter:
       name: Opportunity-jump-v1_17
       rect:
         serializedVersion: 2
-        x: 559
-        y: 310
-        width: 164
-        height: 152
+        x: 560
+        y: 311
+        width: 162
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -584,12 +584,12 @@ TextureImporter:
       name: Opportunity-jump-v1_18
       rect:
         serializedVersion: 2
-        x: 814
-        y: 310
-        width: 165
-        height: 152
+        x: 815
+        y: 311
+        width: 163
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -606,12 +606,12 @@ TextureImporter:
       name: Opportunity-jump-v1_19
       rect:
         serializedVersion: 2
-        x: 1070
-        y: 310
-        width: 165
-        height: 152
+        x: 1071
+        y: 311
+        width: 163
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -628,12 +628,12 @@ TextureImporter:
       name: Opportunity-jump-v1_20
       rect:
         serializedVersion: 2
-        x: 46
-        y: 54
-        width: 165
-        height: 152
+        x: 47
+        y: 55
+        width: 163
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -650,12 +650,12 @@ TextureImporter:
       name: Opportunity-jump-v1_21
       rect:
         serializedVersion: 2
-        x: 302
-        y: 54
-        width: 165
-        height: 152
+        x: 303
+        y: 55
+        width: 163
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -672,12 +672,12 @@ TextureImporter:
       name: Opportunity-jump-v1_22
       rect:
         serializedVersion: 2
-        x: 558
-        y: 54
-        width: 165
-        height: 152
+        x: 559
+        y: 55
+        width: 163
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -694,12 +694,12 @@ TextureImporter:
       name: Opportunity-jump-v1_23
       rect:
         serializedVersion: 2
-        x: 814
-        y: 54
-        width: 165
-        height: 152
+        x: 815
+        y: 55
+        width: 163
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -716,12 +716,12 @@ TextureImporter:
       name: Opportunity-jump-v1_24
       rect:
         serializedVersion: 2
-        x: 1070
-        y: 54
-        width: 165
-        height: 152
+        x: 1071
+        y: 55
+        width: 163
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -738,7 +738,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0637d71eece796545b86b4cbaafef066
     internalID: 0
     vertices: []
     indices: 
@@ -746,7 +746,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Opportunity-jump-v1_0: 4139350974428498769
       Opportunity-jump-v1_1: -2232864011384460986

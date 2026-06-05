@@ -7,6 +7,7 @@ public class PlayerAnimatorController : MonoBehaviour
     // ── Hash de parámetros (más rápido que strings) ───────────────────
     private static readonly int _speedHash     = Animator.StringToHash("Speed");
     private static readonly int _isGroundedHash = Animator.StringToHash("IsGrounded");
+    private static readonly int _isJumpingHash = Animator.StringToHash("IsJumping");
     private RoverStatsSO _stats;
 
     private Animator         _animator;
@@ -48,13 +49,18 @@ public class PlayerAnimatorController : MonoBehaviour
     {
         if (_animator == null || _animator.runtimeAnimatorController == null) return;
 
-        // Leer desde el action cacheado — limpio y sin hardcode de teclas
         float inputX = _controller.GetMoveInput();
         float normalizedSpeed = Mathf.Abs(inputX) > 0.01f ? 1f : 0f;
         _animator.SetFloat(_speedHash, normalizedSpeed);
 
-        if (_rb.linearVelocity.x != 0f)
-            _sprite.flipX = _rb.linearVelocity.x < 0f;
+        // Flip basado en input directo — responde inmediatamente
+        if (inputX > 0.01f)
+            _sprite.flipX = false;
+        else if (inputX < -0.01f)
+            _sprite.flipX = true;
+
+        // Jump
+        _animator.SetBool(_isJumpingHash, !_controller.IsGrounded);
     }
 
     // ── Callback desde PlayerController ──────────────────────────────
