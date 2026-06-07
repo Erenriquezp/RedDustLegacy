@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: 2d050559595a98845a89e1078d02b1db
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 108759525468376111
+    second: Opportunity-run_0
+  - first:
+      213: 1350245329168363692
+    second: Opportunity-run_1
+  - first:
+      213: 9206119912217292032
+    second: Opportunity-run_2
+  - first:
+      213: 3583048991375158490
+    second: Opportunity-run_3
+  - first:
+      213: 217422969500030003
+    second: Opportunity-run_4
+  - first:
+      213: 3366238305631592659
+    second: Opportunity-run_5
+  - first:
+      213: -165778580956085155
+    second: Opportunity-run_6
+  - first:
+      213: -8742789226954559177
+    second: Opportunity-run_7
+  - first:
+      213: -6736883231472792017
+    second: Opportunity-run_8
+  - first:
+      213: 8416985215525561147
+    second: Opportunity-run_9
+  - first:
+      213: 9017013510785105542
+    second: Opportunity-run_10
+  - first:
+      213: -4865157681719953402
+    second: Opportunity-run_11
+  - first:
+      213: 8215008725424448495
+    second: Opportunity-run_12
+  - first:
+      213: -2898094852006681053
+    second: Opportunity-run_13
+  - first:
+      213: -2992948879408875744
+    second: Opportunity-run_14
+  - first:
+      213: -6060194995653982292
+    second: Opportunity-run_15
+  - first:
+      213: -6620561155516548389
+    second: Opportunity-run_16
+  - first:
+      213: -6500385348123084883
+    second: Opportunity-run_17
+  - first:
+      213: 1601745888006821715
+    second: Opportunity-run_18
+  - first:
+      213: 6752027281396182071
+    second: Opportunity-run_19
+  - first:
+      213: -5069594599660395636
+    second: Opportunity-run_20
+  - first:
+      213: -6527695439404280043
+    second: Opportunity-run_21
+  - first:
+      213: 1655689638470180482
+    second: Opportunity-run_22
+  - first:
+      213: -5835527960857540661
+    second: Opportunity-run_23
+  - first:
+      213: 941300924809059246
+    second: Opportunity-run_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Opportunity-run_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1069
+        width: 203
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c8b715634628100800000000000000
+      internalID: 108759525468376111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-run_1
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1069
+        width: 206
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca0f5b419f80db210800000000000000
+      internalID: 1350245329168363692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-run_2
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1069
+        width: 206
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00dac57b845b2cf70800000000000000
+      internalID: 9206119912217292032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-run_3
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1069
+        width: 206
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adcecb7e21c89b130800000000000000
+      internalID: 3583048991375158490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-run_4
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 1070
+        width: 207
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3345f0fe901740300800000000000000
+      internalID: 217422969500030003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-run_5
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 814
+        width: 207
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d0eb7467e747be20800000000000000
+      internalID: 3366238305631592659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-run_6
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 814
+        width: 207
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d548eba424903bdf0800000000000000
+      internalID: -165778580956085155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-run_7
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 813
+        width: 207
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 731f245f48f5ba680800000000000000
+      internalID: -8742789226954559177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-run_8
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 813
+        width: 207
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e47cef468c182a0800000000000000
+      internalID: -6736883231472792017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-run_9
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 813
+        width: 207
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b33ad1b55732fc470800000000000000
+      internalID: 8416985215525561147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-run_10
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 558
+        width: 206
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e7e3d830ed22d70800000000000000
+      internalID: 9017013510785105542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-run_11
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 557
+        width: 206
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608b1dc7ddc7b7cb0800000000000000
+      internalID: -4865157681719953402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-run_12
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 557
+        width: 206
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe3a8a929e2910270800000000000000
+      internalID: 8215008725424448495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-run_13
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 557
+        width: 206
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 326e0cc3616e7c7d0800000000000000
+      internalID: -2898094852006681053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-run_14
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 557
+        width: 207
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0273eebf9d8e676d0800000000000000
+      internalID: -2992948879408875744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-run_15
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 301
+        width: 207
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7c17e72ccd5eba0800000000000000
+      internalID: -6060194995653982292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-run_16
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 301
+        width: 206
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdabfafc4ba0f14a0800000000000000
+      internalID: -6620561155516548389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-run_17
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 301
+        width: 206
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da738f567fdf9c5a0800000000000000
+      internalID: -6500385348123084883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-run_18
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 302
+        width: 206
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357d613166b8a3610800000000000000
+      internalID: 1601745888006821715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-run_19
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 301
+        width: 206
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73cad55e90504bd50800000000000000
+      internalID: 6752027281396182071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-run_20
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 45
+        width: 206
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c83e00c429e25a9b0800000000000000
+      internalID: -5069594599660395636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-run_21
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 45
+        width: 206
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 517de544597f865a0800000000000000
+      internalID: -6527695439404280043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-run_22
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 46
+        width: 206
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28e5f4734f03af610800000000000000
+      internalID: 1655689638470180482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-run_23
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 45
+        width: 206
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc70a30dc3a040fa0800000000000000
+      internalID: -5835527960857540661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-run_24
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 45
+        width: 204
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eab9df1343c201d00800000000000000
+      internalID: 941300924809059246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Opportunity-run_0: 108759525468376111
+      Opportunity-run_1: 1350245329168363692
+      Opportunity-run_10: 9017013510785105542
+      Opportunity-run_11: -4865157681719953402
+      Opportunity-run_12: 8215008725424448495
+      Opportunity-run_13: -2898094852006681053
+      Opportunity-run_14: -2992948879408875744
+      Opportunity-run_15: -6060194995653982292
+      Opportunity-run_16: -6620561155516548389
+      Opportunity-run_17: -6500385348123084883
+      Opportunity-run_18: 1601745888006821715
+      Opportunity-run_19: 6752027281396182071
+      Opportunity-run_2: 9206119912217292032
+      Opportunity-run_20: -5069594599660395636
+      Opportunity-run_21: -6527695439404280043
+      Opportunity-run_22: 1655689638470180482
+      Opportunity-run_23: -5835527960857540661
+      Opportunity-run_24: 941300924809059246
+      Opportunity-run_3: 3583048991375158490
+      Opportunity-run_4: 217422969500030003
+      Opportunity-run_5: 3366238305631592659
+      Opportunity-run_6: -165778580956085155
+      Opportunity-run_7: -8742789226954559177
+      Opportunity-run_8: -6736883231472792017
+      Opportunity-run_9: 8416985215525561147
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

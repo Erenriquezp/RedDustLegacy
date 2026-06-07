@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: 2ea8ffd25f146be4f9e212c458c7e6a7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6749295923518519978
+    second: Opportunity-death_0
+  - first:
+      213: 2498552400085946829
+    second: Opportunity-death_1
+  - first:
+      213: -3337572965221041113
+    second: Opportunity-death_2
+  - first:
+      213: -9131747946636535099
+    second: Opportunity-death_3
+  - first:
+      213: 7884215698891439175
+    second: Opportunity-death_4
+  - first:
+      213: 5859992999504470403
+    second: Opportunity-death_5
+  - first:
+      213: -6926023486040662249
+    second: Opportunity-death_6
+  - first:
+      213: 8698734455463994908
+    second: Opportunity-death_7
+  - first:
+      213: -5954683450849121963
+    second: Opportunity-death_8
+  - first:
+      213: -3878420451589334692
+    second: Opportunity-death_9
+  - first:
+      213: 394612696618737338
+    second: Opportunity-death_10
+  - first:
+      213: 7489552800479450345
+    second: Opportunity-death_11
+  - first:
+      213: 2899634181288397013
+    second: Opportunity-death_12
+  - first:
+      213: -2051599820607345763
+    second: Opportunity-death_13
+  - first:
+      213: 5598531177502283735
+    second: Opportunity-death_14
+  - first:
+      213: 8027268612495546999
+    second: Opportunity-death_15
+  - first:
+      213: -3669917772202239239
+    second: Opportunity-death_16
+  - first:
+      213: -2581255846542902200
+    second: Opportunity-death_17
+  - first:
+      213: 600956307822532598
+    second: Opportunity-death_18
+  - first:
+      213: 4469019196942958124
+    second: Opportunity-death_19
+  - first:
+      213: -7844747402369409021
+    second: Opportunity-death_20
+  - first:
+      213: 8258899987116741131
+    second: Opportunity-death_21
+  - first:
+      213: 9099867139510592709
+    second: Opportunity-death_22
+  - first:
+      213: 1025554424992777084
+    second: Opportunity-death_23
+  - first:
+      213: 3372450116734051125
+    second: Opportunity-death_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Opportunity-death_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1067
+        width: 167
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 655cfaaed1fa552a0800000000000000
+      internalID: -6749295923518519978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-death_1
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1067
+        width: 167
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc192d38b24aca220800000000000000
+      internalID: 2498552400085946829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-death_2
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1066
+        width: 169
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72c7d04421f8ea1d0800000000000000
+      internalID: -3337572965221041113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-death_3
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1067
+        width: 173
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ca9356ef93854180800000000000000
+      internalID: -9131747946636535099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-death_4
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1067
+        width: 178
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c7bf0e76c5a6d60800000000000000
+      internalID: 7884215698891439175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-death_5
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 811
+        width: 182
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3816db1e590e25150800000000000000
+      internalID: 5859992999504470403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-death_6
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 811
+        width: 186
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f9888c552d1ef90800000000000000
+      internalID: -6926023486040662249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-death_7
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 810
+        width: 188
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c16e16d36ec18b870800000000000000
+      internalID: 8698734455463994908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-death_8
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 811
+        width: 191
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 559ad3263f6bc5da0800000000000000
+      internalID: -5954683450849121963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-death_9
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 810
+        width: 193
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c595865e5251d2ac0800000000000000
+      internalID: -3878420451589334692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-death_10
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 555
+        width: 194
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abe91d52822f97500800000000000000
+      internalID: 394612696618737338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-death_11
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 555
+        width: 194
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e41c17379c30f760800000000000000
+      internalID: 7489552800479450345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-death_12
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 555
+        width: 194
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8864acce19d3820800000000000000
+      internalID: 2899634181288397013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-death_13
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 555
+        width: 195
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9ba17f35d04783e0800000000000000
+      internalID: -2051599820607345763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-death_14
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 555
+        width: 194
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d719f2917af1bd40800000000000000
+      internalID: 5598531177502283735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-death_15
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 299
+        width: 195
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77a9074d546966f60800000000000000
+      internalID: 8027268612495546999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-death_16
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 298
+        width: 195
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa1ef0fa35d11dc0800000000000000
+      internalID: -3669917772202239239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-death_17
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 298
+        width: 196
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84cf860db798d2cd0800000000000000
+      internalID: -2581255846542902200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-death_18
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 298
+        width: 195
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f7da45f396075800800000000000000
+      internalID: 600956307822532598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-death_19
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 298
+        width: 195
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ebf202845250e30800000000000000
+      internalID: 4469019196942958124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-death_20
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 42
+        width: 197
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3006a110dcbd12390800000000000000
+      internalID: -7844747402369409021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-death_21
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 42
+        width: 198
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02529fd7c18d9270800000000000000
+      internalID: 8258899987116741131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-death_22
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 42
+        width: 199
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c467c143f8394e70800000000000000
+      internalID: 9099867139510592709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-death_23
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 42
+        width: 201
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c73468fd0508b3e00800000000000000
+      internalID: 1025554424992777084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-death_24
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 42
+        width: 202
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53368ae53895dce20800000000000000
+      internalID: 3372450116734051125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Opportunity-death_0: -6749295923518519978
+      Opportunity-death_1: 2498552400085946829
+      Opportunity-death_10: 394612696618737338
+      Opportunity-death_11: 7489552800479450345
+      Opportunity-death_12: 2899634181288397013
+      Opportunity-death_13: -2051599820607345763
+      Opportunity-death_14: 5598531177502283735
+      Opportunity-death_15: 8027268612495546999
+      Opportunity-death_16: -3669917772202239239
+      Opportunity-death_17: -2581255846542902200
+      Opportunity-death_18: 600956307822532598
+      Opportunity-death_19: 4469019196942958124
+      Opportunity-death_2: -3337572965221041113
+      Opportunity-death_20: -7844747402369409021
+      Opportunity-death_21: 8258899987116741131
+      Opportunity-death_22: 9099867139510592709
+      Opportunity-death_23: 1025554424992777084
+      Opportunity-death_24: 3372450116734051125
+      Opportunity-death_3: -9131747946636535099
+      Opportunity-death_4: 7884215698891439175
+      Opportunity-death_5: 5859992999504470403
+      Opportunity-death_6: -6926023486040662249
+      Opportunity-death_7: 8698734455463994908
+      Opportunity-death_8: -5954683450849121963
+      Opportunity-death_9: -3878420451589334692
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
