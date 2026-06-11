@@ -23,18 +23,6 @@ public class PlayerAnimatorController : MonoBehaviour
         _rb = GetComponent<Rigidbody2D>();           // ← debe estar en el padre
         _sprite = GetComponentInChildren<SpriteRenderer>();
         _stats = _controller.GetStats();
-
-        // Debug temporal — borra después
-        if (_animator == null)
-            Debug.LogError("❌ Animator no encontrado en hijos de Player");
-        else
-            Debug.Log($"✅ Animator encontrado: {_animator.gameObject.name} | Controller: {_animator.runtimeAnimatorController}");
-
-        if (_rb == null)
-            Debug.LogError("❌ Rigidbody2D no encontrado en Player");
-
-        if (_stats == null)
-            Debug.LogError("❌ RoverStats no encontrado");
     }
 
     private void OnEnable()
