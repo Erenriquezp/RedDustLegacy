@@ -1,112 +1,85 @@
 fileFormatVersion: 2
-guid: 3b0a62bb0f22e0f4e98d1536091c34fa
+guid: 62c10ba9d4a1731479aba287fd445144
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2879270037426422487
-    second: Opportunity-walk_0
+      213: -2092244224733600208
+    second: CentinelaSecundaria-morir_0
   - first:
-      213: 4107441696710120062
-    second: Opportunity-walk_1
+      213: 4610526702242016150
+    second: CentinelaSecundaria-morir_1
   - first:
-      213: -3076995363574706305
-    second: Opportunity-walk_2
+      213: -7975682793684393601
+    second: CentinelaSecundaria-morir_2
   - first:
-      213: 4678678293723586164
-    second: Opportunity-walk_3
+      213: 6538046400650187795
+    second: CentinelaSecundaria-morir_3
   - first:
-      213: 4904081002115164216
-    second: Opportunity-walk_4
+      213: -1265597160598025977
+    second: CentinelaSecundaria-morir_4
   - first:
-      213: -2616690960840695810
-    second: Opportunity-walk_5
+      213: 6928067084053952104
+    second: CentinelaSecundaria-morir_5
   - first:
-      213: 2171413479889570061
-    second: Opportunity-walk_6
+      213: 298468312372060203
+    second: CentinelaSecundaria-morir_6
   - first:
-      213: -7182783166819244503
-    second: Opportunity-walk_7
+      213: 6497010805792480842
+    second: CentinelaSecundaria-morir_7
   - first:
-      213: -6885944026768318511
-    second: Opportunity-walk_8
+      213: 3298272320152629490
+    second: CentinelaSecundaria-morir_8
   - first:
-      213: 753983898984768818
-    second: Opportunity-walk_9
+      213: 2365711871401434567
+    second: CentinelaSecundaria-morir_9
   - first:
-      213: -1707415170978238372
-    second: Opportunity-walk_10
+      213: -1890875056787315394
+    second: CentinelaSecundaria-morir_10
   - first:
-      213: 7726264720585045291
-    second: Opportunity-walk_11
+      213: -8254199910433226564
+    second: CentinelaSecundaria-morir_11
   - first:
-      213: 3230150078628835461
-    second: Opportunity-walk_12
+      213: -5901651196036697240
+    second: CentinelaSecundaria-morir_12
   - first:
-      213: 6063680439140265884
-    second: Opportunity-walk_13
+      213: -6765310671624524069
+    second: CentinelaSecundaria-morir_13
   - first:
-      213: 5620676408805412465
-    second: Opportunity-walk_14
+      213: -6747070292334366999
+    second: CentinelaSecundaria-morir_14
   - first:
-      213: 5333779456467605261
-    second: Opportunity-walk_15
+      213: 2971073520605617053
+    second: CentinelaSecundaria-morir_15
   - first:
-      213: 4731422942859883862
-    second: Opportunity-walk_16
+      213: 5531524522139388302
+    second: CentinelaSecundaria-morir_16
   - first:
-      213: 4644704625717942682
-    second: Opportunity-walk_17
+      213: 1904466738312309533
+    second: CentinelaSecundaria-morir_17
   - first:
-      213: 3539796080239232918
-    second: Opportunity-walk_18
+      213: -7940482517432418590
+    second: CentinelaSecundaria-morir_18
   - first:
-      213: 771716072378392356
-    second: Opportunity-walk_19
+      213: 4235374370550086081
+    second: CentinelaSecundaria-morir_19
   - first:
-      213: -4911118128434107888
-    second: Opportunity-walk_20
+      213: 6417254676104499109
+    second: CentinelaSecundaria-morir_20
   - first:
-      213: -2474111617476131655
-    second: Opportunity-walk_21
+      213: 309453146388013743
+    second: CentinelaSecundaria-morir_21
   - first:
-      213: 1017774994974501643
-    second: Opportunity-walk_22
+      213: -2672963756219675158
+    second: CentinelaSecundaria-morir_22
   - first:
-      213: -950360949652257052
-    second: Opportunity-walk_23
+      213: -3766987804903878574
+    second: CentinelaSecundaria-morir_23
   - first:
-      213: 8042548504654823926
-    second: Opportunity-walk_24
+      213: -3444785913097624458
+    second: CentinelaSecundaria-morir_24
   - first:
-      213: -2470087944009323936
-    second: Opportunity-walk_25
-  - first:
-      213: 3126896489428480307
-    second: Opportunity-walk_26
-  - first:
-      213: -6154733127215362159
-    second: Opportunity-walk_27
-  - first:
-      213: 6639804879112868819
-    second: Opportunity-walk_28
-  - first:
-      213: 4521984042571219512
-    second: Opportunity-walk_29
-  - first:
-      213: -6862913832384395776
-    second: Opportunity-walk_30
-  - first:
-      213: 7281325991326137240
-    second: Opportunity-walk_31
-  - first:
-      213: 6857629033977502405
-    second: Opportunity-walk_32
-  - first:
-      213: -1977964778644002914
-    second: Opportunity-walk_33
-  - first:
-      213: -7319616981288066185
-    second: Opportunity-walk_34
+      213: -4142409134171656017
+    second: CentinelaSecundaria-morir_25
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -215,551 +188,573 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Opportunity-walk_0
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 1071
-        width: 191
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 92db5cee727ca08d0800000000000000
-      internalID: -2879270037426422487
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_2
-      rect:
-        serializedVersion: 2
-        x: 271
-        y: 1071
-        width: 206
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f7f0b9af4015c45d0800000000000000
-      internalID: -3076995363574706305
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_4
-      rect:
-        serializedVersion: 2
-        x: 558
-        y: 1071
-        width: 174
-        height: 153
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 838e0d040bbce0440800000000000000
-      internalID: 4904081002115164216
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_5
-      rect:
-        serializedVersion: 2
-        x: 767
-        y: 1070
-        width: 219
-        height: 153
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eff5d185f65afabd0800000000000000
-      internalID: -2616690960840695810
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_6
-      rect:
-        serializedVersion: 2
-        x: 1023
-        y: 1070
-        width: 215
-        height: 153
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d0900592e09622e10800000000000000
-      internalID: 2171413479889570061
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_11
-      rect:
-        serializedVersion: 2
-        x: 50
-        y: 815
-        width: 159
-        height: 151
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b25ba1fe3d4393b60800000000000000
-      internalID: 7726264720585045291
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_12
-      rect:
-        serializedVersion: 2
-        x: 307
-        y: 815
-        width: 172
-        height: 151
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5803fd7e16cc3dc20800000000000000
-      internalID: 3230150078628835461
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_13
-      rect:
-        serializedVersion: 2
-        x: 568
-        y: 815
-        width: 153
-        height: 151
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c9fa07e8b35862450800000000000000
-      internalID: 6063680439140265884
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_14
-      rect:
-        serializedVersion: 2
-        x: 824
-        y: 816
-        width: 151
-        height: 151
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 17ec3480a67a00e40800000000000000
-      internalID: 5620676408805412465
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_15
-      rect:
-        serializedVersion: 2
-        x: 1080
-        y: 816
-        width: 151
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d071705f724650a40800000000000000
-      internalID: 5333779456467605261
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_16
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 560
-        width: 151
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 655fb4f291469a140800000000000000
-      internalID: 4731422942859883862
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_17
-      rect:
-        serializedVersion: 2
-        x: 311
-        y: 559
-        width: 153
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a9918869f3e457040800000000000000
-      internalID: 4644704625717942682
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_18
-      rect:
-        serializedVersion: 2
-        x: 565
-        y: 559
-        width: 156
-        height: 151
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 697caf3c7c1ef1130800000000000000
-      internalID: 3539796080239232918
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_19
-      rect:
-        serializedVersion: 2
-        x: 818
-        y: 559
-        width: 158
-        height: 151
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 42fd299ddafa5ba00800000000000000
-      internalID: 771716072378392356
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_20
-      rect:
-        serializedVersion: 2
-        x: 1072
-        y: 559
-        width: 169
-        height: 151
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 01a24b8151438dbb0800000000000000
-      internalID: -4911118128434107888
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_21
+      name: CentinelaSecundaria-morir_0
       rect:
         serializedVersion: 2
         x: 48
-        y: 303
-        width: 174
-        height: 151
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9b40ba1a7903aadd0800000000000000
-      internalID: -2474111617476131655
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_22
-      rect:
-        serializedVersion: 2
-        x: 295
-        y: 303
-        width: 179
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b0beabc27fcdf1e00800000000000000
-      internalID: 1017774994974501643
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_24
-      rect:
-        serializedVersion: 2
-        x: 522
-        y: 304
-        width: 210
-        height: 153
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6f1ccc4f04fdc9f60800000000000000
-      internalID: 8042548504654823926
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_25
-      rect:
-        serializedVersion: 2
-        x: 767
-        y: 303
-        width: 222
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 06a695d1a1c78bdd0800000000000000
-      internalID: -2470087944009323936
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_27
-      rect:
-        serializedVersion: 2
-        x: 1070
-        y: 303
-        width: 175
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 19fcff874def59aa0800000000000000
-      internalID: -6154733127215362159
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_30
-      rect:
-        serializedVersion: 2
-        x: 301
-        y: 46
-        width: 207
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0060d901b3802c0a0800000000000000
-      internalID: -6862913832384395776
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_31
-      rect:
-        serializedVersion: 2
-        x: 557
-        y: 46
-        width: 212
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 89b30d639677c0560800000000000000
-      internalID: 7281325991326137240
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_32
-      rect:
-        serializedVersion: 2
-        x: 813
-        y: 46
-        width: 212
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5ca52abe5413b2f50800000000000000
-      internalID: 6857629033977502405
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_33
-      rect:
-        serializedVersion: 2
-        x: 1070
-        y: 47
-        width: 200
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e97a0b6738bdc84e0800000000000000
-      internalID: -1977964778644002914
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_1
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 24
-        width: 221
-        height: 179
+        y: 1096
+        width: 159
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0b6c734ab5428fe4b856fa91977bd4f6
-      internalID: 4107441696710120062
+      spriteID: 036246976fad6f2e0800000000000000
+      internalID: -2092244224733600208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSecundaria-morir_1
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1096
+        width: 158
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ba69aab91ebff30800000000000000
+      internalID: 4610526702242016150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSecundaria-morir_2
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1096
+        width: 159
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f712f3191cea05190800000000000000
+      internalID: -7975682793684393601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSecundaria-morir_3
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 1096
+        width: 158
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31496c3bf8ecbba50800000000000000
+      internalID: 6538046400650187795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSecundaria-morir_4
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 1096
+        width: 158
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709cfcd7612bf6ee0800000000000000
+      internalID: -1265597160598025977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSecundaria-morir_5
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 840
+        width: 159
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 866bc157e40752060800000000000000
+      internalID: 6928067084053952104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSecundaria-morir_6
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 840
+        width: 159
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b20a5a7495f542400800000000000000
+      internalID: 298468312372060203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSecundaria-morir_7
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 840
+        width: 159
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e922db7e40a2a50800000000000000
+      internalID: 6497010805792480842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSecundaria-morir_8
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 840
+        width: 159
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f0733f3331d5cd20800000000000000
+      internalID: 3298272320152629490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSecundaria-morir_9
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 840
+        width: 161
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd9ec7b962b4d020800000000000000
+      internalID: 2365711871401434567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSecundaria-morir_10
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 590
+        width: 165
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e35ab85772342c5e0800000000000000
+      internalID: -1890875056787315394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSecundaria-morir_11
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 600
+        width: 172
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb001910ae0337d80800000000000000
+      internalID: -8254199910433226564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSecundaria-morir_12
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 600
+        width: 179
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86339f7618f191ea0800000000000000
+      internalID: -5901651196036697240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSecundaria-morir_13
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 600
+        width: 184
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde29aec9c9cc12a0800000000000000
+      internalID: -6765310671624524069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSecundaria-morir_14
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 600
+        width: 187
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eea1de01579d52a0800000000000000
+      internalID: -6747070292334366999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSecundaria-morir_15
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 330
+        width: 189
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b544520af5b3920800000000000000
+      internalID: 2971073520605617053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSecundaria-morir_16
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 330
+        width: 195
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e890b70ee3ce3cc40800000000000000
+      internalID: 5531524522139388302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSecundaria-morir_17
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 330
+        width: 202
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1be6af78660e6a10800000000000000
+      internalID: 1904466738312309533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSecundaria-morir_18
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 424
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eebd3b883dbdc190800000000000000
+      internalID: -7940482517432418590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSecundaria-morir_19
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 330
+        width: 208
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c97e6fcc8217ca30800000000000000
+      internalID: 4235374370550086081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSecundaria-morir_20
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 330
+        width: 213
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5af4c6ab02bae0950800000000000000
+      internalID: 6417254676104499109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSecundaria-morir_21
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 74
+        width: 215
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2a5114ff56b4400800000000000000
+      internalID: 309453146388013743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSecundaria-morir_22
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 74
+        width: 214
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed480d20a9b7ead0800000000000000
+      internalID: -2672963756219675158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSecundaria-morir_23
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 74
+        width: 214
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250d97fbc88f8bbc0800000000000000
+      internalID: -3766987804903878574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSecundaria-morir_24
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 74
+        width: 214
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 674eb8a9679a130d0800000000000000
+      internalID: -3444785913097624458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSecundaria-morir_25
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 74
+        width: 214
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa07d5307d43386c0800000000000000
+      internalID: -4142409134171656017
       vertices: []
       indices: 
       edges: []
@@ -768,7 +763,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b098255a8d02ab8488a42f9682d0e2e6
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -778,41 +773,32 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Opportunity-walk_0: -2879270037426422487
-      Opportunity-walk_1: 4107441696710120062
-      Opportunity-walk_10: -1707415170978238372
-      Opportunity-walk_11: 7726264720585045291
-      Opportunity-walk_12: 3230150078628835461
-      Opportunity-walk_13: 6063680439140265884
-      Opportunity-walk_14: 5620676408805412465
-      Opportunity-walk_15: 5333779456467605261
-      Opportunity-walk_16: 4731422942859883862
-      Opportunity-walk_17: 4644704625717942682
-      Opportunity-walk_18: 3539796080239232918
-      Opportunity-walk_19: 771716072378392356
-      Opportunity-walk_2: -3076995363574706305
-      Opportunity-walk_20: -4911118128434107888
-      Opportunity-walk_21: -2474111617476131655
-      Opportunity-walk_22: 1017774994974501643
-      Opportunity-walk_23: -950360949652257052
-      Opportunity-walk_24: 8042548504654823926
-      Opportunity-walk_25: -2470087944009323936
-      Opportunity-walk_26: 3126896489428480307
-      Opportunity-walk_27: -6154733127215362159
-      Opportunity-walk_28: 6639804879112868819
-      Opportunity-walk_29: 4521984042571219512
-      Opportunity-walk_3: 4678678293723586164
-      Opportunity-walk_30: -6862913832384395776
-      Opportunity-walk_31: 7281325991326137240
-      Opportunity-walk_32: 6857629033977502405
-      Opportunity-walk_33: -1977964778644002914
-      Opportunity-walk_34: -7319616981288066185
-      Opportunity-walk_4: 4904081002115164216
-      Opportunity-walk_5: -2616690960840695810
-      Opportunity-walk_6: 2171413479889570061
-      Opportunity-walk_7: -7182783166819244503
-      Opportunity-walk_8: -6885944026768318511
-      Opportunity-walk_9: 753983898984768818
+      CentinelaSecundaria-morir_0: -2092244224733600208
+      CentinelaSecundaria-morir_1: 4610526702242016150
+      CentinelaSecundaria-morir_10: -1890875056787315394
+      CentinelaSecundaria-morir_11: -8254199910433226564
+      CentinelaSecundaria-morir_12: -5901651196036697240
+      CentinelaSecundaria-morir_13: -6765310671624524069
+      CentinelaSecundaria-morir_14: -6747070292334366999
+      CentinelaSecundaria-morir_15: 2971073520605617053
+      CentinelaSecundaria-morir_16: 5531524522139388302
+      CentinelaSecundaria-morir_17: 1904466738312309533
+      CentinelaSecundaria-morir_18: -7940482517432418590
+      CentinelaSecundaria-morir_19: 4235374370550086081
+      CentinelaSecundaria-morir_2: -7975682793684393601
+      CentinelaSecundaria-morir_20: 6417254676104499109
+      CentinelaSecundaria-morir_21: 309453146388013743
+      CentinelaSecundaria-morir_22: -2672963756219675158
+      CentinelaSecundaria-morir_23: -3766987804903878574
+      CentinelaSecundaria-morir_24: -3444785913097624458
+      CentinelaSecundaria-morir_25: -4142409134171656017
+      CentinelaSecundaria-morir_3: 6538046400650187795
+      CentinelaSecundaria-morir_4: -1265597160598025977
+      CentinelaSecundaria-morir_5: 6928067084053952104
+      CentinelaSecundaria-morir_6: 298468312372060203
+      CentinelaSecundaria-morir_7: 6497010805792480842
+      CentinelaSecundaria-morir_8: 3298272320152629490
+      CentinelaSecundaria-morir_9: 2365711871401434567
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

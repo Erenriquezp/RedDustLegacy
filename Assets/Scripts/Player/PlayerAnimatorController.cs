@@ -5,27 +5,28 @@ using UnityEngine;
 public class PlayerAnimatorController : MonoBehaviour
 {
     // ── Hash de parámetros (más rápido que strings) ───────────────────
-    private static readonly int _speedHash     = Animator.StringToHash("Speed");
+    private static readonly int _speedHash = Animator.StringToHash("Speed");
     private static readonly int _isGroundedHash = Animator.StringToHash("IsGrounded");
     private static readonly int _isJumpingHash = Animator.StringToHash("IsJumping");
+    private static readonly int _isScanningHash = Animator.StringToHash("IsScanning");
     private RoverStatsSO _stats;
 
-    private Animator         _animator;
+    private Animator _animator;
     private PlayerController _controller;
-    private Rigidbody2D      _rb;
-    private SpriteRenderer   _sprite;
+    private Rigidbody2D _rb;
+    private SpriteRenderer _sprite;
 
     private void Awake()
     {
-        _animator   = GetComponentInChildren<Animator>();
+        _animator = GetComponentInChildren<Animator>();
         _controller = GetComponent<PlayerController>();
-        _rb         = GetComponent<Rigidbody2D>();           // ← debe estar en el padre
-        _sprite     = GetComponentInChildren<SpriteRenderer>();
+        _rb = GetComponent<Rigidbody2D>();           // ← debe estar en el padre
+        _sprite = GetComponentInChildren<SpriteRenderer>();
         _stats = _controller.GetStats();
 
         // Debug temporal — borra después
         if (_animator == null)
-        Debug.LogError("❌ Animator no encontrado en hijos de Player");
+            Debug.LogError("❌ Animator no encontrado en hijos de Player");
         else
             Debug.Log($"✅ Animator encontrado: {_animator.gameObject.name} | Controller: {_animator.runtimeAnimatorController}");
 
@@ -45,12 +46,12 @@ public class PlayerAnimatorController : MonoBehaviour
     {
         _controller.OnGroundedChanged -= HandleGroundedChanged;
     }
-   private void Update()
+    private void Update()
     {
         if (_animator == null || _animator.runtimeAnimatorController == null) return;
 
         float inputX = _controller.GetMoveInput();
-        float normalizedSpeed = Mathf.Abs(inputX) > 0.01f ? 1f : 0f;
+        float normalizedSpeed = Mathf.Abs(_rb.linearVelocity.x) / _stats.maxRunSpeed;
         _animator.SetFloat(_speedHash, normalizedSpeed);
 
         // Flip basado en input directo — responde inmediatamente
@@ -61,6 +62,7 @@ public class PlayerAnimatorController : MonoBehaviour
 
         // Jump
         _animator.SetBool(_isJumpingHash, !_controller.IsGrounded);
+        _animator.SetBool(_isScanningHash, _controller.IsScanning);
     }
 
     // ── Callback desde PlayerController ──────────────────────────────

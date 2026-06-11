@@ -1,0 +1,2340 @@
+fileFormatVersion: 2
+guid: 331e8ca3e560ed74e96a203e0eb81a0b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8401477575654144909
+    second: Opportunity-victory_0
+  - first:
+      213: -1091821666478198032
+    second: Opportunity-victory_1
+  - first:
+      213: -945579713791458125
+    second: Opportunity-victory_2
+  - first:
+      213: 1222814293924139198
+    second: Opportunity-victory_3
+  - first:
+      213: -6838801713640092642
+    second: Opportunity-victory_4
+  - first:
+      213: -2817006666728873456
+    second: Opportunity-victory_5
+  - first:
+      213: -4283346850816321945
+    second: Opportunity-victory_6
+  - first:
+      213: -4560526166524359439
+    second: Opportunity-victory_7
+  - first:
+      213: -949837973990225617
+    second: Opportunity-victory_8
+  - first:
+      213: -1514519702544029251
+    second: Opportunity-victory_9
+  - first:
+      213: -6684822781139224689
+    second: Opportunity-victory_10
+  - first:
+      213: 870545619541170573
+    second: Opportunity-victory_11
+  - first:
+      213: -1762762119798973291
+    second: Opportunity-victory_12
+  - first:
+      213: 5417854206814729398
+    second: Opportunity-victory_13
+  - first:
+      213: -379550181947885086
+    second: Opportunity-victory_14
+  - first:
+      213: -4708192890666518631
+    second: Opportunity-victory_15
+  - first:
+      213: 7457706906990826538
+    second: Opportunity-victory_16
+  - first:
+      213: 5086611705511599801
+    second: Opportunity-victory_17
+  - first:
+      213: 8909959214380299653
+    second: Opportunity-victory_18
+  - first:
+      213: 2553231071327438081
+    second: Opportunity-victory_19
+  - first:
+      213: 7510260459504135064
+    second: Opportunity-victory_20
+  - first:
+      213: -3341308928607052928
+    second: Opportunity-victory_21
+  - first:
+      213: -2319088571379351671
+    second: Opportunity-victory_22
+  - first:
+      213: 9145155992994051063
+    second: Opportunity-victory_23
+  - first:
+      213: 5988802223223343825
+    second: Opportunity-victory_24
+  - first:
+      213: -9050834334417930924
+    second: Opportunity-victory_25
+  - first:
+      213: 2082853010069966404
+    second: Opportunity-victory_26
+  - first:
+      213: -7877748674973931262
+    second: Opportunity-victory_27
+  - first:
+      213: 1907040742727958082
+    second: Opportunity-victory_28
+  - first:
+      213: 1213348770739524780
+    second: Opportunity-victory_29
+  - first:
+      213: 5340558646525967295
+    second: Opportunity-victory_30
+  - first:
+      213: -7937672500631033716
+    second: Opportunity-victory_31
+  - first:
+      213: -3216832609819230832
+    second: Opportunity-victory_32
+  - first:
+      213: 6664454063492308706
+    second: Opportunity-victory_33
+  - first:
+      213: 1947822316402608976
+    second: Opportunity-victory_34
+  - first:
+      213: -4743768230591959983
+    second: Opportunity-victory_35
+  - first:
+      213: 1283712198782284095
+    second: Opportunity-victory_36
+  - first:
+      213: -9026586735348070556
+    second: Opportunity-victory_37
+  - first:
+      213: 6334689989525278529
+    second: Opportunity-victory_38
+  - first:
+      213: -1507040955333822051
+    second: Opportunity-victory_39
+  - first:
+      213: 907738925040204521
+    second: Opportunity-victory_40
+  - first:
+      213: -25340703433038992
+    second: Opportunity-victory_41
+  - first:
+      213: -6021788302761760097
+    second: Opportunity-victory_42
+  - first:
+      213: -6143007408894428233
+    second: Opportunity-victory_43
+  - first:
+      213: 349320951611541733
+    second: Opportunity-victory_44
+  - first:
+      213: 7806514156703888273
+    second: Opportunity-victory_45
+  - first:
+      213: -9141833481628141508
+    second: Opportunity-victory_46
+  - first:
+      213: 5891304601140741398
+    second: Opportunity-victory_47
+  - first:
+      213: -6966105061226589524
+    second: Opportunity-victory_48
+  - first:
+      213: -8329610767757430049
+    second: Opportunity-victory_49
+  - first:
+      213: 9218104345068760138
+    second: Opportunity-victory_50
+  - first:
+      213: 2088946588120552720
+    second: Opportunity-victory_51
+  - first:
+      213: 7497989906628228480
+    second: Opportunity-victory_52
+  - first:
+      213: -135584105191188729
+    second: Opportunity-victory_53
+  - first:
+      213: -5863610666682362594
+    second: Opportunity-victory_54
+  - first:
+      213: 369476777076897591
+    second: Opportunity-victory_55
+  - first:
+      213: 93440653875060940
+    second: Opportunity-victory_56
+  - first:
+      213: 3838671726434722418
+    second: Opportunity-victory_57
+  - first:
+      213: -3606610600589094778
+    second: Opportunity-victory_58
+  - first:
+      213: -4304819665527584293
+    second: Opportunity-victory_59
+  - first:
+      213: -7023165201274565788
+    second: Opportunity-victory_60
+  - first:
+      213: -5855623771893312716
+    second: Opportunity-victory_61
+  - first:
+      213: -5927158167625081210
+    second: Opportunity-victory_62
+  - first:
+      213: -3707607476032901053
+    second: Opportunity-victory_63
+  - first:
+      213: -4299951200251575893
+    second: Opportunity-victory_64
+  - first:
+      213: -1805459001418128596
+    second: Opportunity-victory_65
+  - first:
+      213: -8313188415882473625
+    second: Opportunity-victory_66
+  - first:
+      213: 2659501334693626714
+    second: Opportunity-victory_67
+  - first:
+      213: 8286480104110873181
+    second: Opportunity-victory_68
+  - first:
+      213: 7736529059684175650
+    second: Opportunity-victory_69
+  - first:
+      213: 3390671180107795456
+    second: Opportunity-victory_70
+  - first:
+      213: -7486254639400436873
+    second: Opportunity-victory_71
+  - first:
+      213: 2926096878945565171
+    second: Opportunity-victory_72
+  - first:
+      213: -356976576792806083
+    second: Opportunity-victory_73
+  - first:
+      213: 8469497347296237868
+    second: Opportunity-victory_74
+  - first:
+      213: -614141601617571362
+    second: Opportunity-victory_75
+  - first:
+      213: -3755767065979212046
+    second: Opportunity-victory_76
+  - first:
+      213: 2124231351980553448
+    second: Opportunity-victory_77
+  - first:
+      213: 5626466002531924279
+    second: Opportunity-victory_78
+  - first:
+      213: 7112391914053487431
+    second: Opportunity-victory_79
+  - first:
+      213: -6615759469122915424
+    second: Opportunity-victory_80
+  - first:
+      213: -3927819601131353916
+    second: Opportunity-victory_81
+  - first:
+      213: -5756536916175850948
+    second: Opportunity-victory_82
+  - first:
+      213: -3797457185413387054
+    second: Opportunity-victory_83
+  - first:
+      213: -4543452406806903436
+    second: Opportunity-victory_84
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Opportunity-victory_0
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1239
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b7645975b089470800000000000000
+      internalID: 8401477575654144909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_1
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 1242
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2fd73aaf119d0f0800000000000000
+      internalID: -1091821666478198032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_2
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 1066
+        width: 196
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b405ac9240a0e2f0800000000000000
+      internalID: -945579713791458125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_3
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 1245
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb05e9f1f1f48f010800000000000000
+      internalID: 1222814293924139198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_4
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1066
+        width: 188
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c46213312b711a0800000000000000
+      internalID: -6838801713640092642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_5
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1233
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 012e7bb9c5bf7e8d0800000000000000
+      internalID: -2817006666728873456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_6
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1066
+        width: 192
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7661e4bbbbe7e84c0800000000000000
+      internalID: -4283346850816321945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_7
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1235
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc017f3d91c5b0c0800000000000000
+      internalID: -4560526166524359439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_8
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 1066
+        width: 190
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f29c226256f71d2f0800000000000000
+      internalID: -949837973990225617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_9
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1066
+        width: 198
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db96884da585bfae0800000000000000
+      internalID: -1514519702544029251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_10
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1153
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f87f1c7291dba33a0800000000000000
+      internalID: -6684822781139224689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_11
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 1148
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d89168de0acc41c00800000000000000
+      internalID: 870545619541170573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_12
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 1139
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c1ed901396987e0800000000000000
+      internalID: -1762762119798973291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_13
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 1139
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b43c0232b5103b40800000000000000
+      internalID: 5417854206814729398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_14
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 1138
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e9bf86de119bbaf0800000000000000
+      internalID: -379550181947885086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_15
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1132
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9977dc1d28329aeb0800000000000000
+      internalID: -4708192890666518631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_16
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1131
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a245a265be81f7760800000000000000
+      internalID: 7457706906990826538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_17
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1131
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bedc596566479640800000000000000
+      internalID: 5086611705511599801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_18
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 995
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5853b50d2b886ab70800000000000000
+      internalID: 8909959214380299653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_19
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 996
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10546fbb126ee6320800000000000000
+      internalID: 2553231071327438081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_20
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1000
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89be76bc81ec93860800000000000000
+      internalID: 7510260459504135064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_21
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 1002
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b19818b3941a1d0800000000000000
+      internalID: -3341308928607052928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_22
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 992
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98ff34c3b31f0dfd0800000000000000
+      internalID: -2319088571379351671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_23
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 987
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f3f1f92cee1aee70800000000000000
+      internalID: 9145155992994051063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_24
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 988
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da0c4954ef7c1350800000000000000
+      internalID: 5988802223223343825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_25
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 810
+        width: 177
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4553c10502af46280800000000000000
+      internalID: -9050834334417930924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_26
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 810
+        width: 183
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ec298f6c7c7ec10800000000000000
+      internalID: 2082853010069966404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_27
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 810
+        width: 178
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 209ef56715d9ca290800000000000000
+      internalID: -7877748674973931262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_28
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 984
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e3f7a937b277a10800000000000000
+      internalID: 1907040742727958082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_29
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 810
+        width: 187
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca41694474ea6d010800000000000000
+      internalID: 1213348770739524780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_30
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 810
+        width: 196
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb32542bc97d1a40800000000000000
+      internalID: 5340558646525967295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_31
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 873
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8820809ae8b7d190800000000000000
+      internalID: -7937672500631033716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_32
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 885
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09df4dde8c38b53d0800000000000000
+      internalID: -3216832609819230832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_33
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 891
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee1e5439a5ec7c50800000000000000
+      internalID: 6664454063492308706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_34
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 882
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b81c6a31e080b10800000000000000
+      internalID: 1947822316402608976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_35
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 873
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c68c68defba2eb0800000000000000
+      internalID: -4743768230591959983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_36
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 883
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31f0428179a0d110800000000000000
+      internalID: 1283712198782284095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_37
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 881
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4674359603f1bb280800000000000000
+      internalID: -9026586735348070556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_38
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 882
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f80eb9bf659e750800000000000000
+      internalID: 6334689989525278529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_39
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 890
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d99bc5b5c3ae51be0800000000000000
+      internalID: -1507040955333822051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_40
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 880
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eaf0df2ebfe89c00800000000000000
+      internalID: 907738925040204521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_41
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 882
+        width: 34
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 073e385b3c8f5aff0800000000000000
+      internalID: -25340703433038992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_42
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 879
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a6845817f4e6ca0800000000000000
+      internalID: -6021788302761760097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_43
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 886
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bb31440f47afbaa0800000000000000
+      internalID: -6143007408894428233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_44
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 735
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e848610e8909d400800000000000000
+      internalID: 349320951611541733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_45
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 737
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 193b46cc34f465c60800000000000000
+      internalID: 7806514156703888273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_46
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 554
+        width: 206
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3838cb42eea12180800000000000000
+      internalID: -9141833481628141508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_47
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 741
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6154e9e325e12c150800000000000000
+      internalID: 5891304601140741398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_48
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 740
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca2d985da5c635f90800000000000000
+      internalID: -6966105061226589524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_49
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 742
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2bc8e8327476c80800000000000000
+      internalID: -8329610767757430049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_50
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 554
+        width: 191
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4cee4eef094def70800000000000000
+      internalID: 9218104345068760138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_51
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 554
+        width: 196
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01590bbaadd6dfc10800000000000000
+      internalID: 2088946588120552720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_52
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 730
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0853a0218163e0860800000000000000
+      internalID: 7497989906628228480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_53
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 727
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 707d3e489fe4e1ef0800000000000000
+      internalID: -135584105191188729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_54
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 682
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15d4375a2540aea0800000000000000
+      internalID: -5863610666682362594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_55
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 554
+        width: 217
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 737bc62db25a02500800000000000000
+      internalID: 369476777076897591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_56
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 554
+        width: 206
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc0adc597c7fb4100800000000000000
+      internalID: 93440653875060940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_57
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 631
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2722a77d893b54530800000000000000
+      internalID: 3838671726434722418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_58
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 629
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6809ab474ceb2fdc0800000000000000
+      internalID: -3606610600589094778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_59
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 623
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9cc1672553244c0800000000000000
+      internalID: -4304819665527584293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_60
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 622
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b0523b574b88e90800000000000000
+      internalID: -7023165201274565788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_61
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 479
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43357f13435acbea0800000000000000
+      internalID: -5855623771893312716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_62
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 488
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ed62bcc018ebda0800000000000000
+      internalID: -5927158167625081210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_63
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 302
+        width: 175
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 340f970f4aeeb8cc0800000000000000
+      internalID: -3707607476032901053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_64
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 300
+        width: 158
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba18d7d5a218354c0800000000000000
+      internalID: -4299951200251575893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_65
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 301
+        width: 203
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c23e0fb9a98b1f6e0800000000000000
+      internalID: -1805459001418128596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_66
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 299
+        width: 199
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76fce605e2f91ac80800000000000000
+      internalID: -8313188415882473625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_67
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 301
+        width: 179
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53471e8f5278e420800000000000000
+      internalID: 2659501334693626714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_68
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 403
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5aded340cd7ff270800000000000000
+      internalID: 8286480104110873181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_69
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 369
+        width: 40
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f46fc903cad5b60800000000000000
+      internalID: 7736529059684175650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_70
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 373
+        width: 34
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00cca7849751e0f20800000000000000
+      internalID: 3390671180107795456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_71
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 44
+        width: 166
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77bba60c11b7b1890800000000000000
+      internalID: -7486254639400436873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_72
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 45
+        width: 197
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f9fde7bb959b9820800000000000000
+      internalID: 2926096878945565171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_73
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 45
+        width: 165
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d312bd1b3cb0bf0800000000000000
+      internalID: -356976576792806083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_74
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 159
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2994bbc6f2b98570800000000000000
+      internalID: 8469497347296237868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_75
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 165
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed19bc997712a77f0800000000000000
+      internalID: -614141601617571362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_76
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 45
+        width: 164
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fea23d90c5d0ebc0800000000000000
+      internalID: -3755767065979212046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_77
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 45
+        width: 170
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e47c83f829ca7d10800000000000000
+      internalID: 2124231351980553448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_78
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 166
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7393abdd409351e40800000000000000
+      internalID: 5626466002531924279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_79
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 149
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74bc48443ca44b260800000000000000
+      internalID: 7112391914053487431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_80
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 136
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a3708b80d91034a0800000000000000
+      internalID: -6615759469122915424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_81
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 135
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c8cfbc12e49d79c0800000000000000
+      internalID: -3927819601131353916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_82
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 146
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c327ae69c2cac10b0800000000000000
+      internalID: -5756536916175850948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_83
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 146
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc2ea54fc8bc4bc0800000000000000
+      internalID: -3797457185413387054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-victory_84
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 146
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4758166bb1a62f0c0800000000000000
+      internalID: -4543452406806903436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Opportunity-victory_0: 8401477575654144909
+      Opportunity-victory_1: -1091821666478198032
+      Opportunity-victory_10: -6684822781139224689
+      Opportunity-victory_11: 870545619541170573
+      Opportunity-victory_12: -1762762119798973291
+      Opportunity-victory_13: 5417854206814729398
+      Opportunity-victory_14: -379550181947885086
+      Opportunity-victory_15: -4708192890666518631
+      Opportunity-victory_16: 7457706906990826538
+      Opportunity-victory_17: 5086611705511599801
+      Opportunity-victory_18: 8909959214380299653
+      Opportunity-victory_19: 2553231071327438081
+      Opportunity-victory_2: -945579713791458125
+      Opportunity-victory_20: 7510260459504135064
+      Opportunity-victory_21: -3341308928607052928
+      Opportunity-victory_22: -2319088571379351671
+      Opportunity-victory_23: 9145155992994051063
+      Opportunity-victory_24: 5988802223223343825
+      Opportunity-victory_25: -9050834334417930924
+      Opportunity-victory_26: 2082853010069966404
+      Opportunity-victory_27: -7877748674973931262
+      Opportunity-victory_28: 1907040742727958082
+      Opportunity-victory_29: 1213348770739524780
+      Opportunity-victory_3: 1222814293924139198
+      Opportunity-victory_30: 5340558646525967295
+      Opportunity-victory_31: -7937672500631033716
+      Opportunity-victory_32: -3216832609819230832
+      Opportunity-victory_33: 6664454063492308706
+      Opportunity-victory_34: 1947822316402608976
+      Opportunity-victory_35: -4743768230591959983
+      Opportunity-victory_36: 1283712198782284095
+      Opportunity-victory_37: -9026586735348070556
+      Opportunity-victory_38: 6334689989525278529
+      Opportunity-victory_39: -1507040955333822051
+      Opportunity-victory_4: -6838801713640092642
+      Opportunity-victory_40: 907738925040204521
+      Opportunity-victory_41: -25340703433038992
+      Opportunity-victory_42: -6021788302761760097
+      Opportunity-victory_43: -6143007408894428233
+      Opportunity-victory_44: 349320951611541733
+      Opportunity-victory_45: 7806514156703888273
+      Opportunity-victory_46: -9141833481628141508
+      Opportunity-victory_47: 5891304601140741398
+      Opportunity-victory_48: -6966105061226589524
+      Opportunity-victory_49: -8329610767757430049
+      Opportunity-victory_5: -2817006666728873456
+      Opportunity-victory_50: 9218104345068760138
+      Opportunity-victory_51: 2088946588120552720
+      Opportunity-victory_52: 7497989906628228480
+      Opportunity-victory_53: -135584105191188729
+      Opportunity-victory_54: -5863610666682362594
+      Opportunity-victory_55: 369476777076897591
+      Opportunity-victory_56: 93440653875060940
+      Opportunity-victory_57: 3838671726434722418
+      Opportunity-victory_58: -3606610600589094778
+      Opportunity-victory_59: -4304819665527584293
+      Opportunity-victory_6: -4283346850816321945
+      Opportunity-victory_60: -7023165201274565788
+      Opportunity-victory_61: -5855623771893312716
+      Opportunity-victory_62: -5927158167625081210
+      Opportunity-victory_63: -3707607476032901053
+      Opportunity-victory_64: -4299951200251575893
+      Opportunity-victory_65: -1805459001418128596
+      Opportunity-victory_66: -8313188415882473625
+      Opportunity-victory_67: 2659501334693626714
+      Opportunity-victory_68: 8286480104110873181
+      Opportunity-victory_69: 7736529059684175650
+      Opportunity-victory_7: -4560526166524359439
+      Opportunity-victory_70: 3390671180107795456
+      Opportunity-victory_71: -7486254639400436873
+      Opportunity-victory_72: 2926096878945565171
+      Opportunity-victory_73: -356976576792806083
+      Opportunity-victory_74: 8469497347296237868
+      Opportunity-victory_75: -614141601617571362
+      Opportunity-victory_76: -3755767065979212046
+      Opportunity-victory_77: 2124231351980553448
+      Opportunity-victory_78: 5626466002531924279
+      Opportunity-victory_79: 7112391914053487431
+      Opportunity-victory_8: -949837973990225617
+      Opportunity-victory_80: -6615759469122915424
+      Opportunity-victory_81: -3927819601131353916
+      Opportunity-victory_82: -5756536916175850948
+      Opportunity-victory_83: -3797457185413387054
+      Opportunity-victory_84: -4543452406806903436
+      Opportunity-victory_9: -1514519702544029251
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

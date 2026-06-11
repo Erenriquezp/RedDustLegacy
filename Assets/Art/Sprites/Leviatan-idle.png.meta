@@ -1,112 +1,82 @@
 fileFormatVersion: 2
-guid: 3b0a62bb0f22e0f4e98d1536091c34fa
+guid: 0485856aef9ddab4f9d7ca90690a4b36
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2879270037426422487
-    second: Opportunity-walk_0
+      213: -5232208328160533405
+    second: Leviatan-idle_0
   - first:
-      213: 4107441696710120062
-    second: Opportunity-walk_1
+      213: -1969451403580987449
+    second: Leviatan-idle_1
   - first:
-      213: -3076995363574706305
-    second: Opportunity-walk_2
+      213: -3325773115720095828
+    second: Leviatan-idle_2
   - first:
-      213: 4678678293723586164
-    second: Opportunity-walk_3
+      213: -5397313891833716966
+    second: Leviatan-idle_3
   - first:
-      213: 4904081002115164216
-    second: Opportunity-walk_4
+      213: 8639253920966125819
+    second: Leviatan-idle_4
   - first:
-      213: -2616690960840695810
-    second: Opportunity-walk_5
+      213: 49303262307896860
+    second: Leviatan-idle_5
   - first:
-      213: 2171413479889570061
-    second: Opportunity-walk_6
+      213: 1216831877193051905
+    second: Leviatan-idle_6
   - first:
-      213: -7182783166819244503
-    second: Opportunity-walk_7
+      213: 3140733134816560058
+    second: Leviatan-idle_7
   - first:
-      213: -6885944026768318511
-    second: Opportunity-walk_8
+      213: -551008435531937673
+    second: Leviatan-idle_8
   - first:
-      213: 753983898984768818
-    second: Opportunity-walk_9
+      213: -1703531728523540894
+    second: Leviatan-idle_9
   - first:
-      213: -1707415170978238372
-    second: Opportunity-walk_10
+      213: -1936459766933899699
+    second: Leviatan-idle_10
   - first:
-      213: 7726264720585045291
-    second: Opportunity-walk_11
+      213: -8004504327252418651
+    second: Leviatan-idle_11
   - first:
-      213: 3230150078628835461
-    second: Opportunity-walk_12
+      213: -5108483320913930133
+    second: Leviatan-idle_12
   - first:
-      213: 6063680439140265884
-    second: Opportunity-walk_13
+      213: 108743352939416223
+    second: Leviatan-idle_13
   - first:
-      213: 5620676408805412465
-    second: Opportunity-walk_14
+      213: 5421926294764973956
+    second: Leviatan-idle_14
   - first:
-      213: 5333779456467605261
-    second: Opportunity-walk_15
+      213: 1262149265826044419
+    second: Leviatan-idle_15
   - first:
-      213: 4731422942859883862
-    second: Opportunity-walk_16
+      213: 917078414024600975
+    second: Leviatan-idle_16
   - first:
-      213: 4644704625717942682
-    second: Opportunity-walk_17
+      213: -7464860215520822876
+    second: Leviatan-idle_17
   - first:
-      213: 3539796080239232918
-    second: Opportunity-walk_18
+      213: 7559048269174044919
+    second: Leviatan-idle_18
   - first:
-      213: 771716072378392356
-    second: Opportunity-walk_19
+      213: 4539652395200574068
+    second: Leviatan-idle_19
   - first:
-      213: -4911118128434107888
-    second: Opportunity-walk_20
+      213: 7718105683065682179
+    second: Leviatan-idle_20
   - first:
-      213: -2474111617476131655
-    second: Opportunity-walk_21
+      213: 5410239657849345028
+    second: Leviatan-idle_21
   - first:
-      213: 1017774994974501643
-    second: Opportunity-walk_22
+      213: 5808680211769842608
+    second: Leviatan-idle_22
   - first:
-      213: -950360949652257052
-    second: Opportunity-walk_23
+      213: -4903962045402039903
+    second: Leviatan-idle_23
   - first:
-      213: 8042548504654823926
-    second: Opportunity-walk_24
-  - first:
-      213: -2470087944009323936
-    second: Opportunity-walk_25
-  - first:
-      213: 3126896489428480307
-    second: Opportunity-walk_26
-  - first:
-      213: -6154733127215362159
-    second: Opportunity-walk_27
-  - first:
-      213: 6639804879112868819
-    second: Opportunity-walk_28
-  - first:
-      213: 4521984042571219512
-    second: Opportunity-walk_29
-  - first:
-      213: -6862913832384395776
-    second: Opportunity-walk_30
-  - first:
-      213: 7281325991326137240
-    second: Opportunity-walk_31
-  - first:
-      213: 6857629033977502405
-    second: Opportunity-walk_32
-  - first:
-      213: -1977964778644002914
-    second: Opportunity-walk_33
-  - first:
-      213: -7319616981288066185
-    second: Opportunity-walk_34
+      213: 7987099104517013495
+    second: Leviatan-idle_24
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -215,551 +185,551 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Opportunity-walk_0
+      name: Leviatan-idle_0
       rect:
         serializedVersion: 2
-        x: 34
-        y: 1071
-        width: 191
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 92db5cee727ca08d0800000000000000
-      internalID: -2879270037426422487
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_2
-      rect:
-        serializedVersion: 2
-        x: 271
-        y: 1071
-        width: 206
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f7f0b9af4015c45d0800000000000000
-      internalID: -3076995363574706305
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_4
-      rect:
-        serializedVersion: 2
-        x: 558
-        y: 1071
-        width: 174
-        height: 153
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 838e0d040bbce0440800000000000000
-      internalID: 4904081002115164216
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_5
-      rect:
-        serializedVersion: 2
-        x: 767
-        y: 1070
-        width: 219
-        height: 153
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eff5d185f65afabd0800000000000000
-      internalID: -2616690960840695810
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_6
-      rect:
-        serializedVersion: 2
-        x: 1023
-        y: 1070
-        width: 215
-        height: 153
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d0900592e09622e10800000000000000
-      internalID: 2171413479889570061
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_11
-      rect:
-        serializedVersion: 2
-        x: 50
-        y: 815
-        width: 159
-        height: 151
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b25ba1fe3d4393b60800000000000000
-      internalID: 7726264720585045291
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_12
-      rect:
-        serializedVersion: 2
-        x: 307
-        y: 815
-        width: 172
-        height: 151
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5803fd7e16cc3dc20800000000000000
-      internalID: 3230150078628835461
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_13
-      rect:
-        serializedVersion: 2
-        x: 568
-        y: 815
-        width: 153
-        height: 151
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c9fa07e8b35862450800000000000000
-      internalID: 6063680439140265884
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_14
-      rect:
-        serializedVersion: 2
-        x: 824
-        y: 816
-        width: 151
-        height: 151
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 17ec3480a67a00e40800000000000000
-      internalID: 5620676408805412465
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_15
-      rect:
-        serializedVersion: 2
-        x: 1080
-        y: 816
-        width: 151
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d071705f724650a40800000000000000
-      internalID: 5333779456467605261
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_16
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 560
-        width: 151
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 655fb4f291469a140800000000000000
-      internalID: 4731422942859883862
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_17
-      rect:
-        serializedVersion: 2
-        x: 311
-        y: 559
-        width: 153
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a9918869f3e457040800000000000000
-      internalID: 4644704625717942682
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_18
-      rect:
-        serializedVersion: 2
-        x: 565
-        y: 559
-        width: 156
-        height: 151
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 697caf3c7c1ef1130800000000000000
-      internalID: 3539796080239232918
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_19
-      rect:
-        serializedVersion: 2
-        x: 818
-        y: 559
-        width: 158
-        height: 151
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 42fd299ddafa5ba00800000000000000
-      internalID: 771716072378392356
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_20
-      rect:
-        serializedVersion: 2
-        x: 1072
-        y: 559
-        width: 169
-        height: 151
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 01a24b8151438dbb0800000000000000
-      internalID: -4911118128434107888
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_21
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 303
-        width: 174
-        height: 151
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9b40ba1a7903aadd0800000000000000
-      internalID: -2474111617476131655
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_22
-      rect:
-        serializedVersion: 2
-        x: 295
-        y: 303
-        width: 179
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b0beabc27fcdf1e00800000000000000
-      internalID: 1017774994974501643
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_24
-      rect:
-        serializedVersion: 2
-        x: 522
-        y: 304
-        width: 210
-        height: 153
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6f1ccc4f04fdc9f60800000000000000
-      internalID: 8042548504654823926
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_25
-      rect:
-        serializedVersion: 2
-        x: 767
-        y: 303
-        width: 222
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 06a695d1a1c78bdd0800000000000000
-      internalID: -2470087944009323936
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_27
-      rect:
-        serializedVersion: 2
-        x: 1070
-        y: 303
-        width: 175
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 19fcff874def59aa0800000000000000
-      internalID: -6154733127215362159
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_30
-      rect:
-        serializedVersion: 2
-        x: 301
-        y: 46
-        width: 207
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0060d901b3802c0a0800000000000000
-      internalID: -6862913832384395776
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_31
-      rect:
-        serializedVersion: 2
-        x: 557
-        y: 46
-        width: 212
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 89b30d639677c0560800000000000000
-      internalID: 7281325991326137240
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_32
-      rect:
-        serializedVersion: 2
-        x: 813
-        y: 46
-        width: 212
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5ca52abe5413b2f50800000000000000
-      internalID: 6857629033977502405
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_33
-      rect:
-        serializedVersion: 2
-        x: 1070
-        y: 47
-        width: 200
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e97a0b6738bdc84e0800000000000000
-      internalID: -1977964778644002914
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_1
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 24
-        width: 221
-        height: 179
+        x: 46
+        y: 1089
+        width: 152
+        height: 126
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0b6c734ab5428fe4b856fa91977bd4f6
-      internalID: 4107441696710120062
+      spriteID: 364a6293f367367b0800000000000000
+      internalID: -5232208328160533405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_1
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1088
+        width: 151
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7292f026a1ba4e0800000000000000
+      internalID: -1969451403580987449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_2
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1089
+        width: 151
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7a5f1d8fa78d1d0800000000000000
+      internalID: -3325773115720095828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_3
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 1088
+        width: 152
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f58ff8c93e815b0800000000000000
+      internalID: -5397313891833716966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_4
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 1088
+        width: 152
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf8269b1babc4e770800000000000000
+      internalID: 8639253920966125819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_5
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 833
+        width: 152
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e412c4e092fa000800000000000000
+      internalID: 49303262307896860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_6
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 833
+        width: 152
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10fa67f252e03e010800000000000000
+      internalID: 1216831877193051905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_7
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 834
+        width: 152
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab34a035520269b20800000000000000
+      internalID: 3140733134816560058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_8
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 834
+        width: 152
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77800eb4fbc6a58f0800000000000000
+      internalID: -551008435531937673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_9
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 835
+        width: 154
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2664fb92be6db58e0800000000000000
+      internalID: -1703531728523540894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_10
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 579
+        width: 155
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d46b11e0a105025e0800000000000000
+      internalID: -1936459766933899699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_11
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 580
+        width: 155
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5afda0b59b94ae090800000000000000
+      internalID: -8004504327252418651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_12
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 580
+        width: 156
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68daeb4c750b19b0800000000000000
+      internalID: -5108483320913930133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_13
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 580
+        width: 157
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a83abd085528100800000000000000
+      internalID: 108743352939416223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_14
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 581
+        width: 157
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48fe0dd0d3d8e3b40800000000000000
+      internalID: 5421926294764973956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_15
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 325
+        width: 157
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30ad413f11e048110800000000000000
+      internalID: 1262149265826044419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_16
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 325
+        width: 157
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d6d1b65fd1abc00800000000000000
+      internalID: 917078414024600975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_17
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 325
+        width: 157
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a97feb3f2d776890800000000000000
+      internalID: -7464860215520822876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_18
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 325
+        width: 156
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8762ce95227e860800000000000000
+      internalID: 7559048269174044919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_19
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 324
+        width: 157
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4727ea32dc5100f30800000000000000
+      internalID: 4539652395200574068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_20
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 68
+        width: 156
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 309bd0af9383c1b60800000000000000
+      internalID: 7718105683065682179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_21
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 66
+        width: 155
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40457dbdd48051b40800000000000000
+      internalID: 5410239657849345028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_22
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 66
+        width: 154
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bbd16c70e39c9050800000000000000
+      internalID: 5808680211769842608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_23
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 66
+        width: 152
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a930d38080a1fbb0800000000000000
+      internalID: -4903962045402039903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_24
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 65
+        width: 152
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ffb39e6150e7de60800000000000000
+      internalID: 7987099104517013495
       vertices: []
       indices: 
       edges: []
@@ -768,7 +738,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b098255a8d02ab8488a42f9682d0e2e6
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -778,41 +748,31 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Opportunity-walk_0: -2879270037426422487
-      Opportunity-walk_1: 4107441696710120062
-      Opportunity-walk_10: -1707415170978238372
-      Opportunity-walk_11: 7726264720585045291
-      Opportunity-walk_12: 3230150078628835461
-      Opportunity-walk_13: 6063680439140265884
-      Opportunity-walk_14: 5620676408805412465
-      Opportunity-walk_15: 5333779456467605261
-      Opportunity-walk_16: 4731422942859883862
-      Opportunity-walk_17: 4644704625717942682
-      Opportunity-walk_18: 3539796080239232918
-      Opportunity-walk_19: 771716072378392356
-      Opportunity-walk_2: -3076995363574706305
-      Opportunity-walk_20: -4911118128434107888
-      Opportunity-walk_21: -2474111617476131655
-      Opportunity-walk_22: 1017774994974501643
-      Opportunity-walk_23: -950360949652257052
-      Opportunity-walk_24: 8042548504654823926
-      Opportunity-walk_25: -2470087944009323936
-      Opportunity-walk_26: 3126896489428480307
-      Opportunity-walk_27: -6154733127215362159
-      Opportunity-walk_28: 6639804879112868819
-      Opportunity-walk_29: 4521984042571219512
-      Opportunity-walk_3: 4678678293723586164
-      Opportunity-walk_30: -6862913832384395776
-      Opportunity-walk_31: 7281325991326137240
-      Opportunity-walk_32: 6857629033977502405
-      Opportunity-walk_33: -1977964778644002914
-      Opportunity-walk_34: -7319616981288066185
-      Opportunity-walk_4: 4904081002115164216
-      Opportunity-walk_5: -2616690960840695810
-      Opportunity-walk_6: 2171413479889570061
-      Opportunity-walk_7: -7182783166819244503
-      Opportunity-walk_8: -6885944026768318511
-      Opportunity-walk_9: 753983898984768818
+      Leviatan-idle_0: -5232208328160533405
+      Leviatan-idle_1: -1969451403580987449
+      Leviatan-idle_10: -1936459766933899699
+      Leviatan-idle_11: -8004504327252418651
+      Leviatan-idle_12: -5108483320913930133
+      Leviatan-idle_13: 108743352939416223
+      Leviatan-idle_14: 5421926294764973956
+      Leviatan-idle_15: 1262149265826044419
+      Leviatan-idle_16: 917078414024600975
+      Leviatan-idle_17: -7464860215520822876
+      Leviatan-idle_18: 7559048269174044919
+      Leviatan-idle_19: 4539652395200574068
+      Leviatan-idle_2: -3325773115720095828
+      Leviatan-idle_20: 7718105683065682179
+      Leviatan-idle_21: 5410239657849345028
+      Leviatan-idle_22: 5808680211769842608
+      Leviatan-idle_23: -4903962045402039903
+      Leviatan-idle_24: 7987099104517013495
+      Leviatan-idle_3: -5397313891833716966
+      Leviatan-idle_4: 8639253920966125819
+      Leviatan-idle_5: 49303262307896860
+      Leviatan-idle_6: 1216831877193051905
+      Leviatan-idle_7: 3140733134816560058
+      Leviatan-idle_8: -551008435531937673
+      Leviatan-idle_9: -1703531728523540894
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
