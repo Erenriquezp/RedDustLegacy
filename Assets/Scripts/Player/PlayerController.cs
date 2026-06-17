@@ -52,6 +52,7 @@ public class PlayerController : MonoBehaviour
     private bool _hasAerialDash;
     private bool _jumpHeld;
     private bool _jumpConsumed;
+    private bool _isScanning;
 
     // ── API pública ───────────────────────────────────────────────────────
     public RoverStatsSO GetStats() => _stats;
@@ -59,6 +60,7 @@ public class PlayerController : MonoBehaviour
     public bool IsGrounded => _isGrounded;
     public bool IsDashing => _isDashing;
     public int FacingDir => _facingDir;
+    public bool IsScanning => _isScanning;
 
     // ═════════════════════════════════════════════════════════════════════
     #region Unity Lifecycle
@@ -136,6 +138,11 @@ public class PlayerController : MonoBehaviour
     {
         if (ctx.started) TryStartDash();
     }
+    public void OnScanInput(InputAction.CallbackContext ctx)
+    {
+        if (ctx.started)  _isScanning = true;
+        if (ctx.canceled) _isScanning = false;
+    }
 
     #endregion
 
@@ -204,6 +211,12 @@ public class PlayerController : MonoBehaviour
 
         if (_inputX != 0f)
             _facingDir = _inputX > 0f ? 1 : -1;
+
+        if (_isScanning) 
+        {
+            _frameVelocity.x = 0f;
+            return;
+        }
     }
 
     #endregion

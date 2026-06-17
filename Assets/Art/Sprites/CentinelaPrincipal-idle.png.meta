@@ -1,112 +1,82 @@
 fileFormatVersion: 2
-guid: 3b0a62bb0f22e0f4e98d1536091c34fa
+guid: f9ef6d5e8fb0103439366784f3a4ec84
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2879270037426422487
-    second: Opportunity-walk_0
+      213: -3765181960935968628
+    second: CentinelaPrincipal-idle_0
   - first:
-      213: 4107441696710120062
-    second: Opportunity-walk_1
+      213: 4392093749043831679
+    second: CentinelaPrincipal-idle_1
   - first:
-      213: -3076995363574706305
-    second: Opportunity-walk_2
+      213: -3347779055169282409
+    second: CentinelaPrincipal-idle_2
   - first:
-      213: 4678678293723586164
-    second: Opportunity-walk_3
+      213: -8778763394468876937
+    second: CentinelaPrincipal-idle_3
   - first:
-      213: 4904081002115164216
-    second: Opportunity-walk_4
+      213: 3991024902452212464
+    second: CentinelaPrincipal-idle_4
   - first:
-      213: -2616690960840695810
-    second: Opportunity-walk_5
+      213: -1935084368750099128
+    second: CentinelaPrincipal-idle_5
   - first:
-      213: 2171413479889570061
-    second: Opportunity-walk_6
+      213: 4289532793193049973
+    second: CentinelaPrincipal-idle_6
   - first:
-      213: -7182783166819244503
-    second: Opportunity-walk_7
+      213: 5901166127077654550
+    second: CentinelaPrincipal-idle_7
   - first:
-      213: -6885944026768318511
-    second: Opportunity-walk_8
+      213: 4031910261745675471
+    second: CentinelaPrincipal-idle_8
   - first:
-      213: 753983898984768818
-    second: Opportunity-walk_9
+      213: -6970419825956692708
+    second: CentinelaPrincipal-idle_9
   - first:
-      213: -1707415170978238372
-    second: Opportunity-walk_10
+      213: -8064363285395832981
+    second: CentinelaPrincipal-idle_10
   - first:
-      213: 7726264720585045291
-    second: Opportunity-walk_11
+      213: -6879406175398936949
+    second: CentinelaPrincipal-idle_11
   - first:
-      213: 3230150078628835461
-    second: Opportunity-walk_12
+      213: 4552015822226007964
+    second: CentinelaPrincipal-idle_12
   - first:
-      213: 6063680439140265884
-    second: Opportunity-walk_13
+      213: 812748699151283264
+    second: CentinelaPrincipal-idle_13
   - first:
-      213: 5620676408805412465
-    second: Opportunity-walk_14
+      213: 6097187411571190321
+    second: CentinelaPrincipal-idle_14
   - first:
-      213: 5333779456467605261
-    second: Opportunity-walk_15
+      213: -8003802902917175854
+    second: CentinelaPrincipal-idle_15
   - first:
-      213: 4731422942859883862
-    second: Opportunity-walk_16
+      213: 97471116943122459
+    second: CentinelaPrincipal-idle_16
   - first:
-      213: 4644704625717942682
-    second: Opportunity-walk_17
+      213: 5810734273483239251
+    second: CentinelaPrincipal-idle_17
   - first:
-      213: 3539796080239232918
-    second: Opportunity-walk_18
+      213: 6063985972158200834
+    second: CentinelaPrincipal-idle_18
   - first:
-      213: 771716072378392356
-    second: Opportunity-walk_19
+      213: 4645089223745786853
+    second: CentinelaPrincipal-idle_19
   - first:
-      213: -4911118128434107888
-    second: Opportunity-walk_20
+      213: -4247084552798896350
+    second: CentinelaPrincipal-idle_20
   - first:
-      213: -2474111617476131655
-    second: Opportunity-walk_21
+      213: 5727484140468434752
+    second: CentinelaPrincipal-idle_21
   - first:
-      213: 1017774994974501643
-    second: Opportunity-walk_22
+      213: 6843834735298395485
+    second: CentinelaPrincipal-idle_22
   - first:
-      213: -950360949652257052
-    second: Opportunity-walk_23
+      213: 8277240934255524454
+    second: CentinelaPrincipal-idle_23
   - first:
-      213: 8042548504654823926
-    second: Opportunity-walk_24
-  - first:
-      213: -2470087944009323936
-    second: Opportunity-walk_25
-  - first:
-      213: 3126896489428480307
-    second: Opportunity-walk_26
-  - first:
-      213: -6154733127215362159
-    second: Opportunity-walk_27
-  - first:
-      213: 6639804879112868819
-    second: Opportunity-walk_28
-  - first:
-      213: 4521984042571219512
-    second: Opportunity-walk_29
-  - first:
-      213: -6862913832384395776
-    second: Opportunity-walk_30
-  - first:
-      213: 7281325991326137240
-    second: Opportunity-walk_31
-  - first:
-      213: 6857629033977502405
-    second: Opportunity-walk_32
-  - first:
-      213: -1977964778644002914
-    second: Opportunity-walk_33
-  - first:
-      213: -7319616981288066185
-    second: Opportunity-walk_34
+      213: -9190619692648978842
+    second: CentinelaPrincipal-idle_24
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -215,551 +185,551 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Opportunity-walk_0
+      name: CentinelaPrincipal-idle_0
       rect:
         serializedVersion: 2
-        x: 34
-        y: 1071
-        width: 191
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 92db5cee727ca08d0800000000000000
-      internalID: -2879270037426422487
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_2
-      rect:
-        serializedVersion: 2
-        x: 271
-        y: 1071
-        width: 206
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f7f0b9af4015c45d0800000000000000
-      internalID: -3076995363574706305
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_4
-      rect:
-        serializedVersion: 2
-        x: 558
-        y: 1071
-        width: 174
-        height: 153
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 838e0d040bbce0440800000000000000
-      internalID: 4904081002115164216
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_5
-      rect:
-        serializedVersion: 2
-        x: 767
-        y: 1070
-        width: 219
-        height: 153
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eff5d185f65afabd0800000000000000
-      internalID: -2616690960840695810
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_6
-      rect:
-        serializedVersion: 2
-        x: 1023
-        y: 1070
-        width: 215
-        height: 153
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d0900592e09622e10800000000000000
-      internalID: 2171413479889570061
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_11
-      rect:
-        serializedVersion: 2
-        x: 50
-        y: 815
-        width: 159
-        height: 151
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b25ba1fe3d4393b60800000000000000
-      internalID: 7726264720585045291
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_12
-      rect:
-        serializedVersion: 2
-        x: 307
-        y: 815
-        width: 172
-        height: 151
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5803fd7e16cc3dc20800000000000000
-      internalID: 3230150078628835461
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_13
-      rect:
-        serializedVersion: 2
-        x: 568
-        y: 815
-        width: 153
-        height: 151
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c9fa07e8b35862450800000000000000
-      internalID: 6063680439140265884
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_14
-      rect:
-        serializedVersion: 2
-        x: 824
-        y: 816
-        width: 151
-        height: 151
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 17ec3480a67a00e40800000000000000
-      internalID: 5620676408805412465
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_15
-      rect:
-        serializedVersion: 2
-        x: 1080
-        y: 816
-        width: 151
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d071705f724650a40800000000000000
-      internalID: 5333779456467605261
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_16
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 560
-        width: 151
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 655fb4f291469a140800000000000000
-      internalID: 4731422942859883862
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_17
-      rect:
-        serializedVersion: 2
-        x: 311
-        y: 559
-        width: 153
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a9918869f3e457040800000000000000
-      internalID: 4644704625717942682
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_18
-      rect:
-        serializedVersion: 2
-        x: 565
-        y: 559
-        width: 156
-        height: 151
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 697caf3c7c1ef1130800000000000000
-      internalID: 3539796080239232918
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_19
-      rect:
-        serializedVersion: 2
-        x: 818
-        y: 559
-        width: 158
-        height: 151
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 42fd299ddafa5ba00800000000000000
-      internalID: 771716072378392356
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_20
-      rect:
-        serializedVersion: 2
-        x: 1072
-        y: 559
-        width: 169
-        height: 151
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 01a24b8151438dbb0800000000000000
-      internalID: -4911118128434107888
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_21
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 303
-        width: 174
-        height: 151
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9b40ba1a7903aadd0800000000000000
-      internalID: -2474111617476131655
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_22
-      rect:
-        serializedVersion: 2
-        x: 295
-        y: 303
-        width: 179
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b0beabc27fcdf1e00800000000000000
-      internalID: 1017774994974501643
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_24
-      rect:
-        serializedVersion: 2
-        x: 522
-        y: 304
-        width: 210
-        height: 153
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6f1ccc4f04fdc9f60800000000000000
-      internalID: 8042548504654823926
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_25
-      rect:
-        serializedVersion: 2
-        x: 767
-        y: 303
-        width: 222
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 06a695d1a1c78bdd0800000000000000
-      internalID: -2470087944009323936
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_27
-      rect:
-        serializedVersion: 2
-        x: 1070
-        y: 303
-        width: 175
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 19fcff874def59aa0800000000000000
-      internalID: -6154733127215362159
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_30
-      rect:
-        serializedVersion: 2
-        x: 301
-        y: 46
-        width: 207
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0060d901b3802c0a0800000000000000
-      internalID: -6862913832384395776
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_31
-      rect:
-        serializedVersion: 2
-        x: 557
-        y: 46
-        width: 212
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 89b30d639677c0560800000000000000
-      internalID: 7281325991326137240
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_32
-      rect:
-        serializedVersion: 2
-        x: 813
-        y: 46
-        width: 212
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5ca52abe5413b2f50800000000000000
-      internalID: 6857629033977502405
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_33
-      rect:
-        serializedVersion: 2
-        x: 1070
-        y: 47
-        width: 200
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e97a0b6738bdc84e0800000000000000
-      internalID: -1977964778644002914
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Opportunity-walk_1
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 24
-        width: 221
-        height: 179
+        x: 40
+        y: 1088
+        width: 173
+        height: 126
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0b6c734ab5428fe4b856fa91977bd4f6
-      internalID: 4107441696710120062
+      spriteID: c80f3bf84f26fbbc0800000000000000
+      internalID: -3765181960935968628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_1
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1088
+        width: 173
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f73a8f39ef9d3fc30800000000000000
+      internalID: 4392093749043831679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_2
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1088
+        width: 173
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e5426cfac4a81d0800000000000000
+      internalID: -3347779055169282409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_3
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1088
+        width: 173
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77dea7164319b2680800000000000000
+      internalID: -8778763394468876937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_4
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 1088
+        width: 173
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2f660e008f26730800000000000000
+      internalID: 3991024902452212464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_5
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 832
+        width: 173
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8454d36e4033525e0800000000000000
+      internalID: -1935084368750099128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_6
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 832
+        width: 173
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f29a6395b778b30800000000000000
+      internalID: 4289532793193049973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_7
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 832
+        width: 173
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 610080da35725e150800000000000000
+      internalID: 5901166127077654550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_8
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 832
+        width: 173
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc6a95650934f730800000000000000
+      internalID: 4031910261745675471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_9
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 832
+        width: 173
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1dd2826918144f90800000000000000
+      internalID: -6970419825956692708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_10
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 576
+        width: 173
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f774a9150a51090800000000000000
+      internalID: -8064363285395832981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_11
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 576
+        width: 173
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8eb7b938807780a0800000000000000
+      internalID: -6879406175398936949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_12
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 576
+        width: 173
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c972dbfc5420c2f30800000000000000
+      internalID: 4552015822226007964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_13
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 576
+        width: 173
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 044b290c2a6774b00800000000000000
+      internalID: 812748699151283264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_14
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 576
+        width: 173
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a2fa385af8d9450800000000000000
+      internalID: 6097187411571190321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_15
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 320
+        width: 173
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d5a16f6aa7cce090800000000000000
+      internalID: -8003802902917175854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_16
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 320
+        width: 173
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b106145e6794a5100800000000000000
+      internalID: 97471116943122459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_17
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 320
+        width: 173
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35fe72ff800e3a050800000000000000
+      internalID: 5810734273483239251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_18
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 320
+        width: 173
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20cf0710d1b972450800000000000000
+      internalID: 6063985972158200834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_19
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 320
+        width: 173
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e3dc5bc90ca67040800000000000000
+      internalID: 4645089223745786853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_20
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 64
+        width: 173
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f7f5be9135f05c0800000000000000
+      internalID: -4247084552798896350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_21
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 64
+        width: 173
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 047fd41fa7c1c7f40800000000000000
+      internalID: 5727484140468434752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_22
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 64
+        width: 173
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5db0fa7e6f2afe50800000000000000
+      internalID: 6843834735298395485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_23
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 64
+        width: 173
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a7f9666caaed270800000000000000
+      internalID: 8277240934255524454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_24
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 64
+        width: 173
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666a2f1651c547080800000000000000
+      internalID: -9190619692648978842
       vertices: []
       indices: 
       edges: []
@@ -768,7 +738,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b098255a8d02ab8488a42f9682d0e2e6
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -778,41 +748,31 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Opportunity-walk_0: -2879270037426422487
-      Opportunity-walk_1: 4107441696710120062
-      Opportunity-walk_10: -1707415170978238372
-      Opportunity-walk_11: 7726264720585045291
-      Opportunity-walk_12: 3230150078628835461
-      Opportunity-walk_13: 6063680439140265884
-      Opportunity-walk_14: 5620676408805412465
-      Opportunity-walk_15: 5333779456467605261
-      Opportunity-walk_16: 4731422942859883862
-      Opportunity-walk_17: 4644704625717942682
-      Opportunity-walk_18: 3539796080239232918
-      Opportunity-walk_19: 771716072378392356
-      Opportunity-walk_2: -3076995363574706305
-      Opportunity-walk_20: -4911118128434107888
-      Opportunity-walk_21: -2474111617476131655
-      Opportunity-walk_22: 1017774994974501643
-      Opportunity-walk_23: -950360949652257052
-      Opportunity-walk_24: 8042548504654823926
-      Opportunity-walk_25: -2470087944009323936
-      Opportunity-walk_26: 3126896489428480307
-      Opportunity-walk_27: -6154733127215362159
-      Opportunity-walk_28: 6639804879112868819
-      Opportunity-walk_29: 4521984042571219512
-      Opportunity-walk_3: 4678678293723586164
-      Opportunity-walk_30: -6862913832384395776
-      Opportunity-walk_31: 7281325991326137240
-      Opportunity-walk_32: 6857629033977502405
-      Opportunity-walk_33: -1977964778644002914
-      Opportunity-walk_34: -7319616981288066185
-      Opportunity-walk_4: 4904081002115164216
-      Opportunity-walk_5: -2616690960840695810
-      Opportunity-walk_6: 2171413479889570061
-      Opportunity-walk_7: -7182783166819244503
-      Opportunity-walk_8: -6885944026768318511
-      Opportunity-walk_9: 753983898984768818
+      CentinelaPrincipal-idle_0: -3765181960935968628
+      CentinelaPrincipal-idle_1: 4392093749043831679
+      CentinelaPrincipal-idle_10: -8064363285395832981
+      CentinelaPrincipal-idle_11: -6879406175398936949
+      CentinelaPrincipal-idle_12: 4552015822226007964
+      CentinelaPrincipal-idle_13: 812748699151283264
+      CentinelaPrincipal-idle_14: 6097187411571190321
+      CentinelaPrincipal-idle_15: -8003802902917175854
+      CentinelaPrincipal-idle_16: 97471116943122459
+      CentinelaPrincipal-idle_17: 5810734273483239251
+      CentinelaPrincipal-idle_18: 6063985972158200834
+      CentinelaPrincipal-idle_19: 4645089223745786853
+      CentinelaPrincipal-idle_2: -3347779055169282409
+      CentinelaPrincipal-idle_20: -4247084552798896350
+      CentinelaPrincipal-idle_21: 5727484140468434752
+      CentinelaPrincipal-idle_22: 6843834735298395485
+      CentinelaPrincipal-idle_23: 8277240934255524454
+      CentinelaPrincipal-idle_24: -9190619692648978842
+      CentinelaPrincipal-idle_3: -8778763394468876937
+      CentinelaPrincipal-idle_4: 3991024902452212464
+      CentinelaPrincipal-idle_5: -1935084368750099128
+      CentinelaPrincipal-idle_6: 4289532793193049973
+      CentinelaPrincipal-idle_7: 5901166127077654550
+      CentinelaPrincipal-idle_8: 4031910261745675471
+      CentinelaPrincipal-idle_9: -6970419825956692708
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

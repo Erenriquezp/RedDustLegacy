@@ -1,0 +1,2366 @@
+fileFormatVersion: 2
+guid: 2921e0a0763b6e44d9a61d66888a030b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8536217121735908080
+    second: Opportunity-destruction_0
+  - first:
+      213: -4131495135682003344
+    second: Opportunity-destruction_1
+  - first:
+      213: 2744401361207071809
+    second: Opportunity-destruction_2
+  - first:
+      213: -6337107476332226907
+    second: Opportunity-destruction_3
+  - first:
+      213: 563044890284348755
+    second: Opportunity-destruction_4
+  - first:
+      213: 7529603996053444492
+    second: Opportunity-destruction_5
+  - first:
+      213: 7819803689698659097
+    second: Opportunity-destruction_6
+  - first:
+      213: 2209683950234711333
+    second: Opportunity-destruction_7
+  - first:
+      213: -6115484755276610670
+    second: Opportunity-destruction_8
+  - first:
+      213: 2205337192478211388
+    second: Opportunity-destruction_9
+  - first:
+      213: 6453221940477431245
+    second: Opportunity-destruction_10
+  - first:
+      213: 7374409080372914335
+    second: Opportunity-destruction_11
+  - first:
+      213: -4694384788901327471
+    second: Opportunity-destruction_12
+  - first:
+      213: -8866224550321851973
+    second: Opportunity-destruction_13
+  - first:
+      213: 4510765207036217416
+    second: Opportunity-destruction_14
+  - first:
+      213: 2851434503395938876
+    second: Opportunity-destruction_15
+  - first:
+      213: -5983630391209139594
+    second: Opportunity-destruction_16
+  - first:
+      213: 8555813746358242137
+    second: Opportunity-destruction_17
+  - first:
+      213: -2694304315985535341
+    second: Opportunity-destruction_18
+  - first:
+      213: 6781225759137206788
+    second: Opportunity-destruction_19
+  - first:
+      213: 1932336211403517882
+    second: Opportunity-destruction_20
+  - first:
+      213: 7114986309556692178
+    second: Opportunity-destruction_21
+  - first:
+      213: 9077869346923692054
+    second: Opportunity-destruction_22
+  - first:
+      213: -3287343267632840250
+    second: Opportunity-destruction_23
+  - first:
+      213: -2286706434689696915
+    second: Opportunity-destruction_24
+  - first:
+      213: 7744445329915360790
+    second: Opportunity-destruction_25
+  - first:
+      213: -4867213695380834836
+    second: Opportunity-destruction_26
+  - first:
+      213: -5005857412308736838
+    second: Opportunity-destruction_27
+  - first:
+      213: -8874092331013380890
+    second: Opportunity-destruction_28
+  - first:
+      213: -5235970401044125039
+    second: Opportunity-destruction_29
+  - first:
+      213: -504013006272417698
+    second: Opportunity-destruction_30
+  - first:
+      213: 5358115353696233821
+    second: Opportunity-destruction_31
+  - first:
+      213: -6191823431529747113
+    second: Opportunity-destruction_32
+  - first:
+      213: 8556412857069711610
+    second: Opportunity-destruction_33
+  - first:
+      213: -3483497429945002048
+    second: Opportunity-destruction_34
+  - first:
+      213: 5077268854891377532
+    second: Opportunity-destruction_35
+  - first:
+      213: 4465024965660573536
+    second: Opportunity-destruction_36
+  - first:
+      213: -3645778577878366151
+    second: Opportunity-destruction_37
+  - first:
+      213: -212321230082797382
+    second: Opportunity-destruction_38
+  - first:
+      213: -5668269321579947989
+    second: Opportunity-destruction_39
+  - first:
+      213: 915883546850176630
+    second: Opportunity-destruction_40
+  - first:
+      213: -5233061356248296210
+    second: Opportunity-destruction_41
+  - first:
+      213: -3312938580609800431
+    second: Opportunity-destruction_42
+  - first:
+      213: 3127898793135553021
+    second: Opportunity-destruction_43
+  - first:
+      213: -6956088691716265230
+    second: Opportunity-destruction_44
+  - first:
+      213: 6934461708496390652
+    second: Opportunity-destruction_45
+  - first:
+      213: -4337693207198423462
+    second: Opportunity-destruction_46
+  - first:
+      213: 4982144580519451119
+    second: Opportunity-destruction_47
+  - first:
+      213: 8859310780286145244
+    second: Opportunity-destruction_48
+  - first:
+      213: -3814965656642803740
+    second: Opportunity-destruction_49
+  - first:
+      213: -6751894955606868264
+    second: Opportunity-destruction_50
+  - first:
+      213: 7591890120130865323
+    second: Opportunity-destruction_51
+  - first:
+      213: -7100634526865172336
+    second: Opportunity-destruction_52
+  - first:
+      213: -2734399824569707261
+    second: Opportunity-destruction_53
+  - first:
+      213: -3010057588961893955
+    second: Opportunity-destruction_54
+  - first:
+      213: -2657132310978340313
+    second: Opportunity-destruction_55
+  - first:
+      213: -6047437187236511217
+    second: Opportunity-destruction_56
+  - first:
+      213: 6465215927274346904
+    second: Opportunity-destruction_57
+  - first:
+      213: -3798630134196376618
+    second: Opportunity-destruction_58
+  - first:
+      213: -2917905643948562401
+    second: Opportunity-destruction_59
+  - first:
+      213: -4246689718826450744
+    second: Opportunity-destruction_60
+  - first:
+      213: 5464473219224729606
+    second: Opportunity-destruction_61
+  - first:
+      213: -2147825264710047900
+    second: Opportunity-destruction_62
+  - first:
+      213: -6891217724004919157
+    second: Opportunity-destruction_63
+  - first:
+      213: -1780633991151029362
+    second: Opportunity-destruction_64
+  - first:
+      213: -449838344738153658
+    second: Opportunity-destruction_65
+  - first:
+      213: -8832308699899074316
+    second: Opportunity-destruction_66
+  - first:
+      213: 3772085263274240232
+    second: Opportunity-destruction_67
+  - first:
+      213: -6231068524081156347
+    second: Opportunity-destruction_68
+  - first:
+      213: 5923430331078938373
+    second: Opportunity-destruction_69
+  - first:
+      213: -9122065144789073499
+    second: Opportunity-destruction_70
+  - first:
+      213: -1570864895881714
+    second: Opportunity-destruction_71
+  - first:
+      213: 5752048015497640375
+    second: Opportunity-destruction_72
+  - first:
+      213: -7125812430418948922
+    second: Opportunity-destruction_73
+  - first:
+      213: 7009061013359723344
+    second: Opportunity-destruction_74
+  - first:
+      213: -6516180458950202285
+    second: Opportunity-destruction_75
+  - first:
+      213: -6719200690919015562
+    second: Opportunity-destruction_76
+  - first:
+      213: 1800542313859525180
+    second: Opportunity-destruction_77
+  - first:
+      213: -1344005232411182093
+    second: Opportunity-destruction_78
+  - first:
+      213: 8436443679987354239
+    second: Opportunity-destruction_79
+  - first:
+      213: -203867520227215334
+    second: Opportunity-destruction_80
+  - first:
+      213: -6742010995592215372
+    second: Opportunity-destruction_81
+  - first:
+      213: -205198010042300089
+    second: Opportunity-destruction_82
+  - first:
+      213: 2366656092550338168
+    second: Opportunity-destruction_83
+  - first:
+      213: 3690299598480196149
+    second: Opportunity-destruction_84
+  - first:
+      213: 9213936932989335678
+    second: Opportunity-destruction_85
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Opportunity-destruction_0
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1240
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa1da2de3cb67670800000000000000
+      internalID: 8536217121735908080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_1
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1065
+        width: 220
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e7b6e401bf9a6c0800000000000000
+      internalID: -4131495135682003344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1059
+        width: 185
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14498df5f72161620800000000000000
+      internalID: 2744401361207071809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_3
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1159
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a6deb163521e08a0800000000000000
+      internalID: -6337107476332226907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_4
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1065
+        width: 185
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3555ff5385650d700800000000000000
+      internalID: 563044890284348755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_5
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1163
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c87902cd0f68e7860800000000000000
+      internalID: 7529603996053444492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_6
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 1064
+        width: 222
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b07c15606858c60800000000000000
+      internalID: 7819803689698659097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_7
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 1064
+        width: 221
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5253f9768df5aae10800000000000000
+      internalID: 2209683950234711333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_8
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1154
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293cb6c240f612ba0800000000000000
+      internalID: -6115484755276610670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_9
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 1151
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3dfe9ffd7eea9e10800000000000000
+      internalID: 2205337192478211388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_10
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1080
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd0aea0a237e8950800000000000000
+      internalID: 6453221940477431245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_11
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1079
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f98ea00ccf9275660800000000000000
+      internalID: 7374409080372914335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_12
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1064
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19d0a8a08e13adeb0800000000000000
+      internalID: -4694384788901327471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_13
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1064
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb1f73b2fb7d4f480800000000000000
+      internalID: -8866224550321851973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_14
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1064
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 848c5968e05799e30800000000000000
+      internalID: 4510765207036217416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_15
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1064
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c321533c294529720800000000000000
+      internalID: 2851434503395938876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_16
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 1060
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6726fb0acdfd5fca0800000000000000
+      internalID: -5983630391209139594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_17
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 1064
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b461c854b5cb670800000000000000
+      internalID: 8555813746358242137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_18
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 1064
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39e51e8ef78eb9ad0800000000000000
+      internalID: -2694304315985535341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_19
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1054
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4021a1346e0cb1e50800000000000000
+      internalID: 6781225759137206788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_20
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 891
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abfa45bdb8901da10800000000000000
+      internalID: 1932336211403517882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_21
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 808
+        width: 222
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d4e4ea0a528db260800000000000000
+      internalID: 7114986309556692178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_22
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 803
+        width: 222
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6104bcc03121bfd70800000000000000
+      internalID: 9077869346923692054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_23
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 807
+        width: 190
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c109f517b20162d0800000000000000
+      internalID: -3287343267632840250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_24
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 808
+        width: 194
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b78b6fc9cf340e0800000000000000
+      internalID: -2286706434689696915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_25
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 898
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 616b908eefbc97b60800000000000000
+      internalID: 7744445329915360790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_26
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 808
+        width: 199
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce5b8e08eee247cb0800000000000000
+      internalID: -4867213695380834836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_27
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 892
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4e417a43f978ab0800000000000000
+      internalID: -5005857412308736838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_28
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 885
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4ede9ba04e8d480800000000000000
+      internalID: -8874092331013380890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_29
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 877
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a2e4f59a81657b0800000000000000
+      internalID: -5235970401044125039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_30
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 864
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50b4f657d26109f0800000000000000
+      internalID: -504013006272417698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_31
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 868
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5961a29689db5a40800000000000000
+      internalID: 5358115353696233821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_32
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 850
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75daabb0569321aa0800000000000000
+      internalID: -6191823431529747113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_33
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 855
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af0b931e82c7eb670800000000000000
+      internalID: 8556412857069711610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_34
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 841
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c754283b8128afc0800000000000000
+      internalID: -3483497429945002048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_35
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 833
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7374fc7f15167640800000000000000
+      internalID: 5077268854891377532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_36
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 833
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ff27fac84f6fd30800000000000000
+      internalID: 4465024965660573536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_37
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 832
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 938c4d713b7976dc0800000000000000
+      internalID: -3645778577878366151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_38
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 552
+        width: 204
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab014a657fead0df0800000000000000
+      internalID: -212321230082797382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_39
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 627
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b289bf375134651b0800000000000000
+      internalID: -5668269321579947989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_40
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 552
+        width: 209
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e21a9bb3fd5bc00800000000000000
+      internalID: 915883546850176630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_41
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 616
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee41ff42c6e6067b0800000000000000
+      internalID: -5233061356248296210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_42
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 552
+        width: 213
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 117e014e9e31602d0800000000000000
+      internalID: -3312938580609800431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_43
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 552
+        width: 216
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df9b73a4167886b20800000000000000
+      internalID: 3127898793135553021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_44
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 552
+        width: 221
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fae3289032077f90800000000000000
+      internalID: -6956088691716265230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_45
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 611
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf9c97bfe282c3060800000000000000
+      internalID: 6934461708496390652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_46
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 606
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a562058920b6dc3c0800000000000000
+      internalID: -4337693207198423462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_47
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 594
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9df757912242540800000000000000
+      internalID: 4982144580519451119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_48
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 600
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd29ebd473892fa70800000000000000
+      internalID: 8859310780286145244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 583
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e7ad75a2f48e0bc0800000000000000
+      internalID: -3814965656642803740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_50
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 574
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8defc4a9f437c42a0800000000000000
+      internalID: -6751894955606868264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_51
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 573
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba8a23837dfcb5960800000000000000
+      internalID: 7591890120130865323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_52
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 573
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098d352c48a757d90800000000000000
+      internalID: -7100634526865172336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_53
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 573
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 305d1a6d8d57d0ad0800000000000000
+      internalID: -2734399824569707261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_54
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 573
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db1257022902a36d0800000000000000
+      internalID: -3010057588961893955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_55
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 551
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72a5ce2cd38ff1bd0800000000000000
+      internalID: -2657132310978340313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_56
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 316
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f02c74d3bef231ca0800000000000000
+      internalID: -6047437187236511217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_57
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 296
+        width: 194
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8999265b1af09b950800000000000000
+      internalID: 6465215927274346904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_58
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 337
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db612ad40e884bc0800000000000000
+      internalID: -3798630134196376618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_59
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 315
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f18a65cc6448187d0800000000000000
+      internalID: -2917905643948562401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_60
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 296
+        width: 199
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0cb0e533ab015c0800000000000000
+      internalID: -4246689718826450744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_61
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 333
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608768cd075b5db40800000000000000
+      internalID: 5464473219224729606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_62
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 316
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46729592d446132e0800000000000000
+      internalID: -2147825264710047900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_63
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 296
+        width: 194
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b889fc2cdf97d50a0800000000000000
+      internalID: -6891217724004919157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_64
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 296
+        width: 229
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83f47ab1dae947e0800000000000000
+      internalID: -1780633991151029362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_65
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 296
+        width: 230
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b5887a86ad1c9f0800000000000000
+      internalID: -449838344738153658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_66
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 317
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f86ce378065d6580800000000000000
+      internalID: -8832308699899074316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_67
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 317
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e862f3cf83295430800000000000000
+      internalID: 3772085263274240232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_68
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 317
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f6603e03cc689a0800000000000000
+      internalID: -6231068524081156347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_69
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 317
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f0cbf9080443250800000000000000
+      internalID: 5923430331078938373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_70
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 317
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a100e2e41ae76180800000000000000
+      internalID: -9122065144789073499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_71
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 229
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e04e38e4b6afff0800000000000000
+      internalID: -1570864895881714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_72
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 40
+        width: 256
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b93ab6c13163df40800000000000000
+      internalID: 5752048015497640375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_73
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 40
+        width: 240
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ccc0d449570c1d90800000000000000
+      internalID: -7125812430418948922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_74
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 40
+        width: 230
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05388562bdf254160800000000000000
+      internalID: 7009061013359723344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_75
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 87
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c6ee39560e195a0800000000000000
+      internalID: -6516180458950202285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_76
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 40
+        width: 242
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b763b429a90c2a0800000000000000
+      internalID: -6719200690919015562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_77
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 61
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a28acd1bfccf810800000000000000
+      internalID: 1800542313859525180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_78
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 60
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb7dd9ac52295de0800000000000000
+      internalID: -1344005232411182093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_79
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 60
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a4c3924d4441570800000000000000
+      internalID: 8436443679987354239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_80
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 61
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a18fd9b0297bb2df0800000000000000
+      internalID: -203867520227215334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_81
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 39
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b4c2ff58b09f62a0800000000000000
+      internalID: -6742010995592215372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_82
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 39
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749cfce3f7df62df0800000000000000
+      internalID: -205198010042300089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_83
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 39
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8761af55d2d08d020800000000000000
+      internalID: 2366656092550338168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_84
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 39
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 532cd2acee3963330800000000000000
+      internalID: 3690299598480196149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-destruction_85
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 39
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e787ea1b2da7edf70800000000000000
+      internalID: 9213936932989335678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Opportunity-destruction_0: 8536217121735908080
+      Opportunity-destruction_1: -4131495135682003344
+      Opportunity-destruction_10: 6453221940477431245
+      Opportunity-destruction_11: 7374409080372914335
+      Opportunity-destruction_12: -4694384788901327471
+      Opportunity-destruction_13: -8866224550321851973
+      Opportunity-destruction_14: 4510765207036217416
+      Opportunity-destruction_15: 2851434503395938876
+      Opportunity-destruction_16: -5983630391209139594
+      Opportunity-destruction_17: 8555813746358242137
+      Opportunity-destruction_18: -2694304315985535341
+      Opportunity-destruction_19: 6781225759137206788
+      Opportunity-destruction_2: 2744401361207071809
+      Opportunity-destruction_20: 1932336211403517882
+      Opportunity-destruction_21: 7114986309556692178
+      Opportunity-destruction_22: 9077869346923692054
+      Opportunity-destruction_23: -3287343267632840250
+      Opportunity-destruction_24: -2286706434689696915
+      Opportunity-destruction_25: 7744445329915360790
+      Opportunity-destruction_26: -4867213695380834836
+      Opportunity-destruction_27: -5005857412308736838
+      Opportunity-destruction_28: -8874092331013380890
+      Opportunity-destruction_29: -5235970401044125039
+      Opportunity-destruction_3: -6337107476332226907
+      Opportunity-destruction_30: -504013006272417698
+      Opportunity-destruction_31: 5358115353696233821
+      Opportunity-destruction_32: -6191823431529747113
+      Opportunity-destruction_33: 8556412857069711610
+      Opportunity-destruction_34: -3483497429945002048
+      Opportunity-destruction_35: 5077268854891377532
+      Opportunity-destruction_36: 4465024965660573536
+      Opportunity-destruction_37: -3645778577878366151
+      Opportunity-destruction_38: -212321230082797382
+      Opportunity-destruction_39: -5668269321579947989
+      Opportunity-destruction_4: 563044890284348755
+      Opportunity-destruction_40: 915883546850176630
+      Opportunity-destruction_41: -5233061356248296210
+      Opportunity-destruction_42: -3312938580609800431
+      Opportunity-destruction_43: 3127898793135553021
+      Opportunity-destruction_44: -6956088691716265230
+      Opportunity-destruction_45: 6934461708496390652
+      Opportunity-destruction_46: -4337693207198423462
+      Opportunity-destruction_47: 4982144580519451119
+      Opportunity-destruction_48: 8859310780286145244
+      Opportunity-destruction_49: -3814965656642803740
+      Opportunity-destruction_5: 7529603996053444492
+      Opportunity-destruction_50: -6751894955606868264
+      Opportunity-destruction_51: 7591890120130865323
+      Opportunity-destruction_52: -7100634526865172336
+      Opportunity-destruction_53: -2734399824569707261
+      Opportunity-destruction_54: -3010057588961893955
+      Opportunity-destruction_55: -2657132310978340313
+      Opportunity-destruction_56: -6047437187236511217
+      Opportunity-destruction_57: 6465215927274346904
+      Opportunity-destruction_58: -3798630134196376618
+      Opportunity-destruction_59: -2917905643948562401
+      Opportunity-destruction_6: 7819803689698659097
+      Opportunity-destruction_60: -4246689718826450744
+      Opportunity-destruction_61: 5464473219224729606
+      Opportunity-destruction_62: -2147825264710047900
+      Opportunity-destruction_63: -6891217724004919157
+      Opportunity-destruction_64: -1780633991151029362
+      Opportunity-destruction_65: -449838344738153658
+      Opportunity-destruction_66: -8832308699899074316
+      Opportunity-destruction_67: 3772085263274240232
+      Opportunity-destruction_68: -6231068524081156347
+      Opportunity-destruction_69: 5923430331078938373
+      Opportunity-destruction_7: 2209683950234711333
+      Opportunity-destruction_70: -9122065144789073499
+      Opportunity-destruction_71: -1570864895881714
+      Opportunity-destruction_72: 5752048015497640375
+      Opportunity-destruction_73: -7125812430418948922
+      Opportunity-destruction_74: 7009061013359723344
+      Opportunity-destruction_75: -6516180458950202285
+      Opportunity-destruction_76: -6719200690919015562
+      Opportunity-destruction_77: 1800542313859525180
+      Opportunity-destruction_78: -1344005232411182093
+      Opportunity-destruction_79: 8436443679987354239
+      Opportunity-destruction_8: -6115484755276610670
+      Opportunity-destruction_80: -203867520227215334
+      Opportunity-destruction_81: -6742010995592215372
+      Opportunity-destruction_82: -205198010042300089
+      Opportunity-destruction_83: 2366656092550338168
+      Opportunity-destruction_84: 3690299598480196149
+      Opportunity-destruction_85: 9213936932989335678
+      Opportunity-destruction_9: 2205337192478211388
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

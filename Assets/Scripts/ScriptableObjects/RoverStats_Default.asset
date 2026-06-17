@@ -16,11 +16,11 @@ MonoBehaviour:
   groundAcceleration: 40
   groundDeceleration: 63
   airControlFactor: 0.65
-  jumpForce: 22
-  jumpCutMultiplier: 0.5
-  coyoteTime: 0.12
+  jumpForce: 13.5
+  jumpCutMultiplier: 0.3
+  coyoteTime: 0.08
   jumpBufferTime: 0.1
-  maxFallSpeed: -26
+  maxFallSpeed: -18
   dashSpeed: 28
   dashDuration: 0.2
   dashCooldown: 1.2
@@ -30,4 +30,4 @@ MonoBehaviour:
   wallJumpForceY: 18
   wallJumpInputLock: 0.15
   gravityScale: 20
-  fallGravityMultiplier: 1.8
+  fallGravityMultiplier: 2.8

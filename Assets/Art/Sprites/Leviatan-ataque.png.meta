@@ -1,0 +1,2886 @@
+fileFormatVersion: 2
+guid: 28614f6469421c7428ccce42bbc4f9e3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3395113368874274042
+    second: Leviatan-ataque_0
+  - first:
+      213: 3580329286813423649
+    second: Leviatan-ataque_1
+  - first:
+      213: -8756246478696775724
+    second: Leviatan-ataque_2
+  - first:
+      213: -7118549025849691807
+    second: Leviatan-ataque_3
+  - first:
+      213: 3977838807449641962
+    second: Leviatan-ataque_4
+  - first:
+      213: -483259034390915683
+    second: Leviatan-ataque_5
+  - first:
+      213: 5436268156589769005
+    second: Leviatan-ataque_6
+  - first:
+      213: 5033590886393189505
+    second: Leviatan-ataque_7
+  - first:
+      213: 6541246050974382908
+    second: Leviatan-ataque_8
+  - first:
+      213: -3196521953792456694
+    second: Leviatan-ataque_9
+  - first:
+      213: 543761676873842858
+    second: Leviatan-ataque_10
+  - first:
+      213: -4229697846326696132
+    second: Leviatan-ataque_11
+  - first:
+      213: -3107335621576706556
+    second: Leviatan-ataque_12
+  - first:
+      213: -7940847990361197101
+    second: Leviatan-ataque_13
+  - first:
+      213: 4196333134748592075
+    second: Leviatan-ataque_14
+  - first:
+      213: -652997294337508285
+    second: Leviatan-ataque_15
+  - first:
+      213: 1762609583857536537
+    second: Leviatan-ataque_16
+  - first:
+      213: 9172526551564549061
+    second: Leviatan-ataque_17
+  - first:
+      213: 6741354349224476163
+    second: Leviatan-ataque_18
+  - first:
+      213: -2473958366883897336
+    second: Leviatan-ataque_19
+  - first:
+      213: 269948608396563346
+    second: Leviatan-ataque_20
+  - first:
+      213: 8510894691476973633
+    second: Leviatan-ataque_21
+  - first:
+      213: 2124445271368270824
+    second: Leviatan-ataque_22
+  - first:
+      213: -4627328105895264640
+    second: Leviatan-ataque_23
+  - first:
+      213: 8991780502778121511
+    second: Leviatan-ataque_24
+  - first:
+      213: 3617780784606472945
+    second: Leviatan-ataque_25
+  - first:
+      213: 3756787396888087825
+    second: Leviatan-ataque_26
+  - first:
+      213: -4548391769212151476
+    second: Leviatan-ataque_27
+  - first:
+      213: 7032713568547897041
+    second: Leviatan-ataque_28
+  - first:
+      213: -5441266319337297638
+    second: Leviatan-ataque_29
+  - first:
+      213: -8440854332068327000
+    second: Leviatan-ataque_30
+  - first:
+      213: 8295613066711459224
+    second: Leviatan-ataque_31
+  - first:
+      213: -3787012211429105123
+    second: Leviatan-ataque_32
+  - first:
+      213: -5515451859832831903
+    second: Leviatan-ataque_33
+  - first:
+      213: 3735533221428857665
+    second: Leviatan-ataque_34
+  - first:
+      213: -6893752855531969852
+    second: Leviatan-ataque_35
+  - first:
+      213: -1217738228042995560
+    second: Leviatan-ataque_36
+  - first:
+      213: -1312893881079493137
+    second: Leviatan-ataque_37
+  - first:
+      213: -2710733936066223137
+    second: Leviatan-ataque_38
+  - first:
+      213: -1257437214062327833
+    second: Leviatan-ataque_39
+  - first:
+      213: -2724015402545436011
+    second: Leviatan-ataque_40
+  - first:
+      213: 2230479276960548342
+    second: Leviatan-ataque_41
+  - first:
+      213: -5979717727708540206
+    second: Leviatan-ataque_42
+  - first:
+      213: -7077384942598472477
+    second: Leviatan-ataque_43
+  - first:
+      213: 8375378225046590294
+    second: Leviatan-ataque_44
+  - first:
+      213: -2561499187110357301
+    second: Leviatan-ataque_45
+  - first:
+      213: -3076390453837632144
+    second: Leviatan-ataque_46
+  - first:
+      213: -4823083565577548282
+    second: Leviatan-ataque_47
+  - first:
+      213: -2525422434969652323
+    second: Leviatan-ataque_48
+  - first:
+      213: 219447897102559277
+    second: Leviatan-ataque_49
+  - first:
+      213: -1758524027970244577
+    second: Leviatan-ataque_50
+  - first:
+      213: -3976514655369447747
+    second: Leviatan-ataque_51
+  - first:
+      213: -1524499255226201498
+    second: Leviatan-ataque_52
+  - first:
+      213: -5322428948832350784
+    second: Leviatan-ataque_53
+  - first:
+      213: -347981176234791808
+    second: Leviatan-ataque_54
+  - first:
+      213: -2504766492191033308
+    second: Leviatan-ataque_55
+  - first:
+      213: 917403271714949780
+    second: Leviatan-ataque_56
+  - first:
+      213: -2186001199117794950
+    second: Leviatan-ataque_57
+  - first:
+      213: -1182569152789967480
+    second: Leviatan-ataque_58
+  - first:
+      213: -7134387281566992628
+    second: Leviatan-ataque_59
+  - first:
+      213: 2253825858792665653
+    second: Leviatan-ataque_60
+  - first:
+      213: -1695027582526955491
+    second: Leviatan-ataque_61
+  - first:
+      213: 5969632096583835328
+    second: Leviatan-ataque_62
+  - first:
+      213: 903661908526833512
+    second: Leviatan-ataque_63
+  - first:
+      213: 1645357644039048495
+    second: Leviatan-ataque_64
+  - first:
+      213: -5822722488709881733
+    second: Leviatan-ataque_65
+  - first:
+      213: -1676727621044941601
+    second: Leviatan-ataque_66
+  - first:
+      213: -6983811407618281457
+    second: Leviatan-ataque_67
+  - first:
+      213: -7036136337773983015
+    second: Leviatan-ataque_68
+  - first:
+      213: -2149862838533623439
+    second: Leviatan-ataque_69
+  - first:
+      213: -112251988954970417
+    second: Leviatan-ataque_70
+  - first:
+      213: -8020127208285156518
+    second: Leviatan-ataque_71
+  - first:
+      213: 5219507079733486478
+    second: Leviatan-ataque_72
+  - first:
+      213: 8355555031704685326
+    second: Leviatan-ataque_73
+  - first:
+      213: 7773961097306995989
+    second: Leviatan-ataque_74
+  - first:
+      213: 7805046686902742708
+    second: Leviatan-ataque_75
+  - first:
+      213: -6942671972007894395
+    second: Leviatan-ataque_76
+  - first:
+      213: 6313433633818127247
+    second: Leviatan-ataque_77
+  - first:
+      213: -812035975729679428
+    second: Leviatan-ataque_78
+  - first:
+      213: -4071740891805935862
+    second: Leviatan-ataque_79
+  - first:
+      213: 4138912254214408845
+    second: Leviatan-ataque_80
+  - first:
+      213: -3292622763465562730
+    second: Leviatan-ataque_81
+  - first:
+      213: -2225680071388308894
+    second: Leviatan-ataque_82
+  - first:
+      213: 7870044463506561809
+    second: Leviatan-ataque_83
+  - first:
+      213: -397127326820344168
+    second: Leviatan-ataque_84
+  - first:
+      213: 7887442932688591684
+    second: Leviatan-ataque_85
+  - first:
+      213: -5258300751235970519
+    second: Leviatan-ataque_86
+  - first:
+      213: -6957576152222616197
+    second: Leviatan-ataque_87
+  - first:
+      213: 7626207905713071992
+    second: Leviatan-ataque_88
+  - first:
+      213: 4904522766226995549
+    second: Leviatan-ataque_89
+  - first:
+      213: 5891638416943657292
+    second: Leviatan-ataque_90
+  - first:
+      213: 2570871124372427743
+    second: Leviatan-ataque_91
+  - first:
+      213: -6741233706283568317
+    second: Leviatan-ataque_92
+  - first:
+      213: 3756031787448179972
+    second: Leviatan-ataque_93
+  - first:
+      213: -509210418979702740
+    second: Leviatan-ataque_94
+  - first:
+      213: 1424192676246166477
+    second: Leviatan-ataque_95
+  - first:
+      213: -5315181676409265927
+    second: Leviatan-ataque_96
+  - first:
+      213: -6811606019949898874
+    second: Leviatan-ataque_97
+  - first:
+      213: 8874632946066180734
+    second: Leviatan-ataque_98
+  - first:
+      213: 5499641521805551156
+    second: Leviatan-ataque_99
+  - first:
+      213: -8497895180503106304
+    second: Leviatan-ataque_100
+  - first:
+      213: 690283313780440317
+    second: Leviatan-ataque_101
+  - first:
+      213: -1912316534825092899
+    second: Leviatan-ataque_102
+  - first:
+      213: 6426707646201486513
+    second: Leviatan-ataque_103
+  - first:
+      213: 6120684457273115586
+    second: Leviatan-ataque_104
+  - first:
+      213: -4442538563034440096
+    second: Leviatan-ataque_105
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Leviatan-ataque_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1088
+        width: 152
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afc4ee3fe9ddd1f20800000000000000
+      internalID: 3395113368874274042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_1
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1152
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12811775482efa130800000000000000
+      internalID: 3580329286813423649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1088
+        width: 152
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4df738f58309b7680800000000000000
+      internalID: -8756246478696775724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_3
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1151
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161b60e6065d53d90800000000000000
+      internalID: -7118549025849691807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_4
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1088
+        width: 151
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3acc3e15f143730800000000000000
+      internalID: 3977838807449641962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_5
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1148
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9591a8f77e1b49f0800000000000000
+      internalID: -483259034390915683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_6
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 1137
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d210d49f511817b40800000000000000
+      internalID: 5436268156589769005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_7
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1088
+        width: 152
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1841c18fd38ead540800000000000000
+      internalID: 5033590886393189505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_8
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 1144
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3b31c850ac27ca50800000000000000
+      internalID: 6541246050974382908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_9
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1142
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a08867b083ca3a3d0800000000000000
+      internalID: -3196521953792456694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_10
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 1088
+        width: 152
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa049883d54db8700800000000000000
+      internalID: 543761676873842858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_11
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 1141
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c37667af7381d45c0800000000000000
+      internalID: -4229697846326696132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_12
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1126
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 406b00e27b680e4d0800000000000000
+      internalID: -3107335621576706556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_13
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1120
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d5752f33d07cc190800000000000000
+      internalID: -7940847990361197101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_14
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1128
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc724efb0ce5c3a30800000000000000
+      internalID: 4196333134748592075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_15
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 1119
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34cb8b7ab6610f6f0800000000000000
+      internalID: -652997294337508285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_16
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1132
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e078be31c067810800000000000000
+      internalID: 1762609583857536537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_17
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 1117
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cbf7deec4c5b4f70800000000000000
+      internalID: 9172526551564549061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_18
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 1115
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e3f8a301a1e8d50800000000000000
+      internalID: 6741354349224476163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_19
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 1113
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 800a7c019fbbaadd0800000000000000
+      internalID: -2473958366883897336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_20
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1086
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293961f34dc0fb300800000000000000
+      internalID: 269948608396563346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_21
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1087
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1482e3611a5cc1670800000000000000
+      internalID: 8510894691476973633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_22
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1086
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e30aa0f7bb8b7d10800000000000000
+      internalID: 2124445271368270824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_23
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1086
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08e7ee4ba9d68cfb0800000000000000
+      internalID: -4627328105895264640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_24
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1086
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72d8f5e0ab839cc70800000000000000
+      internalID: 8991780502778121511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_25
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 1086
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fae3bda470f43230800000000000000
+      internalID: 3617780784606472945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_26
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 1086
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11dcd20bb3ac22430800000000000000
+      internalID: 3756787396888087825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_27
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 1085
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c499cc8c8cdd0e0c0800000000000000
+      internalID: -4548391769212151476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_28
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 1086
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1defd5ccab7399160800000000000000
+      internalID: 7032713568547897041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_29
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 892
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a196a939c1dbc74b0800000000000000
+      internalID: -5441266319337297638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_30
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 832
+        width: 155
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a11040e4bf0cda80800000000000000
+      internalID: -8440854332068327000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_31
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 898
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895ec63d120ff1370800000000000000
+      internalID: 8295613066711459224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_32
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 831
+        width: 166
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d12a3b94574d17bc0800000000000000
+      internalID: -3787012211429105123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_33
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 906
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16085ee61cd2573b0800000000000000
+      internalID: -5515451859832831903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_34
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 831
+        width: 170
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14b00f55ca747d330800000000000000
+      internalID: 3735533221428857665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_35
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 830
+        width: 177
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c2aea47d487450a0800000000000000
+      internalID: -6893752855531969852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_36
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 830
+        width: 179
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89865109889b91fe0800000000000000
+      internalID: -1217738228042995560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_37
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 881
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed097e98f9a7cde0800000000000000
+      internalID: -1312893881079493137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_38
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 878
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd32d24e8d9816ad0800000000000000
+      internalID: -2710733936066223137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_39
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 876
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e74578148fac8ee0800000000000000
+      internalID: -1257437214062327833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_40
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 874
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a26908c6a523ad0800000000000000
+      internalID: -2724015402545436011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_41
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 873
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f58a16b51144fe10800000000000000
+      internalID: 2230479276960548342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_42
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 856
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d293d69866c30da0800000000000000
+      internalID: -5979717727708540206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_43
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 830
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec38bd64e318cd90800000000000000
+      internalID: -7077384942598472477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_44
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 830
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 653917bfe125b3470800000000000000
+      internalID: 8375378225046590294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_45
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 830
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc6d5db8f0ab37cd0800000000000000
+      internalID: -2561499187110357301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_46
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 830
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07dea908e277e45d0800000000000000
+      internalID: -3076390453837632144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_47
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 574
+        width: 183
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ec9b70d07f01db0800000000000000
+      internalID: -4823083565577548282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_48
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 574
+        width: 189
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d93f4d7fca5e3fcd0800000000000000
+      internalID: -2525422434969652323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_49
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 574
+        width: 194
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d28218123b2ab0300800000000000000
+      internalID: 219447897102559277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_50
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 575
+        width: 191
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1038dfa6b77897e0800000000000000
+      internalID: -1758524027970244577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_51
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 683
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db6b19a4df490d8c0800000000000000
+      internalID: -3976514655369447747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_52
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 575
+        width: 190
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a05e72104e7dae0800000000000000
+      internalID: -1524499255226201498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_53
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 676
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd879a021fe226b0800000000000000
+      internalID: -5322428948832350784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_54
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 573
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ca002c6f8bb2bf0800000000000000
+      internalID: -347981176234791808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_55
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 573
+        width: 40
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 428f6ab65284d3dd0800000000000000
+      internalID: -2504766492191033308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_56
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 573
+        width: 42
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ac95e3a654bbc00800000000000000
+      internalID: 917403271714949780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_57
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 574
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a718108cd73c9a1e0800000000000000
+      internalID: -2186001199117794950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_58
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 410
+        width: 57
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88d8e9dfe9ba69fe0800000000000000
+      internalID: -1182569152789967480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_59
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 448
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c07722821909dfc90800000000000000
+      internalID: -7134387281566992628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_60
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 437
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5323de26da2374f10800000000000000
+      internalID: 2253825858792665653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_61
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 442
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d10edf2f46d0a78e0800000000000000
+      internalID: -1695027582526955491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_62
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 320
+        width: 192
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce56ac63c468d250800000000000000
+      internalID: 5969632096583835328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_63
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 421
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f1bcec7b37a8c00800000000000000
+      internalID: 903661908526833512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_64
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 320
+        width: 197
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2dcb6d4f0c75d610800000000000000
+      internalID: 1645357644039048495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_65
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 416
+        width: 47
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b70e4c22fb8813fa0800000000000000
+      internalID: -5822722488709881733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_66
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 321
+        width: 203
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdcc782cc111bb8e0800000000000000
+      internalID: -1676727621044941601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_67
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 320
+        width: 213
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f00779ec684841f90800000000000000
+      internalID: -6983811407618281457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_68
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 320
+        width: 212
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da83c3a74f9a5e90800000000000000
+      internalID: -7036136337773983015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_69
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 319
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 171f36983272a22e0800000000000000
+      internalID: -2149862838533623439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_70
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 319
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc602092963317ef0800000000000000
+      internalID: -112251988954970417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_71
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 319
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5bc7b8ebc8c2b090800000000000000
+      internalID: -8020127208285156518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_72
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 319
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83a62ee80a6f6840800000000000000
+      internalID: 5219507079733486478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_73
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 319
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b4cfd1805e4f370800000000000000
+      internalID: 8355555031704685326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_74
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 65
+        width: 204
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51d70b60e68a2eb60800000000000000
+      internalID: 7773961097306995989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_75
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 183
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be6d2cdb98115c60800000000000000
+      internalID: 7805046686902742708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_76
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 65
+        width: 195
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 582a86410aca6af90800000000000000
+      internalID: -6942671972007894395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_77
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 191
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8babb0a072dd9750800000000000000
+      internalID: 6313433633818127247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_78
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 165
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb37bc915911bb4f0800000000000000
+      internalID: -812035975729679428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_79
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 65
+        width: 199
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a07997e5b354e77c0800000000000000
+      internalID: -4071740891805935862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_80
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 165
+        width: 11
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a06fc24ce507930800000000000000
+      internalID: 4138912254214408845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_81
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 66
+        width: 191
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 695254caa014e42d0800000000000000
+      internalID: -3292622763465562730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_82
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 66
+        width: 188
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26adb3964cbcc11e0800000000000000
+      internalID: -2225680071388308894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_83
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 179
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b96d50eb3083d60800000000000000
+      internalID: 7870044463506561809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_84
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 171
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ed542ecce1d7af0800000000000000
+      internalID: -397127326820344168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_85
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 164
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b911dce83d57d60800000000000000
+      internalID: 7887442932688591684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_86
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 154
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92a09609353c607b0800000000000000
+      internalID: -5258300751235970519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_87
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 163
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75ba053a59b17f90800000000000000
+      internalID: -6957576152222616197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_88
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 152
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 877ad435fabb5d960800000000000000
+      internalID: 7626207905713071992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_89
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 142
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d59b6c9787d501440800000000000000
+      internalID: 4904522766226995549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_90
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 134
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41b8facced43c150800000000000000
+      internalID: 5891638416943657292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_91
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 142
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd31783aaa19da320800000000000000
+      internalID: 2570871124372427743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_92
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 141
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 343f31529a35272a0800000000000000
+      internalID: -6741233706283568317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_93
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 123
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d9ce7a20b102430800000000000000
+      internalID: 3756031787448179972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_94
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 119
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2879c462dbeee8f0800000000000000
+      internalID: -509210418979702740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_95
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 70
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb9d5f71bfb3c310800000000000000
+      internalID: 1424192676246166477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_96
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 70
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0e5f42d6eac36b0800000000000000
+      internalID: -5315181676409265927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_97
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 74
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68359fe0a605871a0800000000000000
+      internalID: -6811606019949898874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_98
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 75
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ac04605a7092b70800000000000000
+      internalID: 8874632946066180734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_99
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 65
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 436653363d6a25c40800000000000000
+      internalID: 5499641521805551156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_100
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 74
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00dbb9b6b59611a80800000000000000
+      internalID: -8497895180503106304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_101
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 71
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc33404401649900800000000000000
+      internalID: 690283313780440317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_102
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 63
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd8f4a35e361675e0800000000000000
+      internalID: -1912316534825092899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_103
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 66
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc5027dd80403950800000000000000
+      internalID: 6426707646201486513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_104
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 65
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c3c40ac51a01f450800000000000000
+      internalID: 6120684457273115586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-ataque_105
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 65
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e9b59e6bee852c0800000000000000
+      internalID: -4442538563034440096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Leviatan-ataque_0: 3395113368874274042
+      Leviatan-ataque_1: 3580329286813423649
+      Leviatan-ataque_10: 543761676873842858
+      Leviatan-ataque_100: -8497895180503106304
+      Leviatan-ataque_101: 690283313780440317
+      Leviatan-ataque_102: -1912316534825092899
+      Leviatan-ataque_103: 6426707646201486513
+      Leviatan-ataque_104: 6120684457273115586
+      Leviatan-ataque_105: -4442538563034440096
+      Leviatan-ataque_11: -4229697846326696132
+      Leviatan-ataque_12: -3107335621576706556
+      Leviatan-ataque_13: -7940847990361197101
+      Leviatan-ataque_14: 4196333134748592075
+      Leviatan-ataque_15: -652997294337508285
+      Leviatan-ataque_16: 1762609583857536537
+      Leviatan-ataque_17: 9172526551564549061
+      Leviatan-ataque_18: 6741354349224476163
+      Leviatan-ataque_19: -2473958366883897336
+      Leviatan-ataque_2: -8756246478696775724
+      Leviatan-ataque_20: 269948608396563346
+      Leviatan-ataque_21: 8510894691476973633
+      Leviatan-ataque_22: 2124445271368270824
+      Leviatan-ataque_23: -4627328105895264640
+      Leviatan-ataque_24: 8991780502778121511
+      Leviatan-ataque_25: 3617780784606472945
+      Leviatan-ataque_26: 3756787396888087825
+      Leviatan-ataque_27: -4548391769212151476
+      Leviatan-ataque_28: 7032713568547897041
+      Leviatan-ataque_29: -5441266319337297638
+      Leviatan-ataque_3: -7118549025849691807
+      Leviatan-ataque_30: -8440854332068327000
+      Leviatan-ataque_31: 8295613066711459224
+      Leviatan-ataque_32: -3787012211429105123
+      Leviatan-ataque_33: -5515451859832831903
+      Leviatan-ataque_34: 3735533221428857665
+      Leviatan-ataque_35: -6893752855531969852
+      Leviatan-ataque_36: -1217738228042995560
+      Leviatan-ataque_37: -1312893881079493137
+      Leviatan-ataque_38: -2710733936066223137
+      Leviatan-ataque_39: -1257437214062327833
+      Leviatan-ataque_4: 3977838807449641962
+      Leviatan-ataque_40: -2724015402545436011
+      Leviatan-ataque_41: 2230479276960548342
+      Leviatan-ataque_42: -5979717727708540206
+      Leviatan-ataque_43: -7077384942598472477
+      Leviatan-ataque_44: 8375378225046590294
+      Leviatan-ataque_45: -2561499187110357301
+      Leviatan-ataque_46: -3076390453837632144
+      Leviatan-ataque_47: -4823083565577548282
+      Leviatan-ataque_48: -2525422434969652323
+      Leviatan-ataque_49: 219447897102559277
+      Leviatan-ataque_5: -483259034390915683
+      Leviatan-ataque_50: -1758524027970244577
+      Leviatan-ataque_51: -3976514655369447747
+      Leviatan-ataque_52: -1524499255226201498
+      Leviatan-ataque_53: -5322428948832350784
+      Leviatan-ataque_54: -347981176234791808
+      Leviatan-ataque_55: -2504766492191033308
+      Leviatan-ataque_56: 917403271714949780
+      Leviatan-ataque_57: -2186001199117794950
+      Leviatan-ataque_58: -1182569152789967480
+      Leviatan-ataque_59: -7134387281566992628
+      Leviatan-ataque_6: 5436268156589769005
+      Leviatan-ataque_60: 2253825858792665653
+      Leviatan-ataque_61: -1695027582526955491
+      Leviatan-ataque_62: 5969632096583835328
+      Leviatan-ataque_63: 903661908526833512
+      Leviatan-ataque_64: 1645357644039048495
+      Leviatan-ataque_65: -5822722488709881733
+      Leviatan-ataque_66: -1676727621044941601
+      Leviatan-ataque_67: -6983811407618281457
+      Leviatan-ataque_68: -7036136337773983015
+      Leviatan-ataque_69: -2149862838533623439
+      Leviatan-ataque_7: 5033590886393189505
+      Leviatan-ataque_70: -112251988954970417
+      Leviatan-ataque_71: -8020127208285156518
+      Leviatan-ataque_72: 5219507079733486478
+      Leviatan-ataque_73: 8355555031704685326
+      Leviatan-ataque_74: 7773961097306995989
+      Leviatan-ataque_75: 7805046686902742708
+      Leviatan-ataque_76: -6942671972007894395
+      Leviatan-ataque_77: 6313433633818127247
+      Leviatan-ataque_78: -812035975729679428
+      Leviatan-ataque_79: -4071740891805935862
+      Leviatan-ataque_8: 6541246050974382908
+      Leviatan-ataque_80: 4138912254214408845
+      Leviatan-ataque_81: -3292622763465562730
+      Leviatan-ataque_82: -2225680071388308894
+      Leviatan-ataque_83: 7870044463506561809
+      Leviatan-ataque_84: -397127326820344168
+      Leviatan-ataque_85: 7887442932688591684
+      Leviatan-ataque_86: -5258300751235970519
+      Leviatan-ataque_87: -6957576152222616197
+      Leviatan-ataque_88: 7626207905713071992
+      Leviatan-ataque_89: 4904522766226995549
+      Leviatan-ataque_9: -3196521953792456694
+      Leviatan-ataque_90: 5891638416943657292
+      Leviatan-ataque_91: 2570871124372427743
+      Leviatan-ataque_92: -6741233706283568317
+      Leviatan-ataque_93: 3756031787448179972
+      Leviatan-ataque_94: -509210418979702740
+      Leviatan-ataque_95: 1424192676246166477
+      Leviatan-ataque_96: -5315181676409265927
+      Leviatan-ataque_97: -6811606019949898874
+      Leviatan-ataque_98: 8874632946066180734
+      Leviatan-ataque_99: 5499641521805551156
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
