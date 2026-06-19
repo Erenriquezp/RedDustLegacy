@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: 2606939762eb0494384d4e0e8f221ca6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2815037544144658968
+    second: Biol-walk-v1_0
+  - first:
+      213: -6042429653997849092
+    second: Biol-walk-v1_1
+  - first:
+      213: -8086126371538247996
+    second: Biol-walk-v1_2
+  - first:
+      213: -8369369297439439829
+    second: Biol-walk-v1_3
+  - first:
+      213: -6009573381038254515
+    second: Biol-walk-v1_4
+  - first:
+      213: -479590833072392892
+    second: Biol-walk-v1_5
+  - first:
+      213: -983157232611917715
+    second: Biol-walk-v1_6
+  - first:
+      213: -1958317427641001288
+    second: Biol-walk-v1_7
+  - first:
+      213: -1711422382891972639
+    second: Biol-walk-v1_8
+  - first:
+      213: -4990763704878564791
+    second: Biol-walk-v1_9
+  - first:
+      213: -1045293299098813938
+    second: Biol-walk-v1_10
+  - first:
+      213: 5559941629349827811
+    second: Biol-walk-v1_11
+  - first:
+      213: 584166369672291000
+    second: Biol-walk-v1_12
+  - first:
+      213: 5375236035628763191
+    second: Biol-walk-v1_13
+  - first:
+      213: -1572479145383581938
+    second: Biol-walk-v1_14
+  - first:
+      213: 2226319576905506301
+    second: Biol-walk-v1_15
+  - first:
+      213: 7650440237864642413
+    second: Biol-walk-v1_16
+  - first:
+      213: 6525711576795543892
+    second: Biol-walk-v1_17
+  - first:
+      213: -6810936897899057975
+    second: Biol-walk-v1_18
+  - first:
+      213: -8663160617179975075
+    second: Biol-walk-v1_19
+  - first:
+      213: 4642757609011753369
+    second: Biol-walk-v1_20
+  - first:
+      213: 2982605408747935542
+    second: Biol-walk-v1_21
+  - first:
+      213: 6524083836768705655
+    second: Biol-walk-v1_22
+  - first:
+      213: -8333317580500915276
+    second: Biol-walk-v1_23
+  - first:
+      213: -7025170348633632712
+    second: Biol-walk-v1_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Biol-walk-v1_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1058
+        width: 158
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81261205bb5011720800000000000000
+      internalID: 2815037544144658968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-walk-v1_1
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1057
+        width: 159
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf5fb2d6e3af42ca0800000000000000
+      internalID: -6042429653997849092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-walk-v1_2
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1057
+        width: 157
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce5b8f38ee48cf80800000000000000
+      internalID: -8086126371538247996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-walk-v1_3
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1057
+        width: 158
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24cf0087f60adb80800000000000000
+      internalID: -8369369297439439829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-walk-v1_4
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 1057
+        width: 154
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d46529b99d4b99ca0800000000000000
+      internalID: -6009573381038254515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-walk-v1_5
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 802
+        width: 151
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 445bf25ada62859f0800000000000000
+      internalID: -479590833072392892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-walk-v1_6
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 804
+        width: 145
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d608fc7b4bf1b52f0800000000000000
+      internalID: -983157232611917715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-walk-v1_7
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 806
+        width: 139
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba5008dca8a2d4e0800000000000000
+      internalID: -1958317427641001288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-walk-v1_8
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 811
+        width: 131
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e74217096ecf38e0800000000000000
+      internalID: -1711422382891972639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-walk-v1_9
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 815
+        width: 128
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94afcc44ade3dbab0800000000000000
+      internalID: -4990763704878564791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-walk-v1_10
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 565
+        width: 121
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a7e1d584f5e71f0800000000000000
+      internalID: -1045293299098813938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-walk-v1_11
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 571
+        width: 114
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e49d4d3471e82d40800000000000000
+      internalID: 5559941629349827811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-walk-v1_12
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 577
+        width: 110
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b2eb0ad7306b1800800000000000000
+      internalID: 584166369672291000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-walk-v1_13
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 581
+        width: 110
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7380887f1bca89a40800000000000000
+      internalID: 5375236035628763191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-walk-v1_14
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 577
+        width: 109
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e07a3b27c8e6d2ae0800000000000000
+      internalID: -1572479145383581938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-walk-v1_15
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 316
+        width: 110
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd53f11cd975ee10800000000000000
+      internalID: 2226319576905506301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-walk-v1_16
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 312
+        width: 111
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d67e641dcd2db2a60800000000000000
+      internalID: 7650440237864642413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-walk-v1_17
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 308
+        width: 112
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4597d89ba1cff8a50800000000000000
+      internalID: 6525711576795543892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-walk-v1_18
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 305
+        width: 112
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cc202d2af0ba71a0800000000000000
+      internalID: -6810936897899057975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-walk-v1_19
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 302
+        width: 112
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5275dc615546c780800000000000000
+      internalID: -8663160617179975075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-walk-v1_20
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 44
+        width: 112
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991336f62736e6040800000000000000
+      internalID: 4642757609011753369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-walk-v1_21
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 42
+        width: 110
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637549511d7546920800000000000000
+      internalID: 2982605408747935542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-walk-v1_22
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 40
+        width: 109
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77c5777fea33a8a50800000000000000
+      internalID: 6524083836768705655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-walk-v1_23
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 39
+        width: 104
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bba9b5ffcb1a5c80800000000000000
+      internalID: -8333317580500915276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-walk-v1_24
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 41
+        width: 105
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 830d513f9c4918e90800000000000000
+      internalID: -7025170348633632712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Biol-walk-v1_0: 2815037544144658968
+      Biol-walk-v1_1: -6042429653997849092
+      Biol-walk-v1_10: -1045293299098813938
+      Biol-walk-v1_11: 5559941629349827811
+      Biol-walk-v1_12: 584166369672291000
+      Biol-walk-v1_13: 5375236035628763191
+      Biol-walk-v1_14: -1572479145383581938
+      Biol-walk-v1_15: 2226319576905506301
+      Biol-walk-v1_16: 7650440237864642413
+      Biol-walk-v1_17: 6525711576795543892
+      Biol-walk-v1_18: -6810936897899057975
+      Biol-walk-v1_19: -8663160617179975075
+      Biol-walk-v1_2: -8086126371538247996
+      Biol-walk-v1_20: 4642757609011753369
+      Biol-walk-v1_21: 2982605408747935542
+      Biol-walk-v1_22: 6524083836768705655
+      Biol-walk-v1_23: -8333317580500915276
+      Biol-walk-v1_24: -7025170348633632712
+      Biol-walk-v1_3: -8369369297439439829
+      Biol-walk-v1_4: -6009573381038254515
+      Biol-walk-v1_5: -479590833072392892
+      Biol-walk-v1_6: -983157232611917715
+      Biol-walk-v1_7: -1958317427641001288
+      Biol-walk-v1_8: -1711422382891972639
+      Biol-walk-v1_9: -4990763704878564791
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: c776a4c3491142b449b9e86e32f69949
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1483371305615578314
+    second: Biol-idle-v1_0
+  - first:
+      213: 6796629136627054409
+    second: Biol-idle-v1_1
+  - first:
+      213: 1604385340375590126
+    second: Biol-idle-v1_2
+  - first:
+      213: 7844411142978052252
+    second: Biol-idle-v1_3
+  - first:
+      213: -5448706580405602046
+    second: Biol-idle-v1_4
+  - first:
+      213: 6922426983307399713
+    second: Biol-idle-v1_5
+  - first:
+      213: -8487714515966557136
+    second: Biol-idle-v1_6
+  - first:
+      213: -3571277470841083753
+    second: Biol-idle-v1_7
+  - first:
+      213: 6743179542852198771
+    second: Biol-idle-v1_8
+  - first:
+      213: -8440034236783480819
+    second: Biol-idle-v1_9
+  - first:
+      213: -6054813345183914520
+    second: Biol-idle-v1_10
+  - first:
+      213: -6417083648772194103
+    second: Biol-idle-v1_11
+  - first:
+      213: -5755056198632928977
+    second: Biol-idle-v1_12
+  - first:
+      213: -4256445805395104952
+    second: Biol-idle-v1_13
+  - first:
+      213: -4826045777090839646
+    second: Biol-idle-v1_14
+  - first:
+      213: -3533618511969888516
+    second: Biol-idle-v1_15
+  - first:
+      213: -5907986073884256144
+    second: Biol-idle-v1_16
+  - first:
+      213: 1823471012993340053
+    second: Biol-idle-v1_17
+  - first:
+      213: 8774576778678964410
+    second: Biol-idle-v1_18
+  - first:
+      213: 3074115820290476055
+    second: Biol-idle-v1_19
+  - first:
+      213: 1487750051091438493
+    second: Biol-idle-v1_20
+  - first:
+      213: 1318351284896168218
+    second: Biol-idle-v1_21
+  - first:
+      213: -9103705950489861050
+    second: Biol-idle-v1_22
+  - first:
+      213: 8397219885392808088
+    second: Biol-idle-v1_23
+  - first:
+      213: 2223306543234957228
+    second: Biol-idle-v1_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Biol-idle-v1_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1055
+        width: 160
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac4593dd75ef59410800000000000000
+      internalID: 1483371305615578314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-idle-v1_1
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1055
+        width: 160
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 947b9be803a725e50800000000000000
+      internalID: 6796629136627054409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-idle-v1_2
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 1055
+        width: 161
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee46ee777fbe34610800000000000000
+      internalID: 1604385340375590126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-idle-v1_3
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1055
+        width: 161
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c90a2518f52fcdc60800000000000000
+      internalID: 7844411142978052252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-idle-v1_4
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 1055
+        width: 162
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 209379dcb3e4264b0800000000000000
+      internalID: -5448706580405602046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-idle-v1_5
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 799
+        width: 163
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122dd9b2aa6611060800000000000000
+      internalID: 6922426983307399713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-idle-v1_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 800
+        width: 164
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03403e81e94953a80800000000000000
+      internalID: -8487714515966557136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-idle-v1_7
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 800
+        width: 164
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 798692ccf06407ec0800000000000000
+      internalID: -3571277470841083753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-idle-v1_8
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 800
+        width: 165
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 371e26c3116949d50800000000000000
+      internalID: 6743179542852198771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-idle-v1_9
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 800
+        width: 165
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d00b2603499feda80800000000000000
+      internalID: -8440034236783480819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-idle-v1_10
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 544
+        width: 165
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e5a403a75bf8fba0800000000000000
+      internalID: -6054813345183914520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-idle-v1_11
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 544
+        width: 164
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c047fcab60f1f6a0800000000000000
+      internalID: -6417083648772194103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-idle-v1_12
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 544
+        width: 164
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f29031201eee120b0800000000000000
+      internalID: -5755056198632928977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-idle-v1_13
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 545
+        width: 163
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84b29b377111ee4c0800000000000000
+      internalID: -4256445805395104952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-idle-v1_14
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 545
+        width: 161
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2abf9ba6fe0760db0800000000000000
+      internalID: -4826045777090839646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-idle-v1_15
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 290
+        width: 159
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf65a4e6fa016fec0800000000000000
+      internalID: -3533618511969888516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-idle-v1_16
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 290
+        width: 160
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0789c28b7fd920ea0800000000000000
+      internalID: -5907986073884256144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-idle-v1_17
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 290
+        width: 157
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59290b3a9354e4910800000000000000
+      internalID: 1823471012993340053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-idle-v1_18
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 292
+        width: 156
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab01d8b271f85c970800000000000000
+      internalID: 8774576778678964410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-idle-v1_19
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 292
+        width: 152
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71882da1d0479aa20800000000000000
+      internalID: 3074115820290476055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-idle-v1_20
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 37
+        width: 151
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9bdfddf9cc85a410800000000000000
+      internalID: 1487750051091438493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-idle-v1_21
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 38
+        width: 149
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a197a693289bb4210800000000000000
+      internalID: 1318351284896168218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-idle-v1_22
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 40
+        width: 147
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6442179eba329a180800000000000000
+      internalID: -9103705950489861050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-idle-v1_23
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 42
+        width: 145
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8984fa1defae88470800000000000000
+      internalID: 8397219885392808088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Biol-idle-v1_24
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 43
+        width: 140
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf32508585cade10800000000000000
+      internalID: 2223306543234957228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Biol-idle-v1_0: 1483371305615578314
+      Biol-idle-v1_1: 6796629136627054409
+      Biol-idle-v1_10: -6054813345183914520
+      Biol-idle-v1_11: -6417083648772194103
+      Biol-idle-v1_12: -5755056198632928977
+      Biol-idle-v1_13: -4256445805395104952
+      Biol-idle-v1_14: -4826045777090839646
+      Biol-idle-v1_15: -3533618511969888516
+      Biol-idle-v1_16: -5907986073884256144
+      Biol-idle-v1_17: 1823471012993340053
+      Biol-idle-v1_18: 8774576778678964410
+      Biol-idle-v1_19: 3074115820290476055
+      Biol-idle-v1_2: 1604385340375590126
+      Biol-idle-v1_20: 1487750051091438493
+      Biol-idle-v1_21: 1318351284896168218
+      Biol-idle-v1_22: -9103705950489861050
+      Biol-idle-v1_23: 8397219885392808088
+      Biol-idle-v1_24: 2223306543234957228
+      Biol-idle-v1_3: 7844411142978052252
+      Biol-idle-v1_4: -5448706580405602046
+      Biol-idle-v1_5: 6922426983307399713
+      Biol-idle-v1_6: -8487714515966557136
+      Biol-idle-v1_7: -3571277470841083753
+      Biol-idle-v1_8: 6743179542852198771
+      Biol-idle-v1_9: -8440034236783480819
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
