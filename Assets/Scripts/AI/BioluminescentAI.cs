@@ -6,6 +6,8 @@ public class BioluminescentAI : MonoBehaviour
     public Transform rover;
 
     private Animator animator;
+    private bool isStunned;
+    private float stunTimer;
 
     private enum State
     {
@@ -19,6 +21,7 @@ public class BioluminescentAI : MonoBehaviour
     private float alertTimer;
     private float loseTimer;
 
+
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -27,6 +30,18 @@ public class BioluminescentAI : MonoBehaviour
 
     private void Update()
     {
+        if (isStunned)
+        {
+            stunTimer -= Time.deltaTime;
+
+            if (stunTimer <= 0)
+            {
+                isStunned = false;
+            }
+
+            return;
+        }
+
         switch (currentState)
         {
             case State.Idle:
@@ -41,6 +56,7 @@ public class BioluminescentAI : MonoBehaviour
                 UpdateChase();
                 break;
         }
+
     }
 
     private void UpdateIdle()
@@ -53,6 +69,12 @@ public class BioluminescentAI : MonoBehaviour
 
         if (distance <= stats.alertRange)
         {
+            alertTimer = 0f;
+            currentState = State.Alert;
+        }
+        if (distance <= stats.alertRange)
+        {
+            Debug.Log("Entrando a Alert");
             alertTimer = 0f;
             currentState = State.Alert;
         }
@@ -74,6 +96,11 @@ public class BioluminescentAI : MonoBehaviour
 
         if (alertTimer >= stats.alertTime)
         {
+            currentState = State.Chase;
+        }
+        if (alertTimer >= stats.alertTime)
+        {
+            Debug.Log("Entrando a Chase");
             currentState = State.Chase;
         }
     }
@@ -108,5 +135,21 @@ public class BioluminescentAI : MonoBehaviour
         {
             loseTimer = 0f;
         }
+        Debug.Log("Persiguiendo");
+    }
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            Debug.Log(
+                $"Bioluminescente causa {stats.contactDamage} daño/seg");
+        }
+    }
+    public void ApplyStun()
+    {
+        isStunned = true;
+        stunTimer = stats.stunDuration;
+
+        Debug.Log("Bioluminescente aturdido");
     }
 }
