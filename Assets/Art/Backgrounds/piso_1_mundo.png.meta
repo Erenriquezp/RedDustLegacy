@@ -8058,7 +8058,11 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
+<<<<<<< HEAD
+    spriteID: 
+=======
     spriteID: d168a5f6bbac8d8459f992a7eca32e04
+>>>>>>> 9a31e8872aff9109ef298f966a2a12ce35c4b07b
     internalID: 0
     vertices: []
     indices: 
@@ -8066,6 +8070,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
+<<<<<<< HEAD
+      entries: []
+    nameFileIdTable:
+      piso_1_mundo_0: 925451561576016039
+=======
       entries:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
@@ -8431,6 +8440,7 @@ TextureImporter:
       piso_1_mundo_97: -1091223950
       piso_1_mundo_98: -261507892
       piso_1_mundo_99: 566279585
+>>>>>>> 9a31e8872aff9109ef298f966a2a12ce35c4b07b
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

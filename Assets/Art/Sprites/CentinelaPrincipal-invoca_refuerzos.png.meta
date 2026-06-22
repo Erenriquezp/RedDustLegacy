@@ -222,6 +222,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -235,6 +237,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 9a31e8872aff9109ef298f966a2a12ce35c4b07b
   spriteSheet:
     serializedVersion: 2
     sprites:
