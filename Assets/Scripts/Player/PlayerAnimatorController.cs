@@ -9,6 +9,12 @@ public class PlayerAnimatorController : MonoBehaviour
     private static readonly int _isGroundedHash = Animator.StringToHash("IsGrounded");
     private static readonly int _isJumpingHash = Animator.StringToHash("IsJumping");
     private static readonly int _isScanningHash = Animator.StringToHash("IsScanning");
+    private static readonly int _velocityYHash = Animator.StringToHash("VelocityY");
+    private static readonly int _isDashingHash = Animator.StringToHash("IsDashing");
+    private static readonly int _isOnWallHash = Animator.StringToHash("IsOnWall");
+    // Preparados para Sprint 03 (requieren eventos OnDamageReceived / OnDeath en PlayerController):
+    // private static readonly int _isDamagedHash = Animator.StringToHash("IsDamaged");
+    // private static readonly int _isDeadHash = Animator.StringToHash("IsDead");
     private RoverStatsSO _stats;
 
     private Animator _animator;
@@ -28,11 +34,19 @@ public class PlayerAnimatorController : MonoBehaviour
     private void OnEnable()
     {
         _controller.OnGroundedChanged += HandleGroundedChanged;
+        _controller.OnWallSliding += HandleWallSliding;
+        // Sprint 03:
+        // _controller.OnDamageReceived += HandleDamageReceived;
+        // _controller.OnDeath += HandleDeath;
     }
 
     private void OnDisable()
     {
         _controller.OnGroundedChanged -= HandleGroundedChanged;
+        _controller.OnWallSliding -= HandleWallSliding;
+        // Sprint 03:
+        // _controller.OnDamageReceived -= HandleDamageReceived;
+        // _controller.OnDeath -= HandleDeath;
     }
     private void Update()
     {
@@ -51,11 +65,26 @@ public class PlayerAnimatorController : MonoBehaviour
         // Jump
         _animator.SetBool(_isJumpingHash, !_controller.IsGrounded);
         _animator.SetBool(_isScanningHash, _controller.IsScanning);
+
+        // Velocidad vertical (para futuras transiciones Rise/Fall/Land)
+        _animator.SetFloat(_velocityYHash, _rb.linearVelocity.y);
+
+        // Dash
+        _animator.SetBool(_isDashingHash, _controller.IsDashing);
     }
 
-    // ── Callback desde PlayerController ──────────────────────────────
+    // ── Callbacks desde PlayerController ─────────────────────────────
     private void HandleGroundedChanged(bool isGrounded)
     {
         _animator.SetBool(_isGroundedHash, isGrounded);
     }
+
+    private void HandleWallSliding(bool isOnWall)
+    {
+        _animator.SetBool(_isOnWallHash, isOnWall);
+    }
+
+    // ── Sprint 03 (cuando PlayerController exponga OnDamageReceived / OnDeath) ──
+    // private void HandleDamageReceived(float amount) => _animator.SetTrigger(_isDamagedHash);
+    // private void HandleDeath() => _animator.SetBool(_isDeadHash, true);
 }

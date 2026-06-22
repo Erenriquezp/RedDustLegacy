@@ -9,6 +9,10 @@ public class BioluminescentAI : MonoBehaviour
     private bool isStunned;
     private float stunTimer;
 
+    private bool isAttacking;
+    private float attackCooldown = 1.0f;
+    private float attackTimer;
+
     private enum State
     {
         Idle,
@@ -40,6 +44,10 @@ public class BioluminescentAI : MonoBehaviour
             }
 
             return;
+        }
+        if (attackTimer > 0)
+        {
+            attackTimer -= Time.deltaTime;
         }
 
         switch (currentState)
@@ -111,6 +119,18 @@ public class BioluminescentAI : MonoBehaviour
             Vector2.Distance(transform.position,
                              rover.position);
 
+        // Si está cerca, atacar
+         if (distance <= 1.5f && attackTimer <= 0)
+    {
+        animator.SetTrigger("Attack");
+
+        Debug.Log("Bioluminescente ataca");
+
+        attackTimer = attackCooldown;
+
+        return;
+    }
+
         Vector2 nextPosition =
             Vector2.MoveTowards(
                 transform.position,
@@ -135,7 +155,6 @@ public class BioluminescentAI : MonoBehaviour
         {
             loseTimer = 0f;
         }
-        Debug.Log("Persiguiendo");
     }
     private void OnTriggerStay2D(Collider2D other)
     {

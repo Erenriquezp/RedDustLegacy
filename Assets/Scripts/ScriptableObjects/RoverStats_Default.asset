@@ -22,7 +22,7 @@ MonoBehaviour:
   jumpBufferTime: 0.1
   maxFallSpeed: -18
   dashSpeed: 28
-  dashDuration: 0.2
+  dashDuration: 0.5
   dashCooldown: 1.2
   dashSleepTime: 0.028
   wallSlideSpeed: -2
