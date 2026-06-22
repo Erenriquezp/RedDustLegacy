@@ -1,0 +1,1235 @@
+fileFormatVersion: 2
+guid: 6840baedb68374145a56bcebab06b474
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1147340212393142018
+    second: CentinelaPrincipal-invoca_refuerzos_0
+  - first:
+      213: -1441440921641707048
+    second: CentinelaPrincipal-invoca_refuerzos_1
+  - first:
+      213: 6359620825572171385
+    second: CentinelaPrincipal-invoca_refuerzos_2
+  - first:
+      213: 3667742280904794965
+    second: CentinelaPrincipal-invoca_refuerzos_3
+  - first:
+      213: -2175997013285536284
+    second: CentinelaPrincipal-invoca_refuerzos_4
+  - first:
+      213: -8841240053887774558
+    second: CentinelaPrincipal-invoca_refuerzos_5
+  - first:
+      213: -755191093941085145
+    second: CentinelaPrincipal-invoca_refuerzos_6
+  - first:
+      213: 5139188130049505686
+    second: CentinelaPrincipal-invoca_refuerzos_7
+  - first:
+      213: 6140579162117907554
+    second: CentinelaPrincipal-invoca_refuerzos_8
+  - first:
+      213: 3290830010473324378
+    second: CentinelaPrincipal-invoca_refuerzos_9
+  - first:
+      213: 4142558338856965531
+    second: CentinelaPrincipal-invoca_refuerzos_10
+  - first:
+      213: 3770039272736680078
+    second: CentinelaPrincipal-invoca_refuerzos_11
+  - first:
+      213: -2968817452762134129
+    second: CentinelaPrincipal-invoca_refuerzos_12
+  - first:
+      213: 3834624024320307704
+    second: CentinelaPrincipal-invoca_refuerzos_13
+  - first:
+      213: -6379044330401541114
+    second: CentinelaPrincipal-invoca_refuerzos_14
+  - first:
+      213: 1577127348803419943
+    second: CentinelaPrincipal-invoca_refuerzos_15
+  - first:
+      213: 7957651232497368617
+    second: CentinelaPrincipal-invoca_refuerzos_16
+  - first:
+      213: 6650309551035114304
+    second: CentinelaPrincipal-invoca_refuerzos_17
+  - first:
+      213: 5153290554241822128
+    second: CentinelaPrincipal-invoca_refuerzos_18
+  - first:
+      213: -6177929290915675658
+    second: CentinelaPrincipal-invoca_refuerzos_19
+  - first:
+      213: -1254923853619919933
+    second: CentinelaPrincipal-invoca_refuerzos_20
+  - first:
+      213: 3124366607153413392
+    second: CentinelaPrincipal-invoca_refuerzos_21
+  - first:
+      213: -4704856046667630936
+    second: CentinelaPrincipal-invoca_refuerzos_22
+  - first:
+      213: -378982450799586576
+    second: CentinelaPrincipal-invoca_refuerzos_23
+  - first:
+      213: -2551398645783089639
+    second: CentinelaPrincipal-invoca_refuerzos_24
+  - first:
+      213: 8262648745999182273
+    second: CentinelaPrincipal-invoca_refuerzos_25
+  - first:
+      213: -8439809374892229662
+    second: CentinelaPrincipal-invoca_refuerzos_26
+  - first:
+      213: 9057327473051302090
+    second: CentinelaPrincipal-invoca_refuerzos_27
+  - first:
+      213: -24164484733754825
+    second: CentinelaPrincipal-invoca_refuerzos_28
+  - first:
+      213: -209618344497918023
+    second: CentinelaPrincipal-invoca_refuerzos_29
+  - first:
+      213: 3165825459479052493
+    second: CentinelaPrincipal-invoca_refuerzos_30
+  - first:
+      213: -8089072268315228110
+    second: CentinelaPrincipal-invoca_refuerzos_31
+  - first:
+      213: 2283337441176144003
+    second: CentinelaPrincipal-invoca_refuerzos_32
+  - first:
+      213: 221455590138375588
+    second: CentinelaPrincipal-invoca_refuerzos_33
+  - first:
+      213: 7174595973557079583
+    second: CentinelaPrincipal-invoca_refuerzos_34
+  - first:
+      213: -9032551663767075244
+    second: CentinelaPrincipal-invoca_refuerzos_35
+  - first:
+      213: 2078584609936426879
+    second: CentinelaPrincipal-invoca_refuerzos_36
+  - first:
+      213: 5453170989817748260
+    second: CentinelaPrincipal-invoca_refuerzos_37
+  - first:
+      213: 353239690041009028
+    second: CentinelaPrincipal-invoca_refuerzos_38
+  - first:
+      213: -3063663909881475512
+    second: CentinelaPrincipal-invoca_refuerzos_39
+  - first:
+      213: -8992522910004656214
+    second: CentinelaPrincipal-invoca_refuerzos_40
+  - first:
+      213: -4478924959987252065
+    second: CentinelaPrincipal-invoca_refuerzos_41
+  - first:
+      213: -1046888041740451807
+    second: CentinelaPrincipal-invoca_refuerzos_42
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1089
+        width: 192
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 207e63428db2cef00800000000000000
+      internalID: 1147340212393142018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_1
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1089
+        width: 192
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d995dc6e19fefbe0800000000000000
+      internalID: -1441440921641707048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_2
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1089
+        width: 192
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ed7663279e14850800000000000000
+      internalID: 6359620825572171385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_3
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 1089
+        width: 192
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 553e2050c2076e230800000000000000
+      internalID: 3667742280904794965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_4
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 1089
+        width: 192
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4edfdcece3e4dc1e0800000000000000
+      internalID: -2175997013285536284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_5
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 833
+        width: 192
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0501e830b9d4580800000000000000
+      internalID: -8841240053887774558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_6
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 833
+        width: 192
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72c5a1483b50585f0800000000000000
+      internalID: -755191093941085145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_7
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 833
+        width: 192
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 699318d2060125740800000000000000
+      internalID: 5139188130049505686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_8
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 833
+        width: 192
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2642439b638b73550800000000000000
+      internalID: 6140579162117907554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_9
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 833
+        width: 192
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5f157e75706bad20800000000000000
+      internalID: 3290830010473324378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_10
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 577
+        width: 192
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b95d6e86cd25d7930800000000000000
+      internalID: 4142558338856965531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_11
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 577
+        width: 192
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e88edb87ebed15430800000000000000
+      internalID: 3770039272736680078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_12
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 577
+        width: 192
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8902259144acc6d0800000000000000
+      internalID: -2968817452762134129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_13
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 577
+        width: 192
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f17ac0cb32573530800000000000000
+      internalID: 3834624024320307704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_14
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 577
+        width: 192
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60452f7aaf41977a0800000000000000
+      internalID: -6379044330401541114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_15
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 321
+        width: 192
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f3bfeb7f413e510800000000000000
+      internalID: 1577127348803419943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_16
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 321
+        width: 187
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e747f62a14f6e60800000000000000
+      internalID: 7957651232497368617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_17
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 326
+        width: 37
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 043e5d34d45aa4c50800000000000000
+      internalID: 6650309551035114304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_18
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 328
+        width: 192
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bda5fda47a248740800000000000000
+      internalID: 5153290554241822128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_19
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 321
+        width: 55
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f18d7fba06934aa0800000000000000
+      internalID: -6177929290915675658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_20
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 329
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c302dc676d959ee0800000000000000
+      internalID: -1254923853619919933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_21
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 326
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01db87720eafb5b20800000000000000
+      internalID: 3124366607153413392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_22
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 326
+        width: 37
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6f60b5a5ef4beb0800000000000000
+      internalID: -4704856046667630936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_23
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 325
+        width: 197
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2dbfb08759dbaf0800000000000000
+      internalID: -378982450799586576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_24
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 320
+        width: 58
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91eafa5137c979cd0800000000000000
+      internalID: -2551398645783089639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_25
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 328
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c9ab11d143daa270800000000000000
+      internalID: 8262648745999182273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_26
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 331
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eb798de616cfda80800000000000000
+      internalID: -8439809374892229662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_27
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 326
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac8fb95595712bd70800000000000000
+      internalID: 9057327473051302090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_28
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 326
+        width: 37
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 732a34777862aaff0800000000000000
+      internalID: -24164484733754825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_29
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 321
+        width: 204
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bfcbcde939471df0800000000000000
+      internalID: -209618344497918023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_30
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 65
+        width: 210
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc0032d6b754feb20800000000000000
+      internalID: 3165825459479052493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_31
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 65
+        width: 211
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2388b9431a7ddbf80800000000000000
+      internalID: -8089072268315228110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_32
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 99
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38847ab1e4b00bf10800000000000000
+      internalID: 2283337441176144003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_33
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 64
+        width: 213
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ade8b79fa4c21300800000000000000
+      internalID: 221455590138375588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_34
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 92
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e41da7609419360800000000000000
+      internalID: 7174595973557079583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_35
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 456ccc94e1ee5a280800000000000000
+      internalID: -9032551663767075244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_36
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 65
+        width: 215
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f77cade90bd98dc10800000000000000
+      internalID: 2078584609936426879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_37
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 101
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b5d838f1e8dab40800000000000000
+      internalID: 5453170989817748260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_38
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 94
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 483a67560a5f6e400800000000000000
+      internalID: 353239690041009028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_39
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 64
+        width: 221
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e845ce7edab75d0800000000000000
+      internalID: -3063663909881475512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_40
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 89
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa74c9ace04243380800000000000000
+      internalID: -8992522910004656214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_41
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 91
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f944450ba79a7d1c0800000000000000
+      internalID: -4478924959987252065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-invoca_refuerzos_42
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 89
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 120c4786fd4b871f0800000000000000
+      internalID: -1046888041740451807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CentinelaPrincipal-invoca_refuerzos_0: 1147340212393142018
+      CentinelaPrincipal-invoca_refuerzos_1: -1441440921641707048
+      CentinelaPrincipal-invoca_refuerzos_10: 4142558338856965531
+      CentinelaPrincipal-invoca_refuerzos_11: 3770039272736680078
+      CentinelaPrincipal-invoca_refuerzos_12: -2968817452762134129
+      CentinelaPrincipal-invoca_refuerzos_13: 3834624024320307704
+      CentinelaPrincipal-invoca_refuerzos_14: -6379044330401541114
+      CentinelaPrincipal-invoca_refuerzos_15: 1577127348803419943
+      CentinelaPrincipal-invoca_refuerzos_16: 7957651232497368617
+      CentinelaPrincipal-invoca_refuerzos_17: 6650309551035114304
+      CentinelaPrincipal-invoca_refuerzos_18: 5153290554241822128
+      CentinelaPrincipal-invoca_refuerzos_19: -6177929290915675658
+      CentinelaPrincipal-invoca_refuerzos_2: 6359620825572171385
+      CentinelaPrincipal-invoca_refuerzos_20: -1254923853619919933
+      CentinelaPrincipal-invoca_refuerzos_21: 3124366607153413392
+      CentinelaPrincipal-invoca_refuerzos_22: -4704856046667630936
+      CentinelaPrincipal-invoca_refuerzos_23: -378982450799586576
+      CentinelaPrincipal-invoca_refuerzos_24: -2551398645783089639
+      CentinelaPrincipal-invoca_refuerzos_25: 8262648745999182273
+      CentinelaPrincipal-invoca_refuerzos_26: -8439809374892229662
+      CentinelaPrincipal-invoca_refuerzos_27: 9057327473051302090
+      CentinelaPrincipal-invoca_refuerzos_28: -24164484733754825
+      CentinelaPrincipal-invoca_refuerzos_29: -209618344497918023
+      CentinelaPrincipal-invoca_refuerzos_3: 3667742280904794965
+      CentinelaPrincipal-invoca_refuerzos_30: 3165825459479052493
+      CentinelaPrincipal-invoca_refuerzos_31: -8089072268315228110
+      CentinelaPrincipal-invoca_refuerzos_32: 2283337441176144003
+      CentinelaPrincipal-invoca_refuerzos_33: 221455590138375588
+      CentinelaPrincipal-invoca_refuerzos_34: 7174595973557079583
+      CentinelaPrincipal-invoca_refuerzos_35: -9032551663767075244
+      CentinelaPrincipal-invoca_refuerzos_36: 2078584609936426879
+      CentinelaPrincipal-invoca_refuerzos_37: 5453170989817748260
+      CentinelaPrincipal-invoca_refuerzos_38: 353239690041009028
+      CentinelaPrincipal-invoca_refuerzos_39: -3063663909881475512
+      CentinelaPrincipal-invoca_refuerzos_4: -2175997013285536284
+      CentinelaPrincipal-invoca_refuerzos_40: -8992522910004656214
+      CentinelaPrincipal-invoca_refuerzos_41: -4478924959987252065
+      CentinelaPrincipal-invoca_refuerzos_42: -1046888041740451807
+      CentinelaPrincipal-invoca_refuerzos_5: -8841240053887774558
+      CentinelaPrincipal-invoca_refuerzos_6: -755191093941085145
+      CentinelaPrincipal-invoca_refuerzos_7: 5139188130049505686
+      CentinelaPrincipal-invoca_refuerzos_8: 6140579162117907554
+      CentinelaPrincipal-invoca_refuerzos_9: 3290830010473324378
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

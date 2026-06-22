@@ -5,7 +5,7 @@ using UnityEngine;
 public class RoverStatsSO : ScriptableObject
 {
     [Header("Run")]
-    public float maxRunSpeed      = 12f;
+    public float maxRunSpeed      = 6f;
     public float groundAcceleration  = 40f;   // llega a max en ~0.30 s
     public float groundDeceleration  = 63f;   // frena en ~0.19 s
     [Range(0f, 1f)]
@@ -22,7 +22,7 @@ public class RoverStatsSO : ScriptableObject
     public float maxFallSpeed        = -26f;  // velocidad terminal GDD
 
     [Header("Dash")]
-    public float dashSpeed           = 28f;
+    public float dashSpeed           = 6f;
     public float dashDuration        = 0.20f;
     public float dashCooldown        = 0.80f;
     public float dashSleepTime       = 0.028f; // freeze inicial de frames

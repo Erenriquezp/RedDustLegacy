@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 17e1f7ebb6803694f8b4d3b8112301f4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7002644866166331234
+    second: CentinelaSundaria-caminar_0
+  - first:
+      213: -1351778777376204473
+    second: CentinelaSundaria-caminar_1
+  - first:
+      213: 2864508683423611251
+    second: CentinelaSundaria-caminar_2
+  - first:
+      213: -4546130161216051369
+    second: CentinelaSundaria-caminar_3
+  - first:
+      213: -2646533425307912563
+    second: CentinelaSundaria-caminar_4
+  - first:
+      213: 7258385542799828559
+    second: CentinelaSundaria-caminar_5
+  - first:
+      213: 2281796040407157861
+    second: CentinelaSundaria-caminar_6
+  - first:
+      213: -3420721798877423640
+    second: CentinelaSundaria-caminar_7
+  - first:
+      213: -6191571664051882035
+    second: CentinelaSundaria-caminar_8
+  - first:
+      213: 3151778602285204211
+    second: CentinelaSundaria-caminar_9
+  - first:
+      213: 9146485733297187025
+    second: CentinelaSundaria-caminar_10
+  - first:
+      213: -3843405995923417005
+    second: CentinelaSundaria-caminar_11
+  - first:
+      213: 6085955106506634896
+    second: CentinelaSundaria-caminar_12
+  - first:
+      213: 5319023224245759347
+    second: CentinelaSundaria-caminar_13
+  - first:
+      213: 6883768067689137518
+    second: CentinelaSundaria-caminar_14
+  - first:
+      213: -1555918695018631987
+    second: CentinelaSundaria-caminar_15
+  - first:
+      213: -156322061600114339
+    second: CentinelaSundaria-caminar_16
+  - first:
+      213: -7531966780276787072
+    second: CentinelaSundaria-caminar_17
+  - first:
+      213: -1163324799971642609
+    second: CentinelaSundaria-caminar_18
+  - first:
+      213: -3927034949865127078
+    second: CentinelaSundaria-caminar_19
+  - first:
+      213: 7830260567242415572
+    second: CentinelaSundaria-caminar_20
+  - first:
+      213: 2449286568886113233
+    second: CentinelaSundaria-caminar_21
+  - first:
+      213: -1507997538357378725
+    second: CentinelaSundaria-caminar_22
+  - first:
+      213: -2678333184238658308
+    second: CentinelaSundaria-caminar_23
+  - first:
+      213: 2004907884017790225
+    second: CentinelaSundaria-caminar_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CentinelaSundaria-caminar_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1096
+        width: 154
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9861f7889b91de90800000000000000
+      internalID: -7002644866166331234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-caminar_1
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1097
+        width: 154
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749549f2d548d3de0800000000000000
+      internalID: -1351778777376204473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-caminar_2
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1097
+        width: 154
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3797c738877c0c720800000000000000
+      internalID: 2864508683423611251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-caminar_3
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 1097
+        width: 156
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757270e64b6e8e0c0800000000000000
+      internalID: -4546130161216051369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-caminar_4
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 1097
+        width: 160
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d86f2522fdf954bd0800000000000000
+      internalID: -2646533425307912563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-caminar_5
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 841
+        width: 164
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f462a61d137fab460800000000000000
+      internalID: 7258385542799828559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-caminar_6
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 842
+        width: 166
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c8c56c8619aaf10800000000000000
+      internalID: 2281796040407157861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-caminar_7
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 844
+        width: 164
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7d97ec5a72780d0800000000000000
+      internalID: -3420721798877423640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-caminar_8
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 844
+        width: 159
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc730da306e131aa0800000000000000
+      internalID: -6191571664051882035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-caminar_9
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 844
+        width: 160
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f203ef90fd5dbb20800000000000000
+      internalID: 3151778602285204211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-caminar_10
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 588
+        width: 160
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d86b547058deee70800000000000000
+      internalID: 9146485733297187025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-caminar_11
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 590
+        width: 160
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 358d0652c9a79aac0800000000000000
+      internalID: -3843405995923417005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-caminar_12
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 592
+        width: 160
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0967d42bce7a57450800000000000000
+      internalID: 6085955106506634896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-caminar_13
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 586
+        width: 160
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37da839e077f0d940800000000000000
+      internalID: 5319023224245759347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-caminar_14
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 585
+        width: 161
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e65c9c6f59e088f50800000000000000
+      internalID: 6883768067689137518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-caminar_15
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 329
+        width: 162
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcc6604c034486ae0800000000000000
+      internalID: -1555918695018631987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-caminar_16
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 329
+        width: 165
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d59b4c7c9e1a4ddf0800000000000000
+      internalID: -156322061600114339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-caminar_17
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 329
+        width: 166
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0883f819e14197790800000000000000
+      internalID: -7531966780276787072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-caminar_18
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 329
+        width: 163
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03b94b024a0bdfe0800000000000000
+      internalID: -1163324799971642609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-caminar_19
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 329
+        width: 161
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53ceb8f48e5089c0800000000000000
+      internalID: -3927034949865127078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-caminar_20
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 73
+        width: 161
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dd9b39df7caaac60800000000000000
+      internalID: 7830260567242415572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-caminar_21
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 75
+        width: 161
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d39793582d9df120800000000000000
+      internalID: 2449286568886113233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-caminar_22
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 83
+        width: 161
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b518b048a34821be0800000000000000
+      internalID: -1507997538357378725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-caminar_23
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 80
+        width: 162
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc505bc826a4dad0800000000000000
+      internalID: -2678333184238658308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-caminar_24
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 78
+        width: 161
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11da24a191dd2db10800000000000000
+      internalID: 2004907884017790225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CentinelaSundaria-caminar_0: -7002644866166331234
+      CentinelaSundaria-caminar_1: -1351778777376204473
+      CentinelaSundaria-caminar_10: 9146485733297187025
+      CentinelaSundaria-caminar_11: -3843405995923417005
+      CentinelaSundaria-caminar_12: 6085955106506634896
+      CentinelaSundaria-caminar_13: 5319023224245759347
+      CentinelaSundaria-caminar_14: 6883768067689137518
+      CentinelaSundaria-caminar_15: -1555918695018631987
+      CentinelaSundaria-caminar_16: -156322061600114339
+      CentinelaSundaria-caminar_17: -7531966780276787072
+      CentinelaSundaria-caminar_18: -1163324799971642609
+      CentinelaSundaria-caminar_19: -3927034949865127078
+      CentinelaSundaria-caminar_2: 2864508683423611251
+      CentinelaSundaria-caminar_20: 7830260567242415572
+      CentinelaSundaria-caminar_21: 2449286568886113233
+      CentinelaSundaria-caminar_22: -1507997538357378725
+      CentinelaSundaria-caminar_23: -2678333184238658308
+      CentinelaSundaria-caminar_24: 2004907884017790225
+      CentinelaSundaria-caminar_3: -4546130161216051369
+      CentinelaSundaria-caminar_4: -2646533425307912563
+      CentinelaSundaria-caminar_5: 7258385542799828559
+      CentinelaSundaria-caminar_6: 2281796040407157861
+      CentinelaSundaria-caminar_7: -3420721798877423640
+      CentinelaSundaria-caminar_8: -6191571664051882035
+      CentinelaSundaria-caminar_9: 3151778602285204211
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

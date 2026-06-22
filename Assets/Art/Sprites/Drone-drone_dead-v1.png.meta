@@ -1,0 +1,3939 @@
+fileFormatVersion: 2
+guid: 6e5b698885b6d4144a825a789021a064
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8701190915211038195
+    second: Drone-drone_dead-v1_0
+  - first:
+      213: -4550042375540402021
+    second: Drone-drone_dead-v1_1
+  - first:
+      213: -582750106025345055
+    second: Drone-drone_dead-v1_2
+  - first:
+      213: -1114928479209199278
+    second: Drone-drone_dead-v1_3
+  - first:
+      213: 3844134229465684328
+    second: Drone-drone_dead-v1_4
+  - first:
+      213: 8310134842833731780
+    second: Drone-drone_dead-v1_5
+  - first:
+      213: -2024907308379684415
+    second: Drone-drone_dead-v1_6
+  - first:
+      213: 2675336042821283897
+    second: Drone-drone_dead-v1_7
+  - first:
+      213: -713520678675773708
+    second: Drone-drone_dead-v1_8
+  - first:
+      213: 5105057909121974667
+    second: Drone-drone_dead-v1_9
+  - first:
+      213: -8009763917066800012
+    second: Drone-drone_dead-v1_10
+  - first:
+      213: 2910590349886374613
+    second: Drone-drone_dead-v1_11
+  - first:
+      213: -9049299952333302542
+    second: Drone-drone_dead-v1_12
+  - first:
+      213: -4387762183379249292
+    second: Drone-drone_dead-v1_13
+  - first:
+      213: -6208334141628641282
+    second: Drone-drone_dead-v1_14
+  - first:
+      213: -8188905306734791788
+    second: Drone-drone_dead-v1_15
+  - first:
+      213: -2215593700740364378
+    second: Drone-drone_dead-v1_16
+  - first:
+      213: -3236780600961285637
+    second: Drone-drone_dead-v1_17
+  - first:
+      213: -4011324087304867702
+    second: Drone-drone_dead-v1_18
+  - first:
+      213: 701551445423297995
+    second: Drone-drone_dead-v1_19
+  - first:
+      213: -8146655647106795473
+    second: Drone-drone_dead-v1_20
+  - first:
+      213: 2673691456479184882
+    second: Drone-drone_dead-v1_21
+  - first:
+      213: -3815807963258302196
+    second: Drone-drone_dead-v1_22
+  - first:
+      213: -4385044373303551232
+    second: Drone-drone_dead-v1_23
+  - first:
+      213: 3628598273082308124
+    second: Drone-drone_dead-v1_24
+  - first:
+      213: -8326085119104548173
+    second: Drone-drone_dead-v1_25
+  - first:
+      213: -1165030638818507548
+    second: Drone-drone_dead-v1_26
+  - first:
+      213: -7743562938747995963
+    second: Drone-drone_dead-v1_27
+  - first:
+      213: -8331655951002015687
+    second: Drone-drone_dead-v1_28
+  - first:
+      213: -6251044755722725575
+    second: Drone-drone_dead-v1_29
+  - first:
+      213: -4899809428200900872
+    second: Drone-drone_dead-v1_30
+  - first:
+      213: -5529145570384454088
+    second: Drone-drone_dead-v1_31
+  - first:
+      213: -2637531997738586547
+    second: Drone-drone_dead-v1_32
+  - first:
+      213: -1986953047549643869
+    second: Drone-drone_dead-v1_33
+  - first:
+      213: 1495075638422096937
+    second: Drone-drone_dead-v1_34
+  - first:
+      213: 3203922117423956095
+    second: Drone-drone_dead-v1_35
+  - first:
+      213: -1372457898839643008
+    second: Drone-drone_dead-v1_36
+  - first:
+      213: -7673416600351402086
+    second: Drone-drone_dead-v1_37
+  - first:
+      213: 4809761621487872773
+    second: Drone-drone_dead-v1_38
+  - first:
+      213: -3575255781750764272
+    second: Drone-drone_dead-v1_39
+  - first:
+      213: 3920156017607074345
+    second: Drone-drone_dead-v1_40
+  - first:
+      213: 8028553691216589619
+    second: Drone-drone_dead-v1_41
+  - first:
+      213: 2942555471365566775
+    second: Drone-drone_dead-v1_42
+  - first:
+      213: 8314923502663463684
+    second: Drone-drone_dead-v1_43
+  - first:
+      213: 5601762108807297714
+    second: Drone-drone_dead-v1_44
+  - first:
+      213: -8034292044865983143
+    second: Drone-drone_dead-v1_45
+  - first:
+      213: -2366974770891405879
+    second: Drone-drone_dead-v1_46
+  - first:
+      213: -2824004485008496729
+    second: Drone-drone_dead-v1_47
+  - first:
+      213: -1541775441337507311
+    second: Drone-drone_dead-v1_48
+  - first:
+      213: -6776188339725861491
+    second: Drone-drone_dead-v1_49
+  - first:
+      213: 217916640488870068
+    second: Drone-drone_dead-v1_50
+  - first:
+      213: 2135919052431096123
+    second: Drone-drone_dead-v1_51
+  - first:
+      213: -4194255638298361654
+    second: Drone-drone_dead-v1_52
+  - first:
+      213: 7791981097952944769
+    second: Drone-drone_dead-v1_53
+  - first:
+      213: 5156312817371289204
+    second: Drone-drone_dead-v1_54
+  - first:
+      213: 6753247302590477110
+    second: Drone-drone_dead-v1_55
+  - first:
+      213: 5067127091937068816
+    second: Drone-drone_dead-v1_56
+  - first:
+      213: 1751285260197853249
+    second: Drone-drone_dead-v1_57
+  - first:
+      213: 360739885323078107
+    second: Drone-drone_dead-v1_58
+  - first:
+      213: 1691996193495369771
+    second: Drone-drone_dead-v1_59
+  - first:
+      213: 2357065989914701074
+    second: Drone-drone_dead-v1_60
+  - first:
+      213: 6964777761099362784
+    second: Drone-drone_dead-v1_61
+  - first:
+      213: -5747208744317681671
+    second: Drone-drone_dead-v1_62
+  - first:
+      213: -8548792826316816053
+    second: Drone-drone_dead-v1_63
+  - first:
+      213: -4094319121268763794
+    second: Drone-drone_dead-v1_64
+  - first:
+      213: -7971533272188029696
+    second: Drone-drone_dead-v1_65
+  - first:
+      213: 4314411604270221261
+    second: Drone-drone_dead-v1_66
+  - first:
+      213: 9107092364165823508
+    second: Drone-drone_dead-v1_67
+  - first:
+      213: 1775046568059061627
+    second: Drone-drone_dead-v1_68
+  - first:
+      213: -7779417809672173326
+    second: Drone-drone_dead-v1_69
+  - first:
+      213: 9007781211701889045
+    second: Drone-drone_dead-v1_70
+  - first:
+      213: 1202766781911125590
+    second: Drone-drone_dead-v1_71
+  - first:
+      213: 1449698696735051117
+    second: Drone-drone_dead-v1_72
+  - first:
+      213: -4245929718218645907
+    second: Drone-drone_dead-v1_73
+  - first:
+      213: 543503405006326064
+    second: Drone-drone_dead-v1_74
+  - first:
+      213: 1274120183695609429
+    second: Drone-drone_dead-v1_75
+  - first:
+      213: -2071487377051455178
+    second: Drone-drone_dead-v1_76
+  - first:
+      213: 1272192341550623591
+    second: Drone-drone_dead-v1_77
+  - first:
+      213: 2986904267995528177
+    second: Drone-drone_dead-v1_78
+  - first:
+      213: 196081497814649445
+    second: Drone-drone_dead-v1_79
+  - first:
+      213: 2618458930775264985
+    second: Drone-drone_dead-v1_80
+  - first:
+      213: -2556365292100466253
+    second: Drone-drone_dead-v1_81
+  - first:
+      213: -8619497810549215791
+    second: Drone-drone_dead-v1_82
+  - first:
+      213: 4197089859343127558
+    second: Drone-drone_dead-v1_83
+  - first:
+      213: 7517895939703377957
+    second: Drone-drone_dead-v1_84
+  - first:
+      213: -1230296448392360500
+    second: Drone-drone_dead-v1_85
+  - first:
+      213: -553217705729268712
+    second: Drone-drone_dead-v1_86
+  - first:
+      213: -1071372596159783873
+    second: Drone-drone_dead-v1_87
+  - first:
+      213: -5241058941586882333
+    second: Drone-drone_dead-v1_88
+  - first:
+      213: 3626877679131985782
+    second: Drone-drone_dead-v1_89
+  - first:
+      213: -3155223974162790978
+    second: Drone-drone_dead-v1_90
+  - first:
+      213: 5121782567731191237
+    second: Drone-drone_dead-v1_91
+  - first:
+      213: 6482596976327443997
+    second: Drone-drone_dead-v1_92
+  - first:
+      213: -7182178970018591653
+    second: Drone-drone_dead-v1_93
+  - first:
+      213: -407708684757223670
+    second: Drone-drone_dead-v1_94
+  - first:
+      213: -3768806344841045900
+    second: Drone-drone_dead-v1_95
+  - first:
+      213: 4973296077193209885
+    second: Drone-drone_dead-v1_96
+  - first:
+      213: -6630138587895416181
+    second: Drone-drone_dead-v1_97
+  - first:
+      213: 132413830103791321
+    second: Drone-drone_dead-v1_98
+  - first:
+      213: 9010275675053743309
+    second: Drone-drone_dead-v1_99
+  - first:
+      213: -6079896490439550825
+    second: Drone-drone_dead-v1_100
+  - first:
+      213: -6894089787002029882
+    second: Drone-drone_dead-v1_101
+  - first:
+      213: 778754663657060617
+    second: Drone-drone_dead-v1_102
+  - first:
+      213: 3923578017900359135
+    second: Drone-drone_dead-v1_103
+  - first:
+      213: -6276663614205803363
+    second: Drone-drone_dead-v1_104
+  - first:
+      213: -775386069668631132
+    second: Drone-drone_dead-v1_105
+  - first:
+      213: 6465629194943956626
+    second: Drone-drone_dead-v1_106
+  - first:
+      213: -4750298664841799189
+    second: Drone-drone_dead-v1_107
+  - first:
+      213: -7879056559495640609
+    second: Drone-drone_dead-v1_108
+  - first:
+      213: -8810071492872213596
+    second: Drone-drone_dead-v1_109
+  - first:
+      213: 4411025268727988057
+    second: Drone-drone_dead-v1_110
+  - first:
+      213: 8580614464802041651
+    second: Drone-drone_dead-v1_111
+  - first:
+      213: 7422338298693691333
+    second: Drone-drone_dead-v1_112
+  - first:
+      213: 8557518183513199163
+    second: Drone-drone_dead-v1_113
+  - first:
+      213: -1272760137128717694
+    second: Drone-drone_dead-v1_114
+  - first:
+      213: -1686166090053918507
+    second: Drone-drone_dead-v1_115
+  - first:
+      213: 3238314749441682278
+    second: Drone-drone_dead-v1_116
+  - first:
+      213: -8958555187934519191
+    second: Drone-drone_dead-v1_117
+  - first:
+      213: -3724377061438434142
+    second: Drone-drone_dead-v1_118
+  - first:
+      213: -2066465372847684650
+    second: Drone-drone_dead-v1_119
+  - first:
+      213: -6764502219220289455
+    second: Drone-drone_dead-v1_120
+  - first:
+      213: 2574817215574415748
+    second: Drone-drone_dead-v1_121
+  - first:
+      213: 4502001757945835688
+    second: Drone-drone_dead-v1_122
+  - first:
+      213: -5610944087335781213
+    second: Drone-drone_dead-v1_123
+  - first:
+      213: 2723642372721858783
+    second: Drone-drone_dead-v1_124
+  - first:
+      213: 8654243150327805797
+    second: Drone-drone_dead-v1_125
+  - first:
+      213: -1035868439519897079
+    second: Drone-drone_dead-v1_126
+  - first:
+      213: 7758851643457422423
+    second: Drone-drone_dead-v1_127
+  - first:
+      213: 2344503713453692273
+    second: Drone-drone_dead-v1_128
+  - first:
+      213: -3508042598024918532
+    second: Drone-drone_dead-v1_129
+  - first:
+      213: -8988225694037466878
+    second: Drone-drone_dead-v1_130
+  - first:
+      213: -9196041873158989639
+    second: Drone-drone_dead-v1_131
+  - first:
+      213: 6531600368930334494
+    second: Drone-drone_dead-v1_132
+  - first:
+      213: -2496797189754303964
+    second: Drone-drone_dead-v1_133
+  - first:
+      213: 7974351650578761267
+    second: Drone-drone_dead-v1_134
+  - first:
+      213: 1803914614457769665
+    second: Drone-drone_dead-v1_135
+  - first:
+      213: -4034791500070950066
+    second: Drone-drone_dead-v1_136
+  - first:
+      213: 3535235388077563226
+    second: Drone-drone_dead-v1_137
+  - first:
+      213: 8379068392864202323
+    second: Drone-drone_dead-v1_138
+  - first:
+      213: 6252252901262929078
+    second: Drone-drone_dead-v1_139
+  - first:
+      213: -3319753616248073778
+    second: Drone-drone_dead-v1_140
+  - first:
+      213: -4838007693735820011
+    second: Drone-drone_dead-v1_141
+  - first:
+      213: 6303497858264572438
+    second: Drone-drone_dead-v1_142
+  - first:
+      213: -933986613448038087
+    second: Drone-drone_dead-v1_143
+  - first:
+      213: -4245301367597721738
+    second: Drone-drone_dead-v1_144
+  - first:
+      213: 7257455327929600145
+    second: Drone-drone_dead-v1_145
+  - first:
+      213: -7536583685262099051
+    second: Drone-drone_dead-v1_146
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1077
+        width: 192
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d027df7a6f82f3780800000000000000
+      internalID: -8701190915211038195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_1
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1077
+        width: 209
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9890fc01900bd0c0800000000000000
+      internalID: -4550042375540402021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_2
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1124
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1efb989bdd7a9e7f0800000000000000
+      internalID: -582750106025345055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_3
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 1129
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 259e4ce847af680f0800000000000000
+      internalID: -1114928479209199278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_4
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 1077
+        width: 209
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 869d830f6bb195530800000000000000
+      internalID: 3844134229465684328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_5
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 1077
+        width: 204
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c083be4c97835370800000000000000
+      internalID: 8310134842833731780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_6
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 1077
+        width: 205
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c1cfec088516e3e0800000000000000
+      internalID: -2024907308379684415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_7
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1118
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9307927d4f3b02520800000000000000
+      internalID: 2675336042821283897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_8
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 1119
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f682af19b01916f0800000000000000
+      internalID: -713520678675773708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_9
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 1105
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b81830fde1fc8d640800000000000000
+      internalID: 5105057909121974667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_10
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 1109
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 474fd7ca72a97d090800000000000000
+      internalID: -8009763917066800012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1098
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d248a3908e746820800000000000000
+      internalID: 2910590349886374613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_12
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1095
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f4d63b73ad6a6280800000000000000
+      internalID: -9049299952333302542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_13
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1094
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47799c4aa898b13c0800000000000000
+      internalID: -4387762183379249292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_14
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 1094
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff8b49cdf097d9a0800000000000000
+      internalID: -6208334141628641282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_15
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1090
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493f2cc920a2b5e80800000000000000
+      internalID: -8188905306734791788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_16
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1090
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a707c49441a041e0800000000000000
+      internalID: -2215593700740364378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_17
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 821
+        width: 157
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf1c3df4135a413d0800000000000000
+      internalID: -3236780600961285637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_18
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 882
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a80b939def9e458c0800000000000000
+      internalID: -4011324087304867702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_19
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 821
+        width: 163
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc51e1892596cb900800000000000000
+      internalID: 701551445423297995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_20
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 891
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28f4ce0ad341fe80800000000000000
+      internalID: -8146655647106795473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_21
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 820
+        width: 159
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7407eb63cda1520800000000000000
+      internalID: 2673691456479184882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_22
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 821
+        width: 151
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c01d1eadfd68b0bc0800000000000000
+      internalID: -3815807963258302196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_23
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 821
+        width: 164
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00b9aec10613523c0800000000000000
+      internalID: -4385044373303551232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_24
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 878
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c16baab77ee5b5230800000000000000
+      internalID: 3628598273082308124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_25
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 831
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b28b1a92bdc37c80800000000000000
+      internalID: -8326085119104548173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_26
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 837
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e4c6cc7ecaf4dfe0800000000000000
+      internalID: -1165030638818507548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_27
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 836
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c8bb0cc886598490800000000000000
+      internalID: -7743562938747995963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_28
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 720
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93861c93e03006c80800000000000000
+      internalID: -8331655951002015687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_29
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 724
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93714140ae3df39a0800000000000000
+      internalID: -6251044755722725575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_30
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 706
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f6b9fc0941600cb0800000000000000
+      internalID: -4899809428200900872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_31
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 709
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e5fcdf5678443b0800000000000000
+      internalID: -5529145570384454088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_32
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 707
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ea01f4f9a956bd0800000000000000
+      internalID: -2637531997738586547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_33
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 703
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a37c670bbcec64e0800000000000000
+      internalID: -1986953047549643869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_34
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 700
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c4d743f539fb410800000000000000
+      internalID: 1495075638422096937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_35
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 703
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f708211d03e967c20800000000000000
+      internalID: 3203922117423956095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_36
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 564
+        width: 169
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ceb7600dc04fce0800000000000000
+      internalID: -1372457898839643008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_37
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 565
+        width: 181
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97187ae14c828590800000000000000
+      internalID: -7673416600351402086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_38
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 679
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b671726b4bfb240800000000000000
+      internalID: 4809761621487872773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_39
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 679
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d859b1fc3226ec0800000000000000
+      internalID: -3575255781750764272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_40
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 565
+        width: 172
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 922649dc021376630800000000000000
+      internalID: 3920156017607074345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_41
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 682
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 333bd198b072b6f60800000000000000
+      internalID: 8028553691216589619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_42
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 564
+        width: 170
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73170a26c9e06d820800000000000000
+      internalID: 2942555471365566775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_43
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 565
+        width: 188
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4037dce0fda846370800000000000000
+      internalID: 8314923502663463684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_44
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 672
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bab3b365f47dbd40800000000000000
+      internalID: 5601762108807297714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_45
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 668
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d2404e3f5708090800000000000000
+      internalID: -8034292044865983143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_46
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 655
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c5c4b49cf0d62fd0800000000000000
+      internalID: -2366974770891405879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_47
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 662
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a765f212ee1fc8d0800000000000000
+      internalID: -2824004485008496729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_48
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 646
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11228af97638a9ae0800000000000000
+      internalID: -1541775441337507311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_49
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 663
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8dfe775b9426f1a0800000000000000
+      internalID: -6776188339725861491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_50
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 641
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b05cfaa702360300800000000000000
+      internalID: 217916640488870068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_51
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 654
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b39f425cf0f44ad10800000000000000
+      internalID: 2135919052431096123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_52
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 648
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac00c0618b20bc5c0800000000000000
+      internalID: -4194255638298361654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_53
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 639
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1822b00668da22c60800000000000000
+      internalID: 7791981097952944769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_54
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 632
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47695362037ee8740800000000000000
+      internalID: 5156312817371289204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_55
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 620
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 633354734aa58bd50800000000000000
+      internalID: 6753247302590477110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_56
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 606
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 017caaa4e3d025640800000000000000
+      internalID: 5067127091937068816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_57
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 598
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 148787a5aa0dd4810800000000000000
+      internalID: 1751285260197853249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_58
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 592
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd94ff0b30b910500800000000000000
+      internalID: 360739885323078107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_59
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 309
+        width: 195
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b28ca9ac29d2b7710800000000000000
+      internalID: 1691996193495369771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_60
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 308
+        width: 199
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d2501970bf5b020800000000000000
+      internalID: 2357065989914701074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_61
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 309
+        width: 169
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e13ed5097cd7a060800000000000000
+      internalID: 6964777761099362784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_62
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 382
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fffce8d810dd30b0800000000000000
+      internalID: -5747208744317681671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_63
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 311
+        width: 151
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b418af8c7369c5980800000000000000
+      internalID: -8548792826316816053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_64
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 402
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e639faba37e0e27c0800000000000000
+      internalID: -4094319121268763794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_65
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 441
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 005760459bc6f5190800000000000000
+      internalID: -7971533272188029696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_66
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 312
+        width: 156
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc7895fce7edfdb30800000000000000
+      internalID: 4314411604270221261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_67
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 399
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41cb6c6f044e26e70800000000000000
+      internalID: 9107092364165823508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_68
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 396
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75cfe4f27b32a810800000000000000
+      internalID: 1775046568059061627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_69
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 371
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f8842f18b4f90490800000000000000
+      internalID: -7779417809672173326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_70
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 373
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 518cde96941120d70800000000000000
+      internalID: 9007781211701889045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_71
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 373
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ec37ff30611b010800000000000000
+      internalID: 1202766781911125590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_72
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 376
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d4d3aa84d5e1410800000000000000
+      internalID: 1449698696735051117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_73
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 318
+        width: 59
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e9d4cca6d6315c0800000000000000
+      internalID: -4245929718218645907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_74
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 356
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0390e9d9779ea8700800000000000000
+      internalID: 543503405006326064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_75
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 364
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55e05567e859ea110800000000000000
+      internalID: 1274120183695609429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_76
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 338
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 631742ea4399043e0800000000000000
+      internalID: -2071487377051455178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_77
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 346
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76be81cb13cb7a110800000000000000
+      internalID: 1272192341550623591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_78
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 342
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fbb8ff3b9d937920800000000000000
+      internalID: 2986904267995528177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_79
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 346
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ac448551f98b200800000000000000
+      internalID: 196081497814649445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_80
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 332
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de0fcb3682a65420800000000000000
+      internalID: 2618458930775264985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_81
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 318
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9c630af47f58cd0800000000000000
+      internalID: -2556365292100466253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_82
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 326
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dde4fbc864616880800000000000000
+      internalID: -8619497810549215791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_83
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 318
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6049a8c6dfe0f3a30800000000000000
+      internalID: 4197089859343127558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_84
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 317
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5201f50968ee45860800000000000000
+      internalID: 7517895939703377957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_85
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 321
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd062906eb1deee0800000000000000
+      internalID: -1230296448392360500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_86
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 147
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 814ec8e7d639258f0800000000000000
+      internalID: -553217705729268712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_87
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 56
+        width: 162
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3cdec7dc48b121f0800000000000000
+      internalID: -1071372596159783873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_88
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 194
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e044d339a40447b0800000000000000
+      internalID: -5241058941586882333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_89
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 56
+        width: 165
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 677847c7802455230800000000000000
+      internalID: 3626877679131985782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_90
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 194
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb50b3933846634d0800000000000000
+      internalID: -3155223974162790978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_91
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 189
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cdd766eb1a341740800000000000000
+      internalID: 5121782567731191237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_92
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 57
+        width: 162
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d16c40c8a9fc6f950800000000000000
+      internalID: 6482596976327443997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_93
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 201
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5cc2c29746c35c90800000000000000
+      internalID: -7182178970018591653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_94
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 200
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0734318c17875af0800000000000000
+      internalID: -407708684757223670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_95
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 194
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 478d28ce89282bbc0800000000000000
+      internalID: -3768806344841045900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_96
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 196
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18e1fbbe62b40540800000000000000
+      internalID: 4973296077193209885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_97
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 57
+        width: 161
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8a32e015140df3a0800000000000000
+      internalID: -6630138587895416181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_98
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 186
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d67faa4dad66d100800000000000000
+      internalID: 132413830103791321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_99
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 57
+        width: 160
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dccdbebecfdea0d70800000000000000
+      internalID: 9010275675053743309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_100
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 193
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 798d438ca5edf9ba0800000000000000
+      internalID: -6079896490439550825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_101
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 186
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c8781c7dd54350a0800000000000000
+      internalID: -6894089787002029882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_102
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 186
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90935769d31beca00800000000000000
+      internalID: 778754663657060617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_103
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 184
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd6b755b69537630800000000000000
+      internalID: 3923578017900359135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_104
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 193
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d94c4a4b2bfc4e8a0800000000000000
+      internalID: -6276663614205803363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_105
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 172
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ad6d915a764d35f0800000000000000
+      internalID: -775386069668631132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_106
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 186
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29687061f778ab950800000000000000
+      internalID: 6465629194943956626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_107
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 169
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be99711588c831eb0800000000000000
+      internalID: -4750298664841799189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_108
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 173
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd90d0eddc7f7a290800000000000000
+      internalID: -7879056559495640609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_109
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 177
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ab6e8da7a65cb580800000000000000
+      internalID: -8810071492872213596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_110
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 169
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95fbdcd7c1c173d30800000000000000
+      internalID: 4411025268727988057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_111
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 176
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33faa19c467741770800000000000000
+      internalID: 8580614464802041651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_112
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 169
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c72a608b51710760800000000000000
+      internalID: 7422338298693691333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_113
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 160
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b32104fb27962c670800000000000000
+      internalID: 8557518183513199163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_114
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 168
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2825a2e066f365ee0800000000000000
+      internalID: -1272760137128717694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_115
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 168
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d0e602ffd88998e0800000000000000
+      internalID: -1686166090053918507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_116
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 169
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b21677b1ec0fc20800000000000000
+      internalID: 3238314749441682278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_117
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 167
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9602e626581dca380800000000000000
+      internalID: -8958555187934519191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_118
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 160
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a459539bca505cc0800000000000000
+      internalID: -3724377061438434142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_119
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 156
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d3c4c621b07253e0800000000000000
+      internalID: -2066465372847684650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_120
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 146
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 158780d4219af12a0800000000000000
+      internalID: -6764502219220289455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_121
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 103
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4899fd79d969bb320800000000000000
+      internalID: 2574817215574415748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_122
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 115
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a0bb880fb25a7e30800000000000000
+      internalID: 4502001757945835688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_123
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 104
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3acb5c3a41ce122b0800000000000000
+      internalID: -5610944087335781213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_124
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 81
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8d949be425cc520800000000000000
+      internalID: 2723642372721858783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_125
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 77
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56775270b4c0a1870800000000000000
+      internalID: 8654243150327805797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_126
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 83
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90ad06c742bdf91f0800000000000000
+      internalID: -1035868439519897079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_127
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 87
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7544c39267afcab60800000000000000
+      internalID: 7758851643457422423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_128
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 70
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 175ddf6a4b9598020800000000000000
+      internalID: 2344503713453692273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_129
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 62
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf949cfe7dde05fc0800000000000000
+      internalID: -3508042598024918532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_130
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 62
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201abd95a58634380800000000000000
+      internalID: -8988225694037466878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_131
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 61
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b89dba93a8116080800000000000000
+      internalID: -9196041873158989639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_132
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 70
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1727ecfde7e4aa50800000000000000
+      internalID: 6531600368930334494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_133
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 64
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a408c3f28995dd0800000000000000
+      internalID: -2496797189754303964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_134
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 62
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3360cc683969aae60800000000000000
+      internalID: 7974351650578761267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_135
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 61
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce14e7c8cac80910800000000000000
+      internalID: 1803914614457769665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_136
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 64
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4b6187028a8108c0800000000000000
+      internalID: -4034791500070950066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_137
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 62
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5dd0cfdaddaf0130800000000000000
+      internalID: 3535235388077563226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_138
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 62
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ebf512f4e684470800000000000000
+      internalID: 8379068392864202323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_139
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 64
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bcaea943e674c650800000000000000
+      internalID: 6252252901262929078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_140
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 63
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec117b1ccaddde1d0800000000000000
+      internalID: -3319753616248073778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_141
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 62
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 515054aa2a1fbdcb0800000000000000
+      internalID: -4838007693735820011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_142
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 64
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 612ab4c97e58a7750800000000000000
+      internalID: 6303497858264572438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_143
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 63
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 939a570af10d903f0800000000000000
+      internalID: -933986613448038087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_144
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 62
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6779bd316e8a515c0800000000000000
+      internalID: -4245301367597721738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_145
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 58
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 198828a4b29a7b460800000000000000
+      internalID: 7257455327929600145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-drone_dead-v1_146
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 57
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59db2fb911da86790800000000000000
+      internalID: -7536583685262099051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Drone-drone_dead-v1_0: -8701190915211038195
+      Drone-drone_dead-v1_1: -4550042375540402021
+      Drone-drone_dead-v1_10: -8009763917066800012
+      Drone-drone_dead-v1_100: -6079896490439550825
+      Drone-drone_dead-v1_101: -6894089787002029882
+      Drone-drone_dead-v1_102: 778754663657060617
+      Drone-drone_dead-v1_103: 3923578017900359135
+      Drone-drone_dead-v1_104: -6276663614205803363
+      Drone-drone_dead-v1_105: -775386069668631132
+      Drone-drone_dead-v1_106: 6465629194943956626
+      Drone-drone_dead-v1_107: -4750298664841799189
+      Drone-drone_dead-v1_108: -7879056559495640609
+      Drone-drone_dead-v1_109: -8810071492872213596
+      Drone-drone_dead-v1_11: 2910590349886374613
+      Drone-drone_dead-v1_110: 4411025268727988057
+      Drone-drone_dead-v1_111: 8580614464802041651
+      Drone-drone_dead-v1_112: 7422338298693691333
+      Drone-drone_dead-v1_113: 8557518183513199163
+      Drone-drone_dead-v1_114: -1272760137128717694
+      Drone-drone_dead-v1_115: -1686166090053918507
+      Drone-drone_dead-v1_116: 3238314749441682278
+      Drone-drone_dead-v1_117: -8958555187934519191
+      Drone-drone_dead-v1_118: -3724377061438434142
+      Drone-drone_dead-v1_119: -2066465372847684650
+      Drone-drone_dead-v1_12: -9049299952333302542
+      Drone-drone_dead-v1_120: -6764502219220289455
+      Drone-drone_dead-v1_121: 2574817215574415748
+      Drone-drone_dead-v1_122: 4502001757945835688
+      Drone-drone_dead-v1_123: -5610944087335781213
+      Drone-drone_dead-v1_124: 2723642372721858783
+      Drone-drone_dead-v1_125: 8654243150327805797
+      Drone-drone_dead-v1_126: -1035868439519897079
+      Drone-drone_dead-v1_127: 7758851643457422423
+      Drone-drone_dead-v1_128: 2344503713453692273
+      Drone-drone_dead-v1_129: -3508042598024918532
+      Drone-drone_dead-v1_13: -4387762183379249292
+      Drone-drone_dead-v1_130: -8988225694037466878
+      Drone-drone_dead-v1_131: -9196041873158989639
+      Drone-drone_dead-v1_132: 6531600368930334494
+      Drone-drone_dead-v1_133: -2496797189754303964
+      Drone-drone_dead-v1_134: 7974351650578761267
+      Drone-drone_dead-v1_135: 1803914614457769665
+      Drone-drone_dead-v1_136: -4034791500070950066
+      Drone-drone_dead-v1_137: 3535235388077563226
+      Drone-drone_dead-v1_138: 8379068392864202323
+      Drone-drone_dead-v1_139: 6252252901262929078
+      Drone-drone_dead-v1_14: -6208334141628641282
+      Drone-drone_dead-v1_140: -3319753616248073778
+      Drone-drone_dead-v1_141: -4838007693735820011
+      Drone-drone_dead-v1_142: 6303497858264572438
+      Drone-drone_dead-v1_143: -933986613448038087
+      Drone-drone_dead-v1_144: -4245301367597721738
+      Drone-drone_dead-v1_145: 7257455327929600145
+      Drone-drone_dead-v1_146: -7536583685262099051
+      Drone-drone_dead-v1_15: -8188905306734791788
+      Drone-drone_dead-v1_16: -2215593700740364378
+      Drone-drone_dead-v1_17: -3236780600961285637
+      Drone-drone_dead-v1_18: -4011324087304867702
+      Drone-drone_dead-v1_19: 701551445423297995
+      Drone-drone_dead-v1_2: -582750106025345055
+      Drone-drone_dead-v1_20: -8146655647106795473
+      Drone-drone_dead-v1_21: 2673691456479184882
+      Drone-drone_dead-v1_22: -3815807963258302196
+      Drone-drone_dead-v1_23: -4385044373303551232
+      Drone-drone_dead-v1_24: 3628598273082308124
+      Drone-drone_dead-v1_25: -8326085119104548173
+      Drone-drone_dead-v1_26: -1165030638818507548
+      Drone-drone_dead-v1_27: -7743562938747995963
+      Drone-drone_dead-v1_28: -8331655951002015687
+      Drone-drone_dead-v1_29: -6251044755722725575
+      Drone-drone_dead-v1_3: -1114928479209199278
+      Drone-drone_dead-v1_30: -4899809428200900872
+      Drone-drone_dead-v1_31: -5529145570384454088
+      Drone-drone_dead-v1_32: -2637531997738586547
+      Drone-drone_dead-v1_33: -1986953047549643869
+      Drone-drone_dead-v1_34: 1495075638422096937
+      Drone-drone_dead-v1_35: 3203922117423956095
+      Drone-drone_dead-v1_36: -1372457898839643008
+      Drone-drone_dead-v1_37: -7673416600351402086
+      Drone-drone_dead-v1_38: 4809761621487872773
+      Drone-drone_dead-v1_39: -3575255781750764272
+      Drone-drone_dead-v1_4: 3844134229465684328
+      Drone-drone_dead-v1_40: 3920156017607074345
+      Drone-drone_dead-v1_41: 8028553691216589619
+      Drone-drone_dead-v1_42: 2942555471365566775
+      Drone-drone_dead-v1_43: 8314923502663463684
+      Drone-drone_dead-v1_44: 5601762108807297714
+      Drone-drone_dead-v1_45: -8034292044865983143
+      Drone-drone_dead-v1_46: -2366974770891405879
+      Drone-drone_dead-v1_47: -2824004485008496729
+      Drone-drone_dead-v1_48: -1541775441337507311
+      Drone-drone_dead-v1_49: -6776188339725861491
+      Drone-drone_dead-v1_5: 8310134842833731780
+      Drone-drone_dead-v1_50: 217916640488870068
+      Drone-drone_dead-v1_51: 2135919052431096123
+      Drone-drone_dead-v1_52: -4194255638298361654
+      Drone-drone_dead-v1_53: 7791981097952944769
+      Drone-drone_dead-v1_54: 5156312817371289204
+      Drone-drone_dead-v1_55: 6753247302590477110
+      Drone-drone_dead-v1_56: 5067127091937068816
+      Drone-drone_dead-v1_57: 1751285260197853249
+      Drone-drone_dead-v1_58: 360739885323078107
+      Drone-drone_dead-v1_59: 1691996193495369771
+      Drone-drone_dead-v1_6: -2024907308379684415
+      Drone-drone_dead-v1_60: 2357065989914701074
+      Drone-drone_dead-v1_61: 6964777761099362784
+      Drone-drone_dead-v1_62: -5747208744317681671
+      Drone-drone_dead-v1_63: -8548792826316816053
+      Drone-drone_dead-v1_64: -4094319121268763794
+      Drone-drone_dead-v1_65: -7971533272188029696
+      Drone-drone_dead-v1_66: 4314411604270221261
+      Drone-drone_dead-v1_67: 9107092364165823508
+      Drone-drone_dead-v1_68: 1775046568059061627
+      Drone-drone_dead-v1_69: -7779417809672173326
+      Drone-drone_dead-v1_7: 2675336042821283897
+      Drone-drone_dead-v1_70: 9007781211701889045
+      Drone-drone_dead-v1_71: 1202766781911125590
+      Drone-drone_dead-v1_72: 1449698696735051117
+      Drone-drone_dead-v1_73: -4245929718218645907
+      Drone-drone_dead-v1_74: 543503405006326064
+      Drone-drone_dead-v1_75: 1274120183695609429
+      Drone-drone_dead-v1_76: -2071487377051455178
+      Drone-drone_dead-v1_77: 1272192341550623591
+      Drone-drone_dead-v1_78: 2986904267995528177
+      Drone-drone_dead-v1_79: 196081497814649445
+      Drone-drone_dead-v1_8: -713520678675773708
+      Drone-drone_dead-v1_80: 2618458930775264985
+      Drone-drone_dead-v1_81: -2556365292100466253
+      Drone-drone_dead-v1_82: -8619497810549215791
+      Drone-drone_dead-v1_83: 4197089859343127558
+      Drone-drone_dead-v1_84: 7517895939703377957
+      Drone-drone_dead-v1_85: -1230296448392360500
+      Drone-drone_dead-v1_86: -553217705729268712
+      Drone-drone_dead-v1_87: -1071372596159783873
+      Drone-drone_dead-v1_88: -5241058941586882333
+      Drone-drone_dead-v1_89: 3626877679131985782
+      Drone-drone_dead-v1_9: 5105057909121974667
+      Drone-drone_dead-v1_90: -3155223974162790978
+      Drone-drone_dead-v1_91: 5121782567731191237
+      Drone-drone_dead-v1_92: 6482596976327443997
+      Drone-drone_dead-v1_93: -7182178970018591653
+      Drone-drone_dead-v1_94: -407708684757223670
+      Drone-drone_dead-v1_95: -3768806344841045900
+      Drone-drone_dead-v1_96: 4973296077193209885
+      Drone-drone_dead-v1_97: -6630138587895416181
+      Drone-drone_dead-v1_98: 132413830103791321
+      Drone-drone_dead-v1_99: 9010275675053743309
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
