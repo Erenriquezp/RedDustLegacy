@@ -7,7 +7,9 @@
 
 ## 0. Lo que YA está listo (no lo rehagas)
 
-- ✅ **Grid + 4 tilemaps** montados y configurados:
+> ⚠️ **Revisión 2026-06-23:** la geometría jugable real (Grid + 6 tilemaps + 2 `CompositeCollider2D`, con Player y Biol instanciados y mecánicas `PlataformaMovil`/`GiroCompleto`/`OsciladorGiro`) ya está construida en **`Assets/Scenes/Level01_2.0/Dev_PlayerMovement.unity`**. La `Level01.unity` "oficial" **sigue vacía** (solo la cámara Cinemachine). Lo que falta de esta guía: **decidir y ejecutar la consolidación** (promover `Level01_2.0` a `Level01.unity` o copiar su contenido), **colocar los marcadores `LevelMarker`** y las trampas `CaidaCristal`/`CaidaPorCercania`, y **cerrar el beat map** de las 5 zonas. Tras consolidar, actualiza `SceneLoader` + Build Settings si cambia el nombre/ruta de la escena.
+
+- ✅ **Grid + tilemaps** montados y configurados (en la escena `Level01_2.0/Dev_PlayerMovement.unity`):
   - `Collision_Tilemap` → layer **`Ground`**, con `TilemapCollider2D` (Composite Operation = **Merge**) + `CompositeCollider2D` + `Rigidbody2D` (**Static**).
   - `OneWay_Tilemap` → layer **`Platform`**, con `PlatformEffector2D`.
   - `Visual_Tilemap` y `Markers_Tilemap` → sin collider (decoración / marcas).
@@ -16,7 +18,7 @@
 
 **Lo único que falta es esta guía: pintar la geometría de las 5 zonas** (y luego colocar marcadores y enemigos, §4).
 
-> Puedes prototipar en `Dev_PlayerMovement`, pero la geometría **final** va en `Assets/Scenes/Level01/Level01.unity`. Cuando construyas el nivel de verdad, abre Level01.
+> La geometría jugable actual está en `Assets/Scenes/Level01_2.0/Dev_PlayerMovement.unity`. El destino **final** debe ser `Assets/Scenes/Level01/Level01.unity` (la que carga `SceneLoader`); decide pronto si renombras/promueves la escena `Level01_2.0` o copias su contenido, para no mantener dos escenas divergentes.
 
 ---
 

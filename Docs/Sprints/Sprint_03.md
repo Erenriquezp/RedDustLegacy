@@ -1,8 +1,12 @@
 # Sprint 03 — Sistemas core, HUD, segundo enemigo y checkpoints
 
-> **Estado:** ⬜ Pendiente (nada iniciado) · **Prerequisito:** Sprint 02 · **Ref. GDD:** §4, §7, §8.4, §10, §15
+> **Estado:** ⬜ Pendiente (nada iniciado) · **Revisado:** 2026-06-23 · **Prerequisito:** Sprint 02 · **Ref. GDD:** §4, §7, §8.4, §10, §15
 
-Integridad Estructural (SI), HUD, Drone Patrullero con proyectiles, checkpoints con respawn y GameManager con pausa/game-over. Ninguno de estos scripts existe todavía.
+Integridad Estructural (SI), HUD, Drone Patrullero con proyectiles, checkpoints con respawn y GameManager con pausa/game-over. **Confirmado al 2026-06-22:** ninguno de estos scripts existe todavía (`DegradationSystem`, `HUDManager`, `GameManager`, `DronePatrollerAI`, `EnemyProjectile`, `Checkpoint`) y `PlayerController` aún no expone `OnDamageReceived` / `OnDeath` / `OnLanded` / `SetStats`.
+
+**Dependencias de assets ya resueltas (adelanto):**
+- ✅ Sprites del Drone listos: `Drone-idle-v1`, `Drone-walk-v1`, `Drone-attack-v1`, `Drone-drone_dead-v1` (`Art/Sprites/`) → desbloquea el Animator `DronePatrollerAC` de T3.
+- ✅ `PlayerAudioController` ya tiene `PlayDeathSound()`, `sfxDeath` y `sfxDamage` cableados → listos para enganchar a `OnDeath` / `OnDamageReceived` (T1) y al Game Over (T5).
 
 ## Equipo y ramas
 
@@ -140,7 +144,7 @@ Waypoints: `Transform[]` asignado en escena; en Patrol, avanzar al siguiente al 
 - `OnTriggerEnter2D`: si `Player` → `GetComponentInParent<DegradationSystem>()?.TakeDamage(Random.Range(8,13))` y destruir; si capa Ground → destruir.
 
 ### Animator `DronePatrollerAC`
-Sprites existentes `Drone-idle-v1`, `Drone-walk-v1` (faltan Attack/Death → Artist). Params `Speed` (Float), `IsAttacking` (Bool), `IsDead` (Bool).
+Sprites ya completos: `Drone-idle-v1`, `Drone-walk-v1`, `Drone-attack-v1`, `Drone-drone_dead-v1` (en `Art/Sprites/`). Falta crear el `.controller` y los clips. Params `Speed` (Float), `IsAttacking` (Bool), `IsDead` (Bool).
 
 ### Disparo
 `firerPoint` (Transform hijo) como origen; en Attack, instanciar el proyectil hacia el rover cada `attackCooldown` (1.5 s).

@@ -1,6 +1,6 @@
 # Sprint 02 — Level01 jugable, enemigo bioluminiscente y audio
 
-> **Estado:** 🔄 En progreso · **Última revisión:** 2026-06-20 · **Ref. GDD:** §8, §9.2, §13, §14
+> **Estado:** 🔄 En progreso · **Última revisión:** 2026-06-23 · **Ref. GDD:** §8, §9.2, §13, §14
 
 Geometría y parallax de Level01, animaciones completas del rover, primer enemigo con IA (Ser Bioluminiscente) y mejoras de audio.
 
@@ -21,13 +21,21 @@ Geometría y parallax de Level01, animaciones completas del rover, primer enemig
 - **Animaciones rover en RoverAC:** Idle, Walk, Run, Jump, Scan, **Dash**, **Death** (params `Speed`, `IsGrounded`, `IsJumping`, `IsScanning`, `VelocityY`, `IsDashing`, `IsOnWall`, `IsDead`, `IsDamaged`). Dash verificado en Play Mode; `dashDuration` 0.5 s para encajar el clip de 6 frames. Death montado y terminal (a la espera de `OnDeath` en Sprint 03).
 - **Tooling de nivel:** `PlaceholderTileGenerator.cs` (menú `Tools → Red Dust`), `LevelMarker.cs` (7 tipos), 5 tiles placeholder + palette.
 - **Arte disponible:** sprites de dash del rover, fondos PNG de cuevas en `Art/Backgrounds/`.
+- **Mecánicas de nivel nuevas (`Scripts/leveo01/`, no planificadas en el sprint original):** `PlataformaMovil` (plataforma horizontal/vertical con ida y vuelta), `GiroCompleto` (rotación continua), `OsciladorGiro` (oscilación tipo péndulo por seno), `CaidaCristal` y `CaidaPorCercania` (trampas de cristal que caen al detectar al Player por raycast). Las tres primeras ya están **en uso en la escena `Level01_2.0/Dev_PlayerMovement.unity`**; las dos trampas existen pero aún no se colocan en escena.
 
 ---
 
-## 🔴 T5 — Geometría de Level01
+## 🟡 T5 — Geometría de Level01
 **Responsable:** Level Designer · **Rama:** `feature/level-design` · **Ref. GDD:** §9.2, §16.1
 
-La escena `Level01.unity` solo contiene la cámara Cinemachine. Hay que construir todo el nivel jugable con tiles placeholder.
+**Avance (2026-06-23):**
+- ✅ **Tileset real** (`piso_1_mundo`) sliceado a 64 px (PPU 64) y >100 tiles generados en `Assets/Art/Tiles/` con paleta lista (ya no son placeholders).
+- ✅ **Geometría jugable construida** en la escena **`Assets/Scenes/Level01_2.0/Dev_PlayerMovement.unity`** (~966 KB): Grid + **6 `Tilemap`** y **2 `CompositeCollider2D`** montados; el Player se apoya, corre, salta y hace dash sobre suelo real.
+- ✅ **Prefabs instanciados en escena:** 1 `Player.prefab` y 1 `SerBioluminiscente.prefab` (con `rover` asignado). Mecánicas activas: **4 `PlataformaMovil`**, **3 `GiroCompleto`**, **3 `OsciladorGiro`**.
+- 🔴 **Desincronización de escenas:** la `Level01.unity` "oficial" **sigue vacía** (solo la cámara Cinemachine: 0 tilemaps, 0 prefabs). El trabajo real vive en la escena paralela `Level01_2.0/Dev_PlayerMovement.unity`. **Decisión pendiente:** promover esa escena a `Level01.unity` (y actualizar `SceneLoader` + Build Settings) o copiar el contenido. Mientras no se haga, `SceneLoader.LoadLevel01()` carga una escena vacía.
+- 🔴 **Pendiente:** **colocar marcadores `LevelMarker`** (ninguna escena los tiene todavía); colocar las trampas `CaidaCristal`/`CaidaPorCercania`; cerrar el beat map de las 5 zonas (Z1→Z5).
+
+> Guía paso a paso: [T5_Geometria_Level01.md](./T5_Geometria_Level01.md).
 
 ### Montaje del Grid
 1. Crear GameObject raíz `Grid` (componente `Grid`, cell size 1×1).
@@ -55,16 +63,15 @@ La escena `Level01.unity` solo contiene la cámara Cinemachine. Hay que construi
 
 ---
 
-## 🔴 T1 — Fondos y parallax de Level01
+## 🟡 T1 — Fondos y parallax de Level01
 **Responsable:** Artist (arte) + Level Designer (montaje) · **Rama:** `feature/level-design` · **Ref. GDD:** §9.1, §13.1
 
-Los fondos PNG ya existen en `Art/Backgrounds/`; falta el script de desplazamiento y el montaje en escena. El tileset final sigue siendo placeholder.
+Los fondos PNG ya existen en `Art/Backgrounds/`; el script de desplazamiento **ya existe**; falta el montaje en escena. El tileset ya es real (ver T5).
 
-### Script — `Scripts/Level/ParallaxController.cs` (nuevo)
-- `MonoBehaviour` en el GameObject raíz `ParallaxBackground`.
-- Campo `[SerializeField] Transform cameraTransform` (cámara principal) y un arreglo de capas, cada una con su `parallaxFactor`.
-- En `LateUpdate()`: por capa, `delta = (camPos - lastCamPos)`; mover la capa `delta * parallaxFactor`. Para tiling horizontal, reposicionar la textura cuando el desplazamiento supere el ancho del sprite (o usar `SpriteRenderer.drawMode = Tiled` con un sprite ancho).
-- Ejecutar en `LateUpdate` (después de que Cinemachine mueve la cámara).
+### ✅ Script — `Scripts/Level/ParallaxBackground.cs` (clase `ParallaxController`)
+- Ya implementado y en el repo (junto con `Parallax.cs`, `ParallaxCamera.cs`, `ParallaxLayer.cs`). Corre en `LateUpdate()`.
+- **Nota de implementación:** la versión actual usa **desplazamiento de `_MainTex` por material** (`mat[i].SetTextureOffset`) calculando la velocidad por capa a partir de la `z` del hijo, en lugar del enfoque "mover el Transform por `delta * parallaxFactor`" descrito originalmente. Funciona para tiling; requiere materiales con textura wrap. Revisar si se mantiene este enfoque o se unifica con `ParallaxLayer`.
+- 🔴 **Pendiente:** no está instanciado en ninguna escena (0 referencias en Level01/Dev). Falta el montaje de las 3 capas y asignar fondos/factores.
 
 ### Montaje (3 capas)
 | Capa | Factor | Contenido sugerido |
@@ -103,7 +110,9 @@ Requieren `Opportunity-wallslide` (6f, loop) y `Opportunity-walljump` (5f). El p
 ## 🟡 T3 — Cierre del Ser Bioluminiscente
 **Responsable:** AI Programmer · **Rama:** `feature/enemy-ai` · **Ref. GDD:** §8.2
 
-El FSM, el ataque y `ApplyStun()` ya funcionan. Falta la muerte/HP y conectar el aturdimiento al escaneo.
+El FSM, el ataque y `ApplyStun()` ya funcionan. Falta la muerte/HP y conectar el aturdimiento al escaneo. **Estado al 2026-06-23:** `OnTriggerStay2D` sigue solo logueando (no llama a `TakeDamage`), no existe campo `_currentHp` ni `TakeDamage`/`Die`, y nada invoca `ApplyStun()` desde el escaneo.
+
+**Adelanto de assets (2026-06-23):** el sprite de muerte `Bio_death.png` ya está en `Art/Sprites/Enemy/` (aún sin trackear en git) y `BiolAC.controller` ya tiene el parámetro `IsDead` + un estado vacío reservado. Falta crear `BiolDeath.anim`, cablear el estado `Death` con el trigger/bool de muerte y escribir la lógica `TakeDamage`/`Die` que lo dispare.
 
 ### Lógica de HP y muerte (en `BioluminescentAI.cs`)
 1. Campo runtime `private int _currentHp;` inicializado en `Start()` con `stats.hp`.
@@ -122,7 +131,7 @@ El FSM, el ataque y `ApplyStun()` ya funcionan. Falta la muerte/HP y conectar el
 ## 🟡 T4 — Audio Mixer y estados de música
 **Responsable:** Technical Director · **Rama:** `feature/audio-system` · **Ref. GDD:** §14
 
-`AudioManager` sigue básico (`PlayMusic`, `TriggerGameOverMusic`, `PlayGlobalSFX`). No hay Audio Mixer.
+`AudioManager` sigue básico (`PlayMusic`, `TriggerGameOverMusic`, `PlayGlobalSFX`). **Sin avances al 2026-06-22:** no existe ningún `.mixer` en el proyecto, ni el `enum MusicState`, ni `SetMusicState`. (Nota: `PlayerAudioController` ya tiene `PlayDeathSound`/`sfxDeath`/`sfxDamage` listos.)
 
 ### Audio Mixer (4 buses)
 Crear `Assets/Audio/MainMixer.mixer` con grupos **Master → {Music, SFX, Ambient}**. Enrutar:
@@ -144,8 +153,10 @@ Agregar al menos SFX de ataque y de muerte por enemigo en `Audio/SFX/` y dispara
 ## 🟢 Deuda técnica de Sprint 01
 **Responsable:** Gameplay Programmer · **Rama:** `feature/player-movement`
 
-- **Bug `OnDashed`:** en `PlayerAudioController.cs:39/50` la suscripción es `OnDashed += PlayDamageSound`. Añadir `[SerializeField] AudioClip sfxDash;` + método `PlayDashSound()` (one-shot) y suscribir `OnDashed += PlayDashSound`; o removerla si no habrá SFX de dash.
-- **Bindings vs GDD §2:** en `RoverInputActions_Local.inputactions`, Jump usa `W`/`↑` (GDD pide `Espacio`) y Scan usa `E` (GDD pide `F`). Ajustar los bindings.
+> ⚠️ **Ambos puntos siguen pendientes al 2026-06-22.**
+
+- **Bug `OnDashed`:** en `PlayerAudioController.cs:39/50` la suscripción **sigue siendo** `OnDashed += PlayDamageSound`. Añadir `[SerializeField] AudioClip sfxDash;` + método `PlayDashSound()` (one-shot) y suscribir `OnDashed += PlayDashSound`; o removerla si no habrá SFX de dash.
+- **Bindings vs GDD §2:** en `RoverInputActions_Local.inputactions`, Jump **sigue** en `W`/`↑` (GDD pide `Espacio`) y Scan en `E` (GDD pide `F`). Ajustar los bindings.
 
 ---
 
@@ -163,11 +174,14 @@ Agregar al menos SFX de ataque y de muerte por enemigo en `Audio/SFX/` y dispara
 
 ## Progreso
 
+> Revisión 2026-06-23.
+
 | Tarea | Responsable | Prioridad | Estado |
 |-------|-------------|-----------|--------|
-| T5 — Geometría Level01 | Level Designer | 🔴 Alta | ~30% (tooling y escena ✅, geometría sin pintar) |
-| T1 — Fondos/parallax | Artist + Level Designer | 🔴 Alta | ~20% (fondos ✅, sin script ni montaje) |
+| T5 — Geometría Level01 | Level Designer | 🔴 Alta | ~70% (tileset real + geometría jugable con prefabs y mecánicas ✅ en `Level01_2.0`; **falta consolidar en `Level01.unity`** + marcadores + trampas + cierre de zonas) |
+| T1 — Fondos/parallax | Artist + Level Designer | 🟡 Media | ~50% (fondos ✅, **script `ParallaxController` ✅**; falta montaje de capas en escena) |
 | T2 — Animaciones rover | Artist + Gameplay | 🟢 Baja | ~85% (Dash/Death ✅; falta Land/Damage por sprites + evento S03; Wall_* es V2) |
-| T3 — Cierre Biol | AI Programmer | 🟡 Media | ~80% (FSM/ataque/stun ✅, falta muerte/HP) |
-| T4 — Audio Mixer | Technical Director | 🟡 Media | 0% |
-| Deuda Sprint 01 | Gameplay | 🟢 Baja | pendiente |
+| T3 — Cierre Biol | AI Programmer | 🟡 Media | ~80% (FSM/ataque/stun ✅, sprite `Bio_death` ✅; falta `BiolDeath.anim` + muerte/HP + stun-por-escaneo) |
+| T4 — Audio Mixer | Technical Director | 🟡 Media | 0% (sin `.mixer` ni `MusicState`) |
+| Deuda Sprint 01 | Gameplay | 🟢 Baja | pendiente (audio bug `OnDashed→PlayDamageSound` + bindings Jump/Scan) |
+| ➕ Mecánicas de nivel | Level Designer | — | extra fuera de plan: `PlataformaMovil`/`GiroCompleto`/`OsciladorGiro` ✅ en uso; `CaidaCristal`/`CaidaPorCercania` por colocar |
