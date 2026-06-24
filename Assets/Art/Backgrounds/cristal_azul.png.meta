@@ -123,7 +123,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -168,10 +168,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< HEAD
-=======
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -183,50 +181,27 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
->>>>>>> 9a31e8872aff9109ef298f966a2a12ce35c4b07b
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cristal_azul_0
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 0
-        width: 227
-        height: 1024
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c46ea3c5c4b3b4bf0800000000000000
-      internalID: -339112147785423284
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: cristal_azul_1
       rect:
         serializedVersion: 2
-        x: 81
-        y: 983
-        width: 8
-        height: 8
+        x: 82
+        y: 984
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7a5bae400b79cca60800000000000000
-      internalID: 7695692645521864103
+      spriteID: ed79b404321ca324fabb17b993814875
+      internalID: 598107791
       vertices: []
       indices: 
       edges: []
@@ -235,20 +210,20 @@ TextureImporter:
       name: cristal_azul_2
       rect:
         serializedVersion: 2
-        x: 81
-        y: 707
-        width: 8
-        height: 19
+        x: 82
+        y: 708
+        width: 6
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 52f497a4088f6a280800000000000000
-      internalID: -9032258772755984603
+      spriteID: 3784cf666d471a44995f08bb7ca65bde
+      internalID: -1735442877
       vertices: []
       indices: 
       edges: []
@@ -257,20 +232,20 @@ TextureImporter:
       name: cristal_azul_3
       rect:
         serializedVersion: 2
-        x: 81
-        y: 350
-        width: 8
-        height: 9
+        x: 82
+        y: 351
+        width: 6
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: adfb68a325de430e0800000000000000
-      internalID: -2290945372999729190
+      spriteID: 2c66fcd6aa77352498979b437dca33e7
+      internalID: 2092578738
       vertices: []
       indices: 
       edges: []
@@ -279,20 +254,20 @@ TextureImporter:
       name: cristal_azul_4
       rect:
         serializedVersion: 2
-        x: 81
-        y: 326
-        width: 8
-        height: 9
+        x: 82
+        y: 327
+        width: 6
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 952d8e804f3cb9a40800000000000000
-      internalID: 5376106033085731417
+      spriteID: 1bf23e2753e77694a9b76f0c90ecfbb2
+      internalID: 1764573315
       vertices: []
       indices: 
       edges: []
@@ -301,20 +276,20 @@ TextureImporter:
       name: cristal_azul_5
       rect:
         serializedVersion: 2
-        x: 81
-        y: 155
-        width: 8
-        height: 20
+        x: 82
+        y: 156
+        width: 6
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: eeeffa687d01ab870800000000000000
-      internalID: 8699284148083228398
+      spriteID: e20b295b020dfa440b537a894d1f1e69
+      internalID: -1556570846
       vertices: []
       indices: 
       edges: []
@@ -323,20 +298,20 @@ TextureImporter:
       name: cristal_azul_6
       rect:
         serializedVersion: 2
-        x: 82
-        y: 807
-        width: 7
-        height: 6
+        x: 83
+        y: 808
+        width: 5
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c2160758fead081a0800000000000000
-      internalID: -6809201914313416404
+      spriteID: 47e9c4bbbb2a97e4d817c4dd9ab69671
+      internalID: 1484952815
       vertices: []
       indices: 
       edges: []
@@ -345,20 +320,20 @@ TextureImporter:
       name: cristal_azul_7
       rect:
         serializedVersion: 2
-        x: 82
-        y: 618
-        width: 7
-        height: 11
+        x: 83
+        y: 619
+        width: 5
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 87bdc0a5db65c5460800000000000000
-      internalID: 7231750472909773688
+      spriteID: efce392f0bc74c14bba3e6573fc64d36
+      internalID: -497098798
       vertices: []
       indices: 
       edges: []
@@ -367,20 +342,20 @@ TextureImporter:
       name: cristal_azul_8
       rect:
         serializedVersion: 2
-        x: 82
-        y: 84
-        width: 7
-        height: 9
+        x: 83
+        y: 85
+        width: 5
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 537733a678291cea0800000000000000
-      internalID: -5854236930304936139
+      spriteID: 977124c9d33adea479542131de222e17
+      internalID: 1616707342
       vertices: []
       indices: 
       edges: []
@@ -389,20 +364,20 @@ TextureImporter:
       name: cristal_azul_9
       rect:
         serializedVersion: 2
-        x: 82
+        x: 83
         y: 0
-        width: 7
-        height: 5
+        width: 5
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 25f5ed07f57c81cc0800000000000000
-      internalID: -3740020277801754798
+      spriteID: 7802e87be7bd48b4f9a63894a361535e
+      internalID: 1688277212
       vertices: []
       indices: 
       edges: []
@@ -411,20 +386,20 @@ TextureImporter:
       name: cristal_azul_10
       rect:
         serializedVersion: 2
-        x: 83
-        y: 998
-        width: 6
-        height: 7
+        x: 84
+        y: 999
+        width: 4
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 16cb566d376c7e880800000000000000
-      internalID: -8581672364110660511
+      spriteID: b2d7300fb44cf5a49986a33a56b2ae2e
+      internalID: 1195371340
       vertices: []
       indices: 
       edges: []
@@ -433,20 +408,20 @@ TextureImporter:
       name: cristal_azul_11
       rect:
         serializedVersion: 2
-        x: 83
-        y: 951
-        width: 6
-        height: 6
+        x: 84
+        y: 952
+        width: 4
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dde67ecb521ce7870800000000000000
-      internalID: 8682589499444129501
+      spriteID: e537d858a505f7947ab7e3da8e0c6701
+      internalID: -2132853081
       vertices: []
       indices: 
       edges: []
@@ -455,20 +430,20 @@ TextureImporter:
       name: cristal_azul_12
       rect:
         serializedVersion: 2
-        x: 83
-        y: 542
-        width: 6
-        height: 9
+        x: 84
+        y: 543
+        width: 4
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 543acfc3485b6aa00800000000000000
-      internalID: 767500366076748613
+      spriteID: 40609af17fbf62b44be4e64a62ab705a
+      internalID: -1758552047
       vertices: []
       indices: 
       edges: []
@@ -477,20 +452,20 @@ TextureImporter:
       name: cristal_azul_13
       rect:
         serializedVersion: 2
-        x: 83
-        y: 526
-        width: 6
-        height: 9
+        x: 84
+        y: 527
+        width: 4
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: af6e2cc349fd07430800000000000000
-      internalID: 3778765915131406074
+      spriteID: c5bbb1602a3b3a8409ca8c301b86d831
+      internalID: -1399255713
       vertices: []
       indices: 
       edges: []
@@ -499,20 +474,20 @@ TextureImporter:
       name: cristal_azul_14
       rect:
         serializedVersion: 2
-        x: 83
-        y: 484
-        width: 6
-        height: 11
+        x: 84
+        y: 485
+        width: 4
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 043683610c21e2c40800000000000000
-      internalID: 5489345612027028288
+      spriteID: 9804422cc71e057488dd0826942bbea9
+      internalID: 1609939600
       vertices: []
       indices: 
       edges: []
@@ -521,20 +496,20 @@ TextureImporter:
       name: cristal_azul_15
       rect:
         serializedVersion: 2
-        x: 83
-        y: 220
-        width: 6
-        height: 11
+        x: 84
+        y: 221
+        width: 4
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bccd8680877e9de00800000000000000
-      internalID: 1070140889200385227
+      spriteID: 8230483f0e9f3e748b3f7e62134b97b6
+      internalID: -1902642815
       vertices: []
       indices: 
       edges: []
@@ -543,20 +518,20 @@ TextureImporter:
       name: cristal_azul_16
       rect:
         serializedVersion: 2
-        x: 83
-        y: 55
-        width: 6
-        height: 8
+        x: 84
+        y: 56
+        width: 4
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b76a5716a1a1e15d0800000000000000
-      internalID: -3090003593723009413
+      spriteID: b4151bae0e8a49a44a21f327b03ac767
+      internalID: -2042478192
       vertices: []
       indices: 
       edges: []
@@ -565,20 +540,20 @@ TextureImporter:
       name: cristal_azul_17
       rect:
         serializedVersion: 2
-        x: 83
-        y: 23
-        width: 6
-        height: 6
+        x: 84
+        y: 24
+        width: 4
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c4568f87929aa5f30800000000000000
-      internalID: 4565147167881717068
+      spriteID: 633350a318d1e06429ef8627dc1cc614
+      internalID: 2065095904
       vertices: []
       indices: 
       edges: []
@@ -587,20 +562,20 @@ TextureImporter:
       name: cristal_azul_18
       rect:
         serializedVersion: 2
-        x: 247
-        y: 0
-        width: 1280
-        height: 1024
+        x: 466
+        y: 71
+        width: 762
+        height: 835
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 14, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0d131996100239f80800000000000000
-      internalID: -8101096114271211056
+      spriteID: d372311be6710da48b76cf393766565c
+      internalID: -2079909404
       vertices: []
       indices: 
       edges: []
@@ -609,20 +584,20 @@ TextureImporter:
       name: cristal_azul_19
       rect:
         serializedVersion: 2
-        x: 337
-        y: 368
-        width: 8
-        height: 8
+        x: 338
+        y: 369
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 67fd361ea0c90efa0800000000000000
-      internalID: -5773443151743950986
+      spriteID: 21e330f5603712049a47d24a44c85181
+      internalID: -1640159595
       vertices: []
       indices: 
       edges: []
@@ -631,20 +606,20 @@ TextureImporter:
       name: cristal_azul_20
       rect:
         serializedVersion: 2
-        x: 722
-        y: 61
-        width: 17
-        height: 7
+        x: 723
+        y: 62
+        width: 15
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3c700d6c861d9cc60800000000000000
-      internalID: 7839026874357385155
+      spriteID: c0fe43a1571f8c14eadac4bdd75251b9
+      internalID: 1517162562
       vertices: []
       indices: 
       edges: []
@@ -653,20 +628,20 @@ TextureImporter:
       name: cristal_azul_21
       rect:
         serializedVersion: 2
-        x: 799
-        y: 874
-        width: 6
-        height: 6
+        x: 800
+        y: 875
+        width: 4
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8e6a1b8766de7ca60800000000000000
-      internalID: 7694379512753137384
+      spriteID: 8332fad170f2d4f44849752a23fe78f7
+      internalID: -1808630055
       vertices: []
       indices: 
       edges: []
@@ -675,20 +650,20 @@ TextureImporter:
       name: cristal_azul_22
       rect:
         serializedVersion: 2
-        x: 823
-        y: 865
-        width: 11
-        height: 16
+        x: 824
+        y: 869
+        width: 9
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dc71e9423d641d9d0800000000000000
-      internalID: -2751340024680278067
+      spriteID: 27d5de75d79f97e4b8c5fd6d8cd111e0
+      internalID: 488321928
       vertices: []
       indices: 
       edges: []
@@ -697,20 +672,20 @@ TextureImporter:
       name: cristal_azul_23
       rect:
         serializedVersion: 2
-        x: 854
-        y: 903
-        width: 7
-        height: 9
+        x: 855
+        y: 905
+        width: 4
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dca28a11d4b70a7c0800000000000000
-      internalID: -4062111292949255475
+      spriteID: 60dd8ce6ff850704187e2b4e76c7e5bb
+      internalID: -101756501
       vertices: []
       indices: 
       edges: []
@@ -719,20 +694,20 @@ TextureImporter:
       name: cristal_azul_24
       rect:
         serializedVersion: 2
-        x: 994
-        y: 24
-        width: 6
-        height: 8
+        x: 995
+        y: 25
+        width: 4
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 08ae81e1eafa15140800000000000000
-      internalID: 4706736247942998656
+      spriteID: 457b5d3cc39263c42a0234e01fe08ee4
+      internalID: 310327427
       vertices: []
       indices: 
       edges: []
@@ -741,7 +716,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: feba8b5f4790344469071068b8ad6b0d
     internalID: 0
     vertices: []
     indices: 
@@ -749,33 +724,35 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      cristal_azul_0: -339112147785423284
-      cristal_azul_1: 7695692645521864103
-      cristal_azul_10: -8581672364110660511
-      cristal_azul_11: 8682589499444129501
-      cristal_azul_12: 767500366076748613
-      cristal_azul_13: 3778765915131406074
-      cristal_azul_14: 5489345612027028288
-      cristal_azul_15: 1070140889200385227
-      cristal_azul_16: -3090003593723009413
-      cristal_azul_17: 4565147167881717068
-      cristal_azul_18: -8101096114271211056
-      cristal_azul_19: -5773443151743950986
-      cristal_azul_2: -9032258772755984603
-      cristal_azul_20: 7839026874357385155
-      cristal_azul_21: 7694379512753137384
-      cristal_azul_22: -2751340024680278067
-      cristal_azul_23: -4062111292949255475
-      cristal_azul_24: 4706736247942998656
-      cristal_azul_3: -2290945372999729190
-      cristal_azul_4: 5376106033085731417
-      cristal_azul_5: 8699284148083228398
-      cristal_azul_6: -6809201914313416404
-      cristal_azul_7: 7231750472909773688
-      cristal_azul_8: -5854236930304936139
-      cristal_azul_9: -3740020277801754798
+      cristal_azul_0: 1962652187
+      cristal_azul_1: 598107791
+      cristal_azul_10: 1195371340
+      cristal_azul_11: -2132853081
+      cristal_azul_12: -1758552047
+      cristal_azul_13: -1399255713
+      cristal_azul_14: 1609939600
+      cristal_azul_15: -1902642815
+      cristal_azul_16: -2042478192
+      cristal_azul_17: 2065095904
+      cristal_azul_18: -2079909404
+      cristal_azul_19: -1640159595
+      cristal_azul_2: -1735442877
+      cristal_azul_20: 1517162562
+      cristal_azul_21: -1808630055
+      cristal_azul_22: 488321928
+      cristal_azul_23: -101756501
+      cristal_azul_24: 310327427
+      cristal_azul_3: 2092578738
+      cristal_azul_4: 1764573315
+      cristal_azul_5: -1556570846
+      cristal_azul_6: 1484952815
+      cristal_azul_7: -497098798
+      cristal_azul_8: 1616707342
+      cristal_azul_9: 1688277212
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

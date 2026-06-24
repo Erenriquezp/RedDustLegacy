@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 512
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -105,10 +105,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< HEAD
-=======
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -120,7 +118,6 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
->>>>>>> 9a31e8872aff9109ef298f966a2a12ce35c4b07b
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -128,20 +125,20 @@ TextureImporter:
       name: exporex_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 1
-        width: 1340
-        height: 1023
+        x: 182
+        y: 2
+        width: 1170
+        height: 879
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5319b0e3377adda40800000000000000
-      internalID: 5394652042063745333
+      spriteID: 7ba8754c0fdde2a40905f867bacf5780
+      internalID: 1358904584
       vertices: []
       indices: 
       edges: []
@@ -150,20 +147,20 @@ TextureImporter:
       name: exporex_1
       rect:
         serializedVersion: 2
-        x: 569
-        y: 901
-        width: 35
-        height: 31
+        x: 570
+        y: 902
+        width: 33
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3412f223da793bf80800000000000000
-      internalID: -8091957335327563453
+      spriteID: 8785389f584351b449f3a65da14a93bd
+      internalID: -1394052717
       vertices: []
       indices: 
       edges: []
@@ -172,20 +169,20 @@ TextureImporter:
       name: exporex_2
       rect:
         serializedVersion: 2
-        x: 838
-        y: 890
-        width: 37
-        height: 36
+        x: 839
+        y: 891
+        width: 35
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2f40b867726233060800000000000000
-      internalID: 6931926202387727602
+      spriteID: c4001a930a1753e45a639d88a69a2f98
+      internalID: 1042016831
       vertices: []
       indices: 
       edges: []
@@ -194,20 +191,20 @@ TextureImporter:
       name: exporex_3
       rect:
         serializedVersion: 2
-        x: 973
-        y: 890
-        width: 7
-        height: 9
+        x: 974
+        y: 891
+        width: 4
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 58e731d873321c340800000000000000
-      internalID: 4882222192543366789
+      spriteID: 6164d020516e99143a16388e31eed083
+      internalID: 2036149935
       vertices: []
       indices: 
       edges: []
@@ -216,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c133c2230586d68418cf747d3a3a6e2d
     internalID: 0
     vertices: []
     indices: 
@@ -224,12 +221,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      exporex_0: 5394652042063745333
-      exporex_1: -8091957335327563453
-      exporex_2: 6931926202387727602
-      exporex_3: 4882222192543366789
+      exporex_0: 1358904584
+      exporex_1: -1394052717
+      exporex_2: 1042016831
+      exporex_3: 2036149935
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

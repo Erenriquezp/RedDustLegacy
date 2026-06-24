@@ -54,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -99,10 +99,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< HEAD
-=======
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -114,7 +112,6 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
->>>>>>> 9a31e8872aff9109ef298f966a2a12ce35c4b07b
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -122,20 +119,20 @@ TextureImporter:
       name: cristal_azul_2_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 0
-        width: 1513
-        height: 1024
+        x: 556
+        y: 318
+        width: 449
+        height: 571
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 13, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 115c6d04ae4d4d8d0800000000000000
-      internalID: -2822396963879205615
+      spriteID: 621013b3a8e36d54092854431e91df62
+      internalID: -644399275
       vertices: []
       indices: 
       edges: []
@@ -144,20 +141,20 @@ TextureImporter:
       name: cristal_azul_2_1
       rect:
         serializedVersion: 2
-        x: 351
-        y: 382
-        width: 13
-        height: 11
+        x: 353
+        y: 384
+        width: 10
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6805d134b89042a50800000000000000
-      internalID: 6495327056306196614
+      spriteID: 62083a34fbd090943982b7650dbbd201
+      internalID: 1508789862
       vertices: []
       indices: 
       edges: []
@@ -166,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c3c8c40cd1a90144d89f35a6a836f425
     internalID: 0
     vertices: []
     indices: 
@@ -174,10 +171,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      cristal_azul_2_0: -2822396963879205615
-      cristal_azul_2_1: 6495327056306196614
+      cristal_azul_2_0: -644399275
+      cristal_azul_2_1: 1508789862
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
