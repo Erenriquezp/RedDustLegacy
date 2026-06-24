@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0603e58a37a00ee489b921889dfda0be
+guid: f70ec8dcfd6e1d54a8edc1c92202bd09
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -378,7 +378,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -423,49 +423,40 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: geyser_luminoso_0
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 0
-        width: 110
-        height: 1024
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 577aafdc00cc42f20800000000000000
-      internalID: 3397064322772019061
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: geyser_luminoso_1
       rect:
         serializedVersion: 2
-        x: 79
-        y: 991
-        width: 10
-        height: 8
+        x: 80
+        y: 992
+        width: 8
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1458abd89d26ea070800000000000000
-      internalID: 8119535864720819521
+      spriteID: 6fe62892e271ff74c81f8b3583cd223a
+      internalID: -516005164
       vertices: []
       indices: 
       edges: []
@@ -474,20 +465,20 @@ TextureImporter:
       name: geyser_luminoso_2
       rect:
         serializedVersion: 2
-        x: 79
-        y: 983
-        width: 10
-        height: 8
+        x: 80
+        y: 984
+        width: 8
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 06160ee805f7c4950800000000000000
-      internalID: 6434657951576777056
+      spriteID: 22cac1c6998157041a00a4cb6c22abea
+      internalID: -1706727320
       vertices: []
       indices: 
       edges: []
@@ -496,20 +487,20 @@ TextureImporter:
       name: geyser_luminoso_3
       rect:
         serializedVersion: 2
-        x: 79
-        y: 839
-        width: 10
-        height: 8
+        x: 80
+        y: 840
+        width: 8
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1c8d2a0b7b0188180800000000000000
-      internalID: -9113015464855676735
+      spriteID: a08a586e34ae14b40a227d9abda77bbd
+      internalID: -513071278
       vertices: []
       indices: 
       edges: []
@@ -518,20 +509,20 @@ TextureImporter:
       name: geyser_luminoso_4
       rect:
         serializedVersion: 2
-        x: 79
-        y: 828
-        width: 10
-        height: 11
+        x: 80
+        y: 829
+        width: 8
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f68f5a13d7a2eaae0800000000000000
-      internalID: -1536243705694521233
+      spriteID: 941b9d6925771d846890d103836097a6
+      internalID: 2112151969
       vertices: []
       indices: 
       edges: []
@@ -540,20 +531,20 @@ TextureImporter:
       name: geyser_luminoso_5
       rect:
         serializedVersion: 2
-        x: 79
-        y: 707
-        width: 10
-        height: 13
+        x: 80
+        y: 708
+        width: 8
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d3016d2cc804b7010800000000000000
-      internalID: 1187613900050665533
+      spriteID: 08398d6a512d0e24ab3a2380dfb65b37
+      internalID: -1557957166
       vertices: []
       indices: 
       edges: []
@@ -562,20 +553,20 @@ TextureImporter:
       name: geyser_luminoso_6
       rect:
         serializedVersion: 2
-        x: 79
-        y: 677
-        width: 10
-        height: 10
+        x: 80
+        y: 678
+        width: 8
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6ed4350c45994eaf0800000000000000
-      internalID: -368000680254550554
+      spriteID: 8607ba5bd7b83f443a81ff286e1debe4
+      internalID: 219348876
       vertices: []
       indices: 
       edges: []
@@ -584,20 +575,20 @@ TextureImporter:
       name: geyser_luminoso_7
       rect:
         serializedVersion: 2
-        x: 79
-        y: 631
-        width: 10
-        height: 15
+        x: 80
+        y: 632
+        width: 8
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4c1e549890c434710800000000000000
-      internalID: 1676267090153431492
+      spriteID: abf47f24f2c1d60459a8c3889afa8383
+      internalID: -1013346283
       vertices: []
       indices: 
       edges: []
@@ -606,20 +597,20 @@ TextureImporter:
       name: geyser_luminoso_8
       rect:
         serializedVersion: 2
-        x: 79
-        y: 486
-        width: 10
-        height: 8
+        x: 80
+        y: 487
+        width: 8
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 126b45490b9817e10800000000000000
-      internalID: 2193685885001971233
+      spriteID: 314bc278d514ee64ead56ef7ed58ad0a
+      internalID: -414859070
       vertices: []
       indices: 
       edges: []
@@ -628,20 +619,20 @@ TextureImporter:
       name: geyser_luminoso_9
       rect:
         serializedVersion: 2
-        x: 79
-        y: 437
-        width: 10
-        height: 11
+        x: 80
+        y: 438
+        width: 8
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: df3f1d261ef558240800000000000000
-      internalID: 4793342800035967997
+      spriteID: 5103ea1ff21810147aeee4b78158ba2b
+      internalID: 1297911701
       vertices: []
       indices: 
       edges: []
@@ -650,20 +641,20 @@ TextureImporter:
       name: geyser_luminoso_10
       rect:
         serializedVersion: 2
-        x: 79
-        y: 398
-        width: 10
-        height: 10
+        x: 80
+        y: 399
+        width: 8
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bd244c24d1317b380800000000000000
-      internalID: -8955668317607804197
+      spriteID: ae1fd1714a88e1045aefcc156a7fda10
+      internalID: 1368180745
       vertices: []
       indices: 
       edges: []
@@ -672,20 +663,20 @@ TextureImporter:
       name: geyser_luminoso_11
       rect:
         serializedVersion: 2
-        x: 79
-        y: 387
-        width: 10
-        height: 13
+        x: 80
+        y: 388
+        width: 8
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c8b0087ced19d5c20800000000000000
-      internalID: 3196871696518744972
+      spriteID: bf498eea74039164594cc222cc21a438
+      internalID: 1880714085
       vertices: []
       indices: 
       edges: []
@@ -694,20 +685,20 @@ TextureImporter:
       name: geyser_luminoso_12
       rect:
         serializedVersion: 2
-        x: 79
-        y: 359
-        width: 10
-        height: 17
+        x: 80
+        y: 360
+        width: 8
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dae939157324ef1e0800000000000000
-      internalID: -2162217965731995987
+      spriteID: a67b1d5d43d4d72439e9777d2d2f8a3d
+      internalID: -655878085
       vertices: []
       indices: 
       edges: []
@@ -716,20 +707,20 @@ TextureImporter:
       name: geyser_luminoso_13
       rect:
         serializedVersion: 2
-        x: 79
-        y: 302
-        width: 10
-        height: 44
+        x: 80
+        y: 303
+        width: 8
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0505f7cfebab96700800000000000000
-      internalID: 534163360262869072
+      spriteID: 0caba88451de15442be5c95be46dba59
+      internalID: -100489143
       vertices: []
       indices: 
       edges: []
@@ -738,20 +729,20 @@ TextureImporter:
       name: geyser_luminoso_14
       rect:
         serializedVersion: 2
-        x: 79
-        y: 286
-        width: 10
-        height: 10
+        x: 80
+        y: 287
+        width: 8
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ab2b97c48c1972890800000000000000
-      internalID: -7482851966390259014
+      spriteID: 08c71370d32477844910f8daf10c1c97
+      internalID: -626278730
       vertices: []
       indices: 
       edges: []
@@ -760,20 +751,20 @@ TextureImporter:
       name: geyser_luminoso_15
       rect:
         serializedVersion: 2
-        x: 79
-        y: 278
-        width: 10
-        height: 10
+        x: 80
+        y: 279
+        width: 8
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a2bc9fcfa3ace83d0800000000000000
-      internalID: -3202399930312701142
+      spriteID: 08cbf6adbde42424884ff57a01cf265f
+      internalID: 1171189563
       vertices: []
       indices: 
       edges: []
@@ -782,20 +773,20 @@ TextureImporter:
       name: geyser_luminoso_16
       rect:
         serializedVersion: 2
-        x: 79
-        y: 270
-        width: 10
-        height: 13
+        x: 80
+        y: 271
+        width: 8
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 828b51b8a1f3e4ce0800000000000000
-      internalID: -1419127449339971544
+      spriteID: 9b5bc16ebab0c1447bb1547afc5a51e7
+      internalID: 2084391426
       vertices: []
       indices: 
       edges: []
@@ -804,20 +795,20 @@ TextureImporter:
       name: geyser_luminoso_17
       rect:
         serializedVersion: 2
-        x: 79
-        y: 262
-        width: 10
-        height: 10
+        x: 80
+        y: 263
+        width: 8
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f091ce70925e7c340800000000000000
-      internalID: 4884124285295925519
+      spriteID: d9a4433335e7bc44d8c82b66b4195aea
+      internalID: 31877672
       vertices: []
       indices: 
       edges: []
@@ -826,20 +817,20 @@ TextureImporter:
       name: geyser_luminoso_18
       rect:
         serializedVersion: 2
-        x: 79
-        y: 238
-        width: 10
-        height: 12
+        x: 80
+        y: 239
+        width: 8
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 88c23ff350e109650800000000000000
-      internalID: 6237518491804707976
+      spriteID: b31bf8b3253186546bd2577447839888
+      internalID: 1880035719
       vertices: []
       indices: 
       edges: []
@@ -848,20 +839,20 @@ TextureImporter:
       name: geyser_luminoso_19
       rect:
         serializedVersion: 2
-        x: 79
-        y: 222
-        width: 10
-        height: 10
+        x: 80
+        y: 223
+        width: 8
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6dd0ec1102ec53d30800000000000000
-      internalID: 4410658047212260822
+      spriteID: 81d13f1711e31574bb961ab827e1df12
+      internalID: 505191204
       vertices: []
       indices: 
       edges: []
@@ -870,20 +861,20 @@ TextureImporter:
       name: geyser_luminoso_20
       rect:
         serializedVersion: 2
-        x: 79
-        y: 206
-        width: 10
-        height: 9
+        x: 80
+        y: 207
+        width: 8
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 72193f1e78b8bb920800000000000000
-      internalID: 3007150591927619879
+      spriteID: b96b0d21b7ac4b44688b30b32a23951e
+      internalID: -1285233528
       vertices: []
       indices: 
       edges: []
@@ -892,20 +883,20 @@ TextureImporter:
       name: geyser_luminoso_21
       rect:
         serializedVersion: 2
-        x: 79
-        y: 198
-        width: 10
-        height: 9
+        x: 80
+        y: 199
+        width: 8
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 266676c29d053ae60800000000000000
-      internalID: 7972304659059009122
+      spriteID: 82a8d97947bc4c84ab129ddc65ee9cbb
+      internalID: 1721498920
       vertices: []
       indices: 
       edges: []
@@ -914,20 +905,20 @@ TextureImporter:
       name: geyser_luminoso_22
       rect:
         serializedVersion: 2
-        x: 79
-        y: 182
-        width: 10
-        height: 10
+        x: 80
+        y: 183
+        width: 8
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ac249e5e54426bdd0800000000000000
-      internalID: -2470747462937525558
+      spriteID: 5ad6bf1103c74264f9ec057674ab6a2f
+      internalID: -1015165475
       vertices: []
       indices: 
       edges: []
@@ -936,20 +927,20 @@ TextureImporter:
       name: geyser_luminoso_23
       rect:
         serializedVersion: 2
-        x: 79
-        y: 174
-        width: 10
-        height: 9
+        x: 80
+        y: 175
+        width: 8
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1385653b798ffadf0800000000000000
-      internalID: -166641330756888527
+      spriteID: 95d522a53bc9df44b93889b5eb065355
+      internalID: 993555807
       vertices: []
       indices: 
       edges: []
@@ -958,20 +949,20 @@ TextureImporter:
       name: geyser_luminoso_24
       rect:
         serializedVersion: 2
-        x: 79
-        y: 159
-        width: 10
-        height: 9
+        x: 80
+        y: 160
+        width: 8
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6b05500d7d4384230800000000000000
-      internalID: 3623204001732186294
+      spriteID: 6d561f2b5c88c094293bbe6e9de65e3e
+      internalID: -1423719504
       vertices: []
       indices: 
       edges: []
@@ -980,20 +971,20 @@ TextureImporter:
       name: geyser_luminoso_25
       rect:
         serializedVersion: 2
-        x: 79
-        y: 139
-        width: 10
-        height: 13
+        x: 80
+        y: 140
+        width: 8
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b6c5acf5c5931eed0800000000000000
-      internalID: -2386563258622780309
+      spriteID: 1f0a641156ea76f40b3a9e1664e2581d
+      internalID: 217656302
       vertices: []
       indices: 
       edges: []
@@ -1002,20 +993,20 @@ TextureImporter:
       name: geyser_luminoso_26
       rect:
         serializedVersion: 2
-        x: 79
-        y: 126
-        width: 10
-        height: 15
+        x: 80
+        y: 127
+        width: 8
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 34098e43c131246b0800000000000000
-      internalID: -5313663598476095421
+      spriteID: 0da0de604b02ffb42b8dc2e18ff56825
+      internalID: -245151018
       vertices: []
       indices: 
       edges: []
@@ -1024,20 +1015,20 @@ TextureImporter:
       name: geyser_luminoso_27
       rect:
         serializedVersion: 2
-        x: 79
-        y: 119
-        width: 10
-        height: 9
+        x: 80
+        y: 120
+        width: 8
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a7c2b5226904c0210800000000000000
-      internalID: 1300485405968903290
+      spriteID: e0bd70b9e0028374986cb2d01d7c81c9
+      internalID: -275040052
       vertices: []
       indices: 
       edges: []
@@ -1046,20 +1037,20 @@ TextureImporter:
       name: geyser_luminoso_28
       rect:
         serializedVersion: 2
-        x: 79
-        y: 94
-        width: 10
-        height: 10
+        x: 80
+        y: 95
+        width: 8
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 964ef1667a0435380800000000000000
-      internalID: -8983765743956925335
+      spriteID: c184ee4bf0086054e8db15e3f4fc85bb
+      internalID: -1613997638
       vertices: []
       indices: 
       edges: []
@@ -1068,20 +1059,20 @@ TextureImporter:
       name: geyser_luminoso_29
       rect:
         serializedVersion: 2
-        x: 79
-        y: 85
-        width: 10
-        height: 10
+        x: 80
+        y: 86
+        width: 8
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c9dae16655f68c690800000000000000
-      internalID: -7581687560102040164
+      spriteID: 33c148a7e1314be48b9238e50bb00dcd
+      internalID: 168036569
       vertices: []
       indices: 
       edges: []
@@ -1090,20 +1081,20 @@ TextureImporter:
       name: geyser_luminoso_30
       rect:
         serializedVersion: 2
-        x: 79
-        y: 39
-        width: 10
-        height: 8
+        x: 80
+        y: 40
+        width: 8
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cd3e4a432c8b24dd0800000000000000
-      internalID: -2503235298618186788
+      spriteID: 6e1dee1e3a692c14d9fded94c5e4460b
+      internalID: -1128810120
       vertices: []
       indices: 
       edges: []
@@ -1112,20 +1103,20 @@ TextureImporter:
       name: geyser_luminoso_31
       rect:
         serializedVersion: 2
-        x: 79
-        y: 15
-        width: 10
-        height: 9
+        x: 80
+        y: 16
+        width: 8
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c687ed995c3aa3ae0800000000000000
-      internalID: -1568761451099817876
+      spriteID: 0f6a274cfb61e8c488a143970926fbb3
+      internalID: -440012321
       vertices: []
       indices: 
       edges: []
@@ -1134,20 +1125,20 @@ TextureImporter:
       name: geyser_luminoso_32
       rect:
         serializedVersion: 2
-        x: 79
-        y: 6
-        width: 10
-        height: 10
+        x: 80
+        y: 7
+        width: 8
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ca0a0df944f87d0a0800000000000000
-      internalID: -6856854382746492756
+      spriteID: d8adfc1912380c04299eef74674c3efc
+      internalID: -1896813244
       vertices: []
       indices: 
       edges: []
@@ -1156,20 +1147,20 @@ TextureImporter:
       name: geyser_luminoso_33
       rect:
         serializedVersion: 2
-        x: 80
-        y: 461
-        width: 9
-        height: 9
+        x: 81
+        y: 462
+        width: 7
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d1f6885876338db30800000000000000
-      internalID: 4312253162922209053
+      spriteID: 789f7cc3107496e43ba4d79e33309932
+      internalID: -1728999906
       vertices: []
       indices: 
       edges: []
@@ -1178,20 +1169,20 @@ TextureImporter:
       name: geyser_luminoso_34
       rect:
         serializedVersion: 2
-        x: 80
-        y: 428
-        width: 9
-        height: 11
+        x: 81
+        y: 429
+        width: 7
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d986ff2a028149af0800000000000000
-      internalID: -390660739221722979
+      spriteID: a1581901a69fcb5488df2f8d4b3fb42e
+      internalID: 686712996
       vertices: []
       indices: 
       edges: []
@@ -1200,20 +1191,20 @@ TextureImporter:
       name: geyser_luminoso_35
       rect:
         serializedVersion: 2
-        x: 80
-        y: 411
-        width: 9
-        height: 12
+        x: 81
+        y: 412
+        width: 7
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: edb6b02617c8cba30800000000000000
-      internalID: 4232412168425532382
+      spriteID: 05a58906fd7a3964f85c4f823fd92336
+      internalID: -1954525713
       vertices: []
       indices: 
       edges: []
@@ -1222,20 +1213,20 @@ TextureImporter:
       name: geyser_luminoso_36
       rect:
         serializedVersion: 2
-        x: 80
-        y: 342
-        width: 9
-        height: 10
+        x: 81
+        y: 343
+        width: 7
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 199d2c4f4c7648190800000000000000
-      internalID: -7961124145666532975
+      spriteID: ef36be892e01da84fa76c7188168ae1f
+      internalID: 572054343
       vertices: []
       indices: 
       edges: []
@@ -1244,20 +1235,20 @@ TextureImporter:
       name: geyser_luminoso_37
       rect:
         serializedVersion: 2
-        x: 80
-        y: 246
-        width: 9
-        height: 11
+        x: 81
+        y: 247
+        width: 7
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c1265b3da8f9e6a20800000000000000
-      internalID: 3057556615637328412
+      spriteID: 76e01c32da8723443b4ebcf1e493b0dc
+      internalID: -559516153
       vertices: []
       indices: 
       edges: []
@@ -1266,20 +1257,20 @@ TextureImporter:
       name: geyser_luminoso_38
       rect:
         serializedVersion: 2
-        x: 80
-        y: 213
-        width: 9
-        height: 10
+        x: 81
+        y: 214
+        width: 7
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 90121872a79c3f220800000000000000
-      internalID: 2518578143116206345
+      spriteID: 00c86c1f09d887f4ba5c54ffc58dee7a
+      internalID: 978645603
       vertices: []
       indices: 
       edges: []
@@ -1288,20 +1279,20 @@ TextureImporter:
       name: geyser_luminoso_39
       rect:
         serializedVersion: 2
-        x: 81
-        y: 974
-        width: 8
-        height: 9
+        x: 82
+        y: 975
+        width: 6
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8acdf8e5ca6559ee0800000000000000
-      internalID: -1255001622831965016
+      spriteID: eef6fab0228e5c447a37e00956a9f76d
+      internalID: 905592258
       vertices: []
       indices: 
       edges: []
@@ -1310,20 +1301,20 @@ TextureImporter:
       name: geyser_luminoso_40
       rect:
         serializedVersion: 2
-        x: 81
-        y: 947
-        width: 8
-        height: 12
+        x: 82
+        y: 948
+        width: 6
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6cdc92f157957adf0800000000000000
-      internalID: -169068101434225210
+      spriteID: 9f834e8a3991c3c41b3fd3d270e152af
+      internalID: 491338180
       vertices: []
       indices: 
       edges: []
@@ -1332,20 +1323,20 @@ TextureImporter:
       name: geyser_luminoso_41
       rect:
         serializedVersion: 2
-        x: 81
-        y: 884
-        width: 8
-        height: 19
+        x: 82
+        y: 885
+        width: 6
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 961af1f90c6602330800000000000000
-      internalID: 3684057472678469993
+      spriteID: 2f05c558e1d830b448c2cd7bdd44e847
+      internalID: 1759212829
       vertices: []
       indices: 
       edges: []
@@ -1354,20 +1345,20 @@ TextureImporter:
       name: geyser_luminoso_42
       rect:
         serializedVersion: 2
-        x: 81
-        y: 847
-        width: 8
-        height: 15
+        x: 82
+        y: 848
+        width: 6
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c03be90835d2ec180800000000000000
-      internalID: -9093280760951033076
+      spriteID: 7e38c5164e374bd4fae6fec03e4babfa
+      internalID: -446895697
       vertices: []
       indices: 
       edges: []
@@ -1376,20 +1367,20 @@ TextureImporter:
       name: geyser_luminoso_43
       rect:
         serializedVersion: 2
-        x: 81
-        y: 812
-        width: 8
-        height: 11
+        x: 82
+        y: 813
+        width: 6
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5fcf4fbbad47e0a30800000000000000
-      internalID: 4183409586678856949
+      spriteID: 7b3a7edbd75962b45b1ca29c1ce410f3
+      internalID: 1395500366
       vertices: []
       indices: 
       edges: []
@@ -1398,20 +1389,20 @@ TextureImporter:
       name: geyser_luminoso_44
       rect:
         serializedVersion: 2
-        x: 81
-        y: 797
-        width: 8
-        height: 10
+        x: 82
+        y: 798
+        width: 6
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3b3d58a0709171060800000000000000
-      internalID: 6924030470137435059
+      spriteID: 3fc0c46d3fcf41e499e534984ad7e3c7
+      internalID: -1267967539
       vertices: []
       indices: 
       edges: []
@@ -1420,20 +1411,20 @@ TextureImporter:
       name: geyser_luminoso_45
       rect:
         serializedVersion: 2
-        x: 81
-        y: 756
-        width: 8
-        height: 11
+        x: 82
+        y: 757
+        width: 6
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fa723f62f5306b0b0800000000000000
-      internalID: -5713375370062649425
+      spriteID: ff4d1f43c1b34cb448c534580fb584dc
+      internalID: 922551563
       vertices: []
       indices: 
       edges: []
@@ -1442,20 +1433,20 @@ TextureImporter:
       name: geyser_luminoso_46
       rect:
         serializedVersion: 2
-        x: 81
-        y: 740
-        width: 8
-        height: 11
+        x: 82
+        y: 741
+        width: 6
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 561bb996c31c44a40800000000000000
-      internalID: 5351614722437001573
+      spriteID: 998a7bb04f06ecb4fb206e985ff5da89
+      internalID: 1483376175
       vertices: []
       indices: 
       edges: []
@@ -1464,20 +1455,20 @@ TextureImporter:
       name: geyser_luminoso_47
       rect:
         serializedVersion: 2
-        x: 81
-        y: 733
-        width: 8
-        height: 10
+        x: 82
+        y: 734
+        width: 6
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 438b1771c822b5b70800000000000000
-      internalID: 8888736274629900340
+      spriteID: 23b63ab00bd9da1449bcdc36943fcc58
+      internalID: 1812296807
       vertices: []
       indices: 
       edges: []
@@ -1486,20 +1477,20 @@ TextureImporter:
       name: geyser_luminoso_48
       rect:
         serializedVersion: 2
-        x: 81
-        y: 724
-        width: 8
-        height: 11
+        x: 82
+        y: 725
+        width: 6
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bb8840999cb21cc00800000000000000
-      internalID: 919063943815923899
+      spriteID: 0c14b646a907b254888984b8ad5db44f
+      internalID: -1678663544
       vertices: []
       indices: 
       edges: []
@@ -1508,20 +1499,20 @@ TextureImporter:
       name: geyser_luminoso_49
       rect:
         serializedVersion: 2
-        x: 81
-        y: 719
-        width: 8
-        height: 7
+        x: 82
+        y: 720
+        width: 6
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b6f251968a2536620800000000000000
-      internalID: 2766145479406595947
+      spriteID: 760a1a2c37f53d9408bc25b7ed41b2e9
+      internalID: 1355950422
       vertices: []
       indices: 
       edges: []
@@ -1530,20 +1521,20 @@ TextureImporter:
       name: geyser_luminoso_50
       rect:
         serializedVersion: 2
-        x: 81
-        y: 667
-        width: 8
-        height: 12
+        x: 82
+        y: 668
+        width: 6
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 36204feccc29bf810800000000000000
-      internalID: 1800193884407726691
+      spriteID: 39bc273952ebbb049a319ba668d33bb2
+      internalID: 1975808801
       vertices: []
       indices: 
       edges: []
@@ -1552,20 +1543,20 @@ TextureImporter:
       name: geyser_luminoso_51
       rect:
         serializedVersion: 2
-        x: 81
-        y: 652
-        width: 8
-        height: 11
+        x: 82
+        y: 653
+        width: 6
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8c81bc86c461cf990800000000000000
-      internalID: -7350975974344025912
+      spriteID: da13348da46fe8541a3459852322ae68
+      internalID: 896700284
       vertices: []
       indices: 
       edges: []
@@ -1574,20 +1565,20 @@ TextureImporter:
       name: geyser_luminoso_52
       rect:
         serializedVersion: 2
-        x: 81
-        y: 644
-        width: 8
-        height: 10
+        x: 82
+        y: 645
+        width: 6
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6182529d598d661c0800000000000000
-      internalID: -4510679838660155370
+      spriteID: 4edc9e16ca6bd2340ba30e41aebc5e2f
+      internalID: 1000608418
       vertices: []
       indices: 
       edges: []
@@ -1596,20 +1587,20 @@ TextureImporter:
       name: geyser_luminoso_53
       rect:
         serializedVersion: 2
-        x: 81
-        y: 620
-        width: 8
-        height: 11
+        x: 82
+        y: 621
+        width: 6
+        height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5b86d34e30f7ff960800000000000000
-      internalID: 7637963147734509749
+      spriteID: e03f453068d781d43a2754831e09b59c
+      internalID: -2123462442
       vertices: []
       indices: 
       edges: []
@@ -1618,20 +1609,20 @@ TextureImporter:
       name: geyser_luminoso_54
       rect:
         serializedVersion: 2
-        x: 81
-        y: 613
-        width: 8
-        height: 9
+        x: 82
+        y: 614
+        width: 6
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: de9f8837955711460800000000000000
-      internalID: 7210673505447770605
+      spriteID: 56aaf98c7c53cd74896eba2b8a703477
+      internalID: 1653829270
       vertices: []
       indices: 
       edges: []
@@ -1640,20 +1631,20 @@ TextureImporter:
       name: geyser_luminoso_55
       rect:
         serializedVersion: 2
-        x: 81
-        y: 582
-        width: 8
-        height: 8
+        x: 82
+        y: 583
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7daf76c594cfd88d0800000000000000
-      internalID: -2842338397787784489
+      spriteID: 69a909a3ba2bab54eb06da5f15ec8812
+      internalID: -650501742
       vertices: []
       indices: 
       edges: []
@@ -1662,20 +1653,20 @@ TextureImporter:
       name: geyser_luminoso_56
       rect:
         serializedVersion: 2
-        x: 81
-        y: 532
-        width: 8
-        height: 12
+        x: 82
+        y: 533
+        width: 6
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 90fa2ec1165d18240800000000000000
-      internalID: 4792346091572080393
+      spriteID: 8e19c814f1e21b24c8dd526eb1d8c93b
+      internalID: -632832736
       vertices: []
       indices: 
       edges: []
@@ -1684,20 +1675,20 @@ TextureImporter:
       name: geyser_luminoso_57
       rect:
         serializedVersion: 2
-        x: 81
-        y: 526
-        width: 8
-        height: 8
+        x: 82
+        y: 527
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ee6f0147035ffa8b0800000000000000
-      internalID: -5138619061351942418
+      spriteID: 29a826dc9daec624a931912e07115e52
+      internalID: 1319837017
       vertices: []
       indices: 
       edges: []
@@ -1706,20 +1697,20 @@ TextureImporter:
       name: geyser_luminoso_58
       rect:
         serializedVersion: 2
-        x: 81
-        y: 518
-        width: 8
-        height: 9
+        x: 82
+        y: 519
+        width: 6
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3a88e1698eb52e6c0800000000000000
-      internalID: -4115626054954088285
+      spriteID: ea343507bcd0ab341a3977c1d83c6e8e
+      internalID: 1675076085
       vertices: []
       indices: 
       edges: []
@@ -1728,20 +1719,20 @@ TextureImporter:
       name: geyser_luminoso_59
       rect:
         serializedVersion: 2
-        x: 81
-        y: 511
-        width: 8
-        height: 8
+        x: 82
+        y: 512
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c49ebccfa0db61e70800000000000000
-      internalID: 9085657153155098956
+      spriteID: ff33d97f8c018914fb75a28903c422a2
+      internalID: -1420106896
       vertices: []
       indices: 
       edges: []
@@ -1750,20 +1741,20 @@ TextureImporter:
       name: geyser_luminoso_60
       rect:
         serializedVersion: 2
-        x: 81
-        y: 496
-        width: 8
-        height: 15
+        x: 82
+        y: 497
+        width: 6
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3916798f1457f2700800000000000000
-      internalID: 517761408374890899
+      spriteID: a98a7a9435531a24c8dfd36a75f86dba
+      internalID: -95322790
       vertices: []
       indices: 
       edges: []
@@ -1772,20 +1763,20 @@ TextureImporter:
       name: geyser_luminoso_61
       rect:
         serializedVersion: 2
-        x: 81
-        y: 477
-        width: 8
-        height: 9
+        x: 82
+        y: 478
+        width: 6
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a684535c30270d750800000000000000
-      internalID: 6327682836974618730
+      spriteID: 29d26f8d500beb341b813ddeddd6c8c8
+      internalID: -265571145
       vertices: []
       indices: 
       edges: []
@@ -1794,20 +1785,20 @@ TextureImporter:
       name: geyser_luminoso_62
       rect:
         serializedVersion: 2
-        x: 81
-        y: 470
-        width: 8
-        height: 9
+        x: 82
+        y: 471
+        width: 6
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ac978da099fb680b0800000000000000
-      internalID: -5726679212122146358
+      spriteID: 93f78930badd46c43ac25098afc3c99f
+      internalID: -1741014101
       vertices: []
       indices: 
       edges: []
@@ -1816,20 +1807,20 @@ TextureImporter:
       name: geyser_luminoso_63
       rect:
         serializedVersion: 2
-        x: 81
-        y: 454
-        width: 8
-        height: 9
+        x: 82
+        y: 455
+        width: 6
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6e5dee6f44cf31f00800000000000000
-      internalID: 1086489308257244646
+      spriteID: 0b37891c9bf0deb41860b4502db09798
+      internalID: 1115963894
       vertices: []
       indices: 
       edges: []
@@ -1838,20 +1829,20 @@ TextureImporter:
       name: geyser_luminoso_64
       rect:
         serializedVersion: 2
-        x: 81
-        y: 447
-        width: 8
-        height: 9
+        x: 82
+        y: 448
+        width: 6
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cf0bc163e579d0360800000000000000
-      internalID: 7137527415342674172
+      spriteID: 6d4cd0ae1e7cd0244aaa73fbd63c99e7
+      internalID: 599071174
       vertices: []
       indices: 
       edges: []
@@ -1860,20 +1851,20 @@ TextureImporter:
       name: geyser_luminoso_65
       rect:
         serializedVersion: 2
-        x: 81
-        y: 374
-        width: 8
-        height: 10
+        x: 82
+        y: 375
+        width: 6
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1c70d548b84021430800000000000000
-      internalID: 3752066436820699073
+      spriteID: fea25efa6bc32ed4389d621479d63e04
+      internalID: 1511601533
       vertices: []
       indices: 
       edges: []
@@ -1882,20 +1873,20 @@ TextureImporter:
       name: geyser_luminoso_66
       rect:
         serializedVersion: 2
-        x: 81
-        y: 350
-        width: 8
-        height: 10
+        x: 82
+        y: 351
+        width: 6
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1121068b624470c90800000000000000
-      internalID: -7203714145863069167
+      spriteID: 23a1bcf0daa85b34e9515da756b4e6eb
+      internalID: 819793988
       vertices: []
       indices: 
       edges: []
@@ -1904,20 +1895,20 @@ TextureImporter:
       name: geyser_luminoso_67
       rect:
         serializedVersion: 2
-        x: 81
-        y: 295
-        width: 8
-        height: 9
+        x: 82
+        y: 296
+        width: 6
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fc3c3f33ad81be7d0800000000000000
-      internalID: -2888187410574490673
+      spriteID: c1ce97ad139224d46a7865be7c2c2a71
+      internalID: 670007636
       vertices: []
       indices: 
       edges: []
@@ -1926,20 +1917,20 @@ TextureImporter:
       name: geyser_luminoso_68
       rect:
         serializedVersion: 2
-        x: 81
-        y: 254
-        width: 8
-        height: 9
+        x: 82
+        y: 255
+        width: 6
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f3e2e4ad18eeadb90800000000000000
-      internalID: -7216193211427049921
+      spriteID: ac286ec644a5eba4381734569bfb384e
+      internalID: 809910096
       vertices: []
       indices: 
       edges: []
@@ -1948,20 +1939,20 @@ TextureImporter:
       name: geyser_luminoso_69
       rect:
         serializedVersion: 2
-        x: 81
-        y: 166
-        width: 8
-        height: 9
+        x: 82
+        y: 167
+        width: 6
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 906b0bb16d4d7b1b0800000000000000
-      internalID: -5640805992205601271
+      spriteID: 4d3f4b26be7ff804299a7d004d8c7c7e
+      internalID: -103916311
       vertices: []
       indices: 
       edges: []
@@ -1970,20 +1961,20 @@ TextureImporter:
       name: geyser_luminoso_70
       rect:
         serializedVersion: 2
-        x: 81
-        y: 151
-        width: 8
-        height: 8
+        x: 82
+        y: 152
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b2117aa4f36f8f4c0800000000000000
-      internalID: -4253379096355598037
+      spriteID: a6c125aacf52d064ea5ef3d72f115917
+      internalID: -670205318
       vertices: []
       indices: 
       edges: []
@@ -1992,20 +1983,20 @@ TextureImporter:
       name: geyser_luminoso_71
       rect:
         serializedVersion: 2
-        x: 81
-        y: 101
-        width: 8
-        height: 10
+        x: 82
+        y: 102
+        width: 6
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9a656922824272290800000000000000
-      internalID: -7915318065282787671
+      spriteID: b0848e6ea40fa614ebf9d8a1d54b78c1
+      internalID: -1252364434
       vertices: []
       indices: 
       edges: []
@@ -2014,20 +2005,20 @@ TextureImporter:
       name: geyser_luminoso_72
       rect:
         serializedVersion: 2
-        x: 81
-        y: 79
-        width: 8
-        height: 10
+        x: 82
+        y: 80
+        width: 6
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ec52e7f30e446c080800000000000000
-      internalID: -9167564261537471026
+      spriteID: 08a1762bc8379284eabfa2b750292f36
+      internalID: 1922461071
       vertices: []
       indices: 
       edges: []
@@ -2036,20 +2027,20 @@ TextureImporter:
       name: geyser_luminoso_73
       rect:
         serializedVersion: 2
-        x: 81
-        y: 46
-        width: 8
-        height: 8
+        x: 82
+        y: 47
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3f7094bb1de2ec6b0800000000000000
-      internalID: -5274226635279104013
+      spriteID: 14334bd0cf5c5fe4d814b067ffc46b46
+      internalID: -667758257
       vertices: []
       indices: 
       edges: []
@@ -2058,20 +2049,20 @@ TextureImporter:
       name: geyser_luminoso_74
       rect:
         serializedVersion: 2
-        x: 81
+        x: 82
         y: 0
-        width: 8
-        height: 7
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: afd71be30df588350800000000000000
-      internalID: 6019166249990323706
+      spriteID: 4801c5eee5e64094a86e258aedf5c83b
+      internalID: 1344705686
       vertices: []
       indices: 
       edges: []
@@ -2080,20 +2071,20 @@ TextureImporter:
       name: geyser_luminoso_75
       rect:
         serializedVersion: 2
-        x: 82
-        y: 822
-        width: 7
-        height: 7
+        x: 83
+        y: 823
+        width: 5
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e09e50a8a74e06a60800000000000000
-      internalID: 7665377780737370382
+      spriteID: 911f4282d6fadff4eb206be90f27d565
+      internalID: -1429749938
       vertices: []
       indices: 
       edges: []
@@ -2102,20 +2093,20 @@ TextureImporter:
       name: geyser_luminoso_76
       rect:
         serializedVersion: 2
-        x: 82
-        y: 807
-        width: 7
-        height: 6
+        x: 83
+        y: 808
+        width: 5
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cf147a6422ff4f6b0800000000000000
-      internalID: -5263301541809929732
+      spriteID: d3c8512483550364bae369a85f4553a8
+      internalID: -990718021
       vertices: []
       indices: 
       edges: []
@@ -2124,20 +2115,20 @@ TextureImporter:
       name: geyser_luminoso_77
       rect:
         serializedVersion: 2
-        x: 82
-        y: 750
-        width: 7
-        height: 7
+        x: 83
+        y: 751
+        width: 5
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dcfafce7048acaa60800000000000000
-      internalID: 7686703658973507533
+      spriteID: 3f404ce66532b8749a5c6bb6b43d1fff
+      internalID: 1637885727
       vertices: []
       indices: 
       edges: []
@@ -2146,20 +2137,20 @@ TextureImporter:
       name: geyser_luminoso_78
       rect:
         serializedVersion: 2
-        x: 82
-        y: 662
-        width: 6
-        height: 6
+        x: 83
+        y: 663
+        width: 4
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 79d9caadae1132180800000000000000
-      internalID: -9141443118243209833
+      spriteID: aa8571c83c18cdd4cbc3d0bb651db474
+      internalID: 1878807883
       vertices: []
       indices: 
       edges: []
@@ -2168,20 +2159,20 @@ TextureImporter:
       name: geyser_luminoso_79
       rect:
         serializedVersion: 2
-        x: 82
-        y: 606
-        width: 7
-        height: 9
+        x: 83
+        y: 607
+        width: 5
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a0eabb9079c77bf40800000000000000
-      internalID: 5744196837879557642
+      spriteID: ed0c5b482e19fbb419cf3e204c364a8f
+      internalID: 1941280581
       vertices: []
       indices: 
       edges: []
@@ -2190,20 +2181,20 @@ TextureImporter:
       name: geyser_luminoso_80
       rect:
         serializedVersion: 2
-        x: 82
-        y: 574
-        width: 7
-        height: 9
+        x: 83
+        y: 575
+        width: 5
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 323bcce42ab57d680800000000000000
-      internalID: -8730408599969549533
+      spriteID: 9d936318a2d6484438b6fb9749e74a33
+      internalID: 132426228
       vertices: []
       indices: 
       edges: []
@@ -2212,20 +2203,20 @@ TextureImporter:
       name: geyser_luminoso_81
       rect:
         serializedVersion: 2
-        x: 82
-        y: 551
-        width: 7
-        height: 6
+        x: 83
+        y: 552
+        width: 5
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 35f3b00c0fd028760800000000000000
-      internalID: 7458539260544237395
+      spriteID: a289208e6639aad47beca5cd3e1348ad
+      internalID: 130408068
       vertices: []
       indices: 
       edges: []
@@ -2234,20 +2225,20 @@ TextureImporter:
       name: geyser_luminoso_82
       rect:
         serializedVersion: 2
-        x: 82
-        y: 542
-        width: 7
-        height: 9
+        x: 83
+        y: 543
+        width: 5
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 490ee224b9da1b400800000000000000
-      internalID: 338242329371402388
+      spriteID: 201cdbc586f67114786136b752049d7c
+      internalID: -1556174772
       vertices: []
       indices: 
       edges: []
@@ -2256,20 +2247,20 @@ TextureImporter:
       name: geyser_luminoso_83
       rect:
         serializedVersion: 2
-        x: 82
-        y: 422
-        width: 7
-        height: 9
+        x: 83
+        y: 423
+        width: 5
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 56c4c088e5339cbc0800000000000000
-      internalID: -3762419532588888987
+      spriteID: 8398ac726de41184ba121ea4483b33ef
+      internalID: 944964733
       vertices: []
       indices: 
       edges: []
@@ -2278,20 +2269,20 @@ TextureImporter:
       name: geyser_luminoso_84
       rect:
         serializedVersion: 2
-        x: 82
-        y: 406
-        width: 7
-        height: 7
+        x: 83
+        y: 407
+        width: 5
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 15c77bda343f1cb20800000000000000
-      internalID: 3153068686138899537
+      spriteID: c63098312c0955645b569156bd6ff36c
+      internalID: -1856969556
       vertices: []
       indices: 
       edges: []
@@ -2300,20 +2291,20 @@ TextureImporter:
       name: geyser_luminoso_85
       rect:
         serializedVersion: 2
-        x: 82
-        y: 382
-        width: 6
-        height: 6
+        x: 83
+        y: 383
+        width: 4
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5174017d1f23b5840800000000000000
-      internalID: 5213817007888156437
+      spriteID: 904b67cd1a137a2409bd5d10008c40e7
+      internalID: -10844732
       vertices: []
       indices: 
       edges: []
@@ -2322,20 +2313,20 @@ TextureImporter:
       name: geyser_luminoso_86
       rect:
         serializedVersion: 2
-        x: 82
-        y: 190
-        width: 7
-        height: 9
+        x: 83
+        y: 191
+        width: 5
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2739a99082a1500a0800000000000000
-      internalID: -6916092893495389326
+      spriteID: c9611e423e03f8a469e77e35f86140b3
+      internalID: -141854498
       vertices: []
       indices: 
       edges: []
@@ -2344,20 +2335,20 @@ TextureImporter:
       name: geyser_luminoso_87
       rect:
         serializedVersion: 2
-        x: 82
-        y: 111
-        width: 7
-        height: 8
+        x: 83
+        y: 112
+        width: 5
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 73778272cbe097870800000000000000
-      internalID: 8680985958006945591
+      spriteID: b481b7409a5521c429abc05a11f036d9
+      internalID: 152795933
       vertices: []
       indices: 
       edges: []
@@ -2366,20 +2357,20 @@ TextureImporter:
       name: geyser_luminoso_88
       rect:
         serializedVersion: 2
-        x: 82
-        y: 70
-        width: 7
-        height: 9
+        x: 83
+        y: 71
+        width: 5
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b5ab634c8191dfe70800000000000000
-      internalID: 9150497612048546395
+      spriteID: e914c2ec1e87a7c4291aecaa6f2f511a
+      internalID: -1889052189
       vertices: []
       indices: 
       edges: []
@@ -2388,20 +2379,20 @@ TextureImporter:
       name: geyser_luminoso_89
       rect:
         serializedVersion: 2
-        x: 82
-        y: 62
-        width: 7
-        height: 9
+        x: 83
+        y: 63
+        width: 5
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6f5c662c29e328b30800000000000000
-      internalID: 4288058595257796086
+      spriteID: cc17778c1ececf247ab7311c0843ca94
+      internalID: 828685094
       vertices: []
       indices: 
       edges: []
@@ -2410,20 +2401,20 @@ TextureImporter:
       name: geyser_luminoso_90
       rect:
         serializedVersion: 2
-        x: 82
-        y: 55
-        width: 7
-        height: 8
+        x: 83
+        y: 56
+        width: 5
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e5f20e98420363690800000000000000
-      internalID: -7622852385787859106
+      spriteID: 698072413b6e0334791ccb5bd85e1bb7
+      internalID: -1804792245
       vertices: []
       indices: 
       edges: []
@@ -2432,20 +2423,20 @@ TextureImporter:
       name: geyser_luminoso_91
       rect:
         serializedVersion: 2
-        x: 82
-        y: 31
-        width: 7
-        height: 8
+        x: 83
+        y: 32
+        width: 5
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 758f90fffd6e7fc30800000000000000
-      internalID: 4393233811254147159
+      spriteID: d6141bc1b112ce849bfd2f6545534e54
+      internalID: -1716506397
       vertices: []
       indices: 
       edges: []
@@ -2454,20 +2445,20 @@ TextureImporter:
       name: geyser_luminoso_92
       rect:
         serializedVersion: 2
-        x: 82
-        y: 23
-        width: 7
-        height: 8
+        x: 83
+        y: 24
+        width: 5
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4c3460c82ea2b6b40800000000000000
-      internalID: 5434484527852831684
+      spriteID: 3a0e96e5968ccf44eaa47facfc6d612e
+      internalID: -63270953
       vertices: []
       indices: 
       edges: []
@@ -2476,20 +2467,20 @@ TextureImporter:
       name: geyser_luminoso_93
       rect:
         serializedVersion: 2
-        x: 83
-        y: 686
-        width: 6
-        height: 9
+        x: 84
+        y: 687
+        width: 4
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cae0f73fbb8110ac0800000000000000
-      internalID: -3890801407548256596
+      spriteID: e2a2661f19f630642a57a9e29ea48b1d
+      internalID: -1286395508
       vertices: []
       indices: 
       edges: []
@@ -2498,20 +2489,20 @@ TextureImporter:
       name: geyser_luminoso_94
       rect:
         serializedVersion: 2
-        x: 104
-        y: 303
-        width: 17
-        height: 10
+        x: 196
+        y: 178
+        width: 1172
+        height: 846
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f8870378e80ca1e30800000000000000
-      internalID: 4475100898131998863
+      spriteID: 2a1698eee9e39974399cba743511ee11
+      internalID: -535145272
       vertices: []
       indices: 
       edges: []
@@ -2520,20 +2511,20 @@ TextureImporter:
       name: geyser_luminoso_95
       rect:
         serializedVersion: 2
-        x: 123
-        y: 0
-        width: 1413
-        height: 1024
+        x: 128
+        y: 279
+        width: 6
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d11900cd0bd66cc70800000000000000
-      internalID: 8990994312464470301
+      spriteID: 239bb12d23b5c7647a63008e35eb5bb7
+      internalID: -260062944
       vertices: []
       indices: 
       edges: []
@@ -2542,20 +2533,20 @@ TextureImporter:
       name: geyser_luminoso_96
       rect:
         serializedVersion: 2
-        x: 127
-        y: 278
-        width: 8
-        height: 6
+        x: 129
+        y: 302
+        width: 7
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c77f1d9ab2d059e20800000000000000
-      internalID: 3356603578458437500
+      spriteID: d5e80277138a5d642aefce089b1a2a49
+      internalID: -1763425029
       vertices: []
       indices: 
       edges: []
@@ -2564,20 +2555,20 @@ TextureImporter:
       name: geyser_luminoso_97
       rect:
         serializedVersion: 2
-        x: 128
-        y: 301
-        width: 9
+        x: 130
+        y: 294
+        width: 7
         height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: de3f385c3a6df0c40800000000000000
-      internalID: 5480835270414955501
+      spriteID: 07e84b0e5f20eb04f82b40479b2e9c17
+      internalID: -2121311089
       vertices: []
       indices: 
       edges: []
@@ -2586,20 +2577,20 @@ TextureImporter:
       name: geyser_luminoso_98
       rect:
         serializedVersion: 2
-        x: 129
-        y: 293
-        width: 9
-        height: 9
+        x: 130
+        y: 214
+        width: 6
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ffeda8a112893b190800000000000000
-      internalID: -7947841649432142081
+      spriteID: e4da3950377bdae4a9a9c2f51d840acd
+      internalID: -1282148018
       vertices: []
       indices: 
       edges: []
@@ -2608,20 +2599,20 @@ TextureImporter:
       name: geyser_luminoso_99
       rect:
         serializedVersion: 2
-        x: 129
-        y: 213
-        width: 8
+        x: 131
+        y: 286
+        width: 5
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c3502a0b37ed02740800000000000000
-      internalID: 5125340964413637948
+      spriteID: 227209811edc774469b2f16683e82f1b
+      internalID: 2025922125
       vertices: []
       indices: 
       edges: []
@@ -2630,20 +2621,20 @@ TextureImporter:
       name: geyser_luminoso_100
       rect:
         serializedVersion: 2
-        x: 130
-        y: 285
-        width: 7
-        height: 8
+        x: 132
+        y: 316
+        width: 4
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3d93c91d879c3b520800000000000000
-      internalID: 2716736520984476115
+      spriteID: fd8a9dceb8974ae4193f56771d60ab23
+      internalID: -953678204
       vertices: []
       indices: 
       edges: []
@@ -2652,20 +2643,20 @@ TextureImporter:
       name: geyser_luminoso_101
       rect:
         serializedVersion: 2
-        x: 131
-        y: 315
-        width: 6
-        height: 7
+        x: 132
+        y: 271
+        width: 4
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e47be3a64ba1c82f0800000000000000
-      internalID: -969370457612568754
+      spriteID: 4fd1e3ebefc398747830ca810eb49565
+      internalID: -1372584399
       vertices: []
       indices: 
       edges: []
@@ -2674,20 +2665,20 @@ TextureImporter:
       name: geyser_luminoso_102
       rect:
         serializedVersion: 2
-        x: 131
-        y: 270
+        x: 138
+        y: 304
         width: 6
-        height: 7
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 49cd4ae4d733daf20800000000000000
-      internalID: 3435458704036912276
+      spriteID: 73144f5c4c53f3645aa6bdc5cbf6cd1c
+      internalID: 1054373778
       vertices: []
       indices: 
       edges: []
@@ -2696,20 +2687,20 @@ TextureImporter:
       name: geyser_luminoso_103
       rect:
         serializedVersion: 2
-        x: 137
-        y: 303
-        width: 8
-        height: 10
+        x: 142
+        y: 289
+        width: 9
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 74076744d547309e0800000000000000
-      internalID: -1656352294012817337
+      spriteID: 50af284acadf5a54198e76441a02b2e6
+      internalID: 511114265
       vertices: []
       indices: 
       edges: []
@@ -2718,20 +2709,20 @@ TextureImporter:
       name: geyser_luminoso_104
       rect:
         serializedVersion: 2
-        x: 141
-        y: 288
-        width: 11
-        height: 9
+        x: 1376
+        y: 260
+        width: 8
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3fd89cf0e4778a440800000000000000
-      internalID: 4947335367822511603
+      spriteID: 6ccb399855a1ad34884da2e35e476f45
+      internalID: -148231986
       vertices: []
       indices: 
       edges: []
@@ -2740,20 +2731,20 @@ TextureImporter:
       name: geyser_luminoso_105
       rect:
         serializedVersion: 2
-        x: 1375
-        y: 259
-        width: 10
-        height: 6
+        x: 1376
+        y: 199
+        width: 7
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 699f500bf0d13a590800000000000000
-      internalID: -7664250187639555690
+      spriteID: de71feaf8ad18ca45b776063b41c6d6f
+      internalID: -1036824077
       vertices: []
       indices: 
       edges: []
@@ -2762,20 +2753,20 @@ TextureImporter:
       name: geyser_luminoso_106
       rect:
         serializedVersion: 2
-        x: 1375
-        y: 198
-        width: 9
-        height: 6
+        x: 1378
+        y: 256
+        width: 5
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e96932793fcfdc4b0800000000000000
-      internalID: -5418396653513894242
+      spriteID: e396fe30786dafb4eb825d9038ff9c41
+      internalID: 1809832692
       vertices: []
       indices: 
       edges: []
@@ -2784,20 +2775,20 @@ TextureImporter:
       name: geyser_luminoso_107
       rect:
         serializedVersion: 2
-        x: 1377
-        y: 255
+        x: 1425
+        y: 225
         width: 7
-        height: 7
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5ec01be1f0cc70870800000000000000
-      internalID: 8649105974699822309
+      spriteID: bf8cf056dc43000458e9d463a48c553a
+      internalID: 1500197705
       vertices: []
       indices: 
       edges: []
@@ -2806,42 +2797,20 @@ TextureImporter:
       name: geyser_luminoso_108
       rect:
         serializedVersion: 2
-        x: 1424
-        y: 224
-        width: 9
-        height: 6
+        x: 1434
+        y: 222
+        width: 4
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9e3f57ade6c776660800000000000000
-      internalID: 7379003330023257065
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: geyser_luminoso_109
-      rect:
-        serializedVersion: 2
-        x: 1429
-        y: 217
-        width: 12
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dc3c3302e49413760800000000000000
-      internalID: 7435805059661939661
+      spriteID: 952b902d64b11c641bee4b9550e3573f
+      internalID: 525289307
       vertices: []
       indices: 
       edges: []
@@ -2850,7 +2819,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7d12a1fba19bef145b732fa0caa8165c
     internalID: 0
     vertices: []
     indices: 
@@ -2858,118 +2827,119 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      geyser_luminoso_0: 3397064322772019061
-      geyser_luminoso_1: 8119535864720819521
-      geyser_luminoso_10: -8955668317607804197
-      geyser_luminoso_100: 2716736520984476115
-      geyser_luminoso_101: -969370457612568754
-      geyser_luminoso_102: 3435458704036912276
-      geyser_luminoso_103: -1656352294012817337
-      geyser_luminoso_104: 4947335367822511603
-      geyser_luminoso_105: -7664250187639555690
-      geyser_luminoso_106: -5418396653513894242
-      geyser_luminoso_107: 8649105974699822309
-      geyser_luminoso_108: 7379003330023257065
-      geyser_luminoso_109: 7435805059661939661
-      geyser_luminoso_11: 3196871696518744972
-      geyser_luminoso_12: -2162217965731995987
-      geyser_luminoso_13: 534163360262869072
-      geyser_luminoso_14: -7482851966390259014
-      geyser_luminoso_15: -3202399930312701142
-      geyser_luminoso_16: -1419127449339971544
-      geyser_luminoso_17: 4884124285295925519
-      geyser_luminoso_18: 6237518491804707976
-      geyser_luminoso_19: 4410658047212260822
-      geyser_luminoso_2: 6434657951576777056
-      geyser_luminoso_20: 3007150591927619879
-      geyser_luminoso_21: 7972304659059009122
-      geyser_luminoso_22: -2470747462937525558
-      geyser_luminoso_23: -166641330756888527
-      geyser_luminoso_24: 3623204001732186294
-      geyser_luminoso_25: -2386563258622780309
-      geyser_luminoso_26: -5313663598476095421
-      geyser_luminoso_27: 1300485405968903290
-      geyser_luminoso_28: -8983765743956925335
-      geyser_luminoso_29: -7581687560102040164
-      geyser_luminoso_3: -9113015464855676735
-      geyser_luminoso_30: -2503235298618186788
-      geyser_luminoso_31: -1568761451099817876
-      geyser_luminoso_32: -6856854382746492756
-      geyser_luminoso_33: 4312253162922209053
-      geyser_luminoso_34: -390660739221722979
-      geyser_luminoso_35: 4232412168425532382
-      geyser_luminoso_36: -7961124145666532975
-      geyser_luminoso_37: 3057556615637328412
-      geyser_luminoso_38: 2518578143116206345
-      geyser_luminoso_39: -1255001622831965016
-      geyser_luminoso_4: -1536243705694521233
-      geyser_luminoso_40: -169068101434225210
-      geyser_luminoso_41: 3684057472678469993
-      geyser_luminoso_42: -9093280760951033076
-      geyser_luminoso_43: 4183409586678856949
-      geyser_luminoso_44: 6924030470137435059
-      geyser_luminoso_45: -5713375370062649425
-      geyser_luminoso_46: 5351614722437001573
-      geyser_luminoso_47: 8888736274629900340
-      geyser_luminoso_48: 919063943815923899
-      geyser_luminoso_49: 2766145479406595947
-      geyser_luminoso_5: 1187613900050665533
-      geyser_luminoso_50: 1800193884407726691
-      geyser_luminoso_51: -7350975974344025912
-      geyser_luminoso_52: -4510679838660155370
-      geyser_luminoso_53: 7637963147734509749
-      geyser_luminoso_54: 7210673505447770605
-      geyser_luminoso_55: -2842338397787784489
-      geyser_luminoso_56: 4792346091572080393
-      geyser_luminoso_57: -5138619061351942418
-      geyser_luminoso_58: -4115626054954088285
-      geyser_luminoso_59: 9085657153155098956
-      geyser_luminoso_6: -368000680254550554
-      geyser_luminoso_60: 517761408374890899
-      geyser_luminoso_61: 6327682836974618730
-      geyser_luminoso_62: -5726679212122146358
-      geyser_luminoso_63: 1086489308257244646
-      geyser_luminoso_64: 7137527415342674172
-      geyser_luminoso_65: 3752066436820699073
-      geyser_luminoso_66: -7203714145863069167
-      geyser_luminoso_67: -2888187410574490673
-      geyser_luminoso_68: -7216193211427049921
-      geyser_luminoso_69: -5640805992205601271
-      geyser_luminoso_7: 1676267090153431492
-      geyser_luminoso_70: -4253379096355598037
-      geyser_luminoso_71: -7915318065282787671
-      geyser_luminoso_72: -9167564261537471026
-      geyser_luminoso_73: -5274226635279104013
-      geyser_luminoso_74: 6019166249990323706
-      geyser_luminoso_75: 7665377780737370382
-      geyser_luminoso_76: -5263301541809929732
-      geyser_luminoso_77: 7686703658973507533
-      geyser_luminoso_78: -9141443118243209833
-      geyser_luminoso_79: 5744196837879557642
-      geyser_luminoso_8: 2193685885001971233
-      geyser_luminoso_80: -8730408599969549533
-      geyser_luminoso_81: 7458539260544237395
-      geyser_luminoso_82: 338242329371402388
-      geyser_luminoso_83: -3762419532588888987
-      geyser_luminoso_84: 3153068686138899537
-      geyser_luminoso_85: 5213817007888156437
-      geyser_luminoso_86: -6916092893495389326
-      geyser_luminoso_87: 8680985958006945591
-      geyser_luminoso_88: 9150497612048546395
-      geyser_luminoso_89: 4288058595257796086
-      geyser_luminoso_9: 4793342800035967997
-      geyser_luminoso_90: -7622852385787859106
-      geyser_luminoso_91: 4393233811254147159
-      geyser_luminoso_92: 5434484527852831684
-      geyser_luminoso_93: -3890801407548256596
-      geyser_luminoso_94: 4475100898131998863
-      geyser_luminoso_95: 8990994312464470301
-      geyser_luminoso_96: 3356603578458437500
-      geyser_luminoso_97: 5480835270414955501
-      geyser_luminoso_98: -7947841649432142081
-      geyser_luminoso_99: 5125340964413637948
+      geyser_luminoso_0: 1827245261
+      geyser_luminoso_1: -516005164
+      geyser_luminoso_10: 1368180745
+      geyser_luminoso_100: -953678204
+      geyser_luminoso_101: -1372584399
+      geyser_luminoso_102: 1054373778
+      geyser_luminoso_103: 511114265
+      geyser_luminoso_104: -148231986
+      geyser_luminoso_105: -1036824077
+      geyser_luminoso_106: 1809832692
+      geyser_luminoso_107: 1500197705
+      geyser_luminoso_108: 525289307
+      geyser_luminoso_11: 1880714085
+      geyser_luminoso_12: -655878085
+      geyser_luminoso_13: -100489143
+      geyser_luminoso_14: -626278730
+      geyser_luminoso_15: 1171189563
+      geyser_luminoso_16: 2084391426
+      geyser_luminoso_17: 31877672
+      geyser_luminoso_18: 1880035719
+      geyser_luminoso_19: 505191204
+      geyser_luminoso_2: -1706727320
+      geyser_luminoso_20: -1285233528
+      geyser_luminoso_21: 1721498920
+      geyser_luminoso_22: -1015165475
+      geyser_luminoso_23: 993555807
+      geyser_luminoso_24: -1423719504
+      geyser_luminoso_25: 217656302
+      geyser_luminoso_26: -245151018
+      geyser_luminoso_27: -275040052
+      geyser_luminoso_28: -1613997638
+      geyser_luminoso_29: 168036569
+      geyser_luminoso_3: -513071278
+      geyser_luminoso_30: -1128810120
+      geyser_luminoso_31: -440012321
+      geyser_luminoso_32: -1896813244
+      geyser_luminoso_33: -1728999906
+      geyser_luminoso_34: 686712996
+      geyser_luminoso_35: -1954525713
+      geyser_luminoso_36: 572054343
+      geyser_luminoso_37: -559516153
+      geyser_luminoso_38: 978645603
+      geyser_luminoso_39: 905592258
+      geyser_luminoso_4: 2112151969
+      geyser_luminoso_40: 491338180
+      geyser_luminoso_41: 1759212829
+      geyser_luminoso_42: -446895697
+      geyser_luminoso_43: 1395500366
+      geyser_luminoso_44: -1267967539
+      geyser_luminoso_45: 922551563
+      geyser_luminoso_46: 1483376175
+      geyser_luminoso_47: 1812296807
+      geyser_luminoso_48: -1678663544
+      geyser_luminoso_49: 1355950422
+      geyser_luminoso_5: -1557957166
+      geyser_luminoso_50: 1975808801
+      geyser_luminoso_51: 896700284
+      geyser_luminoso_52: 1000608418
+      geyser_luminoso_53: -2123462442
+      geyser_luminoso_54: 1653829270
+      geyser_luminoso_55: -650501742
+      geyser_luminoso_56: -632832736
+      geyser_luminoso_57: 1319837017
+      geyser_luminoso_58: 1675076085
+      geyser_luminoso_59: -1420106896
+      geyser_luminoso_6: 219348876
+      geyser_luminoso_60: -95322790
+      geyser_luminoso_61: -265571145
+      geyser_luminoso_62: -1741014101
+      geyser_luminoso_63: 1115963894
+      geyser_luminoso_64: 599071174
+      geyser_luminoso_65: 1511601533
+      geyser_luminoso_66: 819793988
+      geyser_luminoso_67: 670007636
+      geyser_luminoso_68: 809910096
+      geyser_luminoso_69: -103916311
+      geyser_luminoso_7: -1013346283
+      geyser_luminoso_70: -670205318
+      geyser_luminoso_71: -1252364434
+      geyser_luminoso_72: 1922461071
+      geyser_luminoso_73: -667758257
+      geyser_luminoso_74: 1344705686
+      geyser_luminoso_75: -1429749938
+      geyser_luminoso_76: -990718021
+      geyser_luminoso_77: 1637885727
+      geyser_luminoso_78: 1878807883
+      geyser_luminoso_79: 1941280581
+      geyser_luminoso_8: -414859070
+      geyser_luminoso_80: 132426228
+      geyser_luminoso_81: 130408068
+      geyser_luminoso_82: -1556174772
+      geyser_luminoso_83: 944964733
+      geyser_luminoso_84: -1856969556
+      geyser_luminoso_85: -10844732
+      geyser_luminoso_86: -141854498
+      geyser_luminoso_87: 152795933
+      geyser_luminoso_88: -1889052189
+      geyser_luminoso_89: 828685094
+      geyser_luminoso_9: 1297911701
+      geyser_luminoso_90: -1804792245
+      geyser_luminoso_91: -1716506397
+      geyser_luminoso_92: -63270953
+      geyser_luminoso_93: -1286395508
+      geyser_luminoso_94: -535145272
+      geyser_luminoso_95: -260062944
+      geyser_luminoso_96: -1763425029
+      geyser_luminoso_97: -2121311089
+      geyser_luminoso_98: -1282148018
+      geyser_luminoso_99: 2025922125
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

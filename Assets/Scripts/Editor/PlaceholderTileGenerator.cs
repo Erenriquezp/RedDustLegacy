@@ -51,32 +51,48 @@ namespace Editor
         {
             string fullPath = $"{OUTPUT_PATH}/{assetName}.asset";
 
-            // Si ya existe, no sobreescribir — protege cambios del Level Designer.
-            if (AssetDatabase.LoadAssetAtPath<Tile>(fullPath) != null)
+            Tile existing = AssetDatabase.LoadAssetAtPath<Tile>(fullPath);
+            if (existing != null)
             {
-                Debug.Log($"[PlaceholderTileGenerator] Ya existe, se omite: {assetName}");
+                // Si ya tiene sprite, está sano → no lo tocamos (protege ajustes del Level Designer).
+                if (existing.sprite != null)
+                {
+                    Debug.Log($"[PlaceholderTileGenerator] Ya existe y tiene sprite, se omite: {assetName}");
+                    return;
+                }
+
+                // Reparar tiles generados por la versión con bug (sprite no persistido → null).
+                existing.color = color;
+                existing.colliderType = Tile.ColliderType.Sprite;
+                existing.sprite = CreateAndEmbedSprite(assetName, color, existing);
+                EditorUtility.SetDirty(existing);
+                Debug.Log($"[PlaceholderTileGenerator] Reparado (sprite faltante): {assetName}");
                 return;
             }
 
             Tile tile = ScriptableObject.CreateInstance<Tile>();
             tile.color = color;
-            tile.sprite = GetOrCreatePlaceholderSprite(assetName, color);
             tile.colliderType = Tile.ColliderType.Sprite;
 
+            // El Tile debe existir en disco ANTES de incrustarle sub-assets.
             AssetDatabase.CreateAsset(tile, fullPath);
+            tile.sprite = CreateAndEmbedSprite(assetName, color, tile);
+            EditorUtility.SetDirty(tile);
         }
 
         /// <summary>
-        /// Genera una textura 16×16 de color sólido y la guarda como sub-asset del Tile.
-        /// No requiere ningún archivo de imagen externo.
+        /// Genera una textura 16×16 de color sólido y la incrusta —junto con su Sprite—
+        /// como sub-assets del Tile <paramref name="owner"/>, de modo que la referencia
+        /// persiste al recargar el proyecto. No requiere ningún archivo de imagen externo.
         /// </summary>
-        private static Sprite GetOrCreatePlaceholderSprite(string tileName, Color color)
+        private static Sprite CreateAndEmbedSprite(string tileName, Color color, Object owner)
         {
             const int SIZE = 16;
             const int PPU  = 16; // 1 unidad de mundo = 16 px → tile = 1×1 u
 
             Texture2D tex = new Texture2D(SIZE, SIZE, TextureFormat.RGBA32, false)
             {
+                name       = $"{tileName}_Tex",
                 filterMode = FilterMode.Point,
                 wrapMode   = TextureWrapMode.Clamp
             };
@@ -100,6 +116,10 @@ namespace Editor
                 PPU
             );
             sprite.name = $"{tileName}_Sprite";
+
+            // Persistir textura y sprite como sub-assets del Tile (esto faltaba).
+            AssetDatabase.AddObjectToAsset(tex, owner);
+            AssetDatabase.AddObjectToAsset(sprite, owner);
 
             return sprite;
         }
