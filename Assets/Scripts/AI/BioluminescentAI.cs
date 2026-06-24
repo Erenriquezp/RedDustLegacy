@@ -12,6 +12,8 @@ public class BioluminescentAI : MonoBehaviour
     private bool isAttacking;
     private float attackCooldown = 1.0f;
     private float attackTimer;
+    private int _currentHp;
+    private float stunCooldown;
 
     private enum State
     {
@@ -29,11 +31,17 @@ public class BioluminescentAI : MonoBehaviour
     private void Start()
     {
         animator = GetComponent<Animator>();
+        _currentHp = stats.hp;
         currentState = State.Idle;
+       // TakeDamage(50); activar esta funcion para hacer la muerte del bioluminisence
     }
 
     private void Update()
     {
+        if (stunCooldown > 0)
+        {
+            stunCooldown -= Time.deltaTime;
+        }
         if (isStunned)
         {
             stunTimer -= Time.deltaTime;
@@ -115,21 +123,23 @@ public class BioluminescentAI : MonoBehaviour
 
     private void UpdateChase()
     {
-        float distance =
-            Vector2.Distance(transform.position,
-                             rover.position);
-
+        float distance = Vector2.Distance(transform.position, rover.position);
+        PlayerController player = rover.GetComponent<PlayerController>();
+        if (player != null && player.IsScanning)
+        {
+            ApplyStun();
+        }
         // Si está cerca, atacar
-         if (distance <= 1.5f && attackTimer <= 0)
-    {
-        animator.SetTrigger("Attack");
+        if (distance <= 1.5f && attackTimer <= 0)
+        {
+            animator.SetTrigger("Attack");
 
-        Debug.Log("Bioluminescente ataca");
+            Debug.Log("Bioluminescente ataca");
 
-        attackTimer = attackCooldown;
+            attackTimer = attackCooldown;
 
-        return;
-    }
+            return;
+        }
 
         Vector2 nextPosition =
             Vector2.MoveTowards(
@@ -166,9 +176,46 @@ public class BioluminescentAI : MonoBehaviour
     }
     public void ApplyStun()
     {
+        if (stunCooldown > 0)
+            return;
+
         isStunned = true;
+
         stunTimer = stats.stunDuration;
 
+        stunCooldown = stats.stunDuration;
+
         Debug.Log("Bioluminescente aturdido");
+    }
+
+    public void TakeDamage(int amount)
+    {
+        _currentHp -= amount;
+
+        Debug.Log(
+            $"Biol recibe {amount} daño. HP: {_currentHp}");
+
+        if (_currentHp <= 0)
+        {
+            Die();
+        }
+    }
+
+    private void Die()
+    {
+        Debug.Log("Biol muerto");
+
+        animator.SetBool("IsDead", true);
+
+        Collider2D col = GetComponent<Collider2D>();
+
+        if (col != null)
+        {
+            col.enabled = false;
+        }
+
+        enabled = false;
+
+        Destroy(gameObject, 1.0f);
     }
 }
