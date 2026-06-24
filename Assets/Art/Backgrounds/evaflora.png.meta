@@ -1,0 +1,3289 @@
+fileFormatVersion: 2
+guid: 26891f1558fa37344a2e3d38b10f1be8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1910743934822501473
+    second: evaflora_0
+  - first:
+      213: 5278464508244946857
+    second: evaflora_1
+  - first:
+      213: -39105861554144378
+    second: evaflora_2
+  - first:
+      213: -531652993085437174
+    second: evaflora_3
+  - first:
+      213: 728208366185250988
+    second: evaflora_4
+  - first:
+      213: 402663423466982924
+    second: evaflora_5
+  - first:
+      213: 5765683264235294539
+    second: evaflora_6
+  - first:
+      213: -8790639336308875421
+    second: evaflora_7
+  - first:
+      213: 3396452382543362052
+    second: evaflora_8
+  - first:
+      213: 4564754567112971574
+    second: evaflora_9
+  - first:
+      213: -433008236755229579
+    second: evaflora_10
+  - first:
+      213: 5439994894670169395
+    second: evaflora_11
+  - first:
+      213: 7596454494583377070
+    second: evaflora_12
+  - first:
+      213: 3817274812099744342
+    second: evaflora_13
+  - first:
+      213: 4488872031636081304
+    second: evaflora_14
+  - first:
+      213: 6812403222197325486
+    second: evaflora_15
+  - first:
+      213: -4825825618837000307
+    second: evaflora_16
+  - first:
+      213: -6048778964821288066
+    second: evaflora_17
+  - first:
+      213: -8520977792938460985
+    second: evaflora_18
+  - first:
+      213: -4522218053597270010
+    second: evaflora_19
+  - first:
+      213: -3344192102392326672
+    second: evaflora_20
+  - first:
+      213: 6905452178749717081
+    second: evaflora_21
+  - first:
+      213: -5530367231210393143
+    second: evaflora_22
+  - first:
+      213: -543355083824191345
+    second: evaflora_23
+  - first:
+      213: -4026146233027766255
+    second: evaflora_24
+  - first:
+      213: 4890634819434700610
+    second: evaflora_25
+  - first:
+      213: 4122697018465661304
+    second: evaflora_26
+  - first:
+      213: -199404906989350765
+    second: evaflora_27
+  - first:
+      213: 5248520677703026458
+    second: evaflora_28
+  - first:
+      213: 6965334908714621746
+    second: evaflora_29
+  - first:
+      213: -6973799507630999790
+    second: evaflora_30
+  - first:
+      213: -6865932892919071826
+    second: evaflora_31
+  - first:
+      213: -5093035122043410491
+    second: evaflora_32
+  - first:
+      213: -1652184337967681977
+    second: evaflora_33
+  - first:
+      213: 7095185756400642814
+    second: evaflora_34
+  - first:
+      213: 4519013979176876596
+    second: evaflora_35
+  - first:
+      213: 5666263371680416418
+    second: evaflora_36
+  - first:
+      213: -1223036828022354323
+    second: evaflora_37
+  - first:
+      213: 3453086989397976966
+    second: evaflora_38
+  - first:
+      213: -6652288956447013448
+    second: evaflora_39
+  - first:
+      213: 1798509543961881153
+    second: evaflora_40
+  - first:
+      213: 9194421857097936161
+    second: evaflora_41
+  - first:
+      213: 3244291264676489477
+    second: evaflora_42
+  - first:
+      213: -2687065506770532077
+    second: evaflora_43
+  - first:
+      213: 6488703680726191144
+    second: evaflora_44
+  - first:
+      213: -5846311930389163604
+    second: evaflora_45
+  - first:
+      213: -5564810616269392947
+    second: evaflora_46
+  - first:
+      213: 5108941469984885920
+    second: evaflora_47
+  - first:
+      213: 3595692997830503277
+    second: evaflora_48
+  - first:
+      213: 2713802261194533152
+    second: evaflora_49
+  - first:
+      213: 3428688341961170751
+    second: evaflora_50
+  - first:
+      213: -4985430918310023448
+    second: evaflora_51
+  - first:
+      213: 8867143755505261487
+    second: evaflora_52
+  - first:
+      213: -4435432188548143650
+    second: evaflora_53
+  - first:
+      213: -4968909770096588569
+    second: evaflora_54
+  - first:
+      213: 6361977361132170038
+    second: evaflora_55
+  - first:
+      213: 1302952270636074486
+    second: evaflora_56
+  - first:
+      213: 2599674774610037575
+    second: evaflora_57
+  - first:
+      213: -4652572303384241424
+    second: evaflora_58
+  - first:
+      213: -1431320527049025913
+    second: evaflora_59
+  - first:
+      213: 6402551299517873900
+    second: evaflora_60
+  - first:
+      213: 4236525131403049104
+    second: evaflora_61
+  - first:
+      213: 1643807247490651553
+    second: evaflora_62
+  - first:
+      213: 5379932711744419674
+    second: evaflora_63
+  - first:
+      213: 693155298727440126
+    second: evaflora_64
+  - first:
+      213: -5197531741036283293
+    second: evaflora_65
+  - first:
+      213: -2657326517104853426
+    second: evaflora_66
+  - first:
+      213: -9216757823439188354
+    second: evaflora_67
+  - first:
+      213: 9109479917463092527
+    second: evaflora_68
+  - first:
+      213: -4631275098311421482
+    second: evaflora_69
+  - first:
+      213: -5148398900865205456
+    second: evaflora_70
+  - first:
+      213: 2849468899804115841
+    second: evaflora_71
+  - first:
+      213: 1980017075675618211
+    second: evaflora_72
+  - first:
+      213: -4189629962861449196
+    second: evaflora_73
+  - first:
+      213: -4503216545897276
+    second: evaflora_74
+  - first:
+      213: 1201596151994969498
+    second: evaflora_75
+  - first:
+      213: -7973605507326373589
+    second: evaflora_76
+  - first:
+      213: -7768287249490503201
+    second: evaflora_77
+  - first:
+      213: 7353881392427829142
+    second: evaflora_78
+  - first:
+      213: -1267764233855594183
+    second: evaflora_79
+  - first:
+      213: 7357562204524171397
+    second: evaflora_80
+  - first:
+      213: 1424907968178201592
+    second: evaflora_81
+  - first:
+      213: 1977397261145218292
+    second: evaflora_82
+  - first:
+      213: -2265311010763449576
+    second: evaflora_83
+  - first:
+      213: -1359202592671413883
+    second: evaflora_84
+  - first:
+      213: 1781852275002155985
+    second: evaflora_85
+  - first:
+      213: 6620375612425243303
+    second: evaflora_86
+  - first:
+      213: -4898775444704218005
+    second: evaflora_87
+  - first:
+      213: -4252284522375836048
+    second: evaflora_88
+  - first:
+      213: 1994858253345924539
+    second: evaflora_89
+  - first:
+      213: -3349605743294813829
+    second: evaflora_90
+  - first:
+      213: -7635874181998811183
+    second: evaflora_91
+  - first:
+      213: -4515535111770848480
+    second: evaflora_92
+  - first:
+      213: -671766402607746363
+    second: evaflora_93
+  - first:
+      213: -2595280356399666550
+    second: evaflora_94
+  - first:
+      213: -4805035959502768930
+    second: evaflora_95
+  - first:
+      213: -2203113284096717409
+    second: evaflora_96
+  - first:
+      213: 6686646058146514986
+    second: evaflora_97
+  - first:
+      213: 5447951884526149933
+    second: evaflora_98
+  - first:
+      213: -4692574001787685300
+    second: evaflora_99
+  - first:
+      213: -6910846792592536285
+    second: evaflora_100
+  - first:
+      213: -3539854350928753688
+    second: evaflora_101
+  - first:
+      213: 4298454179742519816
+    second: evaflora_102
+  - first:
+      213: -1609244476660272395
+    second: evaflora_103
+  - first:
+      213: -3377188543348518327
+    second: evaflora_104
+  - first:
+      213: -5907944775683023969
+    second: evaflora_105
+  - first:
+      213: -1040005683030330616
+    second: evaflora_106
+  - first:
+      213: -6560754859356104
+    second: evaflora_107
+  - first:
+      213: 9212903243785968295
+    second: evaflora_108
+  - first:
+      213: 7553085976504064472
+    second: evaflora_109
+  - first:
+      213: -7798930929177675780
+    second: evaflora_110
+  - first:
+      213: 8610458427112522601
+    second: evaflora_111
+  - first:
+      213: 1998856741889459431
+    second: evaflora_112
+  - first:
+      213: -734596770085554511
+    second: evaflora_113
+  - first:
+      213: 6482877034384760292
+    second: evaflora_114
+  - first:
+      213: -5308181433944068081
+    second: evaflora_115
+  - first:
+      213: -1792347959432271913
+    second: evaflora_116
+  - first:
+      213: -4083166392542871544
+    second: evaflora_117
+  - first:
+      213: -4175890639645104397
+    second: evaflora_118
+  - first:
+      213: 5320003221410899808
+    second: evaflora_119
+  - first:
+      213: -6066291467067851772
+    second: evaflora_120
+  - first:
+      213: -8814943501515150
+    second: evaflora_121
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: evaflora_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 217
+        height: 1021
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16cc3d33c73548a10800000000000000
+      internalID: 1910743934822501473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_1
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 0
+        width: 1377
+        height: 1012
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af6275f08fd04940800000000000000
+      internalID: 5278464508244946857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_2
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 945
+        width: 490
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68bfd651d61157ff0800000000000000
+      internalID: -39105861554144378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_3
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1008
+        width: 171
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b8e5b6b603f98f0800000000000000
+      internalID: -531652993085437174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_4
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 1011
+        width: 52
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca080fc96ad1b1a00800000000000000
+      internalID: 728208366185250988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_5
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 994
+        width: 150
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ecacf004c869500800000000000000
+      internalID: 402663423466982924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_6
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 991
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4fc8248162d30050800000000000000
+      internalID: 5765683264235294539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_7
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 984
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36fdbb23910610680800000000000000
+      internalID: -8790639336308875421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_8
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 974
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 408b60e527f922f20800000000000000
+      internalID: 3396452382543362052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_9
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 975
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6355c9bf714495f30800000000000000
+      internalID: 4564754567112971574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_10
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 962
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 574e2678d45adf9f0800000000000000
+      internalID: -433008236755229579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_11
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 952
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33501ccc88ebe7b40800000000000000
+      internalID: 5439994894670169395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_12
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 938
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaccf067d170c6960800000000000000
+      internalID: 7596454494583377070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_13
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 938
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6525041873fa9f430800000000000000
+      internalID: 3817274812099744342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_14
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 927
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89acad7645dab4e30800000000000000
+      internalID: 4488872031636081304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_15
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 930
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae4ccd03a48a8e50800000000000000
+      internalID: 6812403222197325486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_16
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 923
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8fad310b29370db0800000000000000
+      internalID: -4825825618837000307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_17
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 927
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7bd8fc449b6e0ca0800000000000000
+      internalID: -6048778964821288066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_18
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 928
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c839e8e7d76fb980800000000000000
+      internalID: -8520977792938460985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_19
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 928
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 600f976d3aadd31c0800000000000000
+      internalID: -4522218053597270010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_20
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 921
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f51d3c400b0791d0800000000000000
+      internalID: -3344192102392326672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_21
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 913
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95af2df7b2815df50800000000000000
+      internalID: 6905452178749717081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_22
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 916
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c17e3aed403043b0800000000000000
+      internalID: -5530367231210393143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_23
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 922
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f88a1c91e6d9578f0800000000000000
+      internalID: -543355083824191345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_24
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 921
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1185a9e15514028c0800000000000000
+      internalID: -4026146233027766255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_25
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 919
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24fdf82e4760fd340800000000000000
+      internalID: 4890634819434700610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_26
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 920
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87135366813c63930800000000000000
+      internalID: 4122697018465661304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_27
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 862
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3901e682b429b3df0800000000000000
+      internalID: -199404906989350765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_28
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 852
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1708ce9fbd76d840800000000000000
+      internalID: 5248520677703026458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_29
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 839
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23b109f0237d9a060800000000000000
+      internalID: 6965334908714621746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_30
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 815
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2173cdceb46183f90800000000000000
+      internalID: -6973799507630999790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_31
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 807
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eab73e1496e47b0a0800000000000000
+      internalID: -6865932892919071826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_32
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 796
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c7a3026a87e159b0800000000000000
+      internalID: -5093035122043410491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_33
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 791
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ee8f729134219e0800000000000000
+      internalID: -1652184337967681977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_34
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 750
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efaeba18ad9277260800000000000000
+      internalID: 7095185756400642814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_35
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 725
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43abcd37543c6be30800000000000000
+      internalID: 4519013979176876596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_36
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 742
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a281d0f38c92ae40800000000000000
+      internalID: 5666263371680416418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_37
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 719
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ec18e1c76e60fe0800000000000000
+      internalID: -1223036828022354323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_38
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 702
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 687e6955254dbef20800000000000000
+      internalID: 3453086989397976966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_39
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 694
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5c8bf70725ea3a0800000000000000
+      internalID: -6652288956447013448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_40
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 686
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a6ffcb6e695f810800000000000000
+      internalID: 1798509543961881153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_41
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 652
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12de86307f5299f70800000000000000
+      internalID: 9194421857097936161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_42
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 644
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509e1fa57b9060d20800000000000000
+      internalID: 3244291264676489477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_43
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 631
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319ccb48820a5bad0800000000000000
+      internalID: -2687065506770532077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_44
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 620
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c44767e918c0a50800000000000000
+      internalID: 6488703680726191144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_45
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 612
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca1960f364abddea0800000000000000
+      internalID: -5846311930389163604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_46
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 607
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3b0f66a32d5c2b0800000000000000
+      internalID: -5564810616269392947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_47
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 551
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ac06b8d23b96e640800000000000000
+      internalID: 5108941469984885920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_48
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 543
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6beb011bb776e130800000000000000
+      internalID: 3595692997830503277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_49
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 532
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 029e62937cc59a520800000000000000
+      internalID: 2713802261194533152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_50
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 526
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f5e1c81e5259f20800000000000000
+      internalID: 3428688341961170751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_51
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 518
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eea1e56ef030dab0800000000000000
+      internalID: -4985430918310023448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_52
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 502
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fabd637f34c6e0b70800000000000000
+      internalID: 8867143755505261487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_53
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 487
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed52148aced2272c0800000000000000
+      internalID: -4435432188548143650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_54
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 479
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e8cc68f3e2ea0bb0800000000000000
+      internalID: -4968909770096588569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_55
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 470
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63b2c57e3b84a4850800000000000000
+      internalID: 6361977361132170038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_56
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 462
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f54d82df24051210800000000000000
+      internalID: 1302952270636074486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_57
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 452
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74bcc201f66e31420800000000000000
+      internalID: 2599674774610037575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_58
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 447
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa16f4f32ebe6fb0800000000000000
+      internalID: -4652572303384241424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_59
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 437
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7869489609de22ce0800000000000000
+      internalID: -1431320527049025913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_60
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 430
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee7af71c7e6ad850800000000000000
+      internalID: 6402551299517873900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_61
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 423
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0983b4339292bca30800000000000000
+      internalID: 4236525131403049104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_62
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 411
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a594e97bf9ffc610800000000000000
+      internalID: 1643807247490651553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_63
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 398
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a57b7071c4c59aa40800000000000000
+      internalID: 5379932711744419674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_64
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 406
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efe24da52159e9900800000000000000
+      internalID: 693155298727440126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_65
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 387
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36af6b25b68aed7b0800000000000000
+      internalID: -5197531741036283293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_66
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 382
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e3dbf9c974f1bd0800000000000000
+      internalID: -2657326517104853426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_67
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 379
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7eca11979f771080800000000000000
+      internalID: -9216757823439188354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_68
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 386
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2d31f888bf5b6e70800000000000000
+      internalID: 9109479917463092527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_69
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 384
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1190ce5d76abfb0800000000000000
+      internalID: -4631275098311421482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_70
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 375
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03bfaef1a763d88b0800000000000000
+      internalID: -5148398900865205456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_71
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 365
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183f8530ed85b8720800000000000000
+      internalID: 2849468899804115841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_72
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 359
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab5adc2a0f6a7b10800000000000000
+      internalID: 1980017075675618211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_73
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 350
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4107f431fb17bd5c0800000000000000
+      internalID: -4189629962861449196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_74
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 334
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c46f61395000fff0800000000000000
+      internalID: -4503216545897276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_75
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 340
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9de22b755deca010800000000000000
+      internalID: 1201596151994969498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_76
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 326
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2196bc7900185190800000000000000
+      internalID: -7973605507326373589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_77
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 315
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd91cec97ef713490800000000000000
+      internalID: -7768287249490503201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_78
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 295
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6970404f92c3e0660800000000000000
+      internalID: 7353881392427829142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_79
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 310
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 931971e652ff76ee0800000000000000
+      internalID: -1267764233855594183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_80
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 306
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580d08dc7df4b1660800000000000000
+      internalID: 7357562204524171397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_81
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 279
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3a2e06f3a46c310800000000000000
+      internalID: 1424907968178201592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_82
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 286
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc14621550217b10800000000000000
+      internalID: 1977397261145218292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_83
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 280
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81bd9a943afff80e0800000000000000
+      internalID: -2265311010763449576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_84
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 288
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 589c70e7174232de0800000000000000
+      internalID: -1359202592671413883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_85
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 271
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d3a9b514396ab810800000000000000
+      internalID: 1781852275002155985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_86
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 272
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aa04421b8c40eb50800000000000000
+      internalID: 6620375612425243303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_87
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 267
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b64bff710bd040cb0800000000000000
+      internalID: -4898775444704218005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_88
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 255
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e85e7a1c9dcf4c0800000000000000
+      internalID: -4252284522375836048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_89
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 262
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5a0ff13092fab10800000000000000
+      internalID: 1994858253345924539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_90
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 256
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b79ed4dc25fc381d0800000000000000
+      internalID: -3349605743294813829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_91
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 246
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d7626853ece70690800000000000000
+      internalID: -7635874181998811183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_92
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 247
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 023481c7db89551c0800000000000000
+      internalID: -4515535111770848480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_93
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 246
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c2f58814086da6f0800000000000000
+      internalID: -671766402607746363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_94
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 251
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8aaf382446bbfbd0800000000000000
+      internalID: -2595280356399666550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_95
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 238
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed4fbd4c045115db0800000000000000
+      internalID: -4805035959502768930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_96
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 232
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9d88750428fc61e0800000000000000
+      internalID: -2203113284096717409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_97
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 240
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a28c69a992dbbcc50800000000000000
+      internalID: 6686646058146514986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_98
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 230
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d21e99edf530b9b40800000000000000
+      internalID: 5447951884526149933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_99
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 222
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c463635cec0a0eeb0800000000000000
+      internalID: -4692574001787685300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_100
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 231
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32dcf56157db710a0800000000000000
+      internalID: -6910846792592536285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_101
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 214
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb45480939efdec0800000000000000
+      internalID: -3539854350928753688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_102
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 206
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80298d26d4d27ab30800000000000000
+      internalID: 4298454179742519816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_103
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 191
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2b7e3bca0daa9e0800000000000000
+      internalID: -1609244476660272395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_104
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 198
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9425136b9e0d121d0800000000000000
+      internalID: -3377188543348518327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_105
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 182
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9bd9c43783c20ea0800000000000000
+      internalID: -5907944775683023969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_106
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 174
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 803f69a67582191f0800000000000000
+      internalID: -1040005683030330616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_107
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 151
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83056293701b8eff0800000000000000
+      internalID: -6560754859356104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_108
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 166
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aa18eb20becadf70800000000000000
+      internalID: 9212903243785968295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_109
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 142
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d9528b7da3f1d860800000000000000
+      internalID: 7553085976504064472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_110
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 126
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf7be82f3a1a4c390800000000000000
+      internalID: -7798930929177675780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_111
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 119
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9638f4db15e7e7770800000000000000
+      internalID: 8610458427112522601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_112
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 103
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e44739cd9d5dbb10800000000000000
+      internalID: 1998856741889459431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_113
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 111
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6b6e131203ec5f0800000000000000
+      internalID: -734596770085554511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_114
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 95
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed9a05a05ec7f950800000000000000
+      internalID: 6482877034384760292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_115
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 87
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f00b07a1c1d8556b0800000000000000
+      internalID: -5308181433944068081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_116
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 60
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7a424f60d4027e0800000000000000
+      internalID: -1792347959432271913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_117
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 47
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8004badaccda557c0800000000000000
+      internalID: -4083166392542871544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_118
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 39
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6231b86914c06c0800000000000000
+      internalID: -4175890639645104397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_119
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 31
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06761284eb274d940800000000000000
+      internalID: 5320003221410899808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_120
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 23
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40cff612d0430dba0800000000000000
+      internalID: -6066291467067851772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evaflora_121
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 0
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27680e70bdea0eff0800000000000000
+      internalID: -8814943501515150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      evaflora_0: 1910743934822501473
+      evaflora_1: 5278464508244946857
+      evaflora_10: -433008236755229579
+      evaflora_100: -6910846792592536285
+      evaflora_101: -3539854350928753688
+      evaflora_102: 4298454179742519816
+      evaflora_103: -1609244476660272395
+      evaflora_104: -3377188543348518327
+      evaflora_105: -5907944775683023969
+      evaflora_106: -1040005683030330616
+      evaflora_107: -6560754859356104
+      evaflora_108: 9212903243785968295
+      evaflora_109: 7553085976504064472
+      evaflora_11: 5439994894670169395
+      evaflora_110: -7798930929177675780
+      evaflora_111: 8610458427112522601
+      evaflora_112: 1998856741889459431
+      evaflora_113: -734596770085554511
+      evaflora_114: 6482877034384760292
+      evaflora_115: -5308181433944068081
+      evaflora_116: -1792347959432271913
+      evaflora_117: -4083166392542871544
+      evaflora_118: -4175890639645104397
+      evaflora_119: 5320003221410899808
+      evaflora_12: 7596454494583377070
+      evaflora_120: -6066291467067851772
+      evaflora_121: -8814943501515150
+      evaflora_13: 3817274812099744342
+      evaflora_14: 4488872031636081304
+      evaflora_15: 6812403222197325486
+      evaflora_16: -4825825618837000307
+      evaflora_17: -6048778964821288066
+      evaflora_18: -8520977792938460985
+      evaflora_19: -4522218053597270010
+      evaflora_2: -39105861554144378
+      evaflora_20: -3344192102392326672
+      evaflora_21: 6905452178749717081
+      evaflora_22: -5530367231210393143
+      evaflora_23: -543355083824191345
+      evaflora_24: -4026146233027766255
+      evaflora_25: 4890634819434700610
+      evaflora_26: 4122697018465661304
+      evaflora_27: -199404906989350765
+      evaflora_28: 5248520677703026458
+      evaflora_29: 6965334908714621746
+      evaflora_3: -531652993085437174
+      evaflora_30: -6973799507630999790
+      evaflora_31: -6865932892919071826
+      evaflora_32: -5093035122043410491
+      evaflora_33: -1652184337967681977
+      evaflora_34: 7095185756400642814
+      evaflora_35: 4519013979176876596
+      evaflora_36: 5666263371680416418
+      evaflora_37: -1223036828022354323
+      evaflora_38: 3453086989397976966
+      evaflora_39: -6652288956447013448
+      evaflora_4: 728208366185250988
+      evaflora_40: 1798509543961881153
+      evaflora_41: 9194421857097936161
+      evaflora_42: 3244291264676489477
+      evaflora_43: -2687065506770532077
+      evaflora_44: 6488703680726191144
+      evaflora_45: -5846311930389163604
+      evaflora_46: -5564810616269392947
+      evaflora_47: 5108941469984885920
+      evaflora_48: 3595692997830503277
+      evaflora_49: 2713802261194533152
+      evaflora_5: 402663423466982924
+      evaflora_50: 3428688341961170751
+      evaflora_51: -4985430918310023448
+      evaflora_52: 8867143755505261487
+      evaflora_53: -4435432188548143650
+      evaflora_54: -4968909770096588569
+      evaflora_55: 6361977361132170038
+      evaflora_56: 1302952270636074486
+      evaflora_57: 2599674774610037575
+      evaflora_58: -4652572303384241424
+      evaflora_59: -1431320527049025913
+      evaflora_6: 5765683264235294539
+      evaflora_60: 6402551299517873900
+      evaflora_61: 4236525131403049104
+      evaflora_62: 1643807247490651553
+      evaflora_63: 5379932711744419674
+      evaflora_64: 693155298727440126
+      evaflora_65: -5197531741036283293
+      evaflora_66: -2657326517104853426
+      evaflora_67: -9216757823439188354
+      evaflora_68: 9109479917463092527
+      evaflora_69: -4631275098311421482
+      evaflora_7: -8790639336308875421
+      evaflora_70: -5148398900865205456
+      evaflora_71: 2849468899804115841
+      evaflora_72: 1980017075675618211
+      evaflora_73: -4189629962861449196
+      evaflora_74: -4503216545897276
+      evaflora_75: 1201596151994969498
+      evaflora_76: -7973605507326373589
+      evaflora_77: -7768287249490503201
+      evaflora_78: 7353881392427829142
+      evaflora_79: -1267764233855594183
+      evaflora_8: 3396452382543362052
+      evaflora_80: 7357562204524171397
+      evaflora_81: 1424907968178201592
+      evaflora_82: 1977397261145218292
+      evaflora_83: -2265311010763449576
+      evaflora_84: -1359202592671413883
+      evaflora_85: 1781852275002155985
+      evaflora_86: 6620375612425243303
+      evaflora_87: -4898775444704218005
+      evaflora_88: -4252284522375836048
+      evaflora_89: 1994858253345924539
+      evaflora_9: 4564754567112971574
+      evaflora_90: -3349605743294813829
+      evaflora_91: -7635874181998811183
+      evaflora_92: -4515535111770848480
+      evaflora_93: -671766402607746363
+      evaflora_94: -2595280356399666550
+      evaflora_95: -4805035959502768930
+      evaflora_96: -2203113284096717409
+      evaflora_97: 6686646058146514986
+      evaflora_98: 5447951884526149933
+      evaflora_99: -4692574001787685300
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 3b32d5edfec155246904e9ce88b173e3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 55815666799062018
+    second: Drone-walk-v1_0
+  - first:
+      213: 8093459662343649749
+    second: Drone-walk-v1_1
+  - first:
+      213: -1677479099725871260
+    second: Drone-walk-v1_2
+  - first:
+      213: -3657101420996827606
+    second: Drone-walk-v1_3
+  - first:
+      213: -1945308713741202231
+    second: Drone-walk-v1_4
+  - first:
+      213: -4732477897425632812
+    second: Drone-walk-v1_5
+  - first:
+      213: -2745980499411910537
+    second: Drone-walk-v1_6
+  - first:
+      213: 6801135150049739090
+    second: Drone-walk-v1_7
+  - first:
+      213: -8988084214210691730
+    second: Drone-walk-v1_8
+  - first:
+      213: -4949032650416279856
+    second: Drone-walk-v1_9
+  - first:
+      213: -8311128492935768947
+    second: Drone-walk-v1_10
+  - first:
+      213: -8101351847067630944
+    second: Drone-walk-v1_11
+  - first:
+      213: -2182988349688178723
+    second: Drone-walk-v1_12
+  - first:
+      213: 7293816172640840329
+    second: Drone-walk-v1_13
+  - first:
+      213: -4305132980512776739
+    second: Drone-walk-v1_14
+  - first:
+      213: 3284923970698236475
+    second: Drone-walk-v1_15
+  - first:
+      213: -5223652055611745108
+    second: Drone-walk-v1_16
+  - first:
+      213: -4887727217959251269
+    second: Drone-walk-v1_17
+  - first:
+      213: -40109076438719095
+    second: Drone-walk-v1_18
+  - first:
+      213: 9027354130903741002
+    second: Drone-walk-v1_19
+  - first:
+      213: 6567172928949310473
+    second: Drone-walk-v1_20
+  - first:
+      213: -6653874021576854220
+    second: Drone-walk-v1_21
+  - first:
+      213: -4683198693572755597
+    second: Drone-walk-v1_22
+  - first:
+      213: -297617273146739678
+    second: Drone-walk-v1_23
+  - first:
+      213: -8925446900594043838
+    second: Drone-walk-v1_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Drone-walk-v1_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1073
+        width: 140
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20ca570ad0c46c000800000000000000
+      internalID: 55815666799062018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-walk-v1_1
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1073
+        width: 140
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d932f19eaeb15070800000000000000
+      internalID: 8093459662343649749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-walk-v1_2
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1073
+        width: 140
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46782be75a568b8e0800000000000000
+      internalID: -1677479099725871260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-walk-v1_3
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1073
+        width: 140
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2668ed32ad5f3dc0800000000000000
+      internalID: -3657101420996827606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-walk-v1_4
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 1073
+        width: 140
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cccbf21800e005e0800000000000000
+      internalID: -1945308713741202231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-walk-v1_5
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 818
+        width: 140
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d1ce801d6cd25eb0800000000000000
+      internalID: -4732477897425632812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-walk-v1_6
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 818
+        width: 140
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 770476cd84154e9d0800000000000000
+      internalID: -2745980499411910537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-walk-v1_7
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 820
+        width: 140
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2514320926c726e50800000000000000
+      internalID: 6801135150049739090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-walk-v1_8
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 822
+        width: 140
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6dfca03709e34380800000000000000
+      internalID: -8988084214210691730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-walk-v1_9
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 825
+        width: 140
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dea02a8601815bb0800000000000000
+      internalID: -4949032650416279856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-walk-v1_10
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 571
+        width: 140
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d849fef7ba0f8ac80800000000000000
+      internalID: -8311128492935768947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-walk-v1_11
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 570
+        width: 141
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a2441bfa67329f80800000000000000
+      internalID: -8101351847067630944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-walk-v1_12
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 568
+        width: 143
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd7150479a774b1e0800000000000000
+      internalID: -2182988349688178723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-walk-v1_13
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 565
+        width: 144
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98aa14b2a27d83560800000000000000
+      internalID: 7293816172640840329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-walk-v1_14
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 563
+        width: 145
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddd97b12d581144c0800000000000000
+      internalID: -4305132980512776739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-walk-v1_15
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 305
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3252a372f4669d20800000000000000
+      internalID: 3284923970698236475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-walk-v1_16
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 303
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cacd50ba12cd187b0800000000000000
+      internalID: -5223652055611745108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-walk-v1_17
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 303
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb2d786ddfd4b2cb0800000000000000
+      internalID: -4887727217959251269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-walk-v1_18
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 304
+        width: 143
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 985e99ae101817ff0800000000000000
+      internalID: -40109076438719095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-walk-v1_19
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 306
+        width: 139
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a423c2ac0ca974d70800000000000000
+      internalID: 9027354130903741002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-walk-v1_20
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 53
+        width: 136
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 904d5980cf8432b50800000000000000
+      internalID: 6567172928949310473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-walk-v1_21
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 53
+        width: 133
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43536b3c4d0b8a3a0800000000000000
+      internalID: -6653874021576854220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-walk-v1_22
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 52
+        width: 135
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37fb501d99fe10fb0800000000000000
+      internalID: -4683198693572755597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-walk-v1_23
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 52
+        width: 137
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 224711bbaa6aedbf0800000000000000
+      internalID: -297617273146739678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-walk-v1_24
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 52
+        width: 138
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2441b7c3551722480800000000000000
+      internalID: -8925446900594043838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Drone-walk-v1_0: 55815666799062018
+      Drone-walk-v1_1: 8093459662343649749
+      Drone-walk-v1_10: -8311128492935768947
+      Drone-walk-v1_11: -8101351847067630944
+      Drone-walk-v1_12: -2182988349688178723
+      Drone-walk-v1_13: 7293816172640840329
+      Drone-walk-v1_14: -4305132980512776739
+      Drone-walk-v1_15: 3284923970698236475
+      Drone-walk-v1_16: -5223652055611745108
+      Drone-walk-v1_17: -4887727217959251269
+      Drone-walk-v1_18: -40109076438719095
+      Drone-walk-v1_19: 9027354130903741002
+      Drone-walk-v1_2: -1677479099725871260
+      Drone-walk-v1_20: 6567172928949310473
+      Drone-walk-v1_21: -6653874021576854220
+      Drone-walk-v1_22: -4683198693572755597
+      Drone-walk-v1_23: -297617273146739678
+      Drone-walk-v1_24: -8925446900594043838
+      Drone-walk-v1_3: -3657101420996827606
+      Drone-walk-v1_4: -1945308713741202231
+      Drone-walk-v1_5: -4732477897425632812
+      Drone-walk-v1_6: -2745980499411910537
+      Drone-walk-v1_7: 6801135150049739090
+      Drone-walk-v1_8: -8988084214210691730
+      Drone-walk-v1_9: -4949032650416279856
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

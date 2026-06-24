@@ -1,0 +1,2977 @@
+fileFormatVersion: 2
+guid: 0603e58a37a00ee489b921889dfda0be
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3397064322772019061
+    second: geyser_luminoso_0
+  - first:
+      213: 8119535864720819521
+    second: geyser_luminoso_1
+  - first:
+      213: 6434657951576777056
+    second: geyser_luminoso_2
+  - first:
+      213: -9113015464855676735
+    second: geyser_luminoso_3
+  - first:
+      213: -1536243705694521233
+    second: geyser_luminoso_4
+  - first:
+      213: 1187613900050665533
+    second: geyser_luminoso_5
+  - first:
+      213: -368000680254550554
+    second: geyser_luminoso_6
+  - first:
+      213: 1676267090153431492
+    second: geyser_luminoso_7
+  - first:
+      213: 2193685885001971233
+    second: geyser_luminoso_8
+  - first:
+      213: 4793342800035967997
+    second: geyser_luminoso_9
+  - first:
+      213: -8955668317607804197
+    second: geyser_luminoso_10
+  - first:
+      213: 3196871696518744972
+    second: geyser_luminoso_11
+  - first:
+      213: -2162217965731995987
+    second: geyser_luminoso_12
+  - first:
+      213: 534163360262869072
+    second: geyser_luminoso_13
+  - first:
+      213: -7482851966390259014
+    second: geyser_luminoso_14
+  - first:
+      213: -3202399930312701142
+    second: geyser_luminoso_15
+  - first:
+      213: -1419127449339971544
+    second: geyser_luminoso_16
+  - first:
+      213: 4884124285295925519
+    second: geyser_luminoso_17
+  - first:
+      213: 6237518491804707976
+    second: geyser_luminoso_18
+  - first:
+      213: 4410658047212260822
+    second: geyser_luminoso_19
+  - first:
+      213: 3007150591927619879
+    second: geyser_luminoso_20
+  - first:
+      213: 7972304659059009122
+    second: geyser_luminoso_21
+  - first:
+      213: -2470747462937525558
+    second: geyser_luminoso_22
+  - first:
+      213: -166641330756888527
+    second: geyser_luminoso_23
+  - first:
+      213: 3623204001732186294
+    second: geyser_luminoso_24
+  - first:
+      213: -2386563258622780309
+    second: geyser_luminoso_25
+  - first:
+      213: -5313663598476095421
+    second: geyser_luminoso_26
+  - first:
+      213: 1300485405968903290
+    second: geyser_luminoso_27
+  - first:
+      213: -8983765743956925335
+    second: geyser_luminoso_28
+  - first:
+      213: -7581687560102040164
+    second: geyser_luminoso_29
+  - first:
+      213: -2503235298618186788
+    second: geyser_luminoso_30
+  - first:
+      213: -1568761451099817876
+    second: geyser_luminoso_31
+  - first:
+      213: -6856854382746492756
+    second: geyser_luminoso_32
+  - first:
+      213: 4312253162922209053
+    second: geyser_luminoso_33
+  - first:
+      213: -390660739221722979
+    second: geyser_luminoso_34
+  - first:
+      213: 4232412168425532382
+    second: geyser_luminoso_35
+  - first:
+      213: -7961124145666532975
+    second: geyser_luminoso_36
+  - first:
+      213: 3057556615637328412
+    second: geyser_luminoso_37
+  - first:
+      213: 2518578143116206345
+    second: geyser_luminoso_38
+  - first:
+      213: -1255001622831965016
+    second: geyser_luminoso_39
+  - first:
+      213: -169068101434225210
+    second: geyser_luminoso_40
+  - first:
+      213: 3684057472678469993
+    second: geyser_luminoso_41
+  - first:
+      213: -9093280760951033076
+    second: geyser_luminoso_42
+  - first:
+      213: 4183409586678856949
+    second: geyser_luminoso_43
+  - first:
+      213: 6924030470137435059
+    second: geyser_luminoso_44
+  - first:
+      213: -5713375370062649425
+    second: geyser_luminoso_45
+  - first:
+      213: 5351614722437001573
+    second: geyser_luminoso_46
+  - first:
+      213: 8888736274629900340
+    second: geyser_luminoso_47
+  - first:
+      213: 919063943815923899
+    second: geyser_luminoso_48
+  - first:
+      213: 2766145479406595947
+    second: geyser_luminoso_49
+  - first:
+      213: 1800193884407726691
+    second: geyser_luminoso_50
+  - first:
+      213: -7350975974344025912
+    second: geyser_luminoso_51
+  - first:
+      213: -4510679838660155370
+    second: geyser_luminoso_52
+  - first:
+      213: 7637963147734509749
+    second: geyser_luminoso_53
+  - first:
+      213: 7210673505447770605
+    second: geyser_luminoso_54
+  - first:
+      213: -2842338397787784489
+    second: geyser_luminoso_55
+  - first:
+      213: 4792346091572080393
+    second: geyser_luminoso_56
+  - first:
+      213: -5138619061351942418
+    second: geyser_luminoso_57
+  - first:
+      213: -4115626054954088285
+    second: geyser_luminoso_58
+  - first:
+      213: 9085657153155098956
+    second: geyser_luminoso_59
+  - first:
+      213: 517761408374890899
+    second: geyser_luminoso_60
+  - first:
+      213: 6327682836974618730
+    second: geyser_luminoso_61
+  - first:
+      213: -5726679212122146358
+    second: geyser_luminoso_62
+  - first:
+      213: 1086489308257244646
+    second: geyser_luminoso_63
+  - first:
+      213: 7137527415342674172
+    second: geyser_luminoso_64
+  - first:
+      213: 3752066436820699073
+    second: geyser_luminoso_65
+  - first:
+      213: -7203714145863069167
+    second: geyser_luminoso_66
+  - first:
+      213: -2888187410574490673
+    second: geyser_luminoso_67
+  - first:
+      213: -7216193211427049921
+    second: geyser_luminoso_68
+  - first:
+      213: -5640805992205601271
+    second: geyser_luminoso_69
+  - first:
+      213: -4253379096355598037
+    second: geyser_luminoso_70
+  - first:
+      213: -7915318065282787671
+    second: geyser_luminoso_71
+  - first:
+      213: -9167564261537471026
+    second: geyser_luminoso_72
+  - first:
+      213: -5274226635279104013
+    second: geyser_luminoso_73
+  - first:
+      213: 6019166249990323706
+    second: geyser_luminoso_74
+  - first:
+      213: 7665377780737370382
+    second: geyser_luminoso_75
+  - first:
+      213: -5263301541809929732
+    second: geyser_luminoso_76
+  - first:
+      213: 7686703658973507533
+    second: geyser_luminoso_77
+  - first:
+      213: -9141443118243209833
+    second: geyser_luminoso_78
+  - first:
+      213: 5744196837879557642
+    second: geyser_luminoso_79
+  - first:
+      213: -8730408599969549533
+    second: geyser_luminoso_80
+  - first:
+      213: 7458539260544237395
+    second: geyser_luminoso_81
+  - first:
+      213: 338242329371402388
+    second: geyser_luminoso_82
+  - first:
+      213: -3762419532588888987
+    second: geyser_luminoso_83
+  - first:
+      213: 3153068686138899537
+    second: geyser_luminoso_84
+  - first:
+      213: 5213817007888156437
+    second: geyser_luminoso_85
+  - first:
+      213: -6916092893495389326
+    second: geyser_luminoso_86
+  - first:
+      213: 8680985958006945591
+    second: geyser_luminoso_87
+  - first:
+      213: 9150497612048546395
+    second: geyser_luminoso_88
+  - first:
+      213: 4288058595257796086
+    second: geyser_luminoso_89
+  - first:
+      213: -7622852385787859106
+    second: geyser_luminoso_90
+  - first:
+      213: 4393233811254147159
+    second: geyser_luminoso_91
+  - first:
+      213: 5434484527852831684
+    second: geyser_luminoso_92
+  - first:
+      213: -3890801407548256596
+    second: geyser_luminoso_93
+  - first:
+      213: 4475100898131998863
+    second: geyser_luminoso_94
+  - first:
+      213: 8990994312464470301
+    second: geyser_luminoso_95
+  - first:
+      213: 3356603578458437500
+    second: geyser_luminoso_96
+  - first:
+      213: 5480835270414955501
+    second: geyser_luminoso_97
+  - first:
+      213: -7947841649432142081
+    second: geyser_luminoso_98
+  - first:
+      213: 5125340964413637948
+    second: geyser_luminoso_99
+  - first:
+      213: 2716736520984476115
+    second: geyser_luminoso_100
+  - first:
+      213: -969370457612568754
+    second: geyser_luminoso_101
+  - first:
+      213: 3435458704036912276
+    second: geyser_luminoso_102
+  - first:
+      213: -1656352294012817337
+    second: geyser_luminoso_103
+  - first:
+      213: 4947335367822511603
+    second: geyser_luminoso_104
+  - first:
+      213: -7664250187639555690
+    second: geyser_luminoso_105
+  - first:
+      213: -5418396653513894242
+    second: geyser_luminoso_106
+  - first:
+      213: 8649105974699822309
+    second: geyser_luminoso_107
+  - first:
+      213: 7379003330023257065
+    second: geyser_luminoso_108
+  - first:
+      213: 7435805059661939661
+    second: geyser_luminoso_109
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: geyser_luminoso_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 110
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 577aafdc00cc42f20800000000000000
+      internalID: 3397064322772019061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 991
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1458abd89d26ea070800000000000000
+      internalID: 8119535864720819521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_2
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 983
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06160ee805f7c4950800000000000000
+      internalID: 6434657951576777056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_3
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 839
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c8d2a0b7b0188180800000000000000
+      internalID: -9113015464855676735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_4
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 828
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f68f5a13d7a2eaae0800000000000000
+      internalID: -1536243705694521233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_5
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 707
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3016d2cc804b7010800000000000000
+      internalID: 1187613900050665533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_6
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 677
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed4350c45994eaf0800000000000000
+      internalID: -368000680254550554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_7
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 631
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c1e549890c434710800000000000000
+      internalID: 1676267090153431492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_8
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 486
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 126b45490b9817e10800000000000000
+      internalID: 2193685885001971233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_9
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 437
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3f1d261ef558240800000000000000
+      internalID: 4793342800035967997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_10
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 398
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd244c24d1317b380800000000000000
+      internalID: -8955668317607804197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_11
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 387
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8b0087ced19d5c20800000000000000
+      internalID: 3196871696518744972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_12
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 359
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae939157324ef1e0800000000000000
+      internalID: -2162217965731995987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_13
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 302
+        width: 10
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0505f7cfebab96700800000000000000
+      internalID: 534163360262869072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_14
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 286
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab2b97c48c1972890800000000000000
+      internalID: -7482851966390259014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_15
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 278
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2bc9fcfa3ace83d0800000000000000
+      internalID: -3202399930312701142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_16
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 270
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 828b51b8a1f3e4ce0800000000000000
+      internalID: -1419127449339971544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_17
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 262
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f091ce70925e7c340800000000000000
+      internalID: 4884124285295925519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_18
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 238
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c23ff350e109650800000000000000
+      internalID: 6237518491804707976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_19
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 222
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd0ec1102ec53d30800000000000000
+      internalID: 4410658047212260822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_20
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 206
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72193f1e78b8bb920800000000000000
+      internalID: 3007150591927619879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_21
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 198
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266676c29d053ae60800000000000000
+      internalID: 7972304659059009122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_22
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 182
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac249e5e54426bdd0800000000000000
+      internalID: -2470747462937525558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_23
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 174
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1385653b798ffadf0800000000000000
+      internalID: -166641330756888527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_24
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 159
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b05500d7d4384230800000000000000
+      internalID: 3623204001732186294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_25
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 139
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6c5acf5c5931eed0800000000000000
+      internalID: -2386563258622780309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_26
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 126
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34098e43c131246b0800000000000000
+      internalID: -5313663598476095421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_27
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 119
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c2b5226904c0210800000000000000
+      internalID: 1300485405968903290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_28
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 94
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 964ef1667a0435380800000000000000
+      internalID: -8983765743956925335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_29
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 85
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9dae16655f68c690800000000000000
+      internalID: -7581687560102040164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_30
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 39
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd3e4a432c8b24dd0800000000000000
+      internalID: -2503235298618186788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_31
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 15
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c687ed995c3aa3ae0800000000000000
+      internalID: -1568761451099817876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_32
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 6
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca0a0df944f87d0a0800000000000000
+      internalID: -6856854382746492756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_33
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 461
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f6885876338db30800000000000000
+      internalID: 4312253162922209053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_34
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 428
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d986ff2a028149af0800000000000000
+      internalID: -390660739221722979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_35
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 411
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb6b02617c8cba30800000000000000
+      internalID: 4232412168425532382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_36
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 342
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 199d2c4f4c7648190800000000000000
+      internalID: -7961124145666532975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_37
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 246
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1265b3da8f9e6a20800000000000000
+      internalID: 3057556615637328412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_38
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 213
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90121872a79c3f220800000000000000
+      internalID: 2518578143116206345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_39
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 974
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8acdf8e5ca6559ee0800000000000000
+      internalID: -1255001622831965016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_40
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 947
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cdc92f157957adf0800000000000000
+      internalID: -169068101434225210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_41
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 884
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 961af1f90c6602330800000000000000
+      internalID: 3684057472678469993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_42
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 847
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c03be90835d2ec180800000000000000
+      internalID: -9093280760951033076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_43
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 812
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fcf4fbbad47e0a30800000000000000
+      internalID: 4183409586678856949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_44
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 797
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b3d58a0709171060800000000000000
+      internalID: 6924030470137435059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_45
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 756
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa723f62f5306b0b0800000000000000
+      internalID: -5713375370062649425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_46
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 740
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 561bb996c31c44a40800000000000000
+      internalID: 5351614722437001573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_47
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 733
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 438b1771c822b5b70800000000000000
+      internalID: 8888736274629900340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_48
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 724
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb8840999cb21cc00800000000000000
+      internalID: 919063943815923899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_49
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 719
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f251968a2536620800000000000000
+      internalID: 2766145479406595947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_50
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 667
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36204feccc29bf810800000000000000
+      internalID: 1800193884407726691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_51
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 652
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c81bc86c461cf990800000000000000
+      internalID: -7350975974344025912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_52
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 644
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6182529d598d661c0800000000000000
+      internalID: -4510679838660155370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_53
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 620
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b86d34e30f7ff960800000000000000
+      internalID: 7637963147734509749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_54
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 613
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9f8837955711460800000000000000
+      internalID: 7210673505447770605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_55
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 582
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7daf76c594cfd88d0800000000000000
+      internalID: -2842338397787784489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_56
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 532
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90fa2ec1165d18240800000000000000
+      internalID: 4792346091572080393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_57
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 526
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee6f0147035ffa8b0800000000000000
+      internalID: -5138619061351942418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_58
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 518
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a88e1698eb52e6c0800000000000000
+      internalID: -4115626054954088285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_59
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 511
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c49ebccfa0db61e70800000000000000
+      internalID: 9085657153155098956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_60
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 496
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3916798f1457f2700800000000000000
+      internalID: 517761408374890899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_61
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 477
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a684535c30270d750800000000000000
+      internalID: 6327682836974618730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_62
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 470
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac978da099fb680b0800000000000000
+      internalID: -5726679212122146358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_63
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 454
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e5dee6f44cf31f00800000000000000
+      internalID: 1086489308257244646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_64
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 447
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0bc163e579d0360800000000000000
+      internalID: 7137527415342674172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_65
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 374
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c70d548b84021430800000000000000
+      internalID: 3752066436820699073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_66
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 350
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1121068b624470c90800000000000000
+      internalID: -7203714145863069167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_67
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 295
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc3c3f33ad81be7d0800000000000000
+      internalID: -2888187410574490673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_68
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 254
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e2e4ad18eeadb90800000000000000
+      internalID: -7216193211427049921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_69
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 166
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 906b0bb16d4d7b1b0800000000000000
+      internalID: -5640805992205601271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_70
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2117aa4f36f8f4c0800000000000000
+      internalID: -4253379096355598037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_71
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 101
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a656922824272290800000000000000
+      internalID: -7915318065282787671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_72
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 79
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec52e7f30e446c080800000000000000
+      internalID: -9167564261537471026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_73
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7094bb1de2ec6b0800000000000000
+      internalID: -5274226635279104013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_74
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afd71be30df588350800000000000000
+      internalID: 6019166249990323706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_75
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 822
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09e50a8a74e06a60800000000000000
+      internalID: 7665377780737370382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_76
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 807
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf147a6422ff4f6b0800000000000000
+      internalID: -5263301541809929732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_77
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 750
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcfafce7048acaa60800000000000000
+      internalID: 7686703658973507533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_78
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 662
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d9caadae1132180800000000000000
+      internalID: -9141443118243209833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_79
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 606
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0eabb9079c77bf40800000000000000
+      internalID: 5744196837879557642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_80
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 574
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323bcce42ab57d680800000000000000
+      internalID: -8730408599969549533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_81
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 551
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f3b00c0fd028760800000000000000
+      internalID: 7458539260544237395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_82
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 542
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 490ee224b9da1b400800000000000000
+      internalID: 338242329371402388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_83
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 422
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c4c088e5339cbc0800000000000000
+      internalID: -3762419532588888987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_84
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 406
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c77bda343f1cb20800000000000000
+      internalID: 3153068686138899537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_85
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 382
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5174017d1f23b5840800000000000000
+      internalID: 5213817007888156437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_86
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 190
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2739a99082a1500a0800000000000000
+      internalID: -6916092893495389326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_87
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 111
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73778272cbe097870800000000000000
+      internalID: 8680985958006945591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_88
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 70
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ab634c8191dfe70800000000000000
+      internalID: 9150497612048546395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_89
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 62
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f5c662c29e328b30800000000000000
+      internalID: 4288058595257796086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_90
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 55
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f20e98420363690800000000000000
+      internalID: -7622852385787859106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_91
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 31
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758f90fffd6e7fc30800000000000000
+      internalID: 4393233811254147159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_92
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 23
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3460c82ea2b6b40800000000000000
+      internalID: 5434484527852831684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_93
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 686
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae0f73fbb8110ac0800000000000000
+      internalID: -3890801407548256596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_94
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 303
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8870378e80ca1e30800000000000000
+      internalID: 4475100898131998863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_95
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 0
+        width: 1413
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d11900cd0bd66cc70800000000000000
+      internalID: 8990994312464470301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_96
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 278
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77f1d9ab2d059e20800000000000000
+      internalID: 3356603578458437500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_97
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 301
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de3f385c3a6df0c40800000000000000
+      internalID: 5480835270414955501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_98
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 293
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffeda8a112893b190800000000000000
+      internalID: -7947841649432142081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_99
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 213
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3502a0b37ed02740800000000000000
+      internalID: 5125340964413637948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_100
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 285
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d93c91d879c3b520800000000000000
+      internalID: 2716736520984476115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_101
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 315
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e47be3a64ba1c82f0800000000000000
+      internalID: -969370457612568754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_102
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 270
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49cd4ae4d733daf20800000000000000
+      internalID: 3435458704036912276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_103
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 303
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74076744d547309e0800000000000000
+      internalID: -1656352294012817337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_104
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 288
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd89cf0e4778a440800000000000000
+      internalID: 4947335367822511603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_105
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 259
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 699f500bf0d13a590800000000000000
+      internalID: -7664250187639555690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_106
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 198
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e96932793fcfdc4b0800000000000000
+      internalID: -5418396653513894242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_107
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 255
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec01be1f0cc70870800000000000000
+      internalID: 8649105974699822309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_108
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 224
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3f57ade6c776660800000000000000
+      internalID: 7379003330023257065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geyser_luminoso_109
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 217
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3c3302e49413760800000000000000
+      internalID: 7435805059661939661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      geyser_luminoso_0: 3397064322772019061
+      geyser_luminoso_1: 8119535864720819521
+      geyser_luminoso_10: -8955668317607804197
+      geyser_luminoso_100: 2716736520984476115
+      geyser_luminoso_101: -969370457612568754
+      geyser_luminoso_102: 3435458704036912276
+      geyser_luminoso_103: -1656352294012817337
+      geyser_luminoso_104: 4947335367822511603
+      geyser_luminoso_105: -7664250187639555690
+      geyser_luminoso_106: -5418396653513894242
+      geyser_luminoso_107: 8649105974699822309
+      geyser_luminoso_108: 7379003330023257065
+      geyser_luminoso_109: 7435805059661939661
+      geyser_luminoso_11: 3196871696518744972
+      geyser_luminoso_12: -2162217965731995987
+      geyser_luminoso_13: 534163360262869072
+      geyser_luminoso_14: -7482851966390259014
+      geyser_luminoso_15: -3202399930312701142
+      geyser_luminoso_16: -1419127449339971544
+      geyser_luminoso_17: 4884124285295925519
+      geyser_luminoso_18: 6237518491804707976
+      geyser_luminoso_19: 4410658047212260822
+      geyser_luminoso_2: 6434657951576777056
+      geyser_luminoso_20: 3007150591927619879
+      geyser_luminoso_21: 7972304659059009122
+      geyser_luminoso_22: -2470747462937525558
+      geyser_luminoso_23: -166641330756888527
+      geyser_luminoso_24: 3623204001732186294
+      geyser_luminoso_25: -2386563258622780309
+      geyser_luminoso_26: -5313663598476095421
+      geyser_luminoso_27: 1300485405968903290
+      geyser_luminoso_28: -8983765743956925335
+      geyser_luminoso_29: -7581687560102040164
+      geyser_luminoso_3: -9113015464855676735
+      geyser_luminoso_30: -2503235298618186788
+      geyser_luminoso_31: -1568761451099817876
+      geyser_luminoso_32: -6856854382746492756
+      geyser_luminoso_33: 4312253162922209053
+      geyser_luminoso_34: -390660739221722979
+      geyser_luminoso_35: 4232412168425532382
+      geyser_luminoso_36: -7961124145666532975
+      geyser_luminoso_37: 3057556615637328412
+      geyser_luminoso_38: 2518578143116206345
+      geyser_luminoso_39: -1255001622831965016
+      geyser_luminoso_4: -1536243705694521233
+      geyser_luminoso_40: -169068101434225210
+      geyser_luminoso_41: 3684057472678469993
+      geyser_luminoso_42: -9093280760951033076
+      geyser_luminoso_43: 4183409586678856949
+      geyser_luminoso_44: 6924030470137435059
+      geyser_luminoso_45: -5713375370062649425
+      geyser_luminoso_46: 5351614722437001573
+      geyser_luminoso_47: 8888736274629900340
+      geyser_luminoso_48: 919063943815923899
+      geyser_luminoso_49: 2766145479406595947
+      geyser_luminoso_5: 1187613900050665533
+      geyser_luminoso_50: 1800193884407726691
+      geyser_luminoso_51: -7350975974344025912
+      geyser_luminoso_52: -4510679838660155370
+      geyser_luminoso_53: 7637963147734509749
+      geyser_luminoso_54: 7210673505447770605
+      geyser_luminoso_55: -2842338397787784489
+      geyser_luminoso_56: 4792346091572080393
+      geyser_luminoso_57: -5138619061351942418
+      geyser_luminoso_58: -4115626054954088285
+      geyser_luminoso_59: 9085657153155098956
+      geyser_luminoso_6: -368000680254550554
+      geyser_luminoso_60: 517761408374890899
+      geyser_luminoso_61: 6327682836974618730
+      geyser_luminoso_62: -5726679212122146358
+      geyser_luminoso_63: 1086489308257244646
+      geyser_luminoso_64: 7137527415342674172
+      geyser_luminoso_65: 3752066436820699073
+      geyser_luminoso_66: -7203714145863069167
+      geyser_luminoso_67: -2888187410574490673
+      geyser_luminoso_68: -7216193211427049921
+      geyser_luminoso_69: -5640805992205601271
+      geyser_luminoso_7: 1676267090153431492
+      geyser_luminoso_70: -4253379096355598037
+      geyser_luminoso_71: -7915318065282787671
+      geyser_luminoso_72: -9167564261537471026
+      geyser_luminoso_73: -5274226635279104013
+      geyser_luminoso_74: 6019166249990323706
+      geyser_luminoso_75: 7665377780737370382
+      geyser_luminoso_76: -5263301541809929732
+      geyser_luminoso_77: 7686703658973507533
+      geyser_luminoso_78: -9141443118243209833
+      geyser_luminoso_79: 5744196837879557642
+      geyser_luminoso_8: 2193685885001971233
+      geyser_luminoso_80: -8730408599969549533
+      geyser_luminoso_81: 7458539260544237395
+      geyser_luminoso_82: 338242329371402388
+      geyser_luminoso_83: -3762419532588888987
+      geyser_luminoso_84: 3153068686138899537
+      geyser_luminoso_85: 5213817007888156437
+      geyser_luminoso_86: -6916092893495389326
+      geyser_luminoso_87: 8680985958006945591
+      geyser_luminoso_88: 9150497612048546395
+      geyser_luminoso_89: 4288058595257796086
+      geyser_luminoso_9: 4793342800035967997
+      geyser_luminoso_90: -7622852385787859106
+      geyser_luminoso_91: 4393233811254147159
+      geyser_luminoso_92: 5434484527852831684
+      geyser_luminoso_93: -3890801407548256596
+      geyser_luminoso_94: 4475100898131998863
+      geyser_luminoso_95: 8990994312464470301
+      geyser_luminoso_96: 3356603578458437500
+      geyser_luminoso_97: 5480835270414955501
+      geyser_luminoso_98: -7947841649432142081
+      geyser_luminoso_99: 5125340964413637948
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
