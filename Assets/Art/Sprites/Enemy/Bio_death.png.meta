@@ -1,0 +1,1443 @@
+fileFormatVersion: 2
+guid: def09d5fd8b5c604cb9965e4be18ea01
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8007769343482069924
+    second: Bio_death_0
+  - first:
+      213: -7719554661217527589
+    second: Bio_death_1
+  - first:
+      213: -3385516221219786575
+    second: Bio_death_2
+  - first:
+      213: -1606115096171816300
+    second: Bio_death_3
+  - first:
+      213: 2888560648248930987
+    second: Bio_death_4
+  - first:
+      213: 2608397379412113756
+    second: Bio_death_5
+  - first:
+      213: -3626248418683245103
+    second: Bio_death_6
+  - first:
+      213: -7647817983584987459
+    second: Bio_death_7
+  - first:
+      213: 7894405181956596132
+    second: Bio_death_8
+  - first:
+      213: -7305951191048437853
+    second: Bio_death_9
+  - first:
+      213: 1610266168030133053
+    second: Bio_death_10
+  - first:
+      213: -5099751964481922926
+    second: Bio_death_11
+  - first:
+      213: -359568918760361293
+    second: Bio_death_12
+  - first:
+      213: 485784893901684234
+    second: Bio_death_13
+  - first:
+      213: -7246157443644251202
+    second: Bio_death_14
+  - first:
+      213: 8627231128049601931
+    second: Bio_death_15
+  - first:
+      213: -5323570184519152297
+    second: Bio_death_16
+  - first:
+      213: 2102904938089021660
+    second: Bio_death_17
+  - first:
+      213: 3014815488844636456
+    second: Bio_death_18
+  - first:
+      213: 4789905923732601438
+    second: Bio_death_19
+  - first:
+      213: 9180771474803595394
+    second: Bio_death_20
+  - first:
+      213: -4859036763749165507
+    second: Bio_death_21
+  - first:
+      213: -7191796537922911341
+    second: Bio_death_22
+  - first:
+      213: 3713434267293490829
+    second: Bio_death_23
+  - first:
+      213: 6432045109446665507
+    second: Bio_death_24
+  - first:
+      213: 3818817631521874248
+    second: Bio_death_25
+  - first:
+      213: -7872107475476001521
+    second: Bio_death_26
+  - first:
+      213: -4871917251964334139
+    second: Bio_death_27
+  - first:
+      213: 9188069363979986948
+    second: Bio_death_28
+  - first:
+      213: 8944908860735631050
+    second: Bio_death_29
+  - first:
+      213: 6381216265130632912
+    second: Bio_death_30
+  - first:
+      213: -5108314742262944711
+    second: Bio_death_31
+  - first:
+      213: 2321626992169676295
+    second: Bio_death_32
+  - first:
+      213: 4374013056539934244
+    second: Bio_death_33
+  - first:
+      213: -6307693190355044238
+    second: Bio_death_34
+  - first:
+      213: 2918723548156369288
+    second: Bio_death_35
+  - first:
+      213: -8197342748296313371
+    second: Bio_death_36
+  - first:
+      213: -538743832939712219
+    second: Bio_death_37
+  - first:
+      213: 4494024783423129809
+    second: Bio_death_38
+  - first:
+      213: -1492649277309194915
+    second: Bio_death_39
+  - first:
+      213: 7634008860674529078
+    second: Bio_death_40
+  - first:
+      213: -4954689509705858225
+    second: Bio_death_41
+  - first:
+      213: 5658742828182099053
+    second: Bio_death_42
+  - first:
+      213: -477871112021767457
+    second: Bio_death_43
+  - first:
+      213: -2646809042962737153
+    second: Bio_death_44
+  - first:
+      213: 2632113263856993919
+    second: Bio_death_45
+  - first:
+      213: 4495689109528769938
+    second: Bio_death_46
+  - first:
+      213: 2459887997519489605
+    second: Bio_death_47
+  - first:
+      213: -7862555620129876938
+    second: Bio_death_48
+  - first:
+      213: 6161020449730460860
+    second: Bio_death_49
+  - first:
+      213: -5508600438592330076
+    second: Bio_death_50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bio_death_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1053
+        width: 159
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a303897acf412f60800000000000000
+      internalID: 8007769343482069924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_1
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1055
+        width: 160
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd81be18fe1aed490800000000000000
+      internalID: -7719554661217527589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_2
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 1048
+        width: 161
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b03fdc1fea3401d0800000000000000
+      internalID: -3385516221219786575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_3
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1054
+        width: 162
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a594064dee5b9e0800000000000000
+      internalID: -1606115096171816300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_4
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 1054
+        width: 161
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba2bc07fa9a361820800000000000000
+      internalID: 2888560648248930987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_5
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 798
+        width: 161
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c593be0c893e23420800000000000000
+      internalID: 2608397379412113756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_6
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 798
+        width: 160
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd2011a64afcadc0800000000000000
+      internalID: -3626248418683245103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_7
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 800
+        width: 160
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db69295501e7dd590800000000000000
+      internalID: -7647817983584987459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_8
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 799
+        width: 159
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a1a687cfaf8e8d60800000000000000
+      internalID: 7894405181956596132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_9
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 979
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af373fa91c0c9a90800000000000000
+      internalID: -7305951191048437853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_10
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 797
+        width: 157
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3bf34b5c80d85610800000000000000
+      internalID: 1610266168030133053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_11
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 543
+        width: 155
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2985472ab9a0a39b0800000000000000
+      internalID: -5099751964481922926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_12
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 721
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b2740539fd820bf0800000000000000
+      internalID: -359568918760361293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_13
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 722
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0eb24689caddb600800000000000000
+      internalID: 485784893901684234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_14
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 716
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb32801623a707b90800000000000000
+      internalID: -7246157443644251202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_15
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 723
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8dc69e70051ab770800000000000000
+      internalID: 8627231128049601931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_16
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 546
+        width: 167
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75d00e66f11ee16b0800000000000000
+      internalID: -5323570184519152297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_17
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 728
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd0063746e40f2d10800000000000000
+      internalID: 2102904938089021660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_18
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 541
+        width: 162
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8212ee3c6b6c6d920800000000000000
+      internalID: 3014815488844636456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_19
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 545
+        width: 159
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5afe934f0a297240800000000000000
+      internalID: 4789905923732601438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_20
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 715
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28815b7b307a86f70800000000000000
+      internalID: 9180771474803595394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_21
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 546
+        width: 160
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d36da22cecb319cb0800000000000000
+      internalID: -4859036763749165507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_22
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 721
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 393883c072b913c90800000000000000
+      internalID: -7191796537922911341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_23
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 690
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e9ace9ac4c88330800000000000000
+      internalID: 3713434267293490829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_24
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 699
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3256bd7d2f6334950800000000000000
+      internalID: 6432045109446665507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_25
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 690
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8412cd4276a2ff430800000000000000
+      internalID: 3818817631521874248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_26
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 681
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0d4e8295f7a0c290800000000000000
+      internalID: -7872107475476001521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_27
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 538
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cf81956219736cb0800000000000000
+      internalID: -4871917251964334139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_28
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 292
+        width: 162
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4082da3f764928f70800000000000000
+      internalID: 9188069363979986948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_29
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 466
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ace24687733b22c70800000000000000
+      internalID: 8944908860735631050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_30
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 293
+        width: 156
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d66e0e4262ae8850800000000000000
+      internalID: 6381216265130632912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_31
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 466
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93ca6829ece9b19b0800000000000000
+      internalID: -5108314742262944711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_32
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 294
+        width: 163
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e6b39e273183020800000000000000
+      internalID: 2321626992169676295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_33
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 466
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ebbfd43bd93bc30800000000000000
+      internalID: 4374013056539934244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_34
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 295
+        width: 161
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 278bcb486729678a0800000000000000
+      internalID: -6307693190355044238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_35
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 466
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8899d6d5a93618820800000000000000
+      internalID: 2918723548156369288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_36
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 295
+        width: 159
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e58ca9a3303d3e80800000000000000
+      internalID: -8197342748296313371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_37
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 444
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52132bc965ff588f0800000000000000
+      internalID: -538743832939712219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_38
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 444
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d8ccbbeabbfd5e30800000000000000
+      internalID: 4494024783423129809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_39
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 444
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5dedb3046b094be0800000000000000
+      internalID: -1492649277309194915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_40
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 444
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63790b0bc9271f960800000000000000
+      internalID: 7634008860674529078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_41
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 431
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f43c0a954286d3bb0800000000000000
+      internalID: -4954689509705858225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_42
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 431
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d645515fe94e78e40800000000000000
+      internalID: 5658742828182099053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_43
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 423
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda858761c24e59f0800000000000000
+      internalID: -477871112021767457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_44
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 412
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff71ae5e235a44bd0800000000000000
+      internalID: -2646809042962737153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_45
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 417
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f764ac46115278420800000000000000
+      internalID: 2632113263856993919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_46
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 41
+        width: 154
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 295fd0a0d65e36e30800000000000000
+      internalID: 4495689109528769938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_47
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 42
+        width: 138
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a6567c917432220800000000000000
+      internalID: 2459887997519489605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_48
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 42
+        width: 135
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6345863325792e290800000000000000
+      internalID: -7862555620129876938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_49
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 43
+        width: 132
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbcf910e477508550800000000000000
+      internalID: 6161020449730460860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_death_50
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 43
+        width: 128
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a6a42046158d83b0800000000000000
+      internalID: -5508600438592330076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bio_death_0: 8007769343482069924
+      Bio_death_1: -7719554661217527589
+      Bio_death_10: 1610266168030133053
+      Bio_death_11: -5099751964481922926
+      Bio_death_12: -359568918760361293
+      Bio_death_13: 485784893901684234
+      Bio_death_14: -7246157443644251202
+      Bio_death_15: 8627231128049601931
+      Bio_death_16: -5323570184519152297
+      Bio_death_17: 2102904938089021660
+      Bio_death_18: 3014815488844636456
+      Bio_death_19: 4789905923732601438
+      Bio_death_2: -3385516221219786575
+      Bio_death_20: 9180771474803595394
+      Bio_death_21: -4859036763749165507
+      Bio_death_22: -7191796537922911341
+      Bio_death_23: 3713434267293490829
+      Bio_death_24: 6432045109446665507
+      Bio_death_25: 3818817631521874248
+      Bio_death_26: -7872107475476001521
+      Bio_death_27: -4871917251964334139
+      Bio_death_28: 9188069363979986948
+      Bio_death_29: 8944908860735631050
+      Bio_death_3: -1606115096171816300
+      Bio_death_30: 6381216265130632912
+      Bio_death_31: -5108314742262944711
+      Bio_death_32: 2321626992169676295
+      Bio_death_33: 4374013056539934244
+      Bio_death_34: -6307693190355044238
+      Bio_death_35: 2918723548156369288
+      Bio_death_36: -8197342748296313371
+      Bio_death_37: -538743832939712219
+      Bio_death_38: 4494024783423129809
+      Bio_death_39: -1492649277309194915
+      Bio_death_4: 2888560648248930987
+      Bio_death_40: 7634008860674529078
+      Bio_death_41: -4954689509705858225
+      Bio_death_42: 5658742828182099053
+      Bio_death_43: -477871112021767457
+      Bio_death_44: -2646809042962737153
+      Bio_death_45: 2632113263856993919
+      Bio_death_46: 4495689109528769938
+      Bio_death_47: 2459887997519489605
+      Bio_death_48: -7862555620129876938
+      Bio_death_49: 6161020449730460860
+      Bio_death_5: 2608397379412113756
+      Bio_death_50: -5508600438592330076
+      Bio_death_6: -3626248418683245103
+      Bio_death_7: -7647817983584987459
+      Bio_death_8: 7894405181956596132
+      Bio_death_9: -7305951191048437853
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

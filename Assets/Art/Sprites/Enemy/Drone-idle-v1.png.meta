@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 83e2d49368f506b42b1b8ecd2c183be7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1917450572849569050
+    second: Drone-idle-v1_0
+  - first:
+      213: -1330572867592200383
+    second: Drone-idle-v1_1
+  - first:
+      213: 2124575431773591961
+    second: Drone-idle-v1_2
+  - first:
+      213: 6681487154019766700
+    second: Drone-idle-v1_3
+  - first:
+      213: 2952501066413684063
+    second: Drone-idle-v1_4
+  - first:
+      213: 6941589753443672802
+    second: Drone-idle-v1_5
+  - first:
+      213: 7251740018676838002
+    second: Drone-idle-v1_6
+  - first:
+      213: 1968079022042216911
+    second: Drone-idle-v1_7
+  - first:
+      213: -7344579977535759769
+    second: Drone-idle-v1_8
+  - first:
+      213: -1556174137428732329
+    second: Drone-idle-v1_9
+  - first:
+      213: 7202385266821750698
+    second: Drone-idle-v1_10
+  - first:
+      213: -3832144039427271282
+    second: Drone-idle-v1_11
+  - first:
+      213: 7808513148428934601
+    second: Drone-idle-v1_12
+  - first:
+      213: 548237350729010469
+    second: Drone-idle-v1_13
+  - first:
+      213: -6863492690191709379
+    second: Drone-idle-v1_14
+  - first:
+      213: 2975847592709863683
+    second: Drone-idle-v1_15
+  - first:
+      213: 823510534364079918
+    second: Drone-idle-v1_16
+  - first:
+      213: -7174073995019403146
+    second: Drone-idle-v1_17
+  - first:
+      213: 7137087564988576754
+    second: Drone-idle-v1_18
+  - first:
+      213: 52686763428192518
+    second: Drone-idle-v1_19
+  - first:
+      213: 6423709225333966438
+    second: Drone-idle-v1_20
+  - first:
+      213: 5350845531603215524
+    second: Drone-idle-v1_21
+  - first:
+      213: -4852559771339880775
+    second: Drone-idle-v1_22
+  - first:
+      213: -6840578091156866209
+    second: Drone-idle-v1_23
+  - first:
+      213: 6434195865559556067
+    second: Drone-idle-v1_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Drone-idle-v1_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1074
+        width: 142
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2aee2fcd8d365e0800000000000000
+      internalID: -1917450572849569050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-idle-v1_1
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1074
+        width: 142
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14fd46fc60bd88de0800000000000000
+      internalID: -1330572867592200383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-idle-v1_2
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1074
+        width: 142
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 999136549120c7d10800000000000000
+      internalID: 2124575431773591961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-idle-v1_3
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 1074
+        width: 142
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca11fa2aa2969bc50800000000000000
+      internalID: 6681487154019766700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-idle-v1_4
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 1074
+        width: 142
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f55bc8ea31469f820800000000000000
+      internalID: 2952501066413684063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-idle-v1_5
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 818
+        width: 143
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e260864a1b755060800000000000000
+      internalID: 6941589753443672802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-idle-v1_6
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 818
+        width: 143
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ea7b8202b53a460800000000000000
+      internalID: 7251740018676838002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-idle-v1_7
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 818
+        width: 142
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc979b67175005b10800000000000000
+      internalID: 1968079022042216911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-idle-v1_8
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 818
+        width: 142
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ad8867c6fc21a90800000000000000
+      internalID: -7344579977535759769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-idle-v1_9
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 818
+        width: 143
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75619e1fddb576ae0800000000000000
+      internalID: -1556174137428732329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-idle-v1_10
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 562
+        width: 143
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aafda648d3304f360800000000000000
+      internalID: 7202385266821750698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-idle-v1_11
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 562
+        width: 142
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e859ec9bc4d71dac0800000000000000
+      internalID: -3832144039427271282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-idle-v1_12
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 562
+        width: 142
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cdd21456596d5c60800000000000000
+      internalID: 7808513148428934601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-idle-v1_13
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 562
+        width: 143
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52dcdce37fabb9700800000000000000
+      internalID: 548237350729010469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-idle-v1_14
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 562
+        width: 143
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3b02aa33c9ffb0a0800000000000000
+      internalID: -6863492690191709379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-idle-v1_15
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 306
+        width: 143
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3093c2d6e955c4920800000000000000
+      internalID: 2975847592709863683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-idle-v1_16
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 306
+        width: 142
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e272095c772bd6b00800000000000000
+      internalID: 823510534364079918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-idle-v1_17
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 306
+        width: 142
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 670408e16b1907c90800000000000000
+      internalID: -7174073995019403146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-idle-v1_18
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 306
+        width: 142
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3700293570c0360800000000000000
+      internalID: 7137087564988576754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-idle-v1_19
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 306
+        width: 143
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 601a08a055e2bb000800000000000000
+      internalID: 52686763428192518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-idle-v1_20
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 50
+        width: 142
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6664e649189952950800000000000000
+      internalID: 6423709225333966438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-idle-v1_21
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 50
+        width: 142
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a4223739a5024a40800000000000000
+      internalID: 5350845531603215524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-idle-v1_22
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 50
+        width: 142
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b68fe1199e38acb0800000000000000
+      internalID: -4852559771339880775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-idle-v1_23
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 50
+        width: 142
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b764218726111a0800000000000000
+      internalID: -6840578091156866209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone-idle-v1_24
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 50
+        width: 142
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3efd6f5cc0bda4950800000000000000
+      internalID: 6434195865559556067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Drone-idle-v1_0: -1917450572849569050
+      Drone-idle-v1_1: -1330572867592200383
+      Drone-idle-v1_10: 7202385266821750698
+      Drone-idle-v1_11: -3832144039427271282
+      Drone-idle-v1_12: 7808513148428934601
+      Drone-idle-v1_13: 548237350729010469
+      Drone-idle-v1_14: -6863492690191709379
+      Drone-idle-v1_15: 2975847592709863683
+      Drone-idle-v1_16: 823510534364079918
+      Drone-idle-v1_17: -7174073995019403146
+      Drone-idle-v1_18: 7137087564988576754
+      Drone-idle-v1_19: 52686763428192518
+      Drone-idle-v1_2: 2124575431773591961
+      Drone-idle-v1_20: 6423709225333966438
+      Drone-idle-v1_21: 5350845531603215524
+      Drone-idle-v1_22: -4852559771339880775
+      Drone-idle-v1_23: -6840578091156866209
+      Drone-idle-v1_24: 6434195865559556067
+      Drone-idle-v1_3: 6681487154019766700
+      Drone-idle-v1_4: 2952501066413684063
+      Drone-idle-v1_5: 6941589753443672802
+      Drone-idle-v1_6: 7251740018676838002
+      Drone-idle-v1_7: 1968079022042216911
+      Drone-idle-v1_8: -7344579977535759769
+      Drone-idle-v1_9: -1556174137428732329
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
