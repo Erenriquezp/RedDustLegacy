@@ -24,6 +24,7 @@
   <Project Path="Unity.Searcher.Editor.csproj" />
   <Project Path="Unity.2D.Aseprite.Editor.csproj" />
   <Project Path="glTFast.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
   <Project Path="Unity.2D.SpriteShape.Runtime.csproj" />
   <Project Path="Unity.InferenceEngine.Tokenization.csproj" />
   <Project Path="Unity.VisualScripting.Core.csproj" />
@@ -45,7 +46,6 @@
   <Project Path="Unity.2D.IK.Editor.csproj" />
   <Project Path="Unity.AI.Image.csproj" />
   <Project Path="Unity.2D.Common.Editor.csproj" />
-  <Project Path="Assembly-CSharp.csproj" />
   <Project Path="ScriptablePacker.csproj" />
   <Project Path="Unity.Rider.Editor.csproj" />
   <Project Path="Unity.AI.Generators.IO.csproj" />
