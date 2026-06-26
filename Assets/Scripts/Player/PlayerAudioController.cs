@@ -1,32 +1,53 @@
-using UnityEngine;
 using System.Collections;
-using Core;
+using UnityEngine;
 
 public class PlayerAudioController : MonoBehaviour
 {
+    private enum RoverAudioState { InAir, Idle, Walking, Scanning }
+
     [Header("Efectos de Sonido del Rover")]
     [SerializeField] private AudioClip sfxIdle;
     [SerializeField] private AudioClip sfxWalk;
     [SerializeField] private AudioClip sfxJump;
+    [SerializeField] private AudioClip sfxDash;      // T4.5: Sonido exclusivo para el Dash
+    [SerializeField] private AudioClip sfxLanding;   // Añadido para suavizar las caídas
     [SerializeField] private AudioClip sfxDamage;
     [SerializeField] private AudioClip sfxDeath;
 
-    [Header("Audio Sources Locales (Instanciados en el Rover)")]
-    [SerializeField] private AudioSource loopAudioSource;   // Bocina principal para el motor
-    [SerializeField] private AudioSource oneShotAudioSource; // Bocina secundaria (se usará para One-Shots y transiciones)
+    [Header("Ecualización y Volúmenes (Inspector)")]
+    [Range(0f, 1f)] [SerializeField] private float volIdle = 0.4f;
+    [Range(0f, 1f)] [SerializeField] private float volWalk = 0.5f;
+    [Range(0f, 1f)] [SerializeField] private float volJump = 0.6f;
+    [Range(0f, 1f)] [SerializeField] private float volDash = 0.6f;
+    [Range(0f, 1f)] [SerializeField] private float volLanding = 0.5f;
+    [Range(0f, 1f)] [SerializeField] private float volDamage = 0.7f;
+
+    [Header("Ajustes de Afinación (Pitch)")]
+    [Range(0.5f, 1.5f)] [SerializeField] private float pitchIdle = 1.0f;
+    [Range(0.5f, 1.5f)] [SerializeField] private float pitchWalk = 1.0f;
+
+    [Header("Audio Sources Locales")]
+    [SerializeField] private AudioSource loopAudioSource;   // Exclusivo para el motor (Idle/Walk)
+    [SerializeField] private AudioSource oneShotAudioSource; // Exclusivo para impactos (Jump/Dash/Damage)
 
     private PlayerController _controller;
-    private bool _wasMoving = false;
+    private RoverAudioState _currentState;
     private Coroutine _fadeCoroutine;
-    private float _originalLoopVolume;
 
     private void Awake()
     {
         _controller = GetComponent<PlayerController>();
+        
+        // Configuración inicial automática de seguridad
         if (loopAudioSource != null)
         {
-            // Guardamos el volumen original que configuraste en el Inspector (ej: 1.0 o 0.8)
-            _originalLoopVolume = loopAudioSource.volume;
+            loopAudioSource.loop = true;
+            loopAudioSource.playOnAwake = false;
+        }
+        if (oneShotAudioSource != null)
+        {
+            oneShotAudioSource.loop = false;
+            oneShotAudioSource.playOnAwake = false;
         }
     }
 
@@ -36,8 +57,10 @@ public class PlayerAudioController : MonoBehaviour
         {
             _controller.OnGroundedChanged += HandleGroundedChanged;
             _controller.OnJumped += PlayJumpSound;
-            _controller.OnDashed += PlayDamageSound; 
             _controller.OnWallJumped += PlayJumpSound;
+            
+            // T4.5: ¡Bug de S01 solucionado! OnDashed mapeado a su propio sonido de Dash
+            _controller.OnDashed += PlayDashSound; 
         }
     }
 
@@ -47,161 +70,179 @@ public class PlayerAudioController : MonoBehaviour
         {
             _controller.OnGroundedChanged -= HandleGroundedChanged;
             _controller.OnJumped -= PlayJumpSound;
-            _controller.OnDashed -= PlayDamageSound;
             _controller.OnWallJumped -= PlayJumpSound;
+            _controller.OnDashed -= PlayDashSound;
         }
+    }
+
+    private void Start()
+    {
+        // Estado inicial
+        _currentState = RoverAudioState.Idle;
+        PlayEngineLoop(sfxIdle, volIdle, pitchIdle);
     }
 
     private void Update()
     {
         if (_controller == null || loopAudioSource == null) return;
 
-        // Si despega del suelo, apagamos el motor rápido con un Fade corto
+        // Máquina de estados: Calculamos de forma exacta qué está haciendo el Rover en este frame
+        RoverAudioState targetState = RoverAudioState.Idle;
+
         if (!_controller.IsGrounded)
         {
-            if (loopAudioSource.isPlaying && _fadeCoroutine == null)
-            {
-                _fadeCoroutine = StartCoroutine(FadeOutLoopOnly(0.15f));
-                _wasMoving = false;
-            }
-            return;
+            targetState = RoverAudioState.InAir;
+        }
+        else if (_controller.IsScanning)
+        {
+            targetState = RoverAudioState.Scanning;
+        }
+        else if (Mathf.Abs(_controller.GetMoveInput()) > 0.01f)
+        {
+            targetState = RoverAudioState.Walking;
         }
 
-        // Detectamos si el Rover se está moviendo en el suelo
-        bool isMovingNow = Mathf.Abs(_controller.GetMoveInput()) > 0.01f;
+        // Si el estado no ha cambiado, no tocamos nada (evita reinicios raros de audio)
+        if (targetState == _currentState) return;
 
-        // Si cambia el estado (de quieto a moviéndose, o viceversa) iniciamos la transición suave
-        if (isMovingNow != _wasMoving || !loopAudioSource.isPlaying)
+        // Ejecutar la transición al nuevo estado
+        ChangeAudioState(_currentState, targetState);
+        _currentState = targetState;
+    }
+
+    private void ChangeAudioState(RoverAudioState oldState, RoverAudioState newState)
+    {
+        if (_fadeCoroutine != null) StopCoroutine(_fadeCoroutine);
+
+        switch (newState)
         {
-            _wasMoving = isMovingNow;
+            case RoverAudioState.InAir:
+                // Si salta o cae, desvanecemos el motor rápido para que no flote el sonido de ruedas
+                _fadeCoroutine = StartCoroutine(FadeEngineVolume(0f, 0.12f, stopAtEnd: true));
+                break;
 
-            if (_fadeCoroutine != null) StopCoroutine(_fadeCoroutine);
-            
-            AudioClip nextClip = isMovingNow ? sfxWalk : sfxIdle;
-            _fadeCoroutine = StartCoroutine(CrossfadeEngine(nextClip, 0.2f)); // 0.2 segundos de fundido
+            case RoverAudioState.Scanning:
+                // Al escanear el Rover se detiene (según tu PlayerController), pasamos a volumen de Idle bajo
+                _fadeCoroutine = StartCoroutine(CrossfadeEngineClip(sfxIdle, volIdle * 0.5f, pitchIdle, 0.2f));
+                break;
+
+            case RoverAudioState.Idle:
+                // Volvemos a reposo fluido
+                _fadeCoroutine = StartCoroutine(CrossfadeEngineClip(sfxIdle, volIdle, pitchIdle, 0.2f));
+                break;
+
+            case RoverAudioState.Walking:
+                // Transición al sonido de movimiento en ruedas
+                _fadeCoroutine = StartCoroutine(CrossfadeEngineClip(sfxWalk, volWalk, pitchWalk, 0.15f));
+                break;
         }
     }
 
-    // Corrutina que hace la magia del fundido cruzado para que el paso de Idle a Walk sea imperceptible
-    private IEnumerator CrossfadeEngine(AudioClip targetClip, float duration)
+    private IEnumerator CrossfadeEngineClip(AudioClip nextClip, float targetVolume, float targetPitch, float duration)
     {
-        if (targetClip == null) yield break;
+        if (nextClip == null) yield break;
 
-        // Si la bocina ya estaba tocando el clip correcto, no hacemos nada
-        if (loopAudioSource.isPlaying && loopAudioSource.clip == targetClip)
+        // Desvanecimiento rápido del volumen actual para evitar clics/pops mecánicos
+        float startVol = loopAudioSource.volume;
+        float elapsed = 0f;
+        while (elapsed < 0.05f)
         {
-            loopAudioSource.volume = _originalLoopVolume;
-            yield break;
-        }
-
-        // Si la bocina estaba en silencio o apagada, simplemente subimos el volumen suavemente
-        if (!loopAudioSource.isPlaying)
-        {
-            loopAudioSource.clip = targetClip;
-            loopAudioSource.volume = 0f;
-            loopAudioSource.loop = true;
-            loopAudioSource.Play();
-
-            float t = 0f;
-            while (t < duration)
-            {
-                t += Time.deltaTime;
-                loopAudioSource.volume = Mathf.Lerp(0f, _originalLoopVolume, t / duration);
-                yield return null;
-            }
-            loopAudioSource.volume = _originalLoopVolume;
-            yield break;
-        }
-
-        // --- AQUÍ SE SOLUCIONA TU PROBLEMA ---
-        // Usamos la bocina secundaria temporalmente para que el sonido viejo se apague suavizándose, 
-        // mientras la bocina principal arranca el nuevo sonido desde volumen cero.
-        oneShotAudioSource.clip = loopAudioSource.clip;
-        oneShotAudioSource.time = loopAudioSource.time; // Sincroniza el punto exacto de la reproducción
-        oneShotAudioSource.volume = loopAudioSource.volume;
-        oneShotAudioSource.loop = true;
-        oneShotAudioSource.Play();
-
-        // Cambiamos la bocina principal al nuevo archivo con volumen 0
-        loopAudioSource.clip = targetClip;
-        loopAudioSource.volume = 0f;
-        loopAudioSource.Play();
-
-        float timeElapsed = 0f;
-        while (timeElapsed < duration)
-        {
-            timeElapsed += Time.deltaTime;
-            float normalizedTime = timeElapsed / duration;
-
-            // La bocina principal SUBE de volumen, la bocina secundaria BAJA de volumen
-            loopAudioSource.volume = Mathf.Lerp(0f, _originalLoopVolume, normalizedTime);
-            oneShotAudioSource.volume = Mathf.Lerp(_originalLoopVolume, 0f, normalizedTime);
-
+            elapsed += Time.deltaTime;
+            loopAudioSource.volume = Mathf.Lerp(startVol, 0f, elapsed / 0.05f);
             yield return null;
         }
 
-        // Aseguramos los volúmenes finales y apagamos la bocina temporal
-        loopAudioSource.volume = _originalLoopVolume;
-        oneShotAudioSource.Stop();
-        oneShotAudioSource.volume = _originalLoopVolume; // Lo restauramos para los sonidos de saltos
+        // Hacemos el cambio de clip en silencio absoluto
+        loopAudioSource.clip = nextClip;
+        loopAudioSource.pitch = targetPitch;
+        if (!loopAudioSource.isPlaying) loopAudioSource.Play();
 
-        _fadeCoroutine = null;
+        // Subimos el volumen suavemente hasta el nivel deseado de este sonido específico
+        elapsed = 0f;
+        while (elapsed < duration)
+        {
+            elapsed += Time.deltaTime;
+            loopAudioSource.volume = Mathf.Lerp(0f, targetVolume, elapsed / duration);
+            yield return null;
+        }
+
+        loopAudioSource.volume = targetVolume;
     }
 
-    private IEnumerator FadeOutLoopOnly(float duration)
+    private IEnumerator FadeEngineVolume(float targetVolume, float duration, bool stopAtEnd)
     {
         float startVol = loopAudioSource.volume;
-        float t = 0f;
-        while (t < duration)
+        float elapsed = 0f;
+        while (elapsed < duration)
         {
-            t += Time.deltaTime;
-            loopAudioSource.volume = Mathf.Lerp(startVol, 0f, t / duration);
+            elapsed += Time.deltaTime;
+            loopAudioSource.volume = Mathf.Lerp(startVol, targetVolume, elapsed / duration);
             yield return null;
         }
-        loopAudioSource.Stop();
-        loopAudioSource.volume = _originalLoopVolume;
-        _fadeCoroutine = null;
+
+        loopAudioSource.volume = targetVolume;
+        if (stopAtEnd) loopAudioSource.Stop();
+    }
+
+    private void PlayEngineLoop(AudioClip clip, float volume, float pitch)
+    {
+        if (loopAudioSource == null || clip == null) return;
+        loopAudioSource.clip = clip;
+        loopAudioSource.volume = volume;
+        loopAudioSource.pitch = pitch;
+        loopAudioSource.Play();
     }
 
     private void HandleGroundedChanged(bool isGrounded)
     {
-        if (!isGrounded && loopAudioSource.isPlaying)
+        // Efecto de aterrizaje para dar feedback de peso al Rover
+        if (isGrounded && oneShotAudioSource != null && sfxLanding != null)
         {
-            if (_fadeCoroutine != null) StopCoroutine(_fadeCoroutine);
-            _fadeCoroutine = StartCoroutine(FadeOutLoopOnly(0.15f));
+            oneShotAudioSource.pitch = Random.Range(0.95f, 1.05f);
+            oneShotAudioSource.PlayOneShot(sfxLanding, volLanding);
         }
     }
 
-    // --- Métodos públicos de disparo rápido (One-Shots) ---
+    // ── Disparos de efectos One-Shot (Canal secundario independiente) ──
+
     public void PlayJumpSound()
     {
         if (oneShotAudioSource != null && sfxJump != null)
         {
-            oneShotAudioSource.PlayOneShot(sfxJump);
+            oneShotAudioSource.pitch = Random.Range(0.93f, 1.05f); // Variación orgánica para que no aburra
+            oneShotAudioSource.PlayOneShot(sfxJump, volJump);
         }
     }
 
-    public void PlayDamageSound()
+    public void PlayDashSound()
+    {
+        if (oneShotAudioSource != null && sfxDash != null)
+        {
+            oneShotAudioSource.pitch = Random.Range(0.97f, 1.03f);
+            oneShotAudioSource.PlayOneShot(sfxDash, volDash);
+        }
+    }
+
+    // T4.5: Modificado para recibir la degradación y aplicar pitch adaptativo
+    public void PlayDamageSound(int faseDegradacion)
     {
         if (oneShotAudioSource != null && sfxDamage != null)
         {
-            oneShotAudioSource.PlayOneShot(sfxDamage);
+            // El sprint exige: pitch -5% por cada fase de degradación activa (-0.05f por fase)
+            float nuevoPitch = 1.0f - (faseDegradacion * 0.05f);
+            oneShotAudioSource.pitch = Mathf.Clamp(nuevoPitch, 0.65f, 1.0f); // Límite seguro para no distorsionar feo
+            
+            oneShotAudioSource.PlayOneShot(sfxDamage, volDamage);
         }
     }
 
     public void PlayDeathSound()
     {
-        if (_fadeCoroutine != null) StopCoroutine(_fadeCoroutine);
         if (loopAudioSource != null) loopAudioSource.Stop(); 
-
         if (oneShotAudioSource != null && sfxDeath != null)
         {
-            oneShotAudioSource.PlayOneShot(sfxDeath);
-        }
-
-        if (AudioManager.Instance != null)
-        {
-            AudioManager.Instance.TriggerGameOverMusic();
+            oneShotAudioSource.pitch = 1.0f;
+            oneShotAudioSource.PlayOneShot(sfxDeath, 1.0f);
         }
     }
 }
