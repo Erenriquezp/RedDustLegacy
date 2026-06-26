@@ -15,6 +15,9 @@ public class BioluminescentAI : MonoBehaviour
     private int _currentHp;
     private float stunCooldown;
 
+    // ─── LÍNEA NUEVA 1: Referencia a tu controlador de audio ───
+    private EnemyAudioController audioController; 
+
     private enum State
     {
         Idle,
@@ -33,7 +36,9 @@ public class BioluminescentAI : MonoBehaviour
         animator = GetComponent<Animator>();
         _currentHp = stats.hp;
         currentState = State.Idle;
-       // TakeDamage(50); activar esta funcion para hacer la muerte del bioluminisence
+
+        // ─── LÍNEA NUEVA 2: Buscamos tu componente en el mismo objeto ───
+        audioController = GetComponent<EnemyAudioController>(); 
     }
 
     private void Update()
@@ -72,25 +77,16 @@ public class BioluminescentAI : MonoBehaviour
                 UpdateChase();
                 break;
         }
-
     }
 
     private void UpdateIdle()
     {
         animator.SetFloat("Speed", 0);
 
-        float distance =
-            Vector2.Distance(transform.position,
-                             rover.position);
+        float distance = Vector2.Distance(transform.position, rover.position);
 
         if (distance <= stats.alertRange)
         {
-            alertTimer = 0f;
-            currentState = State.Alert;
-        }
-        if (distance <= stats.alertRange)
-        {
-            Debug.Log("Entrando a Alert");
             alertTimer = 0f;
             currentState = State.Alert;
         }
@@ -100,8 +96,7 @@ public class BioluminescentAI : MonoBehaviour
     {
         animator.SetFloat("Speed", 0);
 
-        Vector3 direction =
-            rover.position - transform.position;
+        Vector3 direction = rover.position - transform.position;
 
         if (direction.x > 0)
             transform.localScale = new Vector3(1, 1, 1);
@@ -114,11 +109,6 @@ public class BioluminescentAI : MonoBehaviour
         {
             currentState = State.Chase;
         }
-        if (alertTimer >= stats.alertTime)
-        {
-            Debug.Log("Entrando a Chase");
-            currentState = State.Chase;
-        }
     }
 
     private void UpdateChase()
@@ -129,20 +119,23 @@ public class BioluminescentAI : MonoBehaviour
         {
             ApplyStun();
         }
+        
         // Si está cerca, atacar
         if (distance <= 1.5f && attackTimer <= 0)
         {
             animator.SetTrigger("Attack");
 
             Debug.Log("Bioluminescente ataca");
+            
+            // ─── LÍNEA OPCIONAL (Si no usas la Solución 1): Disparar sonido de ataque ───
+            if (audioController != null) audioController.PlayAttackSound();
 
             attackTimer = attackCooldown;
 
             return;
         }
 
-        Vector2 nextPosition =
-            Vector2.MoveTowards(
+        Vector2 nextPosition = Vector2.MoveTowards(
                 transform.position,
                 rover.position,
                 stats.moveSpeed * Time.deltaTime);
@@ -166,23 +159,22 @@ public class BioluminescentAI : MonoBehaviour
             loseTimer = 0f;
         }
     }
+
     private void OnTriggerStay2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log(
-                $"Bioluminescente causa {stats.contactDamage} daño/seg");
+            Debug.Log($"Bioluminescente causa {stats.contactDamage} daño/seg");
         }
     }
+
     public void ApplyStun()
     {
         if (stunCooldown > 0)
             return;
 
         isStunned = true;
-
         stunTimer = stats.stunDuration;
-
         stunCooldown = stats.stunDuration;
 
         Debug.Log("Bioluminescente aturdido");
@@ -192,8 +184,10 @@ public class BioluminescentAI : MonoBehaviour
     {
         _currentHp -= amount;
 
-        Debug.Log(
-            $"Biol recibe {amount} daño. HP: {_currentHp}");
+        Debug.Log($"Biol recibe {amount} daño. HP: {_currentHp}");
+
+        // ─── LÍNEA NUEVA 3: Disparar sonido de recibir daño (¡Súper importante aquí!) ───
+        if (audioController != null && _currentHp > 0) audioController.PlayDamageSound();
 
         if (_currentHp <= 0)
         {
@@ -207,15 +201,16 @@ public class BioluminescentAI : MonoBehaviour
 
         animator.SetBool("IsDead", true);
 
-        Collider2D col = GetComponent<Collider2D>();
+        // ─── LÍNEA NUEVA 4: Apagar loops y disparar alarido de muerte ───
+        if (audioController != null) audioController.PlayDeathSound();
 
+        Collider2D col = GetComponent<Collider2D>();
         if (col != null)
         {
             col.enabled = false;
         }
 
         enabled = false;
-
         Destroy(gameObject, 1.0f);
     }
 }
