@@ -24,4 +24,6 @@ public class EnemyStatsSO : ScriptableObject
 
     [Header("Vulnerability")]
     public float stunDuration = 2f;
+    [Tooltip("Daño que recibe el enemigo cuando el rover lo embiste con dash (dash ofensivo).")]
+    public int dashDamage = 20;
 }

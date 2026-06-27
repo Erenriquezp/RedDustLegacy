@@ -27,6 +27,10 @@ public class PlayerController : MonoBehaviour
     public event Action OnDashed;
     public event Action OnWallJumped;
     public event Action<bool> OnWallSliding;
+    // Sprint 03 (T1): los dispara DegradationSystem vía NotifyDamageReceived/NotifyDeath.
+    public event Action<float> OnDamageReceived;   // cantidad de daño recibido
+    public event Action OnDeath;                    // SI = 0
+    public event Action OnRevive;                   // respawn desde checkpoint (T4)
 
     // ── Componentes ───────────────────────────────────────────────────────
     private Rigidbody2D _rb;
@@ -43,6 +47,7 @@ public class PlayerController : MonoBehaviour
     private float _dashCooldownTimer;
     private float _dashDurationTimer;
     private float _wallJumpInputLockTimer;
+    private float _knockbackLockTimer;
 
     // Flags
     private bool _isGrounded;
@@ -61,6 +66,41 @@ public class PlayerController : MonoBehaviour
     public bool IsDashing => _isDashing;
     public int FacingDir => _facingDir;
     public bool IsScanning => _isScanning;
+
+    // ── Sprint 03 (T1): hooks para DegradationSystem ──────────────────────
+    // El sistema de degradación sustituye el SO por una copia runtime y la modifica.
+    public void SetStats(RoverStatsSO stats) => _stats = stats;
+
+    // Modificadores de fase gobernados por DegradationSystem (GDD §4.2).
+    public bool AerialDashEnabled { get; set; } = true;  // Fase 3 lo desactiva
+    public bool WallJumpEnabled   { get; set; } = true;  // Fase 5 lo desactiva
+    public bool DashEnabled       { get; set; } = true;  // Fase 6 lo desactiva
+
+    // Permiten a DegradationSystem notificar a los hermanos (audio/animator/HUD).
+    public void NotifyDamageReceived(float amount) => OnDamageReceived?.Invoke(amount);
+    public void NotifyDeath() => OnDeath?.Invoke();
+    public void NotifyRevive() => OnRevive?.Invoke();
+
+    /// <summary>Anula la velocidad acumulada (respawn desde checkpoint — Sprint 03 T4).</summary>
+    public void ResetMotion()
+    {
+        _frameVelocity = Vector2.zero;
+        if (_rb != null) _rb.linearVelocity = Vector2.zero;
+    }
+
+    /// <summary>
+    /// Empuja al rover en sentido contrario a la fuente del daño (un poco, para notar el golpe)
+    /// y bloquea el control horizontal durante un instante. Lo llama DegradationSystem al recibir daño.
+    /// </summary>
+    public void ApplyKnockback(Vector2 sourcePosition)
+    {
+        float dirX = Mathf.Sign(transform.position.x - sourcePosition.x);
+        if (dirX == 0f) dirX = -_facingDir;   // si está justo encima, retrocede según el facing
+
+        _frameVelocity = new Vector2(dirX * _stats.knockbackForceX, _stats.knockbackForceY);
+        _knockbackLockTimer = _stats.knockbackDuration;
+        _isDashing = false;   // un golpe corta el dash
+    }
 
     // ═════════════════════════════════════════════════════════════════════
     #region Unity Lifecycle
@@ -157,6 +197,7 @@ public class PlayerController : MonoBehaviour
         if (_dashCooldownTimer > 0f) _dashCooldownTimer -= dt;
         if (_dashDurationTimer > 0f) _dashDurationTimer -= dt;
         if (_wallJumpInputLockTimer > 0f) _wallJumpInputLockTimer -= dt;
+        if (_knockbackLockTimer > 0f) _knockbackLockTimer -= dt;
     }
 
     #endregion
@@ -196,6 +237,7 @@ public class PlayerController : MonoBehaviour
     {
         if (_isDashing) return;
         if (_wallJumpInputLockTimer > 0f) return;
+        if (_knockbackLockTimer > 0f) return;   // durante el knockback no se controla el horizontal
 
         float targetSpeed = _inputX * _stats.maxRunSpeed;
         float accel = _isGrounded
@@ -283,7 +325,9 @@ public class PlayerController : MonoBehaviour
 
     private void TryStartDash()
     {
-        bool canDash = (_isGrounded || _hasAerialDash) && _dashCooldownTimer <= 0f;
+        if (!DashEnabled) return;                              // Fase 6: sin dash
+        bool aerialOk = _hasAerialDash && AerialDashEnabled;   // Fase 3: sin dash aéreo
+        bool canDash = (_isGrounded || aerialOk) && _dashCooldownTimer <= 0f;
         if (!canDash) return;
 
         _isDashing = true;
@@ -333,7 +377,7 @@ public class PlayerController : MonoBehaviour
         if (wasWallSliding != _isWallSliding)
             OnWallSliding?.Invoke(_isWallSliding);
 
-        if (_isWallSliding && _jumpBufferTimer > 0f)
+        if (_isWallSliding && _jumpBufferTimer > 0f && WallJumpEnabled)  // Fase 5: sin wall-jump
             ExecuteWallJump();
     }
 

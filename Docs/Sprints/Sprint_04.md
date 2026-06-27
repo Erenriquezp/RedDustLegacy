@@ -1,21 +1,8 @@
 # Sprint 04 — Pantallas del sistema, Nivel 1 completo, Boss Leviatán y audio integral
 
-> **Estado:** ⬜ Pendiente (nada iniciado) · **Creado:** 2026-06-23 · **Prerequisito:** Sprint 03 · **Ref. GDD:** §8.3, §9.2, §10, §12.2, §14, §15.1 · **Ref. HUD:** §3, §4.1, §6, §10
+> **Estado:** ⬜ Pendiente· **Creado:** 2026-06-23 · **Prerequisito:** Sprint 03 · **Ref. GDD:** §8.3, §9.2, §10, §12.2, §14, §15.1 · **Ref. HUD:** §3, §4.1, §6, §10
 
 Cierre del vertical slice del Nivel 1: las tres pantallas de sistema (menú principal, carga, pausa), el diseño completo del Nivel 1 (Z1→boss), el Boss Leviatán (animación + lógica) y la capa de audio de todo el nivel (pantallas, botones, enemigos, ambiente y música adaptativa).
-
-## Dependencias con Sprint 03 (bloqueantes)
-
-Este sprint **asume cerrado el Sprint 03**. Si no lo está, estas piezas son prerequisito directo:
-
-| Pieza S03 | La necesita | Por qué |
-|-----------|-------------|---------|
-| `GameManager` (estados + pausa) | T1 (pausa), T3 (lockdown boss), T4 (música) | La pausa real y el `timeScale = 0` los gobierna el GameManager; las pantallas solo presentan |
-| `DegradationSystem` (`TakeDamage`, `OnSIChanged`, `OnDeath`) | T3 (daño del Leviatán), T2 (umbrales de zona) | El tentáculo del boss llama `TakeDamage`; el daño define la SI estimada al final |
-| `HUDManager` (`ShowAlert`, barra SI) | T2 (checkpoints), T3 (barra de vida del boss) | Avisos de zona/checkpoint y la barra del Leviatán cuelgan del HUD |
-| `CheckpointManager` | T1 (botón "Reiniciar desde checkpoint"), T2 | El respawn que disparan pausa y Game Over |
-
-> Si Sprint 03 sigue en ⬜, **arrancar por T1/T5 de Sprint 03** antes de este sprint.
 
 ## Equipo y ramas
 
@@ -107,7 +94,25 @@ Maquetar la terminal JPL con los valores **fijos del GDD §12.2 / HUD §10.2** (
 ## T2 — Nivel 1 completo (diseño de nivel)
 **Responsable:** Level Designer · **Rama:** `feature/level-design` · **Ref. GDD:** §9.2, §16.1 · **Ref. HUD:** §4.1
 
-Continuación directa del Sprint 02 T5. **Primer paso obligatorio: consolidar la geometría de `Level01_2.0/Dev_PlayerMovement.unity` dentro de `Level01.unity`** (la que carga `SceneLoader`) y actualizar Build Settings. Luego completar el recorrido íntegro Sala de Reinicio → Arena del Leviatán según el timeline del HUD §4.1.2.
+Continuación directa del Sprint 02 T5. La **base ya está montada** en `Level01.unity` (geometría consolidada, sistemas core cableados y probados); falta **poblar y completar** el recorrido íntegro Sala de Reinicio → Arena del Leviatán según el timeline del HUD §4.1.2.
+
+### Estado actual de `Level01.unity` (2026-06-26)
+
+**✅ Ya en la escena:**
+- Geometría: `Grid` + 6 tilemaps (`Collision`, `Visual`, `OneWay`, `Danger`, `Markers`, `Front`); `Danger_Tilemap` en layer `Ground` con `HazardDamage`.
+- Sistemas: HUD completo (barra SI, celdas, alertas, paneles Pausa/GameOver) + `EventSystem`, `CheckpointManager`, `BackgroundMusic`, `Global Light 2D`, `CinemachineCamera`.
+- Jugable: Player, **1 Biol** y **1 Drone** (terrestre) funcionando; **4 checkpoints** colocados; hazards (≈16 cristales, obstáculos giratorios, `PlataformaMovil`, `Caida*`); plataformas flotantes.
+- Organizado en contenedores: `Systems`, `Platforms`, `Hazards`, `Enemies`, `Markers`.
+- Build Settings: `MainMenu` → `Level01` → `Level02`.
+
+**🔴 Falta para el "Nivel 1 completo":**
+- **Poblar enemigos:** subir a **6 Biol + 2 Drones** (hoy 1 + 1) y distribuirlos por zonas según el presupuesto de daño.
+- **Escaneables SC-01/02/03** + el **sistema de escaneo** (no existe en la escena; el rover ya tiene el input `IsScanning`, pero no hay objetos ni lógica de escaneo/lore).
+- **Marcadores de zona:** solo existe `SpawnPoint` (Z1). Faltan Z2–Z5, `BlockedZone` y `BossRoom`.
+- **Upgrades:** Rueda Reforzada (Z2) y Escaneo Mejorado (Z3) — sin pickups ni gating.
+- **Arena del Leviatán** (lockdown + spawn → T3) y **trigger de cinemática/`LevelExit`** al derrotar al boss.
+- **Parallax** del fondo (hoy `Background` estático; `ParallaxController` sin montar — deuda S02 T1).
+- **Config menor:** la instancia `SerBioluminiscente` tiene un override de tag `Player` equivocado; corregir.
 
 ### Métricas objetivo del Nivel 1 (GDD §9.2)
 | Parámetro | Valor |
@@ -122,7 +127,7 @@ Continuación directa del Sprint 02 T5. **Primer paso obligatorio: consolidar la
 | SI estimada al final | **47–61%** (define el presupuesto de daño del nivel) |
 
 ### Beat map completo (HUD §4.1.2)
-Cada segmento se pinta sobre `Collision_Tilemap` (layer `Ground`) salvo plataformas one-way (`OneWay_Tilemap`, layer `Platform`). Marcar con `LevelMarker` (ninguna escena los tiene aún).
+Cada segmento se pinta sobre `Collision_Tilemap` (layer `Ground`) salvo plataformas one-way (`OneWay_Tilemap`, layer `Platform`). Marcar con `LevelMarker` (hoy solo está `SpawnPoint`/Z1; faltan el resto).
 
 | # | Segmento | Contenido jugable | Marcadores / contenido |
 |---|----------|-------------------|------------------------|
@@ -166,10 +171,10 @@ Cada segmento se pinta sobre `Collision_Tilemap` (layer `Ground`) salvo platafor
 | Proyectiles | **No** — solo ataques de contacto |
 | Escala / sprite | Cuerpo 96×64 px, **×3.0** respecto al rover (HUD §2) |
 
-### ⚠️ Decisión de diseño obligatoria — ¿cómo daña el rover al núcleo?
-El rover **no tiene ataque** en el MVP (solo correr/saltar/dash/escaneo). Hay que definir el vector de daño antes de implementar:
-- **Recomendado:** **Dash de contacto contra el núcleo expuesto** durante la pausa post-ataque (`PlayerController.IsDashing == true` + colisión con `LeviatanCore`). Cohesivo con las mecánicas existentes y con "×2 daño en el núcleo".
-- Alternativas: pulso de escaneo en rango / objeto arrojadizo. *Resolver con Gameplay Programmer y fijar el valor de daño por golpe (sugerido: 25 base → 50 al núcleo, ⇒ ~4 ventanas para 200 HP).*
+### ✅ Vector de daño del rover — resuelto (dash ofensivo)
+El rover no tiene melee; daña a los enemigos **embistiéndolos con dash** (`PlayerController.IsDashing`). Ya está implementado y probado en S03 para Biol y Drone (cada uno con su `dashDamage`, 1 golpe por dash con cooldown). **Reusar el mismo patrón para el `LeviatanCore`:** trigger en el núcleo + `OnTrigger/CollisionStay2D` → si el rover llega con dash y el núcleo está expuesto, restar HP con el multiplicador ×2.
+- Fijar `dashDamage` del núcleo: sugerido 25 (×2 = 50) ⇒ ~4 ventanas para 200 HP.
+- Los **i-frames** del rover ya existen (`DegradationSystem.invulnDuration`); el tentáculo del boss se beneficia de ellos. El GDD pide 0,8 s para el boss (hoy global 0,6 s) — subirlo o gestionarlo por fuente si hace falta.
 
 ### FSM y máquina de ataque
 ```
@@ -181,8 +186,8 @@ Intro (lockdown + emerge del estanque)
               └────────────→ Idle/Track ←─────────────────┘
   → Death (HP ≤ 0 → animación, desbloquea salida, dispara cinemática de caída)
 ```
-- `LeviatanCore` (hijo con `Collider2D` trigger): activo/visible **solo** en estado `Vulnerable`; al recibir el golpe del rover resta al HP del boss con el multiplicador ×2.
-- Tentáculo: `Collider2D` que en impacto llama `rover.GetComponentInParent<DegradationSystem>().TakeDamage(15)` y aplica **i-frames 0,8 s** (no reaplicar daño dentro de la ventana).
+- `LeviatanCore` (hijo con `Collider2D` trigger): activo/visible **solo** en estado `Vulnerable`; recibe el **dash** del rover (mismo patrón que Biol/Drone) y resta al HP del boss con el multiplicador ×2.
+- Tentáculo: `Collider2D` que en impacto llama `rover.GetComponentInParent<DegradationSystem>().TakeDamage(15, transform.position)`. Los **i-frames** (0,6 s) y el knockback ya los aplica `DegradationSystem` de forma central — no hay que reimplementarlos (subir a 0,8 s si el diseño del boss lo exige).
 - Barra de vida del boss en el HUD (delegar en `HUDManager`); aparece en `Intro`, desaparece en `Death`.
 
 ### Animaciones del Leviatán (`LeviatanAC`) — Artist
@@ -205,7 +210,12 @@ Params del Animator: `IsAttacking` (Bool), `IsVulnerable` (Bool), `IsEnraged` (B
 ## T4 — Audio integral del Nivel 1 (pantallas, botones, enemigos, ambiente, música)
 **Responsable:** Technical Director (+ Artist para assets) · **Rama:** `feature/audio-system` · **Ref. GDD:** §14, §15.1 · **Ref. HUD:** §10
 
-**Estado actual:** `AudioManager` solo expone `PlayMusic`/`TriggerGameOverMusic`/`PlayGlobalSFX`; **no existe `.mixer`** ni `enum MusicState`/`SetMusicState` (arrastre del Sprint 02 T4, 0%). Este sprint cierra esa deuda y la extiende a todo el nivel.
+**Estado actual (2026-06-26):** `AudioManager` solo expone `PlayMusic`/`TriggerGameOverMusic`/`PlayGlobalSFX`; **no existe `.mixer`** ni `enum MusicState`/`SetMusicState` (arrastre del Sprint 02 T4, núcleo 0%). **Sí** existe ya buena parte de la **capa SFX** que este sprint planificaba (adelantada en Sprint 02 / `feature/audio-system`):
+- ✅ **4.4 SFX enemigos (Biol):** `EnemyAudioController` con loop 3D + ataque/daño/muerte, disparado desde `BioluminescentAI`.
+- ✅ **4.5 SFX rover:** `sfxDash`/`PlayDashSound` (bug S01 ya corregido), `PlayDamageSound(fase)` con pitch −5%/fase, landing y death.
+- 🟡 **4.3 SFX UI (parcial):** `UIAudioController` con `hover`/`click` (faltan `ui_back`, `ui_pause_open/close`, `ui_loading_tick`).
+
+Este sprint cierra el **núcleo pendiente** (Mixer + `MusicState`) y completa el SFX de Drone/Leviatán y el ambiente.
 
 ### 4.1 Audio Mixer (cerrar deuda S02 T4)
 Crear `Assets/Audio/MainMixer.mixer` con **Master → {Music, SFX, Ambient, UI}** y exponer `MusicVol`, `SfxVol`, `AmbientVol`, `UiVol` (los engancha el panel de Opciones de T1). Enrutar:
@@ -243,15 +253,6 @@ Capas de ambiente por zona (HUD §4.1): viento/goteo de cueva (base), géiseres 
 
 ---
 
-## Entregables
-
-| Tarea | Responsable | Entregable | Dep. |
-|-------|-------------|------------|------|
-| T1 — Pantallas | Technical Director + Artist | MainMenu rediseñado, Loading con carga async real, PausePanel funcional | S03 T5 (GameManager) |
-| T2 — Nivel 1 completo | Level Designer | `Level01.unity` consolidado y recorrible Z0→boss, 3 checkpoints, 6 Biol + 2 Drones, SC-01/02/03 | S02 T5, S03 T1/T4 |
-| T3 — Leviatán | AI Programmer + Artist + Gameplay | `LeviatanAI` + núcleo + `LeviatanAC`, FSM con enrage y muerte→cinemática | S03 T1, T2 (arena) |
-| T4 — Audio integral | Technical Director + Artist | `MainMixer.mixer` (4 buses), `MusicState`, SFX UI/enemigos/rover, ambiente N1 | S02 T4, T1, T3 |
-
 ## Reglas del proyecto
 
 - No modificar `PlayerController.cs`, `RoverStatsSO.cs` ni `SceneLoader.cs` sin avisar al Gameplay Programmer (T1 sí toca `SceneLoader` para la carga async: coordinar). No tocar el Canvas de referencia 1920×1080 sin el Technical Director.
@@ -259,11 +260,11 @@ Capas de ambiente por zona (HUD §4.1): viento/goteo de cueva (base), géiseres 
 
 ## Progreso
 
-> Sprint creado el 2026-06-23. Nada iniciado.
+> Sprint creado el 2026-06-23. Revisión 2026-06-26.
 
 | Tarea | Responsable | Prioridad | Estado |
 |-------|-------------|-----------|--------|
 | T1 — Pantallas (menú/carga/pausa) | Technical Director | 🔴 Alta | ⬜ 0% |
-| T2 — Nivel 1 completo | Level Designer | 🔴 Alta | ⬜ 0% (parte de la geometría existe en `Level01_2.0`, falta consolidar y completar) |
-| T3 — Boss Leviatán | AI Programmer | 🔴 Alta | ⬜ 0% (sin script ni controller; decisión de vector de daño pendiente) |
-| T4 — Audio integral | Technical Director | 🟡 Media | ⬜ 0% (arrastra deuda S02 T4: sin `.mixer` ni `MusicState`) |
+| T2 — Nivel 1 completo | Level Designer | 🔴 Alta | 🟡 Base montada y probada (geometría + sistemas core + 1 Biol/1 Drone + 4 checkpoints); falta poblar enemigos (6+2), escaneables, zonas Z2–Z5, upgrades, arena del boss, cinemática y parallax |
+| T3 — Boss Leviatán | AI Programmer | 🔴 Alta | ⬜ 0% (sin script ni controller; **vector de daño ya resuelto:** dash ofensivo) |
+| T4 — Audio integral | Technical Director | 🟡 Media | 🟡 ~30% (capa SFX Biol/rover ✅ y UI parcial; **núcleo Mixer + `MusicState` aún 0%**; falta SFX Drone/Leviatán y ambiente) |

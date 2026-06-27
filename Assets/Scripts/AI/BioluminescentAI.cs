@@ -160,12 +160,35 @@ public class BioluminescentAI : MonoBehaviour
         }
     }
 
-    private void OnTriggerStay2D(Collider2D other)
+    // Daño por contacto. Funciona con collider trigger (OnTriggerStay2D) y con
+    // collider sólido (OnCollisionStay2D), para que el Biol pueda ser físico y dañar a la vez.
+    private void OnTriggerStay2D(Collider2D other)   => DamageOnContact(other);
+    private void OnCollisionStay2D(Collision2D c)    => DamageOnContact(c.collider);
+
+    private float dashHitCooldown = 0.4f;   // un golpe por dash, no por frame de física
+    private float dashHitTimer;
+
+    private void DamageOnContact(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (!other.CompareTag("Player")) return;
+
+        // Dash ofensivo: si el rover embiste con dash, el Biol recibe daño y el player NO.
+        PlayerController player = other.GetComponentInParent<PlayerController>();
+        if (player != null && player.IsDashing)
         {
-            Debug.Log($"Bioluminescente causa {stats.contactDamage} daño/seg");
+            if (Time.time - dashHitTimer >= dashHitCooldown)
+            {
+                dashHitTimer = Time.time;
+                TakeDamage(stats.dashDamage);
+            }
+            return;
         }
+
+        // Contacto normal (GDD §4.3): golpe plano espaciado por los i-frames del rover
+        // (ya no daño/frame en cascada) + knockback desde la posición del Biol.
+        DegradationSystem si = other.GetComponentInParent<DegradationSystem>();
+        if (si != null)
+            si.TakeDamage(stats.contactDamage, transform.position);
     }
 
     public void ApplyStun()

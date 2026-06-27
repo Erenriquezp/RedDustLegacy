@@ -21,8 +21,8 @@ MonoBehaviour:
   coyoteTime: 0.08
   jumpBufferTime: 0.1
   maxFallSpeed: -18
-  dashSpeed: 28
-  dashDuration: 0.5
+  dashSpeed: 22
+  dashDuration: 0.3
   dashCooldown: 1.2
   dashSleepTime: 0.028
   wallSlideSpeed: -2

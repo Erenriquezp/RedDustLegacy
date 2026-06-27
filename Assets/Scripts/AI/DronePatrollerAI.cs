@@ -11,6 +11,14 @@ public class DronePatrollerAI : MonoBehaviour
     public GameObject projectilePrefab;
     public Transform firePoint;
 
+    [Header("Terrestre")]
+    [Tooltip("Capas de suelo sobre las que se apoya. Si se deja vacío, usa Ground + Platform.")]
+    [SerializeField] private LayerMask groundLayer;
+    [Tooltip("Ajuste fino de altura sobre el suelo (+ sube, − baja).")]
+    [SerializeField] private float groundOffset = 0f;
+    [SerializeField] private float groundRayLength = 4f;
+    private float _footOffset;   // medio alto del sprite: apoya los "pies" en el suelo
+
     private Animator animator;
 
     private int currentWaypoint;
@@ -37,6 +45,14 @@ public class DronePatrollerAI : MonoBehaviour
 
         currentHp = stats.maxHp;
         currentState = State.Patrol;
+
+        // Apoyo terrestre: distancia del pivote al borde inferior del sprite (independiente
+        // del pivote), para apoyar los "pies" exactos en el suelo.
+        var sr = GetComponent<SpriteRenderer>();
+        _footOffset = sr != null ? transform.position.y - sr.bounds.min.y : 0.5f;
+        if (groundLayer == 0) groundLayer = LayerMask.GetMask("Ground", "Platform");
+
+        StickToGround();
     }
 
     private void Update()
@@ -70,7 +86,27 @@ public class DronePatrollerAI : MonoBehaviour
         animator.SetFloat("Speed",
             currentState == State.Attack ? 0 : 1);
 
+        StickToGround();   // se mantiene apoyado en el suelo (es terrestre, no vuela)
         Flip();
+    }
+
+    // Mueve solo en X hacia targetX; la Y la fija StickToGround (no persigue al player en vertical).
+    void MoveHorizontallyTowards(float targetX, float speed)
+    {
+        float newX = Mathf.MoveTowards(transform.position.x, targetX, speed * Time.deltaTime);
+        transform.position = new Vector3(newX, transform.position.y, transform.position.z);
+    }
+
+    // Raycast hacia abajo: apoya los "pies" del dron en el suelo. Si no encuentra suelo, no toca la Y.
+    void StickToGround()
+    {
+        Vector2 origin = (Vector2)transform.position + Vector2.up * 0.1f;
+        RaycastHit2D hit = Physics2D.Raycast(origin, Vector2.down, groundRayLength, groundLayer);
+        if (hit.collider == null) return;
+
+        Vector3 p = transform.position;
+        p.y = hit.point.y + _footOffset + groundOffset;
+        transform.position = p;
     }
 
     #region STATES
@@ -88,12 +124,9 @@ public class DronePatrollerAI : MonoBehaviour
 
         Transform target = waypoints[currentWaypoint];
 
-        transform.position = Vector2.MoveTowards(
-    transform.position,
-    target.position,
-    stats.patrolSpeed * Time.deltaTime);
+        MoveHorizontallyTowards(target.position.x, stats.patrolSpeed);
 
-        if (Vector2.Distance(transform.position, target.position) < 0.2f)
+        if (Mathf.Abs(transform.position.x - target.position.x) < 0.2f)
         {
             currentWaypoint =
                 (currentWaypoint + 1) % waypoints.Length;
@@ -102,10 +135,7 @@ public class DronePatrollerAI : MonoBehaviour
 
     void ChaseState(float distance)
     {
-        transform.position = Vector2.MoveTowards(
-            transform.position,
-            rover.position,
-            stats.chaseSpeed * Time.deltaTime);
+        MoveHorizontallyTowards(rover.position.x, stats.chaseSpeed);
 
         if (distance <= stats.attackRange)
         {
@@ -165,14 +195,9 @@ public class DronePatrollerAI : MonoBehaviour
 
         int nearestWaypoint = GetNearestWaypoint();
 
-        transform.position = Vector2.MoveTowards(
-            transform.position,
-            waypoints[nearestWaypoint].position,
-            stats.patrolSpeed * Time.deltaTime);
+        MoveHorizontallyTowards(waypoints[nearestWaypoint].position.x, stats.patrolSpeed);
 
-        if (Vector2.Distance(
-                transform.position,
-                waypoints[nearestWaypoint].position) < 0.2f)
+        if (Mathf.Abs(transform.position.x - waypoints[nearestWaypoint].position.x) < 0.2f)
         {
             currentWaypoint = nearestWaypoint;
             currentState = State.Patrol;
@@ -243,6 +268,26 @@ public class DronePatrollerAI : MonoBehaviour
             scale.x = -Mathf.Abs(scale.x);
 
         transform.localScale = scale;
+    }
+
+    // ── Dash ofensivo: el rover embiste con dash y el dron recibe daño ──────
+    private float _dashHitTimer;
+    private const float DashHitCooldown = 0.4f;   // un golpe por dash, no por frame
+
+    private void OnTriggerStay2D(Collider2D other)  => TryDashHit(other);
+    private void OnTriggerEnter2D(Collider2D other) => TryDashHit(other);
+    private void OnCollisionStay2D(Collision2D c)   => TryDashHit(c.collider);
+
+    private void TryDashHit(Collider2D other)
+    {
+        if (isDead || !other.CompareTag("Player")) return;
+
+        PlayerController player = other.GetComponentInParent<PlayerController>();
+        if (player == null || !player.IsDashing) return;
+
+        if (Time.time - _dashHitTimer < DashHitCooldown) return;
+        _dashHitTimer = Time.time;
+        TakeDamage(stats.dashDamage);
     }
 
     public void TakeDamage(int damage)

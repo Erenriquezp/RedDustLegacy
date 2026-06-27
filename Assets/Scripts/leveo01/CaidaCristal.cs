@@ -11,7 +11,12 @@ public class CaidaCristal : MonoBehaviour
     [Tooltip("Selecciona la capa 'Player' aquí en el Inspector")]
     public LayerMask capaObjetivo;
 
+    [Header("Daño al impactar")]
+    [Tooltip("SI que resta al golpear al Player tras caer.")]
+    public float danioImpacto = 20f;
+
     private bool yaCayo = false;
+    private bool yaDano = false;
 
     void Start()
     {
@@ -30,6 +35,22 @@ public class CaidaCristal : MonoBehaviour
         {
             rb.bodyType = RigidbodyType2D.Dynamic;
             yaCayo = true;
+        }
+    }
+
+    // El cristal solo daña una vez, y solo tras haber empezado a caer.
+    private void OnCollisionEnter2D(Collision2D collision) => TryDamage(collision.collider);
+    private void OnTriggerEnter2D(Collider2D other) => TryDamage(other);
+
+    private void TryDamage(Collider2D other)
+    {
+        if (!yaCayo || yaDano || other == null || !other.CompareTag("Player")) return;
+
+        var si = other.GetComponentInParent<DegradationSystem>();
+        if (si != null)
+        {
+            si.TakeDamage(danioImpacto, transform.position);
+            yaDano = true;
         }
     }
 

@@ -36,4 +36,9 @@ public class RoverStatsSO : ScriptableObject
     [Header("Physics")]
     public float gravityScale        = 20f;   // GDD: -20 (se aplica negado)
     public float fallGravityMultiplier = 1.4f; // caída más pesada que subida
+
+    [Header("Knockback (al recibir daño)")]
+    public float knockbackForceX     = 8f;    // empuje horizontal — "un poco", solo para notar el golpe
+    public float knockbackForceY     = 4f;    // pequeño pop vertical
+    public float knockbackDuration   = 0.18f; // bloqueo breve del control horizontal
 }

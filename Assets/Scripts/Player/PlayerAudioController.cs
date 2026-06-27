@@ -31,13 +31,15 @@ public class PlayerAudioController : MonoBehaviour
     [SerializeField] private AudioSource oneShotAudioSource; // Exclusivo para impactos (Jump/Dash/Damage)
 
     private PlayerController _controller;
+    private DegradationSystem _degradation;
     private RoverAudioState _currentState;
     private Coroutine _fadeCoroutine;
 
     private void Awake()
     {
         _controller = GetComponent<PlayerController>();
-        
+        _degradation = GetComponent<DegradationSystem>();
+
         // Configuración inicial automática de seguridad
         if (loopAudioSource != null)
         {
@@ -60,7 +62,12 @@ public class PlayerAudioController : MonoBehaviour
             _controller.OnWallJumped += PlayJumpSound;
             
             // T4.5: ¡Bug de S01 solucionado! OnDashed mapeado a su propio sonido de Dash
-            _controller.OnDashed += PlayDashSound; 
+            _controller.OnDashed += PlayDashSound;
+
+            // S03 T1: feedback de daño/muerte desde DegradationSystem
+            _controller.OnDamageReceived += HandleDamageReceived;
+            _controller.OnDeath += PlayDeathSound;
+            _controller.OnRevive += HandleRevive;   // T4: respawn
         }
     }
 
@@ -72,7 +79,18 @@ public class PlayerAudioController : MonoBehaviour
             _controller.OnJumped -= PlayJumpSound;
             _controller.OnWallJumped -= PlayJumpSound;
             _controller.OnDashed -= PlayDashSound;
+
+            _controller.OnDamageReceived -= HandleDamageReceived;
+            _controller.OnDeath -= PlayDeathSound;
+            _controller.OnRevive -= HandleRevive;
         }
+    }
+
+    // T4: al reaparecer, reanuda el bucle de motor que la muerte había detenido.
+    private void HandleRevive()
+    {
+        _currentState = RoverAudioState.Idle;
+        PlayEngineLoop(sfxIdle, volIdle, pitchIdle);
     }
 
     private void Start()
@@ -221,6 +239,18 @@ public class PlayerAudioController : MonoBehaviour
             oneShotAudioSource.pitch = Random.Range(0.97f, 1.03f);
             oneShotAudioSource.PlayOneShot(sfxDash, volDash);
         }
+    }
+
+    // S03 T1: el contacto enemigo daña cada frame de física → throttle del SFX.
+    private float _lastDamageSfxTime = -1f;
+    private const float DamageSfxCooldown = 0.4f;
+
+    private void HandleDamageReceived(float amount)
+    {
+        if (Time.time - _lastDamageSfxTime < DamageSfxCooldown) return;
+        _lastDamageSfxTime = Time.time;
+        int fase = _degradation != null ? Mathf.Max(0, _degradation.CurrentPhase - 1) : 0;
+        PlayDamageSound(fase);
     }
 
     // T4.5: Modificado para recibir la degradación y aplicar pitch adaptativo

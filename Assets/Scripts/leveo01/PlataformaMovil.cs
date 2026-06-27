@@ -23,6 +23,9 @@ public class PlataformaMovil : MonoBehaviour
     private float limiteMin;
     private float limiteMax;
 
+    // Player que va montado encima (para arrastrarlo con la plataforma).
+    private Transform pasajero;
+
     void Start()
     {
         posicionInicial = transform.position;
@@ -43,6 +46,8 @@ public class PlataformaMovil : MonoBehaviour
 
     void Update()
     {
+        Vector3 antes = transform.position;
+
         if (movimiento == TipoMovimiento.Horizontal)
         {
             transform.Translate(Vector3.right * direccion * velocidad * Time.deltaTime);
@@ -58,5 +63,27 @@ public class PlataformaMovil : MonoBehaviour
             if (transform.position.y <= limiteMin) direccion = 1;
             else if (transform.position.y >= limiteMax) direccion = -1;
         }
+
+        // Arrastrar al Player que va encima con el mismo desplazamiento.
+        if (pasajero != null)
+            pasajero.position += transform.position - antes;
+    }
+
+    // ── Detección del pasajero (funciona con collider sólido o trigger) ───
+    private void OnCollisionEnter2D(Collision2D c) => TrySetPasajero(c.collider);
+    private void OnCollisionExit2D(Collision2D c)  => TryClearPasajero(c.collider);
+    private void OnTriggerEnter2D(Collider2D o)    => TrySetPasajero(o);
+    private void OnTriggerExit2D(Collider2D o)     => TryClearPasajero(o);
+
+    private void TrySetPasajero(Collider2D col)
+    {
+        // Solo si es el Player y va por ENCIMA de la plataforma.
+        if (col.CompareTag("Player") && col.transform.position.y > transform.position.y)
+            pasajero = col.transform;
+    }
+
+    private void TryClearPasajero(Collider2D col)
+    {
+        if (col.transform == pasajero) pasajero = null;
     }
 }

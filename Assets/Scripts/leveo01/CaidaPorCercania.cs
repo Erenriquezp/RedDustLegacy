@@ -8,7 +8,12 @@ public class CaidaPorCercania : MonoBehaviour
     [Tooltip("Distancia en bloques hacia abajo para detectar al jugador")]
     public float distanciaDeteccion = 6f;
 
+    [Header("Daño al impactar")]
+    [Tooltip("SI que resta al golpear al Player tras caer.")]
+    public float danioImpacto = 20f;
+
     private bool yaCayo = false;
+    private bool yaDano = false;
 
     void Start()
     {
@@ -31,6 +36,22 @@ public class CaidaPorCercania : MonoBehaviour
             // Cambiamos a Dynamic para que la gravedad real de Unity lo haga caer de golpe
             rb.bodyType = RigidbodyType2D.Dynamic;
             yaCayo = true;
+        }
+    }
+
+    // Daña al Player una sola vez, tras empezar a caer.
+    private void OnCollisionEnter2D(Collision2D collision) => TryDamage(collision.collider);
+    private void OnTriggerEnter2D(Collider2D other) => TryDamage(other);
+
+    private void TryDamage(Collider2D other)
+    {
+        if (!yaCayo || yaDano || other == null || !other.CompareTag("Player")) return;
+
+        var si = other.GetComponentInParent<DegradationSystem>();
+        if (si != null)
+        {
+            si.TakeDamage(danioImpacto, transform.position);
+            yaDano = true;
         }
     }
 

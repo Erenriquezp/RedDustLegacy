@@ -27,26 +27,22 @@ public class EnemyProjectile : MonoBehaviour
             (Vector3)(direction * speed * Time.deltaTime);
     }
 
-    /*private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
+            // GDD §4.3: impacto de proyectil = 8–12 SI.
             DegradationSystem degradation =
                 other.GetComponentInParent<DegradationSystem>();
 
             if (degradation != null)
-            {
-                degradation.TakeDamage(
-                    Random.Range(8, 13));
-            }
+                degradation.TakeDamage(Random.Range(8, 13), transform.position);
 
             Destroy(gameObject);
+            return;
         }
 
-        if (other.gameObject.layer ==
-            LayerMask.NameToLayer("Ground"))
-        {
+        if (other.gameObject.layer == LayerMask.NameToLayer("Ground"))
             Destroy(gameObject);
-        }
-    }*/
+    }
 }

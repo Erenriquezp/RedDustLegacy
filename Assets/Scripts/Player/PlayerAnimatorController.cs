@@ -12,9 +12,9 @@ public class PlayerAnimatorController : MonoBehaviour
     private static readonly int _velocityYHash = Animator.StringToHash("VelocityY");
     private static readonly int _isDashingHash = Animator.StringToHash("IsDashing");
     private static readonly int _isOnWallHash = Animator.StringToHash("IsOnWall");
-    // Preparados para Sprint 03 (requieren eventos OnDamageReceived / OnDeath en PlayerController):
-    // private static readonly int _isDamagedHash = Animator.StringToHash("IsDamaged");
-    // private static readonly int _isDeadHash = Animator.StringToHash("IsDead");
+    private static readonly int _isDamagedHash = Animator.StringToHash("IsDamaged");
+    private static readonly int _isDeadHash = Animator.StringToHash("IsDead");
+    private const string IdleStateName = "Rover_Idle";   // estado base del RoverAC
     private RoverStatsSO _stats;
 
     private Animator _animator;
@@ -35,32 +35,26 @@ public class PlayerAnimatorController : MonoBehaviour
     {
         _controller.OnGroundedChanged += HandleGroundedChanged;
         _controller.OnWallSliding += HandleWallSliding;
-        // Sprint 03:
-        // _controller.OnDamageReceived += HandleDamageReceived;
-        // _controller.OnDeath += HandleDeath;
+        _controller.OnDamageReceived += HandleDamageReceived;
+        _controller.OnDeath += HandleDeath;
+        _controller.OnRevive += HandleRevive;
     }
 
     private void OnDisable()
     {
         _controller.OnGroundedChanged -= HandleGroundedChanged;
         _controller.OnWallSliding -= HandleWallSliding;
-        // Sprint 03:
-        // _controller.OnDamageReceived -= HandleDamageReceived;
-        // _controller.OnDeath -= HandleDeath;
+        _controller.OnDamageReceived -= HandleDamageReceived;
+        _controller.OnDeath -= HandleDeath;
+        _controller.OnRevive -= HandleRevive;
     }
     private void Update()
     {
         if (_animator == null || _animator.runtimeAnimatorController == null) return;
 
-        float inputX = _controller.GetMoveInput();
-        float normalizedSpeed = Mathf.Abs(_rb.linearVelocity.x) / _stats.maxRunSpeed;
+        float maxSpeed = _stats != null ? _stats.maxRunSpeed : 1f;
+        float normalizedSpeed = Mathf.Abs(_rb.linearVelocity.x) / Mathf.Max(0.01f, maxSpeed);
         _animator.SetFloat(_speedHash, normalizedSpeed);
-
-        // Flip basado en input directo — responde inmediatamente
-        if (inputX > 0.01f)
-            _sprite.flipX = false;
-        else if (inputX < -0.01f)
-            _sprite.flipX = true;
 
         // Jump
         _animator.SetBool(_isJumpingHash, !_controller.IsGrounded);
@@ -71,6 +65,29 @@ public class PlayerAnimatorController : MonoBehaviour
 
         // Dash
         _animator.SetBool(_isDashingHash, _controller.IsDashing);
+    }
+
+    /// <summary>
+    /// Flip de la dirección. En LateUpdate (corre después de que el Animator evalúa) y
+    /// sin depender del animator ni de _stats. Voltea la ESCALA X del transform del sprite
+    /// (no `flipX`, que aquí no se reflejaba visualmente) — el mismo método que usa el Biol.
+    /// Usa el input en vivo (no depende de los early-returns de HandleRun) y, si no hay
+    /// input, conserva el facing del controlador.
+    /// </summary>
+    private void LateUpdate()
+    {
+        if (_sprite == null) return;
+
+        float inputX = _controller.GetMoveInput();
+        int facing = Mathf.Abs(inputX) > 0.01f
+            ? (inputX > 0f ? 1 : -1)
+            : _controller.FacingDir;
+
+        _sprite.flipX = false;   // por si quedó marcado de antes; el flip lo hace la escala
+        Transform t = _sprite.transform;
+        Vector3 s = t.localScale;
+        s.x = Mathf.Abs(s.x) * (facing < 0 ? -1f : 1f);
+        t.localScale = s;
     }
 
     // ── Callbacks desde PlayerController ─────────────────────────────
@@ -84,7 +101,26 @@ public class PlayerAnimatorController : MonoBehaviour
         _animator.SetBool(_isOnWallHash, isOnWall);
     }
 
-    // ── Sprint 03 (cuando PlayerController exponga OnDamageReceived / OnDeath) ──
-    // private void HandleDamageReceived(float amount) => _animator.SetTrigger(_isDamagedHash);
-    // private void HandleDeath() => _animator.SetBool(_isDeadHash, true);
+    // ── Sprint 03 — daño / muerte (los dispara DegradationSystem) ──────
+    private float _lastDamageAnimTime = -1f;
+    private const float DamageAnimCooldown = 0.4f;  // el contacto enemigo daña cada frame de física
+
+    private void HandleDamageReceived(float amount)
+    {
+        if (Time.time - _lastDamageAnimTime < DamageAnimCooldown) return;
+        _lastDamageAnimTime = Time.time;
+        _animator.SetTrigger(_isDamagedHash);
+    }
+
+    private void HandleDeath() => _animator.SetBool(_isDeadHash, true);
+
+    private void HandleRevive()
+    {
+        _animator.SetBool(_isDeadHash, false);
+        // El estado Rover_Death no tiene transición de salida en el controlador, así que
+        // bajar IsDead no basta: forzamos el estado base para no quedar clavados en la
+        // pose de muerte tras revivir desde un checkpoint (Sprint 03 T4).
+        if (_animator.runtimeAnimatorController != null)
+            _animator.Play(IdleStateName, 0, 0f);
+    }
 }
