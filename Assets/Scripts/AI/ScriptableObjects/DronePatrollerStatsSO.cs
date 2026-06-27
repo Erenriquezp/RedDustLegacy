@@ -13,6 +13,14 @@ public class DronePatrollerStatsSO : ScriptableObject
     public float patrolSpeed = 3f;
     public float chaseSpeed = 5f;
 
+    [Header("Terrain Sensing")]
+    [Tooltip("Distancia extra (más allá del borde del sprite) para detectar una pared al frente y girar.")]
+    public float wallCheckDistance = 0.2f;
+    [Tooltip("Margen frente a los pies para detectar el borde de una plataforma (evita caer al vacío).")]
+    public float ledgeCheckDistance = 0.2f;
+    [Tooltip("Radio máximo de patrulla desde el punto de aparición (0 = sin límite, solo paredes/bordes).")]
+    public float patrolRange = 5f;
+
     [Header("Detection")]
     public float detectionRange = 7f;
     public float loseTime = 5f;

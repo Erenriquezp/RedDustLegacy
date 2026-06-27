@@ -4,24 +4,23 @@ public class DronePatrollerAI : MonoBehaviour
     public DronePatrollerStatsSO stats;
     public Transform rover;
 
-    [Header("Patrol")]
-    public Transform[] waypoints;
-
     [Header("Attack")]
     public GameObject projectilePrefab;
     public Transform firePoint;
 
     [Header("Terrestre")]
-    [Tooltip("Capas de suelo sobre las que se apoya. Si se deja vacío, usa Ground + Platform.")]
+    [Tooltip("Capas de suelo/pared sobre las que se apoya y choca. Si se deja vacío, usa Ground + Platform.")]
     [SerializeField] private LayerMask groundLayer;
     [Tooltip("Ajuste fino de altura sobre el suelo (+ sube, − baja).")]
     [SerializeField] private float groundOffset = 0f;
     [SerializeField] private float groundRayLength = 4f;
     private float _footOffset;   // medio alto del sprite: apoya los "pies" en el suelo
+    private float _halfWidth;    // medio ancho del sprite: para detectar paredes desde el centro
 
     private Animator animator;
 
-    private int currentWaypoint;
+    private int _patrolDir = 1;  // +1 derecha, −1 izquierda
+    private float _originX;       // punto de aparición: centro del área de patrulla
 
     private float attackTimer;
     private float lostPlayerTimer;
@@ -45,11 +44,14 @@ public class DronePatrollerAI : MonoBehaviour
 
         currentHp = stats.maxHp;
         currentState = State.Patrol;
+        _originX = transform.position.x;
 
         // Apoyo terrestre: distancia del pivote al borde inferior del sprite (independiente
-        // del pivote), para apoyar los "pies" exactos en el suelo.
+        // del pivote), para apoyar los "pies" exactos en el suelo. El medio ancho sirve para
+        // lanzar el rayo de pared desde el borde real del sprite (los bounds ya incluyen la escala).
         var sr = GetComponent<SpriteRenderer>();
         _footOffset = sr != null ? transform.position.y - sr.bounds.min.y : 0.5f;
+        _halfWidth = sr != null ? sr.bounds.extents.x : 0.5f;
         if (groundLayer == 0) groundLayer = LayerMask.GetMask("Ground", "Platform");
 
         StickToGround();
@@ -109,6 +111,34 @@ public class DronePatrollerAI : MonoBehaviour
         transform.position = p;
     }
 
+    // ¿Hay una pared al frente en la dirección dir (+1/−1)? Rayo horizontal desde el centro,
+    // a la altura del torso, hasta el borde del sprite + el margen configurado.
+    bool IsWallAhead(int dir)
+    {
+        Vector2 origin = (Vector2)transform.position + Vector2.up * 0.1f;
+        float length = _halfWidth + stats.wallCheckDistance;
+        return Physics2D.Raycast(origin, Vector2.right * dir, length, groundLayer).collider != null;
+    }
+
+    // ¿Hay suelo justo delante de los pies en la dirección dir? Si no, es un borde: hay que girar.
+    bool IsGroundAhead(int dir)
+    {
+        Vector2 origin = (Vector2)transform.position
+                         + Vector2.right * dir * (_halfWidth + stats.ledgeCheckDistance)
+                         + Vector2.up * 0.1f;
+        return Physics2D.Raycast(origin, Vector2.down, groundRayLength, groundLayer).collider != null;
+    }
+
+    // Avanzar en dir solo si el camino está despejado (sin pared y con suelo delante).
+    bool CanAdvance(int dir) => !IsWallAhead(dir) && IsGroundAhead(dir);
+
+    // ¿Avanzar en dir sacaría al dron de su área de patrulla?
+    bool BeyondPatrolRange(int dir)
+    {
+        if (stats.patrolRange <= 0f) return false;
+        return (transform.position.x - _originX) * dir >= stats.patrolRange;
+    }
+
     #region STATES
 
     void PatrolState(float distance)
@@ -119,23 +149,21 @@ public class DronePatrollerAI : MonoBehaviour
             return;
         }
 
-        if (waypoints.Length == 0)
-            return;
+        // Gira al toparse con una pared, llegar a un borde o salir del área de patrulla.
+        if (!CanAdvance(_patrolDir) || BeyondPatrolRange(_patrolDir))
+            _patrolDir = -_patrolDir;
 
-        Transform target = waypoints[currentWaypoint];
-
-        MoveHorizontallyTowards(target.position.x, stats.patrolSpeed);
-
-        if (Mathf.Abs(transform.position.x - target.position.x) < 0.2f)
-        {
-            currentWaypoint =
-                (currentWaypoint + 1) % waypoints.Length;
-        }
+        // Solo avanza si la nueva dirección es segura (evita empujarse contra una esquina).
+        if (CanAdvance(_patrolDir))
+            MoveHorizontallyTowards(transform.position.x + _patrolDir, stats.patrolSpeed);
     }
 
     void ChaseState(float distance)
     {
-        MoveHorizontallyTowards(rover.position.x, stats.chaseSpeed);
+        // Persigue al rover en X, pero nunca atraviesa paredes ni se lanza al vacío.
+        int dir = rover.position.x >= transform.position.x ? 1 : -1;
+        if (CanAdvance(dir))
+            MoveHorizontallyTowards(rover.position.x, stats.chaseSpeed);
 
         if (distance <= stats.attackRange)
         {
@@ -193,13 +221,15 @@ public class DronePatrollerAI : MonoBehaviour
             return;
         }
 
-        int nearestWaypoint = GetNearestWaypoint();
+        // Regresa hacia el centro del área de patrulla, respetando paredes y bordes.
+        int dir = _originX >= transform.position.x ? 1 : -1;
+        if (CanAdvance(dir))
+            MoveHorizontallyTowards(_originX, stats.patrolSpeed);
 
-        MoveHorizontallyTowards(waypoints[nearestWaypoint].position.x, stats.patrolSpeed);
-
-        if (Mathf.Abs(transform.position.x - waypoints[nearestWaypoint].position.x) < 0.2f)
+        // Al llegar (o si una pared/borde le impide seguir), retoma la patrulla.
+        if (Mathf.Abs(transform.position.x - _originX) < 0.2f || !CanAdvance(dir))
         {
-            currentWaypoint = nearestWaypoint;
+            _patrolDir = dir;
             currentState = State.Patrol;
         }
     }
@@ -235,38 +265,18 @@ public class DronePatrollerAI : MonoBehaviour
         stats.projectileLifetime);
 }
 
-    int GetNearestWaypoint()
-    {
-        int nearest = 0;
-        float minDistance = Mathf.Infinity;
-
-        for (int i = 0; i < waypoints.Length; i++)
-        {
-            float d = Vector2.Distance(
-                transform.position,
-                waypoints[i].position);
-
-            if (d < minDistance)
-            {
-                minDistance = d;
-                nearest = i;
-            }
-        }
-
-        return nearest;
-    }
-
     void Flip()
     {
-        float dir = rover.position.x - transform.position.x;
+        // En patrulla/retorno mira hacia donde camina; persiguiendo/atacando mira al rover.
+        float dir = (currentState == State.Patrol || currentState == State.Return)
+            ? _patrolDir
+            : rover.position.x - transform.position.x;
+
+        if (Mathf.Approximately(dir, 0f))
+            return;
 
         Vector3 scale = transform.localScale;
-
-        if (dir > 0)
-            scale.x = Mathf.Abs(scale.x);
-        else
-            scale.x = -Mathf.Abs(scale.x);
-
+        scale.x = dir > 0 ? Mathf.Abs(scale.x) : -Mathf.Abs(scale.x);
         transform.localScale = scale;
     }
 

@@ -48,7 +48,25 @@ Pasos:
 ## T2 — Nivel 2: El Relicto (diseño de nivel)
 **Responsable:** Level Designer · **Rama:** `feature/level-design` · **Ref. GDD:** §9.3, §13.1 · **Ref. HUD:** §4
 
-**Estado actual:** solo existe la referencia `SceneLoader.LoadLevel02()` y la entrada en Build Settings; **no hay escena construida**. Tomar `Level01.unity` como plantilla de sistemas (HUD, checkpoints, cámara, contenedores) y construir el bioma alienígena. **Guía de implementación detallada:** [T2_Geometria_Level02.md](../HUD/T2_Geometria_Level02.md).
+**Estado actual:** `Level02.unity` **ya existe con su lógica inicial** (geometría + sistemas core heredados de Level01 + enemigos placeholder N1). Falta sustituir los placeholders por el contenido propio del Relicto y montar los sistemas N2. **Guía de implementación detallada:** [T2_Geometria_Level02.md](../HUD/T2_Geometria_Level02.md).
+
+### Estado actual de `Level02.unity` (2026-06-27)
+
+**✅ Ya en la escena:**
+- Geometría: `Grid` + 6 tilemaps (`Collision`, `Visual`, `OneWay`, `Danger`, `Markers`, `Front`).
+- Sistemas core (plantilla Level01): HUD completo (barra SI, celdas, `AlertStrip`, paneles Pausa/GameOver) + `EventSystem`, `CheckpointManager`, `BackgroundMusic`, `Global Light 2D`, `CinemachineCamera` + Main Camera. Organizado en contenedores `Systems`/`Platforms`/`Hazards`/`Enemies`/`Markers`.
+- Jugable: Player (layer `Player`, tag `Player`), **4 checkpoints**, hazards (cristales, 4 obstáculos giratorios, `GiroCompleto`, `OsciladorGiro`, `CaidaPorCercania`, `PlataformaMovil`), ~38 plataformas flotantes.
+- Enemigos **placeholder N1**: 3 Drones + 2 Biol, **todos con el campo `rover` asignado** (sin NRE). El Drone ya trae el sensado de terreno + colisión física de S03 (rev. 2026-06-27).
+
+**🔴 Falta para "El Relicto":**
+- **Enemigos N2 (depende de T3):** sustituir los placeholders por **Drone Detector ×3, Drone Patrullero ×2, Centinela Secundario ×2** y la **arena del Centinela Principal** (lockdown + spawn). Limpiar los waypoints `WP_0/WP_1` (obsoletos: el Drone ya no usa waypoints).
+- **Escaneables SC-04/05/06** + enganche con el `ScanSystem` (T1); SC-05 abre el ascensor.
+- **Marcadores de zona** (`LevelMarker`): no hay ninguno. Faltan `SpawnPoint`, las 3 alas, `BlockedZone`/gating del ascensor, `BossRoom` y `LevelExit`.
+- **Upgrades:** Escudo de Plasma (entrada) y Batería EMP (Ala B) — sin pickups ni gating (T5).
+- **Celdas de energía ×5** (`EnergyCellPickup`) — hoy solo existen los *slots* del HUD, no los pickups.
+- **Parallax de 4 capas:** `Background` es estático; `Scripts/Level/Parallax*` sin montar.
+- **Paleta N2:** la `Global Light 2D` está en **blanco** (1,1,1); aplicar la luz violeta-naranja y verificar que los tilemaps usen la paleta `#060610`/`#4A1A7A`/`#C0581A`.
+- **Herencia de SI** Niv.1→Niv.2 (no reiniciar a 74%) — coordinar con T4/`LevelManager`.
 
 Métricas objetivo (GDD §9.3):
 
@@ -65,23 +83,23 @@ Métricas objetivo (GDD §9.3):
 | SI al inicio | 47–61% (herencia del Nivel 1) |
 | SI estimada al final | 9–29% |
 
-Pasos:
-- Crear `Level02.unity`: Grid + tilemaps (`Collision`, `Visual`, `OneWay`, `Danger`, `Markers`, `Front`) con la **paleta N2** (`#060610`/`#4A1A7A`/`#C0581A`); `Global Light 2D` violeta-naranja.
-- Trazar **3 alas semi-libres** con gating: el **ascensor** se abre al escanear SC-05; Ala B opcional (Batería EMP); puerta al boss tras explorar lo requerido.
-- Colocar **4 checkpoints** (≥8 u del enemigo más cercano), **5 celdas**, los **3 escaneables**, los **2 upgrades** y la **arena del Centinela Principal** (lockdown + spawn → T3).
-- **Parallax de 4 capas** (GDD §9.1) con los scripts `Scripts/Level/Parallax*` (ya existen, sin montar): montar y ajustar factores.
-- Heredar SI entre niveles: leer la SI con que se termina el Nivel 1 (coordinar con T4/`LevelManager`); no reiniciar a 74%.
-- **Trampas ambientales** (objeto ambiental 6 SI, GDD §4.3, "solo en Nivel 2"): colocar con las mecánicas de `Scripts/leveo01/`.
-- Asignar el campo `rover` de cada enemigo al Player de la escena.
+Pasos restantes (la base ya está montada — ver estado arriba):
+- **Paleta N2:** aplicar la **paleta** (`#060610`/`#4A1A7A`/`#C0581A`) a los tilemaps y poner la `Global Light 2D` en violeta-naranja (hoy blanca).
+- **Estructura de alas:** trazar **3 alas semi-libres** con gating: el **ascensor** se abre al escanear SC-05; Ala B opcional (Batería EMP); puerta al boss tras explorar lo requerido. Marcar las zonas con `LevelMarker` (`SpawnPoint`, alas, `BlockedZone`, `BossRoom`, `LevelExit`).
+- **Poblar contenido N2:** colocar **5 celdas** (`EnergyCellPickup`), los **3 escaneables** (SC-04/05/06), los **2 upgrades** (Escudo de Plasma, Batería EMP) y la **arena del Centinela Principal** (lockdown + spawn → T3).
+- **Enemigos N2:** sustituir los placeholders N1 por **Drone Detector ×3, Drone Patrullero ×2, Centinela Secundario ×2** (→ T3) y eliminar los waypoints obsoletos `WP_0/WP_1`. Verificar que cada enemigo conserve `rover` asignado (los actuales ya lo tienen).
+- **Parallax de 4 capas** (GDD §9.1): montar `Scripts/Level/Parallax*` sobre `Background` (hoy estático) y ajustar factores.
+- **Herencia de SI** Niv.1→Niv.2: leer la SI con que se termina el Nivel 1 (coordinar con T4/`LevelManager`); no reiniciar a 74%.
+- **Trampas ambientales** (objeto ambiental 6 SI, GDD §4.3, "solo en Nivel 2"): colocar con las mecánicas de `Scripts/leveo01/` (`CaidaPorCercania` ya está en escena).
 
-**DoD T2:** se recorre entrada → 3 alas → arena del Centinela sin caer al vacío; los 4 checkpoints registran; los 8 enemigos están colocados y persiguen; SC-04/05/06 escaneables (SC-05 abre el ascensor); Escudo de Plasma y Batería EMP recogibles; el parallax de 4 capas se mueve; el rover entra al Relicto con la SI heredada del Nivel 1.
+**DoD T2:** se recorre entrada → 3 alas → arena del Centinela sin caer al vacío; los 4 checkpoints registran; los 8 enemigos N2 están colocados y persiguen; SC-04/05/06 escaneables (SC-05 abre el ascensor); Escudo de Plasma y Batería EMP recogibles; el parallax de 4 capas se mueve; la luz violeta-naranja está aplicada; el rover entra al Relicto con la SI heredada del Nivel 1.
 
 ---
 
 ## T3 — Enemigos del Relicto + IA central (`AIManager` / DDA)
 **Responsable:** AI Programmer (+ Artist para sprites/animación) · **Rama:** `feature/enemy-ai` · **Ref. GDD:** §8.1, §8.5–8.7, §13.4
 
-**Estado actual:** existen `BioluminescentAI` y `DronePatrollerAI` (con el patrón **dash ofensivo**); no existe `AIManager` ni ningún enemigo del Nivel 2. Reusar el patrón de combate por dash (núcleo/cuerpo con trigger + `OnTrigger/CollisionStay2D` + `dashDamage`) y los **i-frames centrales** del `DegradationSystem`.
+**Estado actual:** existen `BioluminescentAI` y `DronePatrollerAI` (con el patrón **dash ofensivo**); no existe `AIManager` ni ningún enemigo del Nivel 2. Reusar el patrón de combate por dash (núcleo/cuerpo + `OnTrigger/CollisionStay2D` + `dashDamage`) y los **i-frames centrales** del `DegradationSystem`. Para los enemigos **terrestres**, reusar también el **sensado de terreno del `DronePatrollerAI`** (raycast de pared/borde → giro + patrulla acotada por `patrolRange`) y el modelo de **collider sólido + daño solo por proyectil** (S03, rev. 2026-06-27): el Drone Patrullero ya no atraviesa muros, no cae al vacío y choca físicamente con el rover sin dañarlo al contacto.
 
 ### 3.1 Drone Detector (GDD §8.5) — FSM Sensar-Pensar-Actuar
 - `Scripts/AI/DroneDetectorAI.cs` + `DroneDetectorStatsSO`. HP 80; visión **cono 8 u / 60°** con **raycast de obstrucción** (paredes bloquean); FSM `Patrol → Alert (confirmación 1,5 s) → Chase → Attack`; `Search` 6 s; **Flanking** si DDA activo.
@@ -168,7 +186,7 @@ Pasos:
 | Tarea | Responsable | Prioridad | Estado |
 |-------|-------------|-----------|--------|
 | T1 — Escaneo, lore y flashbacks | Gameplay Programmer | 🔴 Alta | ⬜ 0% (sin `ScanSystem`; input `IsScanning` ya existe; también cierra los escaneables del Nivel 1) |
-| T2 — Nivel 2: El Relicto | Level Designer | 🔴 Alta | ⬜ 0% (solo existe `LoadLevel02()` + Build Settings; sin escena) |
+| T2 — Nivel 2: El Relicto | Level Designer | 🔴 Alta | 🟡 Base montada (escena con geometría + 6 tilemaps + sistemas core + 4 checkpoints + hazards + enemigos placeholder N1 con `rover` asignado); falta paleta N2, 3 alas + gating, marcadores, escaneables, upgrades, 5 celdas, enemigos N2 reales, parallax y herencia de SI |
 | T3 — Enemigos N2 + `AIManager`/DDA | AI Programmer | 🔴 Alta | ⬜ 0% (sin Detector/Centinelas ni `AIManager`; reusar patrón dash) |
 | T4 — Cinemáticas + victoria | Technical Director | 🔴 Alta | ⬜ 0% (sin `CinematicManager`; `GameManager.Cinematic` ya existe) |
 | T5 — Upgrades + celdas | Gameplay Programmer | 🟡 Media | ⬜ 0% (sin `UpgradeManager`; slots del HUD reservados en S03) |
