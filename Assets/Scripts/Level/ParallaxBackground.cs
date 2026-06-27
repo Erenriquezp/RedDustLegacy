@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ParallaxController : MonoBehaviour
+public class ParallaxMovement : MonoBehaviour
 {
     Transform cam; //Main Camera
     Vector3 camStartPos;
@@ -14,7 +14,7 @@ public class ParallaxController : MonoBehaviour
 
     float farthestBack;
 
-    [Range(0.01f, 0.05f)]
+    [Range(0.01f, 1f)]
     public float parallaxSpeed;
 
     // Start is called before the first frame update
@@ -56,7 +56,7 @@ public class ParallaxController : MonoBehaviour
     private void LateUpdate()
     {
         distance = cam.position.x - camStartPos.x;
-        transform.position = new Vector3(cam.position.x, transform.position.y, 0);
+        transform.position = new Vector3(cam.position.x - 1, transform.position.y, 9.92f);
 
         for (int i = 0; i < backgrounds.Length; i++)
         {
@@ -65,4 +65,3 @@ public class ParallaxController : MonoBehaviour
         }
     }
 }
-    
