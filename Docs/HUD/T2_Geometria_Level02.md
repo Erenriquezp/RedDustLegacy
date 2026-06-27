@@ -110,7 +110,7 @@ Pinta la **colisión** en `Collision_Tilemap` (layer `Ground`); plataformas one-
 - **Puerta al boss:** se abre al converger las 3 rutas en el Núcleo Central (o tras un requisito mínimo a definir con diseño).
 
 ## 6. Parallax e isometría (HUD §4.2, §5)
-- **4 capas** de parallax (GDD §9.1, vs 3 en N1) con los scripts `Scripts/Level/Parallax*`: fondo lejano (megaestructuras/engranajes, escala 60–70%, saturación −30%), plano medio (columnas isométricas que se iluminan al paso), primer plano (fragmentos/cables, escala 110–120%, oscuros).
+- **4 capas** de parallax (GDD §9.1, vs 2 montadas en N1) con el componente `ParallaxMovement` (`Scripts/Level/ParallaxBackground.cs`, reutilizado de S02 T1 — N hijos con material en Wrap = Repeat): fondo lejano (megaestructuras/engranajes, escala 60–70%, saturación −30%), plano medio (columnas isométricas que se iluminan al paso), primer plano (fragmentos/cables, escala 110–120%, oscuros).
 - **Proyección isométrica 26°** solo en estructuras y plataformas de **fondo** (caras superiores más claras); el plano jugable permanece ortogonal.
 - Líneas de luz cian/violeta como decoración en `Visual`/`Front`.
 

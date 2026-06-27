@@ -68,7 +68,7 @@ GameObject vacío → `Add Component → LevelMarker` → elige `Type` + `label`
 - **Trigger de cinemática / `LevelExit`** al derrotar al boss → transición a Nivel 2.
 
 ### 3.5 Parallax del fondo
-- El `Background` es estático. Montar las **3 capas** (factores 0.15 / 0.45 / 0.85) con los scripts `Scripts/Level/Parallax*` (ya existen, sin montar) y los fondos de `Art/Backgrounds/`. Deuda de Sprint 02 T1.
+- ✅ **Hecho** (S02 T1, 2026-06-27): `Background` con el componente `ParallaxMovement` (`Scripts/Level/ParallaxBackground.cs`) — scroll por offset de textura sobre **2 capas** (fondos de `Art/Backgrounds/` en Wrap = Repeat). El script sigue a la cámara (centrado X/Y), corre tras Cinemachine (`[DefaultExecutionOrder(1000)]`) y fija `sortingOrder = -10` para quedar detrás del tilemap. _Nota: el GDD §9.1 pedía 3 capas por factor de profundidad; se usó 2 por offset de textura (la Z no da profundidad con cámara ortográfica). Para fidelidad al GDD, añadir una 3.ª capa hija._
 
 ### 3.6 Cierre de geometría
 - Cerrar techo y paredes laterales en `Collision_Tilemap` para que el Player no salga del mapa.
@@ -88,7 +88,7 @@ En **Play Mode**:
 - [ ] Los **3 checkpoints** registran y el rover llega al boss con SI dentro de **47–61%**.
 - [ ] SC-01/02/03 están posicionados (escaneo cableado en S05 T1).
 - [ ] El foso que exige dash no se cruza a la carrera; **sí** con dash; el wall-jump funciona en las paredes `Ground`.
-- [ ] El parallax de 3 capas se mueve detrás del tilemap.
+- [x] El parallax se mueve detrás del tilemap, centrado en la cámara y sin huecos al saltar/caer (S02 T1).
 - [ ] La cámara sigue al Player y no se sale del mapa.
 
 ---

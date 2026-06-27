@@ -1,6 +1,6 @@
 # Sprint 02 — Level01 jugable, enemigo bioluminiscente y audio
 
-> **Estado:** 🔄 En progreso · **Revisión:** 2026-06-26 · **Ref. GDD:** §8, §9.2, §13, §14
+> **Estado:** 🔄 En progreso · **Revisión:** 2026-06-27 (T1 Parallax cerrado y corregido) · **Ref. GDD:** §8, §9.2, §13, §14
 
 Geometría de Level01, animaciones del rover, Ser Bioluminiscente y audio.
 
@@ -15,7 +15,7 @@ Geometría de Level01, animaciones del rover, Ser Bioluminiscente y audio.
 | T5 — Geometría Level01 | 🔄 En `Level01.unity`; faltan marcadores/zonas y arreglos de capas/Tag |
 | T4 — Audio (Mixer + MusicState) | 🔴 0% — sin `.mixer` ni `MusicState` (detalle abajo) |
 | T2 — Animaciones Land/Damage | 🔴 Faltan sprites + clips |
-| T1 — Parallax | 🔴 Scripts duplicados; falta el de unión + montar (detalle abajo) |
+| T1 — Parallax | ✅ Hecho — scroll por offset de textura (2 capas) en Level01; centrado/cobertura/orden corregidos; scripts muertos eliminados |
 | Deuda S01 — bindings | 🔴 Jump/Scan sin ajustar |
 
 ## Hecho
@@ -26,6 +26,8 @@ Geometría de Level01, animaciones del rover, Ser Bioluminiscente y audio.
 - **Mecánicas de nivel** (`Scripts/leveo01/`): `PlataformaMovil` (arrastra al Player), `GiroCompleto`, `OsciladorGiro`, trampas `CaidaCristal`/`CaidaPorCercania` y `HazardDamage` (pinchos/obstáculos) — todas dañan con i-frames+knockback.
 - **Audio SFX**: `PlayerAudioController` (dash/landing/daño-por-fase/muerte), `EnemyAudioController`, `UIAudioController`.
 - **Deuda S01**: bug `OnDashed→PlayDamageSound` corregido (`sfxDash` propio).
+- **Parallax de fondo (Level01)** (`ParallaxBackground.cs`, clase `ParallaxMovement`): scroll por **offset de textura** sobre 2 capas hijas del objeto `Background`; el contenedor sigue a la cámara (X e Y) para mantenerse centrado. Corregidos los 4 bugs visuales — descentrado (antes fijaba la Y propia y restaba `-1` en X), cobertura (planos centrados `Position X/Y = 0` y agrandados `Scale Z = 1.8`), huecos al saltar/caer (`[DefaultExecutionOrder(1000)]` para correr **después** de Cinemachine y no quedar un frame atrás) y profundidad (`sortingOrder = -10` por código + `OnValidate` para previsualizar en editor, porque el `MeshRenderer` no expone *Order in Layer* en el Inspector). Eliminados los scripts muertos `Parallax.cs`, `ParallaxCamera.cs`, `ParallaxLayer.cs`.
+  - **Desviación del GDD §9.1** (3 capas por *factor de profundidad*): se implementó con **2 capas por offset de textura**, que es lo que ya estaba montado y funciona con la cámara **ortográfica** (la Z no da profundidad en orto). Si se quiere fidelidad al GDD, añadir una 3.ª capa hija a `Background`. **Tuning:** `parallaxSpeed` (intensidad global), `verticalParallax`, `textureProperty` (`_MainTex` legacy / `_BaseMap` URP) y `sortingOrder`. Las texturas de fondo deben estar en **Wrap = Repeat**. Reutilizable tal cual para el fondo de **Level02** (S05 T2).
 
 ## Pendiente
 
@@ -50,38 +52,6 @@ Geometría de Level01, animaciones del rover, Ser Bioluminiscente y audio.
 - Sprites `Opportunity-land` (4f) y `Opportunity-damage` (5f).
 - Clips `Rover_Land`/`Rover_Damage` en `RoverAC` (Duration 0, Has Exit Time OFF, Write Defaults OFF). El trigger `IsDamaged` ya se dispara desde código (S03); falta el clip. `Wall_Slide`/`Wall_Jump` → V2.
 - **Deuda del controlador:** `Rover_Death` no tiene transición de salida; hoy se sale por código (`Animator.Play("Rover_Idle")` al revivir). Conviene añadir la transición `Rover_Death → Rover_Idle` con condición `IsDead = false`.
-
-### T1 — Parallax (3 capas)
-
-**Estado del código (hay que limpiarlo primero):** existen **tres** scripts de parallax enredados:
-- `ParallaxBackground.cs` contiene una clase llamada **`ParallaxController`** (el nombre no coincide con el archivo): hace scroll por *offset de textura* (`_MainTex`) sobre hijos con `Renderer`/`Material`, con una sola `parallaxSpeed`. **No** usa factores por capa.
-- `ParallaxLayer.cs` (`parallaxFactor` por capa, mueve `localPosition`) + `ParallaxCamera.cs` (delegado `onCameraTranslate(delta)` al moverse la cámara): es el enfoque por **factores por capa** que pide el GDD, **pero le falta el "pegamento"** — ningún script suscribe `ParallaxLayer.Move` al delegado de `ParallaxCamera`.
-- `Parallax.cs`: auto-scroll a velocidad constante (ignora la cámara) — no sirve aquí.
-
-**Recomendado — usar el enfoque por factores y añadir el script de unión que faltó:**
-```csharp
-// Vive en el contenedor de capas; ParallaxCamera va en la Main Camera.
-public class ParallaxBackgroundManager : MonoBehaviour {
-    [SerializeField] ParallaxCamera parallaxCamera;
-    readonly System.Collections.Generic.List<ParallaxLayer> layers = new();
-    void Start() {
-        if (parallaxCamera == null) parallaxCamera = Camera.main.GetComponent<ParallaxCamera>();
-        parallaxCamera.onCameraTranslate += Move;
-        GetComponentsInChildren(layers);
-    }
-    void Move(float delta) { foreach (var l in layers) l.Move(delta); }
-}
-```
-> ⚠️ Antes de crearlo, resuelve el choque de nombres: renombra `ParallaxBackground.cs` → `ParallaxController.cs` (para que archivo y clase coincidan) o borra el enfoque de textura si no se va a usar.
-
-**Montaje en `Level01.unity`:**
-- `ParallaxCamera` en la **Main Camera** (la que mueve el `CinemachineBrain`).
-- Contenedor `Parallax` con el `ParallaxBackgroundManager` y **3 hijos = capas**, cada uno con `SpriteRenderer` (fondos de `Assets/Art/Backgrounds/`) + `ParallaxLayer`:
-  - Lejana `parallaxFactor ≈ 0.15`, media `≈ 0.45`, cercana `≈ 0.85` (GDD §9.1; N1 = 3 capas).
-  - Sorting Layer/Order **detrás** del tilemap; escala lejana 60–70 %, cercana 110–120 % con saturación reducida en la lejana (HUD §5).
-- Hoy `Background` es estático: reemplázalo por estas capas.
-
-**DoD parcial T1:** al mover la cámara, las 3 capas se desplazan a distinta velocidad (profundidad legible) y ninguna tapa el plano de juego.
 
 ### T5 — Geometría (cierre)
 - Colocar `LevelMarker` (SC-01/02/03, Checkpoints, BlockedZone, BossRoom) y cerrar zonas Z1→Z5. Guía: [T5_Geometria_Level01.md](./T5_Geometria_Level01.md).

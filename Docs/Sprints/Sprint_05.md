@@ -64,7 +64,7 @@ Pasos:
 - **Marcadores de zona** (`LevelMarker`): no hay ninguno. Faltan `SpawnPoint`, las 3 alas, `BlockedZone`/gating del ascensor, `BossRoom` y `LevelExit`.
 - **Upgrades:** Escudo de Plasma (entrada) y Batería EMP (Ala B) — sin pickups ni gating (T5).
 - **Celdas de energía ×5** (`EnergyCellPickup`) — hoy solo existen los *slots* del HUD, no los pickups.
-- **Parallax de 4 capas:** `Background` es estático; `Scripts/Level/Parallax*` sin montar.
+- **Parallax:** `Background` es estático; falta montar el componente `ParallaxMovement` (`Scripts/Level/ParallaxBackground.cs`, ya probado en Level01 — S02 T1).
 - **Paleta N2:** la `Global Light 2D` está en **blanco** (1,1,1); aplicar la luz violeta-naranja y verificar que los tilemaps usen la paleta `#060610`/`#4A1A7A`/`#C0581A`.
 - **Herencia de SI** Niv.1→Niv.2 (no reiniciar a 74%) — coordinar con T4/`LevelManager`.
 
@@ -88,7 +88,7 @@ Pasos restantes (la base ya está montada — ver estado arriba):
 - **Estructura de alas:** trazar **3 alas semi-libres** con gating: el **ascensor** se abre al escanear SC-05; Ala B opcional (Batería EMP); puerta al boss tras explorar lo requerido. Marcar las zonas con `LevelMarker` (`SpawnPoint`, alas, `BlockedZone`, `BossRoom`, `LevelExit`).
 - **Poblar contenido N2:** colocar **5 celdas** (`EnergyCellPickup`), los **3 escaneables** (SC-04/05/06), los **2 upgrades** (Escudo de Plasma, Batería EMP) y la **arena del Centinela Principal** (lockdown + spawn → T3).
 - **Enemigos N2:** sustituir los placeholders N1 por **Drone Detector ×3, Drone Patrullero ×2, Centinela Secundario ×2** (→ T3) y eliminar los waypoints obsoletos `WP_0/WP_1`. Verificar que cada enemigo conserve `rover` asignado (los actuales ya lo tienen).
-- **Parallax de 4 capas** (GDD §9.1): montar `Scripts/Level/Parallax*` sobre `Background` (hoy estático) y ajustar factores.
+- **Parallax** (GDD §9.1 pide 4 capas N2): reutilizar el componente `ParallaxMovement` sobre `Background` (hoy estático) — mismo montaje que Level01 (S02 T1): N hijos con `Renderer`/material en **Wrap = Repeat**, capas centradas (`Position X/Y = 0`) y con margen de cobertura; el `sortingOrder` y el centrado/orden los gestiona el propio script.
 - **Herencia de SI** Niv.1→Niv.2: leer la SI con que se termina el Nivel 1 (coordinar con T4/`LevelManager`); no reiniciar a 74%.
 - **Trampas ambientales** (objeto ambiental 6 SI, GDD §4.3, "solo en Nivel 2"): colocar con las mecánicas de `Scripts/leveo01/` (`CaidaPorCercania` ya está en escena).
 

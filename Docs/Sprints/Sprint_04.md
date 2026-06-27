@@ -111,8 +111,9 @@ Continuación directa del Sprint 02 T5. La **base ya está montada** en `Level01
 - **Marcadores de zona:** solo existe `SpawnPoint` (Z1). Faltan Z2–Z5, `BlockedZone` y `BossRoom`.
 - **Upgrades:** Rueda Reforzada (Z2) y Escaneo Mejorado (Z3) — sin pickups ni gating.
 - **Arena del Leviatán** (lockdown + spawn → T3) y **trigger de cinemática/`LevelExit`** al derrotar al boss.
-- **Parallax** del fondo (hoy `Background` estático; `ParallaxController` sin montar — deuda S02 T1).
 - **Config menor:** la instancia `SerBioluminiscente` tiene un override de tag `Player` equivocado; corregir.
+
+> ✅ **Parallax del fondo: hecho** (S02 T1, cerrado 2026-06-27) — `Background` con `ParallaxMovement` (scroll por offset de textura), centrado/cobertura/orden corregidos.
 
 ### Métricas objetivo del Nivel 1 (GDD §9.2)
 | Parámetro | Valor |
@@ -265,6 +266,6 @@ Capas de ambiente por zona (HUD §4.1): viento/goteo de cueva (base), géiseres 
 | Tarea | Responsable | Prioridad | Estado |
 |-------|-------------|-----------|--------|
 | T1 — Pantallas (menú/carga/pausa) | Technical Director | 🔴 Alta | ⬜ 0% |
-| T2 — Nivel 1 completo | Level Designer | 🔴 Alta | 🟡 Base montada y probada (geometría + sistemas core + 1 Biol/1 Drone + 4 checkpoints); falta poblar enemigos (6+2), escaneables, zonas Z2–Z5, upgrades, arena del boss, cinemática y parallax |
+| T2 — Nivel 1 completo | Level Designer | 🔴 Alta | 🟡 Base montada y probada (geometría + sistemas core + 1 Biol/1 Drone + 4 checkpoints); parallax ✅; falta poblar enemigos (6+2), escaneables, zonas Z2–Z5, upgrades, arena del boss y cinemática |
 | T3 — Boss Leviatán | AI Programmer | 🔴 Alta | ⬜ 0% (sin script ni controller; **vector de daño ya resuelto:** dash ofensivo) |
 | T4 — Audio integral | Technical Director | 🟡 Media | 🟡 ~30% (capa SFX Biol/rover ✅ y UI parcial; **núcleo Mixer + `MusicState` aún 0%**; falta SFX Drone/Leviatán y ambiente) |
