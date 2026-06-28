@@ -1,82 +1,82 @@
 fileFormatVersion: 2
-guid: 1de26f1d28e000c4681883ab8c0cd4ff
+guid: a6b415946c2603c489549b3e704b1840
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 685115271066484062
-    second: Opportunity-idle_0
+      213: 4330583170526935431
+    second: ChatGPT Image 15 jun 2026, 10_59_45 a.m._0
   - first:
-      213: 6194098096043895944
-    second: Opportunity-idle_1
+      213: 260783234497309832
+    second: ChatGPT Image 15 jun 2026, 10_59_45 a.m._1
   - first:
-      213: 519518736394896705
-    second: Opportunity-idle_2
+      213: 1508854918080390447
+    second: ChatGPT Image 15 jun 2026, 10_59_45 a.m._2
   - first:
-      213: 6960653068250462330
-    second: Opportunity-idle_3
+      213: 9192751093167674921
+    second: ChatGPT Image 15 jun 2026, 10_59_45 a.m._3
   - first:
-      213: 4471043938313625651
-    second: Opportunity-idle_4
+      213: 7004491166001955943
+    second: ChatGPT Image 15 jun 2026, 10_59_45 a.m._4
   - first:
-      213: -2359140722406436247
-    second: Opportunity-idle_5
+      213: -9116051288831296812
+    second: ChatGPT Image 15 jun 2026, 10_59_45 a.m._5
   - first:
-      213: 4826127224532705224
-    second: Opportunity-idle_6
+      213: 3886175483643857300
+    second: ChatGPT Image 15 jun 2026, 10_59_45 a.m._6
   - first:
-      213: -1595617589122588387
-    second: Opportunity-idle_7
+      213: -8438018385805799631
+    second: ChatGPT Image 15 jun 2026, 10_59_45 a.m._7
   - first:
-      213: 3868882381377150969
-    second: Opportunity-idle_8
+      213: -2365620808593397334
+    second: ChatGPT Image 15 jun 2026, 10_59_45 a.m._8
   - first:
-      213: 1771810148983871413
-    second: Opportunity-idle_9
+      213: -512024060270104458
+    second: ChatGPT Image 15 jun 2026, 10_59_45 a.m._9
   - first:
-      213: 7566286638664529187
-    second: Opportunity-idle_10
+      213: -143867780205400917
+    second: ChatGPT Image 15 jun 2026, 10_59_45 a.m._10
   - first:
-      213: 4151543740119231549
-    second: Opportunity-idle_11
+      213: -1160769299242588219
+    second: ChatGPT Image 15 jun 2026, 10_59_45 a.m._11
   - first:
-      213: -6452564198441799166
-    second: Opportunity-idle_12
+      213: -4994550913826866283
+    second: ChatGPT Image 15 jun 2026, 10_59_45 a.m._12
   - first:
-      213: -7854877501017553934
-    second: Opportunity-idle_13
+      213: 3900001949046846367
+    second: ChatGPT Image 15 jun 2026, 10_59_45 a.m._13
   - first:
-      213: -1353836133175142925
-    second: Opportunity-idle_14
+      213: -4473549865247953563
+    second: ChatGPT Image 15 jun 2026, 10_59_45 a.m._14
   - first:
-      213: -1532459474936242559
-    second: Opportunity-idle_15
+      213: 8093808232342417056
+    second: ChatGPT Image 15 jun 2026, 10_59_45 a.m._15
   - first:
-      213: -7238206221686354145
-    second: Opportunity-idle_16
+      213: -246513775489253152
+    second: ChatGPT Image 15 jun 2026, 10_59_45 a.m._16
   - first:
-      213: 4972601677365141228
-    second: Opportunity-idle_17
+      213: -398322560503731943
+    second: ChatGPT Image 15 jun 2026, 10_59_45 a.m._17
   - first:
-      213: -5245594038002277213
-    second: Opportunity-idle_18
+      213: 7192968115922116542
+    second: ChatGPT Image 15 jun 2026, 10_59_45 a.m._18
   - first:
-      213: 5396955516272031168
-    second: Opportunity-idle_19
+      213: 1568833658599839512
+    second: ChatGPT Image 15 jun 2026, 10_59_45 a.m._19
   - first:
-      213: 7749422649063510833
-    second: Opportunity-idle_20
+      213: 1513484889576466683
+    second: ChatGPT Image 15 jun 2026, 10_59_45 a.m._20
   - first:
-      213: 1995937441646334310
-    second: Opportunity-idle_21
+      213: -3053335600026479510
+    second: ChatGPT Image 15 jun 2026, 10_59_45 a.m._21
   - first:
-      213: -7785112848213951660
-    second: Opportunity-idle_22
+      213: -4007163504616447920
+    second: ChatGPT Image 15 jun 2026, 10_59_45 a.m._22
   - first:
-      213: -1946752211388835778
-    second: Opportunity-idle_23
+      213: 1531657941263038974
+    second: ChatGPT Image 15 jun 2026, 10_59_45 a.m._23
   - first:
-      213: 2181814090494590863
-    second: Opportunity-idle_24
+      213: 1368812396844875740
+    second: ChatGPT Image 15 jun 2026, 10_59_45 a.m._24
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -118,10 +118,10 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
+  alignment: 7
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
@@ -168,568 +168,555 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Opportunity-idle_0
+      name: ChatGPT Image 15 jun 2026, 10_59_45 a.m._0
       rect:
         serializedVersion: 2
-        x: 39
-        y: 1068
-        width: 176
-        height: 159
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 3
+        y: 0
+        width: 227
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e5dfc1a85b4028900800000000000000
-      internalID: 685115271066484062
+      spriteID: 789fa8df272591c30800000000000000
+      internalID: 4330583170526935431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Opportunity-idle_1
+      name: ChatGPT Image 15 jun 2026, 10_59_45 a.m._1
       rect:
         serializedVersion: 2
-        x: 295
-        y: 1068
-        width: 176
-        height: 159
+        x: 81
+        y: 983
+        width: 8
+        height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 88cae9e866bd5f550800000000000000
-      internalID: 6194098096043895944
+      spriteID: 88ce69758fc7e9300800000000000000
+      internalID: 260783234497309832
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Opportunity-idle_2
+      name: ChatGPT Image 15 jun 2026, 10_59_45 a.m._2
       rect:
         serializedVersion: 2
-        x: 552
-        y: 1068
-        width: 176
-        height: 159
+        x: 81
+        y: 707
+        width: 8
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1454af8c983b53700800000000000000
-      internalID: 519518736394896705
+      spriteID: f2568c1cd8780f410800000000000000
+      internalID: 1508854918080390447
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Opportunity-idle_3
+      name: ChatGPT Image 15 jun 2026, 10_59_45 a.m._3
       rect:
         serializedVersion: 2
-        x: 808
-        y: 1068
-        width: 176
-        height: 158
+        x: 81
+        y: 350
+        width: 8
+        height: 9
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a783dc12615399060800000000000000
-      internalID: 6960653068250462330
+      spriteID: 926d7d8f966339f70800000000000000
+      internalID: 9192751093167674921
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Opportunity-idle_4
+      name: ChatGPT Image 15 jun 2026, 10_59_45 a.m._4
       rect:
         serializedVersion: 2
-        x: 1063
-        y: 1068
-        width: 177
-        height: 158
+        x: 81
+        y: 326
+        width: 8
+        height: 9
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 330e856f5c65c0e30800000000000000
-      internalID: 4471043938313625651
+      spriteID: 76488e5aa93f43160800000000000000
+      internalID: 7004491166001955943
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Opportunity-idle_5
+      name: ChatGPT Image 15 jun 2026, 10_59_45 a.m._5
       rect:
         serializedVersion: 2
-        x: 39
-        y: 812
-        width: 182
-        height: 159
+        x: 81
+        y: 155
+        width: 8
+        height: 20
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9625ec12306a24fd0800000000000000
-      internalID: -2359140722406436247
+      spriteID: 4daf7f6d6a74d7180800000000000000
+      internalID: -9116051288831296812
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Opportunity-idle_6
+      name: ChatGPT Image 15 jun 2026, 10_59_45 a.m._6
       rect:
         serializedVersion: 2
-        x: 295
-        y: 812
-        width: 194
-        height: 160
+        x: 82
+        y: 807
+        width: 7
+        height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8cf1d1b0429d9f240800000000000000
-      internalID: 4826127224532705224
+      spriteID: 4998c6533087ee530800000000000000
+      internalID: 3886175483643857300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Opportunity-idle_7
+      name: ChatGPT Image 15 jun 2026, 10_59_45 a.m._7
       rect:
         serializedVersion: 2
-        x: 551
-        y: 812
-        width: 205
-        height: 161
+        x: 82
+        y: 618
+        width: 7
+        height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d11abf2b14a3bd9e0800000000000000
-      internalID: -1595617589122588387
+      spriteID: 13f84d11cf226ea80800000000000000
+      internalID: -8438018385805799631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Opportunity-idle_8
+      name: ChatGPT Image 15 jun 2026, 10_59_45 a.m._8
       rect:
         serializedVersion: 2
-        x: 807
-        y: 812
-        width: 217
-        height: 161
+        x: 82
+        y: 84
+        width: 7
+        height: 9
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9ff90c3170801b530800000000000000
-      internalID: 3868882381377150969
+      spriteID: aa9a48e7860ab2fd0800000000000000
+      internalID: -2365620808593397334
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Opportunity-idle_9
+      name: ChatGPT Image 15 jun 2026, 10_59_45 a.m._9
       rect:
         serializedVersion: 2
-        x: 1063
-        y: 812
-        width: 174
-        height: 161
+        x: 82
+        y: 0
+        width: 7
+        height: 5
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5b79d9b61fbb69810800000000000000
-      internalID: 1771810148983871413
+      spriteID: 670b52b74dce4e8f0800000000000000
+      internalID: -512024060270104458
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Opportunity-idle_10
+      name: ChatGPT Image 15 jun 2026, 10_59_45 a.m._10
       rect:
         serializedVersion: 2
-        x: 39
-        y: 556
-        width: 174
-        height: 161
+        x: 83
+        y: 998
+        width: 6
+        height: 7
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 32532662c99d00960800000000000000
-      internalID: 7566286638664529187
+      spriteID: bacab322401e00ef0800000000000000
+      internalID: -143867780205400917
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Opportunity-idle_11
+      name: ChatGPT Image 15 jun 2026, 10_59_45 a.m._11
       rect:
         serializedVersion: 2
-        x: 295
-        y: 556
-        width: 175
-        height: 161
+        x: 83
+        y: 951
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d3cad4b290f3d9930800000000000000
-      internalID: 4151543740119231549
+      spriteID: 5c7677ce87e14efe0800000000000000
+      internalID: -1160769299242588219
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Opportunity-idle_12
+      name: ChatGPT Image 15 jun 2026, 10_59_45 a.m._12
       rect:
         serializedVersion: 2
-        x: 551
-        y: 556
-        width: 175
-        height: 161
+        x: 83
+        y: 542
+        width: 6
+        height: 9
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 20239757c03e376a0800000000000000
-      internalID: -6452564198441799166
+      spriteID: 59b3fb8f76acfaab0800000000000000
+      internalID: -4994550913826866283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Opportunity-idle_13
+      name: ChatGPT Image 15 jun 2026, 10_59_45 a.m._13
       rect:
         serializedVersion: 2
-        x: 807
-        y: 556
-        width: 175
-        height: 162
+        x: 83
+        y: 526
+        width: 6
+        height: 9
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2f304ad978eddf290800000000000000
-      internalID: -7854877501017553934
+      spriteID: f93b44c0c179f1630800000000000000
+      internalID: 3900001949046846367
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Opportunity-idle_14
+      name: ChatGPT Image 15 jun 2026, 10_59_45 a.m._14
       rect:
         serializedVersion: 2
-        x: 1063
-        y: 556
-        width: 176
-        height: 161
+        x: 83
+        y: 484
+        width: 6
+        height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3f5d106b535363de0800000000000000
-      internalID: -1353836133175142925
+      spriteID: 56d26e47912cae1c0800000000000000
+      internalID: -4473549865247953563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Opportunity-idle_15
+      name: ChatGPT Image 15 jun 2026, 10_59_45 a.m._15
       rect:
         serializedVersion: 2
-        x: 39
-        y: 300
-        width: 176
-        height: 159
+        x: 83
+        y: 220
+        width: 6
+        height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 18e5eb31a3c9bbae0800000000000000
-      internalID: -1532459474936242559
+      spriteID: 0aee6e854bbf25070800000000000000
+      internalID: 8093808232342417056
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Opportunity-idle_16
+      name: ChatGPT Image 15 jun 2026, 10_59_45 a.m._16
       rect:
         serializedVersion: 2
-        x: 295
-        y: 300
-        width: 176
-        height: 158
+        x: 83
+        y: 55
+        width: 6
+        height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f1fcc518ac9bc8b90800000000000000
-      internalID: -7238206221686354145
+      spriteID: 0e009bbf605349cf0800000000000000
+      internalID: -246513775489253152
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Opportunity-idle_17
+      name: ChatGPT Image 15 jun 2026, 10_59_45 a.m._17
       rect:
         serializedVersion: 2
-        x: 551
-        y: 300
-        width: 175
-        height: 159
+        x: 83
+        y: 23
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cee5cdc21ea320540800000000000000
-      internalID: 4972601677365141228
+      spriteID: 919a62bddbfd87af0800000000000000
+      internalID: -398322560503731943
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Opportunity-idle_18
+      name: ChatGPT Image 15 jun 2026, 10_59_45 a.m._18
       rect:
         serializedVersion: 2
-        x: 807
-        y: 300
-        width: 175
-        height: 160
+        x: 247
+        y: 0
+        width: 1280
+        height: 1024
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3a4a7f8c308e337b0800000000000000
-      internalID: -5245594038002277213
+      spriteID: ebf9f36346e82d360800000000000000
+      internalID: 7192968115922116542
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Opportunity-idle_19
+      name: ChatGPT Image 15 jun 2026, 10_59_45 a.m._19
       rect:
         serializedVersion: 2
-        x: 1063
-        y: 300
-        width: 175
-        height: 161
+        x: 337
+        y: 368
+        width: 8
+        height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0c5baff9276d5ea40800000000000000
-      internalID: 5396955516272031168
+      spriteID: 817158486ed95c510800000000000000
+      internalID: 1568833658599839512
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Opportunity-idle_20
+      name: ChatGPT Image 15 jun 2026, 10_59_45 a.m._20
       rect:
         serializedVersion: 2
-        x: 39
-        y: 44
-        width: 174
-        height: 161
+        x: 722
+        y: 61
+        width: 17
+        height: 7
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1331cc357da7b8b60800000000000000
-      internalID: 7749422649063510833
+      spriteID: bf860200d7af00510800000000000000
+      internalID: 1513484889576466683
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Opportunity-idle_21
+      name: ChatGPT Image 15 jun 2026, 10_59_45 a.m._21
       rect:
         serializedVersion: 2
-        x: 295
-        y: 44
-        width: 174
-        height: 160
+        x: 799
+        y: 874
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6615b3b378ef2bb10800000000000000
-      internalID: 1995937441646334310
+      spriteID: a641e54f27f50a5d0800000000000000
+      internalID: -3053335600026479510
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Opportunity-idle_22
+      name: ChatGPT Image 15 jun 2026, 10_59_45 a.m._22
       rect:
         serializedVersion: 2
-        x: 551
-        y: 44
-        width: 175
-        height: 161
+        x: 823
+        y: 865
+        width: 11
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 45bb0e1ac19b5f390800000000000000
-      internalID: -7785112848213951660
+      spriteID: 0506d6ef502b368c0800000000000000
+      internalID: -4007163504616447920
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Opportunity-idle_23
+      name: ChatGPT Image 15 jun 2026, 10_59_45 a.m._23
       rect:
         serializedVersion: 2
-        x: 807
-        y: 44
-        width: 175
-        height: 161
+        x: 854
+        y: 903
+        width: 7
+        height: 9
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e3856769d2fbbf4e0800000000000000
-      internalID: -1946752211388835778
+      spriteID: ef9b36258ca814510800000000000000
+      internalID: 1531657941263038974
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Opportunity-idle_24
+      name: ChatGPT Image 15 jun 2026, 10_59_45 a.m._24
       rect:
         serializedVersion: 2
-        x: 1063
-        y: 44
-        width: 175
-        height: 161
+        x: 994
+        y: 24
+        width: 6
+        height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f8f3fd50b5c574e10800000000000000
-      internalID: 2181814090494590863
+      spriteID: cdff6166f9ffef210800000000000000
+      internalID: 1368812396844875740
       vertices: []
       indices: 
       edges: []
@@ -738,7 +725,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 05ffc047646a47247a48e83e775a35cb
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -746,35 +733,33 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      Opportunity-idle_0: 685115271066484062
-      Opportunity-idle_1: 6194098096043895944
-      Opportunity-idle_10: 7566286638664529187
-      Opportunity-idle_11: 4151543740119231549
-      Opportunity-idle_12: -6452564198441799166
-      Opportunity-idle_13: -7854877501017553934
-      Opportunity-idle_14: -1353836133175142925
-      Opportunity-idle_15: -1532459474936242559
-      Opportunity-idle_16: -7238206221686354145
-      Opportunity-idle_17: 4972601677365141228
-      Opportunity-idle_18: -5245594038002277213
-      Opportunity-idle_19: 5396955516272031168
-      Opportunity-idle_2: 519518736394896705
-      Opportunity-idle_20: 7749422649063510833
-      Opportunity-idle_21: 1995937441646334310
-      Opportunity-idle_22: -7785112848213951660
-      Opportunity-idle_23: -1946752211388835778
-      Opportunity-idle_24: 2181814090494590863
-      Opportunity-idle_3: 6960653068250462330
-      Opportunity-idle_4: 4471043938313625651
-      Opportunity-idle_5: -2359140722406436247
-      Opportunity-idle_6: 4826127224532705224
-      Opportunity-idle_7: -1595617589122588387
-      Opportunity-idle_8: 3868882381377150969
-      Opportunity-idle_9: 1771810148983871413
+      ChatGPT Image 15 jun 2026, 10_59_45 a.m._0: 4330583170526935431
+      ChatGPT Image 15 jun 2026, 10_59_45 a.m._1: 260783234497309832
+      ChatGPT Image 15 jun 2026, 10_59_45 a.m._10: -143867780205400917
+      ChatGPT Image 15 jun 2026, 10_59_45 a.m._11: -1160769299242588219
+      ChatGPT Image 15 jun 2026, 10_59_45 a.m._12: -4994550913826866283
+      ChatGPT Image 15 jun 2026, 10_59_45 a.m._13: 3900001949046846367
+      ChatGPT Image 15 jun 2026, 10_59_45 a.m._14: -4473549865247953563
+      ChatGPT Image 15 jun 2026, 10_59_45 a.m._15: 8093808232342417056
+      ChatGPT Image 15 jun 2026, 10_59_45 a.m._16: -246513775489253152
+      ChatGPT Image 15 jun 2026, 10_59_45 a.m._17: -398322560503731943
+      ChatGPT Image 15 jun 2026, 10_59_45 a.m._18: 7192968115922116542
+      ChatGPT Image 15 jun 2026, 10_59_45 a.m._19: 1568833658599839512
+      ChatGPT Image 15 jun 2026, 10_59_45 a.m._2: 1508854918080390447
+      ChatGPT Image 15 jun 2026, 10_59_45 a.m._20: 1513484889576466683
+      ChatGPT Image 15 jun 2026, 10_59_45 a.m._21: -3053335600026479510
+      ChatGPT Image 15 jun 2026, 10_59_45 a.m._22: -4007163504616447920
+      ChatGPT Image 15 jun 2026, 10_59_45 a.m._23: 1531657941263038974
+      ChatGPT Image 15 jun 2026, 10_59_45 a.m._24: 1368812396844875740
+      ChatGPT Image 15 jun 2026, 10_59_45 a.m._3: 9192751093167674921
+      ChatGPT Image 15 jun 2026, 10_59_45 a.m._4: 7004491166001955943
+      ChatGPT Image 15 jun 2026, 10_59_45 a.m._5: -9116051288831296812
+      ChatGPT Image 15 jun 2026, 10_59_45 a.m._6: 3886175483643857300
+      ChatGPT Image 15 jun 2026, 10_59_45 a.m._7: -8438018385805799631
+      ChatGPT Image 15 jun 2026, 10_59_45 a.m._8: -2365620808593397334
+      ChatGPT Image 15 jun 2026, 10_59_45 a.m._9: -512024060270104458
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
