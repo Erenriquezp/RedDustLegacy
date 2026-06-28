@@ -12,6 +12,11 @@ public class LeviatanAI : MonoBehaviour
     [Header("Target")]
     public Transform rover;
 
+    [Header("Movement")]
+    public float attackRange = 2.5f;
+
+    private Rigidbody2D rb;
+
     private float attackTimer;
 
     private int currentHp;
@@ -35,10 +40,10 @@ public class LeviatanAI : MonoBehaviour
 
     private State currentState;
 
-    private void Start()
+    void Start()
     {
-        if (animator == null)
-            animator = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
 
         currentHp = stats.maxHp;
         attackCooldown = stats.attackCooldown;
@@ -72,8 +77,34 @@ public class LeviatanAI : MonoBehaviour
         }
     }
 
+    private void MoveToRover()
+    {
+        if (rover == null)
+            return;
+
+        Vector2 target = rover.position;
+
+        transform.position = Vector2.MoveTowards(
+            transform.position,
+            target,
+            stats.moveSpeed * Time.deltaTime
+        );
+
+        animator.Play("LeviatanWalk");
+
+        Vector3 scale = transform.localScale;
+
+        if (rover.position.x < transform.position.x)
+            scale.x = -Mathf.Abs(scale.x);
+        else
+            scale.x = Mathf.Abs(scale.x);
+
+        transform.localScale = scale;
+    }
+
     private void Vulnerable()
     {
+        Debug.Log("Vulnerable");
         isVulnerable = true;
 
         animator.SetBool("IsVulnerable", true);
@@ -164,19 +195,34 @@ public class LeviatanAI : MonoBehaviour
 
     private void Idle()
     {
-        Track();
+        if (rover == null)
+            return;
 
-        attackTimer += Time.deltaTime;
+        float distance = Vector2.Distance(
+            transform.position,
+            rover.position);
 
-        if (attackTimer >= attackCooldown)
+        if (distance > attackRange)
         {
-            attackTimer = 0f;
-            currentState = State.Attack;
+            MoveToRover();
+        }
+        else
+        {
+            animator.Play("LeviatanIdle");
+
+            attackTimer += Time.deltaTime;
+
+            if (attackTimer >= attackCooldown)
+            {
+                attackTimer = 0;
+                currentState = State.Attack;
+            }
         }
     }
 
     private void Attack()
     {
+        Debug.Log("Attack");
         animator.SetTrigger("AttackTrigger");
 
         currentState = State.Vulnerable;
@@ -195,5 +241,25 @@ public class LeviatanAI : MonoBehaviour
             scale.x = Mathf.Abs(scale.x);
 
         transform.localScale = scale;
+    }
+
+    public void AttackTentacle1()
+    {
+        Debug.Log("Golpe Tentáculo 1");
+    }
+
+    public void AttackTentacle2()
+    {
+        Debug.Log("Golpe Tentáculo 2");
+    }
+
+    public void AttackTentacle3()
+    {
+        Debug.Log("Golpe Tentáculo 3");
+    }
+
+    public void FinishAttack()
+    {
+        currentState = State.Vulnerable;
     }
 }
