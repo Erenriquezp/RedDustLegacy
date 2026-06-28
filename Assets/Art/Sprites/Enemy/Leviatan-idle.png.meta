@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 570693e98a0840446bff8197fd4711da
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5232208328160533405
+    second: Leviatan-idle_0
+  - first:
+      213: -1969451403580987449
+    second: Leviatan-idle_1
+  - first:
+      213: -3325773115720095828
+    second: Leviatan-idle_2
+  - first:
+      213: -5397313891833716966
+    second: Leviatan-idle_3
+  - first:
+      213: 8639253920966125819
+    second: Leviatan-idle_4
+  - first:
+      213: 49303262307896860
+    second: Leviatan-idle_5
+  - first:
+      213: 1216831877193051905
+    second: Leviatan-idle_6
+  - first:
+      213: 3140733134816560058
+    second: Leviatan-idle_7
+  - first:
+      213: -551008435531937673
+    second: Leviatan-idle_8
+  - first:
+      213: -1703531728523540894
+    second: Leviatan-idle_9
+  - first:
+      213: -1936459766933899699
+    second: Leviatan-idle_10
+  - first:
+      213: -8004504327252418651
+    second: Leviatan-idle_11
+  - first:
+      213: -5108483320913930133
+    second: Leviatan-idle_12
+  - first:
+      213: 108743352939416223
+    second: Leviatan-idle_13
+  - first:
+      213: 5421926294764973956
+    second: Leviatan-idle_14
+  - first:
+      213: 1262149265826044419
+    second: Leviatan-idle_15
+  - first:
+      213: 917078414024600975
+    second: Leviatan-idle_16
+  - first:
+      213: -7464860215520822876
+    second: Leviatan-idle_17
+  - first:
+      213: 7559048269174044919
+    second: Leviatan-idle_18
+  - first:
+      213: 4539652395200574068
+    second: Leviatan-idle_19
+  - first:
+      213: 7718105683065682179
+    second: Leviatan-idle_20
+  - first:
+      213: 5410239657849345028
+    second: Leviatan-idle_21
+  - first:
+      213: 5808680211769842608
+    second: Leviatan-idle_22
+  - first:
+      213: -4903962045402039903
+    second: Leviatan-idle_23
+  - first:
+      213: 7987099104517013495
+    second: Leviatan-idle_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Leviatan-idle_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1089
+        width: 152
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 364a6293f367367b0800000000000000
+      internalID: -5232208328160533405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_1
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1088
+        width: 151
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7292f026a1ba4e0800000000000000
+      internalID: -1969451403580987449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_2
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1089
+        width: 151
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7a5f1d8fa78d1d0800000000000000
+      internalID: -3325773115720095828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_3
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 1088
+        width: 152
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f58ff8c93e815b0800000000000000
+      internalID: -5397313891833716966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_4
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 1088
+        width: 152
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf8269b1babc4e770800000000000000
+      internalID: 8639253920966125819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_5
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 833
+        width: 152
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e412c4e092fa000800000000000000
+      internalID: 49303262307896860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_6
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 833
+        width: 152
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10fa67f252e03e010800000000000000
+      internalID: 1216831877193051905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_7
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 834
+        width: 152
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab34a035520269b20800000000000000
+      internalID: 3140733134816560058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_8
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 834
+        width: 152
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77800eb4fbc6a58f0800000000000000
+      internalID: -551008435531937673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_9
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 835
+        width: 154
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2664fb92be6db58e0800000000000000
+      internalID: -1703531728523540894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_10
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 579
+        width: 155
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d46b11e0a105025e0800000000000000
+      internalID: -1936459766933899699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_11
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 580
+        width: 155
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5afda0b59b94ae090800000000000000
+      internalID: -8004504327252418651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_12
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 580
+        width: 156
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68daeb4c750b19b0800000000000000
+      internalID: -5108483320913930133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_13
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 580
+        width: 157
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a83abd085528100800000000000000
+      internalID: 108743352939416223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_14
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 581
+        width: 157
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48fe0dd0d3d8e3b40800000000000000
+      internalID: 5421926294764973956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_15
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 325
+        width: 157
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30ad413f11e048110800000000000000
+      internalID: 1262149265826044419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_16
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 325
+        width: 157
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d6d1b65fd1abc00800000000000000
+      internalID: 917078414024600975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_17
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 325
+        width: 157
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a97feb3f2d776890800000000000000
+      internalID: -7464860215520822876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_18
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 325
+        width: 156
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8762ce95227e860800000000000000
+      internalID: 7559048269174044919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_19
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 324
+        width: 157
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4727ea32dc5100f30800000000000000
+      internalID: 4539652395200574068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_20
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 68
+        width: 156
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 309bd0af9383c1b60800000000000000
+      internalID: 7718105683065682179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_21
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 66
+        width: 155
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40457dbdd48051b40800000000000000
+      internalID: 5410239657849345028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_22
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 66
+        width: 154
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bbd16c70e39c9050800000000000000
+      internalID: 5808680211769842608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_23
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 66
+        width: 152
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a930d38080a1fbb0800000000000000
+      internalID: -4903962045402039903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leviatan-idle_24
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 65
+        width: 152
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ffb39e6150e7de60800000000000000
+      internalID: 7987099104517013495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Leviatan-idle_0: -5232208328160533405
+      Leviatan-idle_1: -1969451403580987449
+      Leviatan-idle_10: -1936459766933899699
+      Leviatan-idle_11: -8004504327252418651
+      Leviatan-idle_12: -5108483320913930133
+      Leviatan-idle_13: 108743352939416223
+      Leviatan-idle_14: 5421926294764973956
+      Leviatan-idle_15: 1262149265826044419
+      Leviatan-idle_16: 917078414024600975
+      Leviatan-idle_17: -7464860215520822876
+      Leviatan-idle_18: 7559048269174044919
+      Leviatan-idle_19: 4539652395200574068
+      Leviatan-idle_2: -3325773115720095828
+      Leviatan-idle_20: 7718105683065682179
+      Leviatan-idle_21: 5410239657849345028
+      Leviatan-idle_22: 5808680211769842608
+      Leviatan-idle_23: -4903962045402039903
+      Leviatan-idle_24: 7987099104517013495
+      Leviatan-idle_3: -5397313891833716966
+      Leviatan-idle_4: 8639253920966125819
+      Leviatan-idle_5: 49303262307896860
+      Leviatan-idle_6: 1216831877193051905
+      Leviatan-idle_7: 3140733134816560058
+      Leviatan-idle_8: -551008435531937673
+      Leviatan-idle_9: -1703531728523540894
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
