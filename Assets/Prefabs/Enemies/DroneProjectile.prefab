@@ -169,3 +169,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f36e94fdee154854aaa678a07e6aa738, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyProjectile
+  impactClip: {fileID: 8300000, guid: a09795c5ac59b784b9d8e76e41c60ebd, type: 3}

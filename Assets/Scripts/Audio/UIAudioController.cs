@@ -8,22 +8,16 @@ public class UIAudioController : MonoBehaviour
     [Header("Efectos de Sonido de Interfaz")]
     [SerializeField] private AudioClip hoverClip;
     [SerializeField] private AudioClip clickClip;
+    [SerializeField] private AudioClip backClip;
+    [SerializeField] private AudioClip pauseOpenClip;
+    [SerializeField] private AudioClip pauseCloseClip;
+    [SerializeField] private AudioClip loadingTickClip;
 
-    // Esta función la llamaremos cuando el cursor pase por encima
-    public void PlayHoverSound()
-    {
-        if (sfxAudioSource != null && hoverClip != null)
-        {
-            sfxAudioSource.PlayOneShot(hoverClip);
-        }
-    }
-
-    // Esta función la llamaremos cuando hagan clic
-    public void PlayClickSound()
-    {
-        if (sfxAudioSource != null && clickClip != null)
-        {
-            sfxAudioSource.PlayOneShot(clickClip);
-        }
-    }
+    public void PlayHoverSound() { if (sfxAudioSource && hoverClip) sfxAudioSource.PlayOneShot(hoverClip); }
+    public void PlayClickSound() { if (sfxAudioSource && clickClip) sfxAudioSource.PlayOneShot(clickClip); }
+    
+    public void PlayBackSound() { if (sfxAudioSource && backClip) sfxAudioSource.PlayOneShot(backClip); }
+    public void PlayPauseOpenSound() { if (sfxAudioSource && pauseOpenClip) sfxAudioSource.PlayOneShot(pauseOpenClip); }
+    public void PlayPauseCloseSound() { if (sfxAudioSource && pauseCloseClip) sfxAudioSource.PlayOneShot(pauseCloseClip); }
+    public void PlayLoadingTickSound() { if (sfxAudioSource && loadingTickClip) sfxAudioSource.PlayOneShot(loadingTickClip); }
 }

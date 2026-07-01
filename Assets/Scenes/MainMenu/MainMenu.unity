@@ -771,6 +771,10 @@ MonoBehaviour:
   sfxAudioSource: {fileID: 635018371}
   hoverClip: {fileID: 8300000, guid: 9e5500df28528364583b1f5b5648c6ff, type: 3}
   clickClip: {fileID: 8300000, guid: e343272051e3e6843ab6ac4dd59c3fd4, type: 3}
+  backClip: {fileID: 8300000, guid: ee505ce5ae7f73947b0676f424cb4e21, type: 3}
+  pauseOpenClip: {fileID: 8300000, guid: 9b4121189d3330a45adb3e442aedba72, type: 3}
+  pauseCloseClip: {fileID: 8300000, guid: fb329b17fa11f0745bd7634d751fd967, type: 3}
+  loadingTickClip: {fileID: 8300000, guid: 023e412b14d1b7b4b94b9b26c758a3cc, type: 3}
 --- !u!82 &635018371
 AudioSource:
   m_ObjectHideFlags: 0
