@@ -2,6 +2,9 @@ using UnityEngine;
 
 public class EnemyProjectile : MonoBehaviour
 {
+    [Header("Audio de Impacto")]
+    [SerializeField] private AudioClip impactClip; // <-- Coloca tu Sfx_Drone_Impact aquí en el inspector del Prefab
+
     private Vector2 direction;
     private float speed;
     private float lifetime;
@@ -38,11 +41,25 @@ public class EnemyProjectile : MonoBehaviour
             if (degradation != null)
                 degradation.TakeDamage(Random.Range(8, 13), transform.position);
 
+            // --- REPRODUCIR SONIDO DE IMPACTO ---
+            if (impactClip != null)
+            {
+                AudioSource.PlayClipAtPoint(impactClip, transform.position, 0.6f);
+            }
+
             Destroy(gameObject);
             return;
         }
 
         if (other.gameObject.layer == LayerMask.NameToLayer("Ground"))
+        {
+            // --- REPRODUCIR SONIDO DE IMPACTO EN EL SUELO ---
+            if (impactClip != null)
+            {
+                AudioSource.PlayClipAtPoint(impactClip, transform.position, 0.6f);
+            }
+
             Destroy(gameObject);
+        }
     }
 }

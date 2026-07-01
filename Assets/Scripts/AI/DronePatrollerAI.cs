@@ -1,4 +1,5 @@
 using UnityEngine;
+
 public class DronePatrollerAI : MonoBehaviour
 {
     public DronePatrollerStatsSO stats;
@@ -7,6 +8,9 @@ public class DronePatrollerAI : MonoBehaviour
     [Header("Attack")]
     public GameObject projectilePrefab;
     public Transform firePoint;
+
+    [Header("Audio")]
+    [SerializeField] private EnemyAudioController audioController;
 
     [Header("Terrestre")]
     [Tooltip("Capas de suelo/pared sobre las que se apoya y choca. Si se deja vacío, usa Ground + Platform.")]
@@ -237,33 +241,36 @@ public class DronePatrollerAI : MonoBehaviour
     #endregion
 
     void Shoot()
-{
-    if (projectilePrefab == null)
     {
-        Debug.LogWarning("Projectile Prefab no asignado.");
-        return;
+        if (projectilePrefab == null)
+        {
+            Debug.LogWarning("Projectile Prefab no asignado.");
+            return;
+        }
+
+        if (firePoint == null)
+        {
+            Debug.LogWarning("FirePoint no asignado.");
+            return;
+        }
+
+        GameObject bullet = Instantiate(
+            projectilePrefab,
+            firePoint.position,
+            Quaternion.identity);
+
+        // [AUDIO] Disparo controlado
+        if (audioController != null) audioController.PlayAttackSound();
+
+        EnemyProjectile projectile = bullet.GetComponent<EnemyProjectile>();
+
+        Vector2 dir = (rover.position - firePoint.position).normalized;
+
+        projectile.Initialize(
+            dir,
+            stats.projectileSpeed,
+            stats.projectileLifetime);
     }
-
-    if (firePoint == null)
-    {
-        Debug.LogWarning("FirePoint no asignado.");
-        return;
-    }
-
-    GameObject bullet = Instantiate(
-        projectilePrefab,
-        firePoint.position,
-        Quaternion.identity);
-
-    EnemyProjectile projectile = bullet.GetComponent<EnemyProjectile>();
-
-    Vector2 dir = (rover.position - firePoint.position).normalized;
-
-    projectile.Initialize(
-        dir,
-        stats.projectileSpeed,
-        stats.projectileLifetime);
-}
 
     void Flip()
     {
@@ -311,12 +318,20 @@ public class DronePatrollerAI : MonoBehaviour
         {
             Die();
         }
+        else
+        {
+            // [AUDIO] Recibir Daño controlado
+            if (audioController != null) audioController.PlayDamageSound();
+        }
     }
 
     void Die()
     {
         isDead = true;
-
+        
+        // [AUDIO] Muerte controlada
+        if (audioController != null) audioController.PlayDeathSound();
+        
         animator.SetBool("IsDead", true);
 
         Invoke(nameof(DisableEnemy), 1.5f);
