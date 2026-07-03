@@ -13,22 +13,25 @@ public class PlayerAudioController : MonoBehaviour
     [SerializeField] private AudioClip sfxLanding;   // Añadido para suavizar las caídas
     [SerializeField] private AudioClip sfxDamage;
     [SerializeField] private AudioClip sfxDeath;
+    [SerializeField] private AudioClip sfxScanStart; // NUEVO: Disparo inicial del escáner (Tecla E)
+    [SerializeField] private AudioClip sfxScanStop;  // NUEVO: Feedback al apagar o terminar escaneo
 
     [Header("Ecualización y Volúmenes (Inspector)")]
-    [Range(0f, 1f)] [SerializeField] private float volIdle = 0.4f;
-    [Range(0f, 1f)] [SerializeField] private float volWalk = 0.5f;
-    [Range(0f, 1f)] [SerializeField] private float volJump = 0.6f;
-    [Range(0f, 1f)] [SerializeField] private float volDash = 0.6f;
-    [Range(0f, 1f)] [SerializeField] private float volLanding = 0.5f;
-    [Range(0f, 1f)] [SerializeField] private float volDamage = 0.7f;
+    [Range(0f, 1f)][SerializeField] private float volIdle = 0.4f;
+    [Range(0f, 1f)][SerializeField] private float volWalk = 0.5f;
+    [Range(0f, 1f)][SerializeField] private float volJump = 0.6f;
+    [Range(0f, 1f)][SerializeField] private float volDash = 0.6f;
+    [Range(0f, 1f)][SerializeField] private float volLanding = 0.5f;
+    [Range(0f, 1f)][SerializeField] private float volDamage = 0.7f;
+    [Range(0f, 1f)][SerializeField] private float volScanEffects = 0.6f; // NUEVO
 
     [Header("Ajustes de Afinación (Pitch)")]
-    [Range(0.5f, 1.5f)] [SerializeField] private float pitchIdle = 1.0f;
-    [Range(0.5f, 1.5f)] [SerializeField] private float pitchWalk = 1.0f;
+    [Range(0.5f, 1.5f)][SerializeField] private float pitchIdle = 1.0f;
+    [Range(0.5f, 1.5f)][SerializeField] private float pitchWalk = 1.0f;
 
     [Header("Audio Sources Locales")]
     [SerializeField] private AudioSource loopAudioSource;   // Exclusivo para el motor (Idle/Walk)
-    [SerializeField] private AudioSource oneShotAudioSource; // Exclusivo para impactos (Jump/Dash/Damage)
+    [SerializeField] private AudioSource oneShotAudioSource; // Exclusivo para impactos (Jump/Dash/Damage/Scan)
 
     private PlayerController _controller;
     private DegradationSystem _degradation;
@@ -60,9 +63,11 @@ public class PlayerAudioController : MonoBehaviour
             _controller.OnGroundedChanged += HandleGroundedChanged;
             _controller.OnJumped += PlayJumpSound;
             _controller.OnWallJumped += PlayJumpSound;
-            
-            // T4.5: ¡Bug de S01 solucionado! OnDashed mapeado a su propio sonido de Dash
             _controller.OnDashed += PlayDashSound;
+
+            // NUEVOS EVENTOS: Escaneo del Rover (Tecla E)
+            _controller.OnScanStarted += HandleScanStarted;
+            _controller.OnScanStopped += HandleScanStopped;
 
             // S03 T1: feedback de daño/muerte desde DegradationSystem
             _controller.OnDamageReceived += HandleDamageReceived;
@@ -80,22 +85,18 @@ public class PlayerAudioController : MonoBehaviour
             _controller.OnWallJumped -= PlayJumpSound;
             _controller.OnDashed -= PlayDashSound;
 
+            // QUITAR NUEVOS EVENTOS
+            _controller.OnScanStarted -= HandleScanStarted;
+            _controller.OnScanStopped -= HandleScanStopped;
+
             _controller.OnDamageReceived -= HandleDamageReceived;
             _controller.OnDeath -= PlayDeathSound;
             _controller.OnRevive -= HandleRevive;
         }
     }
 
-    // T4: al reaparecer, reanuda el bucle de motor que la muerte había detenido.
-    private void HandleRevive()
-    {
-        _currentState = RoverAudioState.Idle;
-        PlayEngineLoop(sfxIdle, volIdle, pitchIdle);
-    }
-
     private void Start()
     {
-        // Estado inicial
         _currentState = RoverAudioState.Idle;
         PlayEngineLoop(sfxIdle, volIdle, pitchIdle);
     }
@@ -103,6 +104,11 @@ public class PlayerAudioController : MonoBehaviour
     private void Update()
     {
         if (_controller == null || loopAudioSource == null) return;
+
+        // ── NUEVO BLOQUEO DE SEGURIDAD ───────────────────────────────────────
+        // Si el controlador está escaneando, salimos inmediatamente del Update.
+        // Esto evita que la máquina de estados pise el bucle del escáner con el sonido Idle.
+        if (_controller.IsScanning) return;
 
         // Máquina de estados: Calculamos de forma exacta qué está haciendo el Rover en este frame
         RoverAudioState targetState = RoverAudioState.Idle;
@@ -120,10 +126,8 @@ public class PlayerAudioController : MonoBehaviour
             targetState = RoverAudioState.Walking;
         }
 
-        // Si el estado no ha cambiado, no tocamos nada (evita reinicios raros de audio)
         if (targetState == _currentState) return;
 
-        // Ejecutar la transición al nuevo estado
         ChangeAudioState(_currentState, targetState);
         _currentState = targetState;
     }
@@ -135,32 +139,76 @@ public class PlayerAudioController : MonoBehaviour
         switch (newState)
         {
             case RoverAudioState.InAir:
-                // Si salta o cae, desvanecemos el motor rápido para que no flote el sonido de ruedas
                 _fadeCoroutine = StartCoroutine(FadeEngineVolume(0f, 0.12f, stopAtEnd: true));
                 break;
 
             case RoverAudioState.Scanning:
-                // Al escanear el Rover se detiene (según tu PlayerController), pasamos a volumen de Idle bajo
-                _fadeCoroutine = StartCoroutine(CrossfadeEngineClip(sfxIdle, volIdle * 0.5f, pitchIdle, 0.2f));
+                // Al escanear el Rover se detiene, pasamos a un volumen de Idle muy sutil de fondo
+                _fadeCoroutine = StartCoroutine(CrossfadeEngineClip(sfxIdle, volIdle * 0.4f, pitchIdle * 0.85f, 0.2f));
                 break;
 
             case RoverAudioState.Idle:
-                // Volvemos a reposo fluido
                 _fadeCoroutine = StartCoroutine(CrossfadeEngineClip(sfxIdle, volIdle, pitchIdle, 0.2f));
                 break;
 
             case RoverAudioState.Walking:
-                // Transición al sonido de movimiento en ruedas
                 _fadeCoroutine = StartCoroutine(CrossfadeEngineClip(sfxWalk, volWalk, pitchWalk, 0.15f));
                 break;
         }
     }
 
+    // ── Callbacks de Escaneo (One-Shots Independientes) ──────────────────
+
+    // ── Callbacks de Escaneo (Modificados para soportar Loop continuo) ────
+
+    // ── Callbacks de Escaneo (Solución definitiva para evitar el conflicto con Update) ────
+
+    // ── Callbacks de Escaneo (Asignando el loopAudioSource de forma segura) ────
+
+    private void HandleScanStarted()
+    {
+        if (loopAudioSource != null && sfxScanStart != null)
+        {
+            // Cancelamos cualquier transición o desvanecimiento del motor en curso
+            if (_fadeCoroutine != null) StopCoroutine(_fadeCoroutine);
+
+            // Configuramos el canal de bucle para el radar del escáner
+            loopAudioSource.clip = sfxScanStart;
+            loopAudioSource.volume = volScanEffects;
+            loopAudioSource.pitch = 1.0f;
+            loopAudioSource.loop = true; // ◄ Forzamos a Unity a que se repita en bucle
+
+            if (!loopAudioSource.isPlaying) loopAudioSource.Play();
+        }
+    }
+
+    private void HandleScanStopped()
+    {
+        if (loopAudioSource != null)
+        {
+            loopAudioSource.Stop();
+            loopAudioSource.loop = true; // Devolvemos el comportamiento por defecto para cuando vuelva a Idle
+
+            // Forzamos el estado de audio de vuelta a Idle para que el Update 
+            // retome el sonido del motor fluido apenas sueltes la E
+            _currentState = RoverAudioState.Idle;
+            PlayEngineLoop(sfxIdle, volIdle, pitchIdle);
+        }
+
+        // Si tienes un sonido rápido "clic/desconexión" para el final, se dispara aquí en el One-Shot
+        if (oneShotAudioSource != null && sfxScanStop != null)
+        {
+            oneShotAudioSource.pitch = 1.0f;
+            oneShotAudioSource.PlayOneShot(sfxScanStop, volScanEffects);
+        }
+    }
+
+    // ── Resto de implementaciones originales del script ─────────────────
+
     private IEnumerator CrossfadeEngineClip(AudioClip nextClip, float targetVolume, float targetPitch, float duration)
     {
         if (nextClip == null) yield break;
 
-        // Desvanecimiento rápido del volumen actual para evitar clics/pops mecánicos
         float startVol = loopAudioSource.volume;
         float elapsed = 0f;
         while (elapsed < 0.05f)
@@ -170,12 +218,10 @@ public class PlayerAudioController : MonoBehaviour
             yield return null;
         }
 
-        // Hacemos el cambio de clip en silencio absoluto
         loopAudioSource.clip = nextClip;
         loopAudioSource.pitch = targetPitch;
         if (!loopAudioSource.isPlaying) loopAudioSource.Play();
 
-        // Subimos el volumen suavemente hasta el nivel deseado de este sonido específico
         elapsed = 0f;
         while (elapsed < duration)
         {
@@ -213,7 +259,6 @@ public class PlayerAudioController : MonoBehaviour
 
     private void HandleGroundedChanged(bool isGrounded)
     {
-        // Efecto de aterrizaje para dar feedback de peso al Rover
         if (isGrounded && oneShotAudioSource != null && sfxLanding != null)
         {
             oneShotAudioSource.pitch = Random.Range(0.95f, 1.05f);
@@ -221,13 +266,17 @@ public class PlayerAudioController : MonoBehaviour
         }
     }
 
-    // ── Disparos de efectos One-Shot (Canal secundario independiente) ──
+    private void HandleRevive()
+    {
+        _currentState = RoverAudioState.Idle;
+        PlayEngineLoop(sfxIdle, volIdle, pitchIdle);
+    }
 
     public void PlayJumpSound()
     {
         if (oneShotAudioSource != null && sfxJump != null)
         {
-            oneShotAudioSource.pitch = Random.Range(0.93f, 1.05f); // Variación orgánica para que no aburra
+            oneShotAudioSource.pitch = Random.Range(0.93f, 1.05f);
             oneShotAudioSource.PlayOneShot(sfxJump, volJump);
         }
     }
@@ -241,7 +290,6 @@ public class PlayerAudioController : MonoBehaviour
         }
     }
 
-    // S03 T1: el contacto enemigo daña cada frame de física → throttle del SFX.
     private float _lastDamageSfxTime = -1f;
     private const float DamageSfxCooldown = 0.4f;
 
@@ -253,22 +301,19 @@ public class PlayerAudioController : MonoBehaviour
         PlayDamageSound(fase);
     }
 
-    // T4.5: Modificado para recibir la degradación y aplicar pitch adaptativo
     public void PlayDamageSound(int faseDegradacion)
     {
         if (oneShotAudioSource != null && sfxDamage != null)
         {
-            // El sprint exige: pitch -5% por cada fase de degradación activa (-0.05f por fase)
             float nuevoPitch = 1.0f - (faseDegradacion * 0.05f);
-            oneShotAudioSource.pitch = Mathf.Clamp(nuevoPitch, 0.65f, 1.0f); // Límite seguro para no distorsionar feo
-            
+            oneShotAudioSource.pitch = Mathf.Clamp(nuevoPitch, 0.65f, 1.0f);
             oneShotAudioSource.PlayOneShot(sfxDamage, volDamage);
         }
     }
 
     public void PlayDeathSound()
     {
-        if (loopAudioSource != null) loopAudioSource.Stop(); 
+        if (loopAudioSource != null) loopAudioSource.Stop();
         if (oneShotAudioSource != null && sfxDeath != null)
         {
             oneShotAudioSource.pitch = 1.0f;

@@ -372,12 +372,15 @@ MonoBehaviour:
   sfxLanding: {fileID: 8300000, guid: 9bce6ef619b10e84a85602a9867b7cbb, type: 3}
   sfxDamage: {fileID: 8300000, guid: f83e53e23b1490a4d8e91a4c09d79dff, type: 3}
   sfxDeath: {fileID: 8300000, guid: 09375e491b48d6d4b83e34529446a0ac, type: 3}
+  sfxScanStart: {fileID: 8300000, guid: 69d3bbe35952b1d4dacd2adb7ec01fb5, type: 3}
+  sfxScanStop: {fileID: 8300000, guid: ac9ed51573a13bb48920ffc71e97f1b6, type: 3}
   volIdle: 0.4
   volWalk: 0.5
   volJump: 0.6
   volDash: 0.6
   volLanding: 0.5
   volDamage: 0.7
+  volScanEffects: 0.512
   pitchIdle: 1
   pitchWalk: 1
   loopAudioSource: {fileID: 6323255651977593619}
