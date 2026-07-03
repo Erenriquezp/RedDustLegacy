@@ -23,6 +23,12 @@ namespace Core
         [SerializeField] private AudioClip clipCinematic;
         [SerializeField] private AudioClip bgmGameOver; // Lo mantenemos intacto
 
+        // Variables de memoria para recordar los decibelios exactos de tu mezcla en el editor
+        private float _originalMusicdB;
+        private float _originalSfxdB;
+        private float _originalAmbientdB;
+        private float _originalUidB;
+
         // Requisito del Sprint 02
         public enum MusicState { Silence, Exploration, Tension, Combat, Cinematic }
         private MusicState _currentState = MusicState.Silence;
@@ -33,21 +39,28 @@ namespace Core
 
         private void Awake()
         {
-            // Como ahora es por nivel, solo asignamos la instancia. 
-            // Si por algún motivo se recarga la escena y hay dos, destruimos el viejo.
             if (Instance != null && Instance != this)
             {
                 Destroy(gameObject);
                 return;
             }
-            
             Instance = this;
-            
-            // ¡ADIÓS DontDestroyOnLoad! Ahora este DJ vive y muere en su propio nivel.
+
+            // ── NUEVO: LEER Y GUARDAR TU MEZCLA DEL EDITOR ───────────────────
+            if (mainMixer != null)
+            {
+                // Leemos los dB exactos que configuraste en el Main Mixer para cada canal
+                mainMixer.GetFloat("MusicVol", out _originalMusicdB);
+                mainMixer.GetFloat("SfxVol", out _originalSfxdB);
+                mainMixer.GetFloat("AmbientVol", out _originalAmbientdB);
+                mainMixer.GetFloat("UiVol", out _originalUidB);
+            }
+            // ─────────────────────────────────────────────────────────────────
 
             _activeSource = musicSourceA;
             _inactiveSource = musicSourceB;
         }
+
 
         private void Start()
         {
@@ -133,8 +146,8 @@ namespace Core
         {
             // Si otra clase llama a esto, interrumpimos el crossfade adaptativo
             if (_crossfadeRoutine != null) StopCoroutine(_crossfadeRoutine);
-            
-            _currentState = MusicState.Silence; 
+
+            _currentState = MusicState.Silence;
 
             _activeSource.clip = clip;
             _activeSource.loop = makeLoop;
@@ -161,5 +174,41 @@ namespace Core
                 sfxGlobalSource.PlayOneShot(clip);
             }
         }
+
+
+        // ── NUEVO MÉTODO PÚBLICO PARA REINTEGROS / CHECKPOINTS ────────────────
+        // Esta función la debe llamar el script del Checkpoint o el botón "Reintentar" 
+        // cuando el jugador reaparece sin recargar la escena.
+        public void RestartExplorationMusicOnCheckpoint()
+        {
+            Time.timeScale = 1f;
+
+            // ── RESTAURACIÓN FIEL DE TU MEZCLA ORIGINAL ──────────────────────
+            if (mainMixer != null)
+            {
+                // Devolvemos el Mixer EXACTAMENTE a como lo ecualizaste en el Inspector
+                mainMixer.SetFloat("MusicVol", _originalMusicdB); 
+                mainMixer.SetFloat("SfxVol", _originalSfxdB);
+                mainMixer.SetFloat("AmbientVol", _originalAmbientdB);
+                mainMixer.SetFloat("UiVol", _originalUidB);
+            }
+            // ─────────────────────────────────────────────────────────────────
+
+            if (_crossfadeRoutine != null) StopCoroutine(_crossfadeRoutine);
+            if (_activeSource != null) _activeSource.Stop();
+            if (_inactiveSource != null) _inactiveSource.Stop();
+
+            _currentState = MusicState.Silence;
+
+            if (_activeSource != null && clipExploration != null)
+            {
+                _currentState = MusicState.Exploration;
+                _activeSource.clip = clipExploration;
+                _activeSource.volume = 1f;
+                _activeSource.loop = true;
+                _activeSource.Play();
+            }
+        }
     }
+    
 }
