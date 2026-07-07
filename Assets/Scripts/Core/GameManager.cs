@@ -18,7 +18,16 @@ public class GameManager : MonoBehaviour
     public GameState CurrentState { get; private set; } = GameState.MainMenu;
     public event Action<GameState> OnStateChanged;
 
-    private const string MAIN_MENU_SCENE = "MainMenu";
+    private const string MAIN_MENU_SCENE = SceneLoader.MainMenuScene;
+
+    /// <summary>Escenas de UI donde no hay gameplay (menú, pantallas de carga, pausa aislada).</summary>
+    private static readonly string[] MENU_SCENES =
+    {
+        SceneLoader.MainMenuScene,
+        SceneLoader.LoadingLevel01Scene,
+        SceneLoader.LoadingLevel02Scene,
+        "StopMenu",
+    };
 
     private DegradationSystem _degradation;
     private HUDManager _hud;
@@ -58,7 +67,8 @@ public class GameManager : MonoBehaviour
         _hud = FindFirstObjectByType<HUDManager>(FindObjectsInactive.Include);
         if (_hud != null) _hud.ShowPause(false);
 
-        SetState(scene.name == MAIN_MENU_SCENE ? GameState.MainMenu : GameState.Playing);
+        bool isMenuScene = Array.IndexOf(MENU_SCENES, scene.name) >= 0;
+        SetState(isMenuScene ? GameState.MainMenu : GameState.Playing);
     }
 
     private void Update()

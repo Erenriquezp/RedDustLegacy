@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 
@@ -87,6 +88,31 @@ namespace Core
         // --------------------------------------------------------
         // 2. SISTEMA ADAPTATIVO (Crossfade)
         // --------------------------------------------------------
+
+        // ── S04 T4.2: disparadores de Tension ────────────────────────────────
+        // Contador central de enemigos en Alert/Chase. Con un solo bool por enemigo
+        // la música bajaría a Exploration cuando UN enemigo pierde al rover aunque
+        // otro siga persiguiendo; el set resuelve eso.
+        private readonly HashSet<Object> _enemiesInAlert = new HashSet<Object>();
+
+        /// <summary>
+        /// Los enemigos (Biol/Drone) reportan aquí al entrar/salir de Alert-Chase.
+        /// ≥1 en alerta → Tension; 0 → Exploration. Nunca pisa Combat/Cinematic
+        /// (los gestiona el boss/las cinemáticas) ni suena fuera de gameplay.
+        /// </summary>
+        public void ReportEnemyAlert(Object source, bool inAlert)
+        {
+            if (inAlert) _enemiesInAlert.Add(source);
+            else _enemiesInAlert.Remove(source);
+
+            if (_currentState == MusicState.Combat || _currentState == MusicState.Cinematic)
+                return;
+            if (GameManager.Instance != null &&
+                GameManager.Instance.CurrentState != GameManager.GameState.Playing)
+                return;
+
+            SetMusicState(_enemiesInAlert.Count > 0 ? MusicState.Tension : MusicState.Exploration);
+        }
 
         public void SetMusicState(MusicState newState)
         {

@@ -123,11 +123,18 @@ public class DegradationSystem : MonoBehaviour
     /// el daño nuevo (corta la cascada de pinchos/enemigos). Si se pasa la posición de la fuente,
     /// el rover retrocede un poco para notar el impacto (GDD §4.3).
     /// </summary>
-    public void TakeDamage(float amount, Vector2? sourcePosition)
+    public void TakeDamage(float amount, Vector2? sourcePosition) =>
+        TakeDamage(amount, sourcePosition, 0f);
+
+    /// <summary>
+    /// Variante con i-frames por fuente (GDD §8.3: el tentáculo del boss usa 0,8 s
+    /// frente al 0,6 s global). Con <paramref name="invulnOverride"/> ≤ 0 usa el global.
+    /// </summary>
+    public void TakeDamage(float amount, Vector2? sourcePosition, float invulnOverride)
     {
         if (_isDead || amount <= 0f) return;
         if (Time.time < _invulnUntil) return;          // i-frames: corta el daño en cascada
-        _invulnUntil = Time.time + invulnDuration;
+        _invulnUntil = Time.time + (invulnOverride > 0f ? invulnOverride : invulnDuration);
 
         _currentSI = Mathf.Max(0f, _currentSI - amount);
 

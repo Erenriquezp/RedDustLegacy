@@ -150,6 +150,7 @@ public class DronePatrollerAI : MonoBehaviour
         if (distance < stats.detectionRange)
         {
             currentState = State.Chase;
+            ReportAlert(true);   // S04 T4.2: música → Tension
             return;
         }
 
@@ -183,6 +184,7 @@ public class DronePatrollerAI : MonoBehaviour
             {
                 currentState = State.Return;
                 lostPlayerTimer = 0f;
+                ReportAlert(false);   // S04 T4.2: perdió al rover → Exploration
             }
         }
         else
@@ -222,6 +224,7 @@ public class DronePatrollerAI : MonoBehaviour
         if (distance < stats.detectionRange)
         {
             currentState = State.Chase;
+            ReportAlert(true);   // S04 T4.2: re-detecta al rover → Tension
             return;
         }
 
@@ -328,14 +331,26 @@ public class DronePatrollerAI : MonoBehaviour
     void Die()
     {
         isDead = true;
-        
+
+        ReportAlert(false);   // S04 T4.2: un muerto no sostiene la Tension
+
         // [AUDIO] Muerte controlada
         if (audioController != null) audioController.PlayDeathSound();
-        
+
         animator.SetBool("IsDead", true);
 
         Invoke(nameof(DisableEnemy), 1.5f);
     }
+
+    // S04 T4.2: reporta al AudioManager si este enemigo está en Chase/Attack.
+    // OnDisable cubre el SetActive(false) de la muerte y la descarga de escena.
+    private void ReportAlert(bool inAlert)
+    {
+        if (Core.AudioManager.Instance != null)
+            Core.AudioManager.Instance.ReportEnemyAlert(this, inAlert);
+    }
+
+    private void OnDisable() => ReportAlert(false);
 
     void DisableEnemy()
     {

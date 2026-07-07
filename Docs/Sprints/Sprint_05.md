@@ -1,6 +1,6 @@
 # Sprint 05 — Nivel 2 (El Relicto), sistemas transversales y cierre del prototipo
 
-> **Estado:** ⬜ Pendiente · **Creado:** 2026-06-26 · **Prerequisito:** Sprint 04 (vertical slice del Nivel 1) · **Ref. GDD:** §5, §6, §8.1, §8.5–8.7, §9.3, §11, §12 · **Ref. HUD:** §4, §10
+> **Estado:** 🔄 En progreso (T3 iniciado, T2 avanza en paralelo a S04) · **Creado:** 2026-06-26 · **Revisión:** 2026-07-06 · **Prerequisito:** Sprint 04 (vertical slice del Nivel 1) · **Ref. GDD:** §5, §6, §8.1, §8.5–8.7, §9.3, §11, §12 · **Ref. HUD:** §4, §10
 
 Construye el **segundo nivel** y los **sistemas que el GDD pide para un prototipo completo pero que aún no existen en código**: escaneo/lore + flashbacks, IA central (`AIManager` + DDA y los tres enemigos del Relicto), upgrades de combate (Escudo de Plasma, Batería EMP) y las cinemáticas con la **condición de victoria** (transmisión final). Cierra el arco Despertar → Silencio.
 
@@ -30,12 +30,12 @@ todo ─────────────→ T6 Audio (ambiente violeta, SFX 
 ## T1 — Sistema de Escaneo, Lore y Flashbacks
 **Responsable:** Gameplay Programmer (+ TD para el enganche con cinemáticas) · **Rama:** `feature/scan-system` · **Ref. GDD:** §11, §13.3 · **Ref. HUD:** §10
 
-**Estado actual:** no existe `ScanSystem` ni objetos escaneables; el rover ya tiene el input **Scan** (`IsScanning` en el Animator) pero sin lógica. Es un sistema **transversal** (Nivel 1 y 2): construirlo aquí también cierra los escaneables pendientes del Nivel 1 (deuda S04 T2).
+**Estado actual (rev. 2026-07-06):** no existe `ScanSystem` ni objetos escaneables, pero el terreno está más preparado: el rover ya tiene el input **Scan**, `PlayerController` emite los eventos **`OnScanStarted`/`OnScanStopped`** (ya consumidos por el audio del escáner) y el **stun del Biol por escaneo ya funciona** (`BioluminescentAI` detecta `player.IsScanning` → `ApplyStun`). Es un sistema **transversal** (Nivel 1 y 2): construirlo aquí también cierra los escaneables pendientes del Nivel 1 (deuda S04 T2).
 
 Pasos:
 - `Scripts/Scan/ScanSystem.cs` (en el Player): al mantener Scan, `Physics2D.OverlapCircle`/`CircleCast` en la capa `Interactable` con **radio 3 u** (5 u con upgrade Escaneo Mejorado). Resalta el objetivo más cercano y muestra su texto en el HUD mientras se mantiene; fade 0,3 s al soltar.
 - `Scripts/Scan/Scannable.cs` (ScriptableObject o MonoBehaviour por objeto): `id` (SC-01…06), `encabezado` (`ANALISIS`/`REGISTRO AMBIENTAL`/`SENAL IDENTIFICADA`/`ARCHIVO HISTORICO`), `textoHUD`, `flashbackId` opcional, ` unaVez`. Textos definitivos en GDD §11.2.
-- **Aturdir al Ser Bioluminiscente** con el pulso de escaneo (2 s, sin daño) — engancha con `BioluminescentAI.ApplyStun` ya existente (GDD §8.2).
+- ~~**Aturdir al Ser Bioluminiscente** con el pulso de escaneo~~ ✅ ya funciona (`BioluminescentAI` → `ApplyStun` al detectar `IsScanning`, GDD §8.2).
 - **Degradación del texto** desde SI ≤29%: corromper caracteres progresivamente (GDD §11.1).
 - Terminal de escaneo en el HUD: panel monoespaciado (delegar en `HUDManager`); color por tipo (blanco/ámbar/rojo).
 - Disparar **flashbacks** (FB-01…06, GDD §11.3) vía `CinematicManager` (T4): al escanear ciertos objetos con la SI mínima requerida.
@@ -54,7 +54,8 @@ Pasos:
 
 **✅ Ya en la escena:**
 - Geometría: `Grid` + 6 tilemaps (`Collision`, `Visual`, `OneWay`, `Danger`, `Markers`, `Front`).
-- Sistemas core (plantilla Level01): HUD completo (barra SI, celdas, `AlertStrip`, paneles Pausa/GameOver) + `EventSystem`, `CheckpointManager`, `BackgroundMusic`, `Global Light 2D`, `CinemachineCamera` + Main Camera. Organizado en contenedores `Systems`/`Platforms`/`Hazards`/`Enemies`/`Markers`.
+- Sistemas core (plantilla Level01): HUD completo (barra SI, celdas, `AlertStrip`, paneles Pausa/GameOver — desde 2026-07-02 como **prefab compartido `HUD_Canvas`**) + `EventSystem`, `CheckpointManager`, `BackgroundMusic`, `Global Light 2D`, `CinemachineCamera` + Main Camera. Organizado en contenedores `Systems`/`Platforms`/`Hazards`/`Enemies`/`Markers`.
+- **Parallax de fondo ✅** (commit "Parallax 2 Layers Lever02"): `ParallaxMovement` montado sobre `Background` con **2 capas** — el GDD §9.1 pide 4 para N2; añadir capas hijas si se quiere fidelidad.
 - Jugable: Player (layer `Player`, tag `Player`), **4 checkpoints**, hazards (cristales, 4 obstáculos giratorios, `GiroCompleto`, `OsciladorGiro`, `CaidaPorCercania`, `PlataformaMovil`), ~38 plataformas flotantes.
 - Enemigos **placeholder N1**: 3 Drones + 2 Biol, **todos con el campo `rover` asignado** (sin NRE). El Drone ya trae el sensado de terreno + colisión física de S03 (rev. 2026-06-27).
 
@@ -64,7 +65,6 @@ Pasos:
 - **Marcadores de zona** (`LevelMarker`): no hay ninguno. Faltan `SpawnPoint`, las 3 alas, `BlockedZone`/gating del ascensor, `BossRoom` y `LevelExit`.
 - **Upgrades:** Escudo de Plasma (entrada) y Batería EMP (Ala B) — sin pickups ni gating (T5).
 - **Celdas de energía ×5** (`EnergyCellPickup`) — hoy solo existen los *slots* del HUD, no los pickups.
-- **Parallax:** `Background` es estático; falta montar el componente `ParallaxMovement` (`Scripts/Level/ParallaxBackground.cs`, ya probado en Level01 — S02 T1).
 - **Paleta N2:** la `Global Light 2D` está en **blanco** (1,1,1); aplicar la luz violeta-naranja y verificar que los tilemaps usen la paleta `#060610`/`#4A1A7A`/`#C0581A`.
 - **Herencia de SI** Niv.1→Niv.2 (no reiniciar a 74%) — coordinar con T4/`LevelManager`.
 
@@ -88,7 +88,7 @@ Pasos restantes (la base ya está montada — ver estado arriba):
 - **Estructura de alas:** trazar **3 alas semi-libres** con gating: el **ascensor** se abre al escanear SC-05; Ala B opcional (Batería EMP); puerta al boss tras explorar lo requerido. Marcar las zonas con `LevelMarker` (`SpawnPoint`, alas, `BlockedZone`, `BossRoom`, `LevelExit`).
 - **Poblar contenido N2:** colocar **5 celdas** (`EnergyCellPickup`), los **3 escaneables** (SC-04/05/06), los **2 upgrades** (Escudo de Plasma, Batería EMP) y la **arena del Centinela Principal** (lockdown + spawn → T3).
 - **Enemigos N2:** sustituir los placeholders N1 por **Drone Detector ×3, Drone Patrullero ×2, Centinela Secundario ×2** (→ T3) y eliminar los waypoints obsoletos `WP_0/WP_1`. Verificar que cada enemigo conserve `rover` asignado (los actuales ya lo tienen).
-- **Parallax** (GDD §9.1 pide 4 capas N2): reutilizar el componente `ParallaxMovement` sobre `Background` (hoy estático) — mismo montaje que Level01 (S02 T1): N hijos con `Renderer`/material en **Wrap = Repeat**, capas centradas (`Position X/Y = 0`) y con margen de cobertura; el `sortingOrder` y el centrado/orden los gestiona el propio script.
+- ~~**Parallax**~~ ✅ hecho con 2 capas (GDD §9.1 pide 4 para N2 — añadir capas hijas a `Background` si se quiere fidelidad; el script las gestiona sin cambios).
 - **Herencia de SI** Niv.1→Niv.2: leer la SI con que se termina el Nivel 1 (coordinar con T4/`LevelManager`); no reiniciar a 74%.
 - **Trampas ambientales** (objeto ambiental 6 SI, GDD §4.3, "solo en Nivel 2"): colocar con las mecánicas de `Scripts/leveo01/` (`CaidaPorCercania` ya está en escena).
 
@@ -99,11 +99,19 @@ Pasos restantes (la base ya está montada — ver estado arriba):
 ## T3 — Enemigos del Relicto + IA central (`AIManager` / DDA)
 **Responsable:** AI Programmer (+ Artist para sprites/animación) · **Rama:** `feature/enemy-ai` · **Ref. GDD:** §8.1, §8.5–8.7, §13.4
 
-**Estado actual:** existen `BioluminescentAI` y `DronePatrollerAI` (con el patrón **dash ofensivo**); no existe `AIManager` ni ningún enemigo del Nivel 2. Reusar el patrón de combate por dash (núcleo/cuerpo + `OnTrigger/CollisionStay2D` + `dashDamage`) y los **i-frames centrales** del `DegradationSystem`. Para los enemigos **terrestres**, reusar también el **sensado de terreno del `DronePatrollerAI`** (raycast de pared/borde → giro + patrulla acotada por `patrolRange`) y el modelo de **collider sólido + daño solo por proyectil** (S03, rev. 2026-06-27): el Drone Patrullero ya no atraviesa muros, no cae al vacío y choca físicamente con el rover sin dañarlo al contacto.
+**Avance (PR #24 `feature/enemy-ai`, rev. 2026-07-06):** ya existen `Scripts/AI/DroneDetectorAI.cs` + `DroneDetectorStatsSO` + `DroneDetectorController.controller`/anim — FSM `Patrol → Alert (confirmación 1,5 s) → Chase → Attack → Search (6 s)` con visión por **cono 8 u / 60°**, **raycast de obstrucción** (las paredes bloquean) y gizmos de depuración — y `Scripts/AI/AIManager.cs` (singleton base con `ReportPlayerDetected`/última posición conocida/flag `ddaEnabled`).
 
-### 3.1 Drone Detector (GDD §8.5) — FSM Sensar-Pensar-Actuar
-- `Scripts/AI/DroneDetectorAI.cs` + `DroneDetectorStatsSO`. HP 80; visión **cono 8 u / 60°** con **raycast de obstrucción** (paredes bloquean); FSM `Patrol → Alert (confirmación 1,5 s) → Chase → Attack`; `Search` 6 s; **Flanking** si DDA activo.
-- En `Alert` **emite evento a `AIManager`** con la posición del rover (alimenta la comunicación de drones).
+**🔴 Pendiente del avance:**
+- El Detector **no notifica al `AIManager`** al entrar en `Alert` (`ReportPlayerDetected` existe pero nadie lo llama) — es la pieza que alimenta la comunicación de drones.
+- `Attack()` no hace nada (ni daño ni proyectil); sin **Flanking**; sin daño por dash recibido (no tiene `TakeDamage` cableado al patrón dash).
+- `AIManager` sin lógica: falta el **DDA** real (hoy solo un flag), el reparto de posición a Patrulleros en 12 u y el spawn de enemigos del boss.
+- El Detector no está colocado en `Level02`.
+
+Para lo que falta: reusar el patrón de combate por dash (núcleo/cuerpo + `OnTrigger/CollisionStay2D` + `dashDamage`) y los **i-frames centrales** del `DegradationSystem`. Para los enemigos **terrestres**, reusar también el **sensado de terreno del `DronePatrollerAI`** (raycast de pared/borde → giro + patrulla acotada por `patrolRange`) y el modelo de **collider sólido + daño solo por proyectil** (S03, rev. 2026-06-27): el Drone Patrullero ya no atraviesa muros, no cae al vacío y choca físicamente con el rover sin dañarlo al contacto.
+
+### 3.1 Drone Detector (GDD §8.5) — 🟡 FSM y visión hechos
+- ✅ `Scripts/AI/DroneDetectorAI.cs` + `DroneDetectorStatsSO`: HP 80, cono 8 u / 60° con obstrucción, FSM `Patrol → Alert (1,5 s) → Chase → Attack → Search (6 s)`.
+- 🔴 Falta: en `Alert` **emitir el evento a `AIManager`** con la posición del rover (alimenta la comunicación de drones); lógica real de `Attack`; **Flanking** si DDA activo; recibir daño por dash.
 
 ### 3.2 Centinela Secundario (GDD §8.6)
 - `Scripts/AI/CentinelaSecundarioAI.cs` + SO. HP 100; patrullaje **vertical en columnas** (no se aleja >8 u del origen); detección omnidireccional 6 u; proyectil recto 10 SI; **cada 3er ataque** proyectil con rastreo parcial (gira hasta 30°). Spawneable por el boss.
@@ -116,8 +124,9 @@ Pasos restantes (la base ya está montada — ver estado arriba):
 - Animator: `Idle`, `Attack_F1`, `Attack_F2`, `Enrage` (transición de fase), `Death` (32f, **no interrumpible**). Su muerte **dispara la secuencia de victoria** (T4).
 - Barra de vida del boss en el HUD (delegar en `HUDManager`).
 
-### 3.4 `AIManager` + DDA (GDD §8.1)
-- `Scripts/AI/AIManager.cs` (singleton): registro de agentes NPC; **DDA** que solo modifica parámetros de enemigos (rango ×0,75–×1,25) según muertes/SI perdida/tiempo en SI baja; **comunicación de drones** (Detector en Alert → reparte la posición a Patrulleros en 12 u); spawn de enemigos del boss.
+### 3.4 `AIManager` + DDA (GDD §8.1) — 🟡 esqueleto creado
+- ✅ Singleton con `ReportPlayerDetected`/`GetLastKnownPlayerPosition`/`ClearDetection` y flag `ddaEnabled`.
+- 🔴 Falta: registro de agentes NPC; **DDA** real que modifique parámetros de enemigos (rango ×0,75–×1,25) según muertes/SI perdida/tiempo en SI baja; **comunicación de drones** (Detector en Alert → reparte la posición a Patrulleros en 12 u); spawn de enemigos del boss.
 
 **DoD T3:** el Detector ve por cono con obstrucción y avisa a los Patrulleros; el Centinela Secundario patrulla en columna y lanza su proyectil de rastreo cada 3er ataque; el Centinela Principal cumple sus fases 1 y 2 (abanicos + rastreo + spawn) y su muerte dispara la victoria; el DDA baja la presión tras >2 muertes en 5 min y la sube tras 8 min sin morir.
 
@@ -160,7 +169,7 @@ Pasos:
 ## T6 — Audio del Nivel 2 y de las cinemáticas
 **Responsable:** Technical Director (+ Artist para assets) · **Rama:** `feature/audio-system` · **Ref. GDD:** §14 · **Ref. HUD:** §10
 
-**Estado actual:** depende del **núcleo de audio de S04 T4** (Mixer + `MusicState`). Este sprint extiende la capa adaptativa al Relicto y suma la música de cinemática.
+**Estado actual (rev. 2026-07-06):** el **núcleo de audio de S04 T4 ya existe** (Mixer con bus Ambient/UI, `MusicState` con crossfade y pista `Bgm_Cinematic` cargada en `AudioManager`) — la dependencia está desbloqueada. Este sprint extiende la capa adaptativa al Relicto y suma la música de cinemática. Ojo: los **disparadores** de `SetMusicState` siguen sin conectarse en ningún nivel (pendiente S04 T4.2).
 
 Pasos:
 - **Ambiente del Relicto** (bus Ambient): zumbido metálico, goteo orgánico, pulsos de bioluminiscencia; capas por ala con volumen por proximidad.
@@ -181,15 +190,15 @@ Pasos:
 
 ## Progreso
 
-> Sprint creado el 2026-06-26. Depende del cierre de Sprint 04.
+> Sprint creado el 2026-06-26. Revisión 2026-07-06. Depende del cierre de Sprint 04.
 
 | Tarea | Responsable | Prioridad | Estado |
 |-------|-------------|-----------|--------|
-| T1 — Escaneo, lore y flashbacks | Gameplay Programmer | 🔴 Alta | ⬜ 0% (sin `ScanSystem`; input `IsScanning` ya existe; también cierra los escaneables del Nivel 1) |
-| T2 — Nivel 2: El Relicto | Level Designer | 🔴 Alta | 🟡 Base montada (escena con geometría + 6 tilemaps + sistemas core + 4 checkpoints + hazards + enemigos placeholder N1 con `rover` asignado); falta paleta N2, 3 alas + gating, marcadores, escaneables, upgrades, 5 celdas, enemigos N2 reales, parallax y herencia de SI |
-| T3 — Enemigos N2 + `AIManager`/DDA | AI Programmer | 🔴 Alta | ⬜ 0% (sin Detector/Centinelas ni `AIManager`; reusar patrón dash) |
-| T4 — Cinemáticas + victoria | Technical Director | 🔴 Alta | ⬜ 0% (sin `CinematicManager`; `GameManager.Cinematic` ya existe) |
+| T1 — Escaneo, lore y flashbacks | Gameplay Programmer | 🔴 Alta | ⬜ 0% (sin `ScanSystem`; ya existen los eventos `OnScanStarted/Stopped` en `PlayerController` y el stun del Biol por escaneo; también cierra los escaneables del Nivel 1) |
+| T2 — Nivel 2: El Relicto | Level Designer | 🔴 Alta | 🟡 Base montada (geometría + 6 tilemaps + sistemas core con prefab `HUD_Canvas` + 4 checkpoints + hazards + placeholders N1 con `rover` asignado) y **parallax ✅** (2 capas); falta paleta N2, 3 alas + gating, marcadores, escaneables, upgrades, 5 celdas, enemigos N2 reales y herencia de SI |
+| T3 — Enemigos N2 + `AIManager`/DDA | AI Programmer | 🔴 Alta | 🟡 Iniciado (PR #24) — `DroneDetectorAI` (FSM + cono con obstrucción + Search) y `AIManager` base creados; falta el aviso Detector→`AIManager`, la lógica de `Attack`, Flanking/DDA real, ambos Centinelas y la colocación en `Level02` |
+| T4 — Cinemáticas + victoria | Technical Director | 🔴 Alta | ⬜ 0% (sin `CinematicManager`; `GameManager.Cinematic` ya existe y `AudioManager` ya trae `clipCinematic`/estado `Cinematic`) |
 | T5 — Upgrades + celdas | Gameplay Programmer | 🟡 Media | ⬜ 0% (sin `UpgradeManager`; slots del HUD reservados en S03) |
-| T6 — Audio N2 + cinemáticas | Technical Director | 🟡 Media | ⬜ 0% (depende del núcleo de audio de S04 T4) |
+| T6 — Audio N2 + cinemáticas | Technical Director | 🟡 Media | ⬜ 0% — pero **desbloqueado**: el núcleo de S04 T4 (Mixer + `MusicState` + `Bgm_Cinematic`) ya existe; falta todo lo específico de N2 y cinemáticas |
 </content>
 </invoke>

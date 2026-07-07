@@ -89,6 +89,7 @@ public class BioluminescentAI : MonoBehaviour
         {
             alertTimer = 0f;
             currentState = State.Alert;
+            ReportAlert(true);   // S04 T4.2: música → Tension
         }
     }
 
@@ -152,6 +153,7 @@ public class BioluminescentAI : MonoBehaviour
             {
                 loseTimer = 0f;
                 currentState = State.Idle;
+                ReportAlert(false);   // S04 T4.2: sin enemigos en alerta → Exploration
             }
         }
         else
@@ -190,6 +192,16 @@ public class BioluminescentAI : MonoBehaviour
         if (si != null)
             si.TakeDamage(stats.contactDamage, transform.position);
     }
+
+    // S04 T4.2: reporta al AudioManager si este enemigo está en Alert/Chase.
+    // OnDisable cubre muerte (enabled=false), Destroy y descarga de escena.
+    private void ReportAlert(bool inAlert)
+    {
+        if (Core.AudioManager.Instance != null)
+            Core.AudioManager.Instance.ReportEnemyAlert(this, inAlert);
+    }
+
+    private void OnDisable() => ReportAlert(false);
 
     public void ApplyStun()
     {
