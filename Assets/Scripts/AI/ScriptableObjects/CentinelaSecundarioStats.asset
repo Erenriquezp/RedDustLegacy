@@ -19,3 +19,5 @@ MonoBehaviour:
   attackCooldown: 1.2
   projectileSpeed: 10
   trackingAngle: 30
+  projectilePrefab: {fileID: 5929408128900341768, guid: 817c684a59501ce4981841af5a92e4da, type: 3}
+  projectileLifetime: 5
