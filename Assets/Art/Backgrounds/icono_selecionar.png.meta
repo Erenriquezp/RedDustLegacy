@@ -1,0 +1,836 @@
+fileFormatVersion: 2
+guid: d5828c2b40d72854bb3b7998693a4021
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5347234794938473754
+    second: icono_selecionar_0
+  - first:
+      213: -5714058670473389271
+    second: icono_selecionar_1
+  - first:
+      213: -2081675334817625954
+    second: icono_selecionar_2
+  - first:
+      213: 7088446800061385958
+    second: icono_selecionar_3
+  - first:
+      213: 8718054164282708118
+    second: icono_selecionar_4
+  - first:
+      213: -3932105055509862673
+    second: icono_selecionar_5
+  - first:
+      213: 6089722974479862823
+    second: icono_selecionar_6
+  - first:
+      213: -8761879621393986511
+    second: icono_selecionar_7
+  - first:
+      213: 7393266980879328597
+    second: icono_selecionar_8
+  - first:
+      213: -3816242339101402428
+    second: icono_selecionar_9
+  - first:
+      213: 3277472819232643675
+    second: icono_selecionar_10
+  - first:
+      213: -4247853368727584784
+    second: icono_selecionar_11
+  - first:
+      213: 1337312814845154123
+    second: icono_selecionar_12
+  - first:
+      213: 941035643098455591
+    second: icono_selecionar_13
+  - first:
+      213: -2069902734121761845
+    second: icono_selecionar_14
+  - first:
+      213: 3635761640657553075
+    second: icono_selecionar_15
+  - first:
+      213: 3313804083008134080
+    second: icono_selecionar_16
+  - first:
+      213: -46571060063013521
+    second: icono_selecionar_17
+  - first:
+      213: -6809054980973358124
+    second: icono_selecionar_18
+  - first:
+      213: -319976534062306493
+    second: icono_selecionar_19
+  - first:
+      213: -1255912968085179134
+    second: icono_selecionar_20
+  - first:
+      213: 960279139361098596
+    second: icono_selecionar_21
+  - first:
+      213: 4814446853214996641
+    second: icono_selecionar_22
+  - first:
+      213: 7198645466994350226
+    second: icono_selecionar_23
+  - first:
+      213: -5932147529376931080
+    second: icono_selecionar_24
+  - first:
+      213: -1027136902214948007
+    second: icono_selecionar_25
+  - first:
+      213: -5411984747169903690
+    second: icono_selecionar_26
+  - first:
+      213: 853744642349658677
+    second: icono_selecionar_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: icono_selecionar_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 343
+        width: 1520
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d9ae217b1353a40800000000000000
+      internalID: 5347234794938473754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icono_selecionar_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 472
+        width: 175
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b51b0e9e593b0b0800000000000000
+      internalID: -5714058670473389271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icono_selecionar_2
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 459
+        width: 59
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e98c08aef476c13e0800000000000000
+      internalID: -2081675334817625954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icono_selecionar_3
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 452
+        width: 28
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ecc9e6fec83f5260800000000000000
+      internalID: 7088446800061385958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icono_selecionar_4
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 446
+        width: 22
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6909faa7210ccf870800000000000000
+      internalID: 8718054164282708118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icono_selecionar_5
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 431
+        width: 58
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe621d2094b5e69c0800000000000000
+      internalID: -3932105055509862673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icono_selecionar_6
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 415
+        width: 24
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72c4862d7ca038450800000000000000
+      internalID: 6089722974479862823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icono_selecionar_7
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 395
+        width: 92
+        height: 286
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13cc31228ec876680800000000000000
+      internalID: -8761879621393986511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icono_selecionar_8
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 407
+        width: 33
+        height: 271
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555efecd5292a9660800000000000000
+      internalID: 7393266980879328597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icono_selecionar_9
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 418
+        width: 27
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca1e09dfcbf90bc0800000000000000
+      internalID: -3816242339101402428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icono_selecionar_10
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 381
+        width: 63
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a1c5f0a2ceb7d20800000000000000
+      internalID: 3277472819232643675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icono_selecionar_11
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 382
+        width: 25
+        height: 315
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ffbb030ed79c05c0800000000000000
+      internalID: -4247853368727584784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icono_selecionar_12
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 406
+        width: 62
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b435c627be61f8210800000000000000
+      internalID: 1337312814845154123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icono_selecionar_14
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 395
+        width: 93
+        height: 286
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc3001d1e6a3643e0800000000000000
+      internalID: -2069902734121761845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icono_selecionar_15
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 398
+        width: 23
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b68267f2f1d47230800000000000000
+      internalID: 3635761640657553075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icono_selecionar_16
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 430
+        width: 28
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb50f6914ffcfd20800000000000000
+      internalID: 3313804083008134080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icono_selecionar_17
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 444
+        width: 59
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f65712c1edb8a5ff0800000000000000
+      internalID: -46571060063013521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icono_selecionar_18
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 462
+        width: 27
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d39afa12906181a0800000000000000
+      internalID: -6809054980973358124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icono_selecionar_19
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 473
+        width: 31
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b61ce99073f8bf0800000000000000
+      internalID: -319976534062306493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icono_selecionar_20
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 480
+        width: 21
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 205f9744fc9129ee0800000000000000
+      internalID: -1255912968085179134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icono_selecionar_21
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 488
+        width: 22
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b06da1ac8935d00800000000000000
+      internalID: 960279139361098596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icono_selecionar_22
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 496
+        width: 24
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a880eba7e950d240800000000000000
+      internalID: 4814446853214996641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icono_selecionar_23
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 503
+        width: 19
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2989c2489e9b6e360800000000000000
+      internalID: 7198645466994350226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icono_selecionar_24
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 509
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f2e64c7047ccada0800000000000000
+      internalID: -5932147529376931080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icono_selecionar_25
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 517
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b68cfed60eeb1f0800000000000000
+      internalID: -1027136902214948007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icono_selecionar_26
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 400
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb0b1fdb84c4e4b0800000000000000
+      internalID: -5411984747169903690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icono_selecionar_27
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 400
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 532f4289a3c19db00800000000000000
+      internalID: 853744642349658677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 078fc33d267f22c4a9e44974a7bab7f8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      icono_selecionar_0: 5347234794938473754
+      icono_selecionar_1: -5714058670473389271
+      icono_selecionar_10: 3277472819232643675
+      icono_selecionar_11: -4247853368727584784
+      icono_selecionar_12: 1337312814845154123
+      icono_selecionar_13: 941035643098455591
+      icono_selecionar_14: -2069902734121761845
+      icono_selecionar_15: 3635761640657553075
+      icono_selecionar_16: 3313804083008134080
+      icono_selecionar_17: -46571060063013521
+      icono_selecionar_18: -6809054980973358124
+      icono_selecionar_19: -319976534062306493
+      icono_selecionar_2: -2081675334817625954
+      icono_selecionar_20: -1255912968085179134
+      icono_selecionar_21: 960279139361098596
+      icono_selecionar_22: 4814446853214996641
+      icono_selecionar_23: 7198645466994350226
+      icono_selecionar_24: -5932147529376931080
+      icono_selecionar_25: -1027136902214948007
+      icono_selecionar_26: -5411984747169903690
+      icono_selecionar_27: 853744642349658677
+      icono_selecionar_3: 7088446800061385958
+      icono_selecionar_4: 8718054164282708118
+      icono_selecionar_5: -3932105055509862673
+      icono_selecionar_6: 6089722974479862823
+      icono_selecionar_7: -8761879621393986511
+      icono_selecionar_8: 7393266980879328597
+      icono_selecionar_9: -3816242339101402428
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
