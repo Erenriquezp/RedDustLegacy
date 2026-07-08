@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 /// <summary>
@@ -26,9 +27,18 @@ public class LeviatanAI : MonoBehaviour
     public Transform rover;
 
     [Header("Comportamiento")]
-    public float attackRange = 2.5f;
+    [Tooltip("Distancia centro-a-centro para atacar. El cuerpo sólido mide ~2 u de semiancho: debe ser mayor que eso o nunca entra en rango.")]
+    public float attackRange = 4f;
     [Tooltip("Si está activo, espera a StartEncounter() (lo llama BossArenaTrigger). Apagado para probar en sandbox.")]
     public bool startDormant = false;
+
+    [Header("Feedback visual (S05: la ventana vulnerable debe VERSE)")]
+    [Tooltip("Sprite del cuerpo. Vacío = se busca en este GameObject.")]
+    public SpriteRenderer bodySprite;
+    [Tooltip("Tinte del cuerpo mientras el núcleo está expuesto.")]
+    public Color vulnerableTint = new Color(0.45f, 1f, 0.9f);
+    [Tooltip("Color del flash al recibir daño en el núcleo.")]
+    public Color damageFlashColor = new Color(1f, 0.25f, 0.2f);
 
     /// <summary>HP actual, HP máximo (para la barra del HUD).</summary>
     public event Action<int, int> OnHealthChanged;
@@ -48,12 +58,17 @@ public class LeviatanAI : MonoBehaviour
     private float attackTimer;
     private float attackCooldown;
 
+    private Color _baseColor;
+    private Coroutine _flashRoutine;
+
     private enum State { Dormant, Intro, Idle, Attack, Vulnerable, Death }
     private State currentState;
 
     private void Start()
     {
         if (animator == null) animator = GetComponent<Animator>();
+        if (bodySprite == null) bodySprite = GetComponent<SpriteRenderer>();
+        _baseColor = bodySprite != null ? bodySprite.color : Color.white;
         audioController = GetComponent<EnemyAudioController>();
         hud = FindFirstObjectByType<HUDManager>(FindObjectsInactive.Include);
 
@@ -212,6 +227,16 @@ public class LeviatanAI : MonoBehaviour
     {
         animator.SetBool("IsVulnerable", exposed);
         if (coreHitbox != null) coreHitbox.SetActive(exposed);
+
+        // Ventana de castigo clásica: con el núcleo expuesto los tentáculos no
+        // dañan — dashear al núcleo es seguro; fuera de la ventana, castiga.
+        if (tentacleHitboxes != null && currentState != State.Death)
+            foreach (var t in tentacleHitboxes)
+                if (t != null) t.SetActive(!exposed);
+
+        // Tinte del cuerpo: la ventana de daño tiene que leerse a simple vista.
+        if (bodySprite != null && _flashRoutine == null)
+            bodySprite.color = exposed ? vulnerableTint : _baseColor;
     }
 
     // ── Daño y muerte ───────────────────────────────────────────────────────
@@ -225,6 +250,7 @@ public class LeviatanAI : MonoBehaviour
         currentHp = Mathf.Max(0, currentHp);
 
         if (audioController != null) audioController.PlayDamageSound();
+        FlashDamage();
         OnHealthChanged?.Invoke(currentHp, stats.maxHp);
         if (hud != null) hud.UpdateBossBar((float)currentHp / stats.maxHp);
 
@@ -267,6 +293,21 @@ public class LeviatanAI : MonoBehaviour
     }
 
     // ── Helpers ─────────────────────────────────────────────────────────────
+
+    private void FlashDamage()
+    {
+        if (bodySprite == null) return;
+        if (_flashRoutine != null) StopCoroutine(_flashRoutine);
+        _flashRoutine = StartCoroutine(FlashRoutine());
+    }
+
+    private IEnumerator FlashRoutine()
+    {
+        bodySprite.color = damageFlashColor;
+        yield return new WaitForSeconds(0.12f);
+        bodySprite.color = IsVulnerable ? vulnerableTint : _baseColor;
+        _flashRoutine = null;
+    }
 
     private void FaceRover()
     {

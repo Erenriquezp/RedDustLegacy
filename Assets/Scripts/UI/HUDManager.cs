@@ -51,6 +51,7 @@ public class HUDManager : MonoBehaviour
     private Coroutine _blinkRoutine;
     private Coroutine _alertRoutine;
     private float _blinkInterval = -1f; // -1 = sin inicializar
+    private bool _subscribed;
 
     private void Awake()
     {
@@ -63,8 +64,28 @@ public class HUDManager : MonoBehaviour
         if (_bossPanel != null) _bossPanel.SetActive(false);
     }
 
-    private void OnEnable()
+    private void OnEnable()  => Subscribe();
+    private void OnDisable() => Unsubscribe();
+
+    /// <summary>
+    /// Re-vincula el HUD a un DegradationSystem concreto y re-sincroniza la barra.
+    /// La llama GameManager en cada carga de escena (tras aplicar la herencia de SI)
+    /// para garantizar que HUD y GameManager miran a la MISMA instancia.
+    /// </summary>
+    public void Bind(DegradationSystem degradation)
     {
+        if (degradation != null && degradation != _degradation)
+        {
+            Unsubscribe();
+            _degradation = degradation;
+        }
+        Subscribe();
+        SyncNow();
+    }
+
+    private void Subscribe()
+    {
+        if (_subscribed) return;
         if (_degradation == null)
         {
             Debug.LogWarning("[HUDManager] No hay DegradationSystem en la escena; el HUD no se actualizará.");
@@ -77,21 +98,29 @@ public class HUDManager : MonoBehaviour
         _degradation.OnDamageReceived += HandleDamage;
         // Si hay GameManager (T5) él gobierna la muerte→Game Over; si no, el HUD lo muestra solo.
         if (GameManager.Instance == null) _degradation.OnDeath += ShowGameOver;
+        _subscribed = true;
 
-        // Sincronizar con el estado actual al habilitar.
-        UpdateSIBar(_degradation.CurrentSI);
-        UpdateCells(_degradation.CellsInReserve);
+        SyncNow();
     }
 
-    private void OnDisable()
+    private void Unsubscribe()
     {
-        if (_degradation == null) return;
+        if (!_subscribed || _degradation == null) { _subscribed = false; return; }
 
         _degradation.OnSIChanged      -= UpdateSIBar;
         _degradation.OnPhaseChanged   -= UpdatePhaseEffects;
         _degradation.OnCellsChanged   -= UpdateCells;
         _degradation.OnDamageReceived -= HandleDamage;
         if (GameManager.Instance == null) _degradation.OnDeath -= ShowGameOver;
+        _subscribed = false;
+    }
+
+    /// <summary>Refresca barra y celdas con el estado actual (no espera al próximo evento).</summary>
+    private void SyncNow()
+    {
+        if (_degradation == null) return;
+        UpdateSIBar(_degradation.CurrentSI);
+        UpdateCells(_degradation.CellsInReserve);
     }
 
     // ── Barra de SI ───────────────────────────────────────────────────────

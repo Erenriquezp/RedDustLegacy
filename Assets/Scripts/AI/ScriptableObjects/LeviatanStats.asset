@@ -14,8 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LeviatanStatsSO
   maxHp: 200
   moveSpeed: 0.8
+  introDuration: 2
   tentacleDamage: 15
   attackCooldown: 2
+  attackDuration: 1.9
+  tentacleIFrames: 0.8
+  dashDamage: 25
   vulnerableTime: 2
   damageMultiplier: 2
   enrageThreshold: 0.5

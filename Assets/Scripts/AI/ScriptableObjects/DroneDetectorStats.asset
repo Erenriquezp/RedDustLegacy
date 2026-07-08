@@ -13,10 +13,15 @@ MonoBehaviour:
   m_Name: DroneDetectorStats
   m_EditorClassIdentifier: Assembly-CSharp::DroneDetectorStatsSO
   maxHp: 80
-  moveSpeed: 3
+  moveSpeed: 4.5
+  patrolSpeed: 2.5
+  patrolRange: 4
   visionDistance: 8
   visionAngle: 60
   alertTime: 1.5
   searchDuration: 6
-  attackDistance: 1.5
-  attackCooldown: 1
+  attackDistance: 4
+  attackCooldown: 2
+  projectileSpeed: 7
+  projectileLifetime: 2.5
+  dashDamage: 40

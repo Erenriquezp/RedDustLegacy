@@ -6,8 +6,13 @@ public class DroneDetectorStatsSO : ScriptableObject
     [Header("Vida")]
     public int maxHp = 80;
 
-    [Header("Movimiento")]
-    public float moveSpeed = 3f;
+    [Header("Movimiento (GDD §8.5)")]
+    [Tooltip("Velocidad en Chase/Search.")]
+    public float moveSpeed = 4.5f;
+    [Tooltip("Velocidad de patrullaje.")]
+    public float patrolSpeed = 2.5f;
+    [Tooltip("Distancia máxima (u) a cada lado del origen al patrullar.")]
+    public float patrolRange = 4f;
 
     [Header("Visión")]
     public float visionDistance = 8f;
@@ -19,8 +24,15 @@ public class DroneDetectorStatsSO : ScriptableObject
 
     public float searchDuration = 6f;
 
-    [Header("Ataque")]
-    public float attackDistance = 1.5f;
+    [Header("Ataque (GDD §8.5: proyectil recto 8–12 SI)")]
+    public float attackDistance = 4f;
 
-    public float attackCooldown = 1f;
+    public float attackCooldown = 2f;
+
+    public float projectileSpeed = 7f;
+
+    public float projectileLifetime = 2.5f;
+
+    [Header("Combate (patrón dash ofensivo S03)")]
+    public int dashDamage = 40;
 }

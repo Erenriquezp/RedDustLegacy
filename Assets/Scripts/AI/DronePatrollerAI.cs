@@ -243,6 +243,22 @@ public class DronePatrollerAI : MonoBehaviour
 
     #endregion
 
+    /// <summary>
+    /// Comunicación de drones — S05 T3 (GDD §8.1): un Detector en Alert reparte la
+    /// posición del rover vía <see cref="AIManager"/>. Si este patrullero está libre
+    /// (Patrol/Return), sale a perseguir aunque el rover esté fuera de su rango de
+    /// detección; si no lo alcanza en loseTime, Return lo devuelve a su zona.
+    /// </summary>
+    public void OnPlayerReported(Vector2 playerPosition)
+    {
+        if (isDead || currentState == State.Chase || currentState == State.Attack)
+            return;
+
+        lostPlayerTimer = 0f;
+        currentState = State.Chase;
+        ReportAlert(true);
+    }
+
     void Shoot()
     {
         if (projectilePrefab == null)
