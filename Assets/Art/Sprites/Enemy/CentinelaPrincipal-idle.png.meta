@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 51e80ea3fa429ad4180756cd2cdf0dda
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3765181960935968628
+    second: CentinelaPrincipal-idle_0
+  - first:
+      213: 4392093749043831679
+    second: CentinelaPrincipal-idle_1
+  - first:
+      213: -3347779055169282409
+    second: CentinelaPrincipal-idle_2
+  - first:
+      213: -8778763394468876937
+    second: CentinelaPrincipal-idle_3
+  - first:
+      213: 3991024902452212464
+    second: CentinelaPrincipal-idle_4
+  - first:
+      213: -1935084368750099128
+    second: CentinelaPrincipal-idle_5
+  - first:
+      213: 4289532793193049973
+    second: CentinelaPrincipal-idle_6
+  - first:
+      213: 5901166127077654550
+    second: CentinelaPrincipal-idle_7
+  - first:
+      213: 4031910261745675471
+    second: CentinelaPrincipal-idle_8
+  - first:
+      213: -6970419825956692708
+    second: CentinelaPrincipal-idle_9
+  - first:
+      213: -8064363285395832981
+    second: CentinelaPrincipal-idle_10
+  - first:
+      213: -6879406175398936949
+    second: CentinelaPrincipal-idle_11
+  - first:
+      213: 4552015822226007964
+    second: CentinelaPrincipal-idle_12
+  - first:
+      213: 812748699151283264
+    second: CentinelaPrincipal-idle_13
+  - first:
+      213: 6097187411571190321
+    second: CentinelaPrincipal-idle_14
+  - first:
+      213: -8003802902917175854
+    second: CentinelaPrincipal-idle_15
+  - first:
+      213: 97471116943122459
+    second: CentinelaPrincipal-idle_16
+  - first:
+      213: 5810734273483239251
+    second: CentinelaPrincipal-idle_17
+  - first:
+      213: 6063985972158200834
+    second: CentinelaPrincipal-idle_18
+  - first:
+      213: 4645089223745786853
+    second: CentinelaPrincipal-idle_19
+  - first:
+      213: -4247084552798896350
+    second: CentinelaPrincipal-idle_20
+  - first:
+      213: 5727484140468434752
+    second: CentinelaPrincipal-idle_21
+  - first:
+      213: 6843834735298395485
+    second: CentinelaPrincipal-idle_22
+  - first:
+      213: 8277240934255524454
+    second: CentinelaPrincipal-idle_23
+  - first:
+      213: -9190619692648978842
+    second: CentinelaPrincipal-idle_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1088
+        width: 173
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80f3bf84f26fbbc0800000000000000
+      internalID: -3765181960935968628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_1
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1088
+        width: 173
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f73a8f39ef9d3fc30800000000000000
+      internalID: 4392093749043831679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_2
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1088
+        width: 173
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e5426cfac4a81d0800000000000000
+      internalID: -3347779055169282409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_3
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1088
+        width: 173
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77dea7164319b2680800000000000000
+      internalID: -8778763394468876937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_4
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 1088
+        width: 173
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2f660e008f26730800000000000000
+      internalID: 3991024902452212464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_5
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 832
+        width: 173
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8454d36e4033525e0800000000000000
+      internalID: -1935084368750099128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_6
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 832
+        width: 173
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f29a6395b778b30800000000000000
+      internalID: 4289532793193049973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_7
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 832
+        width: 173
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 610080da35725e150800000000000000
+      internalID: 5901166127077654550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_8
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 832
+        width: 173
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc6a95650934f730800000000000000
+      internalID: 4031910261745675471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_9
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 832
+        width: 173
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1dd2826918144f90800000000000000
+      internalID: -6970419825956692708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_10
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 576
+        width: 173
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f774a9150a51090800000000000000
+      internalID: -8064363285395832981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_11
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 576
+        width: 173
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8eb7b938807780a0800000000000000
+      internalID: -6879406175398936949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_12
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 576
+        width: 173
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c972dbfc5420c2f30800000000000000
+      internalID: 4552015822226007964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_13
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 576
+        width: 173
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 044b290c2a6774b00800000000000000
+      internalID: 812748699151283264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_14
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 576
+        width: 173
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a2fa385af8d9450800000000000000
+      internalID: 6097187411571190321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_15
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 320
+        width: 173
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d5a16f6aa7cce090800000000000000
+      internalID: -8003802902917175854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_16
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 320
+        width: 173
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b106145e6794a5100800000000000000
+      internalID: 97471116943122459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_17
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 320
+        width: 173
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35fe72ff800e3a050800000000000000
+      internalID: 5810734273483239251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_18
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 320
+        width: 173
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20cf0710d1b972450800000000000000
+      internalID: 6063985972158200834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_19
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 320
+        width: 173
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e3dc5bc90ca67040800000000000000
+      internalID: 4645089223745786853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_20
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 64
+        width: 173
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f7f5be9135f05c0800000000000000
+      internalID: -4247084552798896350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_21
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 64
+        width: 173
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 047fd41fa7c1c7f40800000000000000
+      internalID: 5727484140468434752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_22
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 64
+        width: 173
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5db0fa7e6f2afe50800000000000000
+      internalID: 6843834735298395485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_23
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 64
+        width: 173
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a7f9666caaed270800000000000000
+      internalID: 8277240934255524454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-idle_24
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 64
+        width: 173
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666a2f1651c547080800000000000000
+      internalID: -9190619692648978842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CentinelaPrincipal-idle_0: -3765181960935968628
+      CentinelaPrincipal-idle_1: 4392093749043831679
+      CentinelaPrincipal-idle_10: -8064363285395832981
+      CentinelaPrincipal-idle_11: -6879406175398936949
+      CentinelaPrincipal-idle_12: 4552015822226007964
+      CentinelaPrincipal-idle_13: 812748699151283264
+      CentinelaPrincipal-idle_14: 6097187411571190321
+      CentinelaPrincipal-idle_15: -8003802902917175854
+      CentinelaPrincipal-idle_16: 97471116943122459
+      CentinelaPrincipal-idle_17: 5810734273483239251
+      CentinelaPrincipal-idle_18: 6063985972158200834
+      CentinelaPrincipal-idle_19: 4645089223745786853
+      CentinelaPrincipal-idle_2: -3347779055169282409
+      CentinelaPrincipal-idle_20: -4247084552798896350
+      CentinelaPrincipal-idle_21: 5727484140468434752
+      CentinelaPrincipal-idle_22: 6843834735298395485
+      CentinelaPrincipal-idle_23: 8277240934255524454
+      CentinelaPrincipal-idle_24: -9190619692648978842
+      CentinelaPrincipal-idle_3: -8778763394468876937
+      CentinelaPrincipal-idle_4: 3991024902452212464
+      CentinelaPrincipal-idle_5: -1935084368750099128
+      CentinelaPrincipal-idle_6: 4289532793193049973
+      CentinelaPrincipal-idle_7: 5901166127077654550
+      CentinelaPrincipal-idle_8: 4031910261745675471
+      CentinelaPrincipal-idle_9: -6970419825956692708
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
