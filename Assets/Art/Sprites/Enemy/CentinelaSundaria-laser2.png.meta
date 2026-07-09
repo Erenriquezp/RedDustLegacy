@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 656f57b9e0ff1844bb8e51114f81086b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4379152893203085698
+    second: CentinelaSundaria-laser2_0
+  - first:
+      213: 8942815220400081505
+    second: CentinelaSundaria-laser2_1
+  - first:
+      213: 868625430049342900
+    second: CentinelaSundaria-laser2_2
+  - first:
+      213: 8384132922240975192
+    second: CentinelaSundaria-laser2_3
+  - first:
+      213: 3815209732953460576
+    second: CentinelaSundaria-laser2_4
+  - first:
+      213: 8644034365125066526
+    second: CentinelaSundaria-laser2_5
+  - first:
+      213: -866597360174825000
+    second: CentinelaSundaria-laser2_6
+  - first:
+      213: 2724961945317821804
+    second: CentinelaSundaria-laser2_7
+  - first:
+      213: -7968798959507472103
+    second: CentinelaSundaria-laser2_8
+  - first:
+      213: 695981198656970360
+    second: CentinelaSundaria-laser2_9
+  - first:
+      213: 626415536933732852
+    second: CentinelaSundaria-laser2_10
+  - first:
+      213: -2676904074066134146
+    second: CentinelaSundaria-laser2_11
+  - first:
+      213: -3309316066481863950
+    second: CentinelaSundaria-laser2_12
+  - first:
+      213: -1771241173790461067
+    second: CentinelaSundaria-laser2_13
+  - first:
+      213: 8668850505509008648
+    second: CentinelaSundaria-laser2_14
+  - first:
+      213: -6696703155147397159
+    second: CentinelaSundaria-laser2_15
+  - first:
+      213: -4781811934536448565
+    second: CentinelaSundaria-laser2_16
+  - first:
+      213: -1147695159378928673
+    second: CentinelaSundaria-laser2_17
+  - first:
+      213: -1289052077244931494
+    second: CentinelaSundaria-laser2_18
+  - first:
+      213: 7630732542295985925
+    second: CentinelaSundaria-laser2_19
+  - first:
+      213: -1969384810801362352
+    second: CentinelaSundaria-laser2_20
+  - first:
+      213: 4443892142217620709
+    second: CentinelaSundaria-laser2_21
+  - first:
+      213: 2716544407853965023
+    second: CentinelaSundaria-laser2_22
+  - first:
+      213: 8494318675919909439
+    second: CentinelaSundaria-laser2_23
+  - first:
+      213: -1928690304424142733
+    second: CentinelaSundaria-laser2_24
+  - first:
+      213: 4376790412641820659
+    second: CentinelaSundaria-laser2_25
+  - first:
+      213: -4126217595701576140
+    second: CentinelaSundaria-laser2_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CentinelaSundaria-laser2_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1092
+        width: 209
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2897e78ca50e5cc30800000000000000
+      internalID: 4379152893203085698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-laser2_1
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1092
+        width: 210
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a47e7df034b1c70800000000000000
+      internalID: 8942815220400081505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-laser2_2
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1092
+        width: 210
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b546f8f93afd0c00800000000000000
+      internalID: 868625430049342900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-laser2_3
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1092
+        width: 156
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851c4d3c87c6a5470800000000000000
+      internalID: 8384132922240975192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-laser2_4
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 1092
+        width: 176
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06fcd4cc90952f430800000000000000
+      internalID: 3815209732953460576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-laser2_5
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 836
+        width: 156
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1f7c8ff477c5f770800000000000000
+      internalID: 8644034365125066526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-laser2_6
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 836
+        width: 210
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d10d77da4a39f3f0800000000000000
+      internalID: -866597360174825000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-laser2_7
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 836
+        width: 210
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d4029a37201d520800000000000000
+      internalID: 2724961945317821804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-laser2_8
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 836
+        width: 211
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9110e0c1193296190800000000000000
+      internalID: -7968798959507472103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-laser2_9
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 836
+        width: 209
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e9c44763f98a900800000000000000
+      internalID: 695981198656970360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-laser2_10
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 580
+        width: 156
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f188b8ac9971b800800000000000000
+      internalID: 626415536933732852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-laser2_11
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 658
+        width: 42
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7bfd7f6de9b9dad0800000000000000
+      internalID: -2676904074066134146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-laser2_12
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 580
+        width: 210
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f20bdf2292f212d0800000000000000
+      internalID: -3309316066481863950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-laser2_13
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 580
+        width: 156
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5737ca079894b67e0800000000000000
+      internalID: -1771241173790461067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-laser2_14
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 658
+        width: 51
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80574dfea91fd4870800000000000000
+      internalID: 8668850505509008648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-laser2_15
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 580
+        width: 210
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d7a33706f78013a0800000000000000
+      internalID: -6696703155147397159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-laser2_16
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 580
+        width: 209
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc54b33716793adb0800000000000000
+      internalID: -4781811934536448565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-laser2_17
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 324
+        width: 210
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb98c255519210f0800000000000000
+      internalID: -1147695159378928673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-laser2_18
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 324
+        width: 156
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5226d627fd5c1ee0800000000000000
+      internalID: -1289052077244931494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-laser2_19
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 324
+        width: 207
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50fc09f51dec5e960800000000000000
+      internalID: 7630732542295985925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-laser2_20
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 324
+        width: 210
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05a8226e2f65ba4e0800000000000000
+      internalID: -1969384810801362352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-laser2_21
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 324
+        width: 209
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ece70dcb50ebad30800000000000000
+      internalID: 4443892142217620709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-laser2_22
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 69
+        width: 156
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde95befeba13b520800000000000000
+      internalID: 2716544407853965023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-laser2_23
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 70
+        width: 156
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f323c27b4d1e1e570800000000000000
+      internalID: 8494318675919909439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-laser2_24
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 70
+        width: 156
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3781f03036aeb35e0800000000000000
+      internalID: -1928690304424142733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-laser2_25
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 71
+        width: 156
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ffd9d9e0bb7dbc30800000000000000
+      internalID: 4376790412641820659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaSundaria-laser2_26
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 71
+        width: 156
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ebd3655fabcb6c0800000000000000
+      internalID: -4126217595701576140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CentinelaSundaria-laser2_0: 4379152893203085698
+      CentinelaSundaria-laser2_1: 8942815220400081505
+      CentinelaSundaria-laser2_10: 626415536933732852
+      CentinelaSundaria-laser2_11: -2676904074066134146
+      CentinelaSundaria-laser2_12: -3309316066481863950
+      CentinelaSundaria-laser2_13: -1771241173790461067
+      CentinelaSundaria-laser2_14: 8668850505509008648
+      CentinelaSundaria-laser2_15: -6696703155147397159
+      CentinelaSundaria-laser2_16: -4781811934536448565
+      CentinelaSundaria-laser2_17: -1147695159378928673
+      CentinelaSundaria-laser2_18: -1289052077244931494
+      CentinelaSundaria-laser2_19: 7630732542295985925
+      CentinelaSundaria-laser2_2: 868625430049342900
+      CentinelaSundaria-laser2_20: -1969384810801362352
+      CentinelaSundaria-laser2_21: 4443892142217620709
+      CentinelaSundaria-laser2_22: 2716544407853965023
+      CentinelaSundaria-laser2_23: 8494318675919909439
+      CentinelaSundaria-laser2_24: -1928690304424142733
+      CentinelaSundaria-laser2_25: 4376790412641820659
+      CentinelaSundaria-laser2_26: -4126217595701576140
+      CentinelaSundaria-laser2_3: 8384132922240975192
+      CentinelaSundaria-laser2_4: 3815209732953460576
+      CentinelaSundaria-laser2_5: 8644034365125066526
+      CentinelaSundaria-laser2_6: -866597360174825000
+      CentinelaSundaria-laser2_7: 2724961945317821804
+      CentinelaSundaria-laser2_8: -7968798959507472103
+      CentinelaSundaria-laser2_9: 695981198656970360
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
