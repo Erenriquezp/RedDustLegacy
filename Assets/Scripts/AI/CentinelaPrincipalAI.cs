@@ -28,6 +28,19 @@ public class CentinelaPrincipalAI : MonoBehaviour
     [SerializeField]
     private Transform secondarySpawnPoint;
 
+    private bool secondarySpawned;
+
+    [Header("DDA Settings")]
+    [SerializeField] private float difficultyMultiplier = 1f;
+
+    [SerializeField] private float minDifficulty = 0.75f;
+
+    [SerializeField] private float maxDifficulty = 1.25f;
+
+    private int deaths;
+
+    private float survivalTimer;
+
     private enum State
     {
         Idle,
@@ -193,46 +206,54 @@ public class CentinelaPrincipalAI : MonoBehaviour
     {
         phase2 = true;
 
-        animator.SetTrigger("Phase2");
-
-        animator.SetTrigger("Invoke");
-
-        Invoke(nameof(SpawnSecondary), 1.0f);
-
-        Debug.Log("Centinela Principal entra en Fase 2");
-    }
-
-    private void ShootFan()
-    {
-        int bullets = stats.fanProjectiles;
-
-        float totalAngle = stats.fanAngle;
-
-        float startAngle = -totalAngle / 2f;
-
-        float step = totalAngle / (bullets - 1);
-
-        for (int i = 0; i < bullets; i++)
+        if (!secondarySpawned)
         {
-            float angle = startAngle + step * i;
+            secondarySpawned = true;
 
-            Quaternion rotation =
-                firePoint.rotation * Quaternion.Euler(0, 0, angle);
-
-            GameObject projectile = Instantiate(
-                stats.projectilePrefab,
-                firePoint.position,
-                rotation
-            );
-
-            BossProjectile bp = projectile.GetComponent<BossProjectile>();
-
-            if (bp != null)
+            if (AIManager.Instance != null)
             {
-                bp.speed = stats.projectileSpeed;
+                AIManager.Instance.SpawnEnemy(
+                    secondaryPrefab,
+                    secondarySpawnPoint.position);
             }
         }
     }
+
+    private void ShootFan()
+{
+    int bullets = stats.fanProjectiles;
+
+    float totalAngle = stats.fanAngle;
+
+    float startAngle = -totalAngle / 2f;
+
+    float step = totalAngle / (bullets - 1);
+
+    Vector2 direction =
+        (rover.position - firePoint.position).normalized;
+
+    float baseAngle =
+        Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+
+    for (int i = 0; i < bullets; i++)
+    {
+        float angle = startAngle + step * i;
+
+        Quaternion rotation =
+            Quaternion.Euler(0, 0, baseAngle + angle);
+
+        GameObject projectile = Instantiate(
+            stats.projectilePrefab,
+            firePoint.position,
+            rotation
+        );
+
+        BossProjectile bp = projectile.GetComponent<BossProjectile>();
+
+        if (bp != null)
+            bp.speed = stats.projectileSpeed;
+    }
+}
 
     private void SpawnSecondary()
     {
@@ -242,11 +263,12 @@ public class CentinelaPrincipalAI : MonoBehaviour
         if (secondarySpawnPoint == null)
             return;
 
-        Instantiate(
-            secondaryPrefab,
-            secondarySpawnPoint.position,
-            Quaternion.identity
-        );
+        if (AIManager.Instance != null)
+        {
+            AIManager.Instance.SpawnEnemy(
+                secondaryPrefab,
+                secondarySpawnPoint.position);
+        }
     }
 
     private void Attack()
@@ -290,10 +312,14 @@ public class CentinelaPrincipalAI : MonoBehaviour
             );
 
             BossProjectile bp =
-                projectile.GetComponent<BossProjectile>();
+    projectile.GetComponent<BossProjectile>();
 
             if (bp != null)
+            {
                 bp.speed = stats.projectileSpeed;
+
+                bp.tracking = phase2;
+            }
         }
     }
 }

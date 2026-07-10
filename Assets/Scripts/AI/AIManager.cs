@@ -14,6 +14,18 @@ public class AIManager : MonoBehaviour
     private Vector2 lastKnownPlayerPosition;
     private bool playerDetected;
 
+
+    [Header("DDA Settings")]
+    [SerializeField] private float difficultyMultiplier = 1f;
+
+    [SerializeField] private float minDifficulty = 0.75f;
+
+    [SerializeField] private float maxDifficulty = 1.25f;
+
+    private int deaths;
+
+    private float survivalTimer;
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -73,4 +85,87 @@ public class AIManager : MonoBehaviour
     {
         return ddaEnabled;
     }
+
+    public GameObject SpawnEnemy(GameObject enemyPrefab, Vector2 position)
+    {
+        if (enemyPrefab == null)
+        {
+            Debug.LogWarning("AIManager: Enemy Prefab es NULL.");
+            return null;
+        }
+
+        GameObject enemy = Instantiate(
+            enemyPrefab,
+            position,
+            Quaternion.identity);
+
+        return enemy;
+    }
+
+    private void Update()
+    {
+        if (!ddaEnabled)
+            return;
+
+        survivalTimer += Time.deltaTime;
+
+        if (survivalTimer >= 480f) // 8 minutos
+        {
+            IncreaseDifficulty();
+
+            survivalTimer = 0f;
+        }
+    }
+
+    public void RegisterPlayerDeath()
+    {
+        if (!ddaEnabled)
+            return;
+
+        deaths++;
+
+        survivalTimer = 0f;
+
+        if (deaths >= 2)
+        {
+            DecreaseDifficulty();
+
+            deaths = 0;
+        }
+    }
+
+    private void IncreaseDifficulty()
+{
+    difficultyMultiplier += 0.1f;
+
+    difficultyMultiplier =
+        Mathf.Clamp(
+            difficultyMultiplier,
+            minDifficulty,
+            maxDifficulty);
+
+    Debug.Log(
+        $"Dificultad aumentada: x{difficultyMultiplier:F2}");
+}
+
+private void DecreaseDifficulty()
+{
+    difficultyMultiplier -= 0.1f;
+
+    difficultyMultiplier =
+        Mathf.Clamp(
+            difficultyMultiplier,
+            minDifficulty,
+            maxDifficulty);
+
+    Debug.Log(
+        $"Dificultad reducida: x{difficultyMultiplier:F2}");
+}
+
+public float GetDifficultyMultiplier()
+{
+    return difficultyMultiplier;
+}
+
+
 }
