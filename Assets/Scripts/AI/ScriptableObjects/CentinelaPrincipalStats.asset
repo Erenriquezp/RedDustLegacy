@@ -18,11 +18,12 @@ MonoBehaviour:
   detectionRange: 10
   attackCooldown: 2.5
   projectileDamage: 12
-  projectileSpeed: 8
+  projectileSpeed: 10
   fanProjectiles: 3
   fanAngle: 30
   phase2ProjectileDamage: 18
   phase2Projectiles: 5
   homingAngle: 45
-  centinelaSecundarioPrefab: {fileID: 0}
+  centinelaSecundarioPrefab: {fileID: 4786504323870657464, guid: 28dc2aeead91eb3488a1d6f530a0fde8, type: 3}
   summonCooldown: 10
+  projectilePrefab: {fileID: 5746241318151116481, guid: ff18ac4ae267a1c458f4dbdf4bb1cc1b, type: 3}
