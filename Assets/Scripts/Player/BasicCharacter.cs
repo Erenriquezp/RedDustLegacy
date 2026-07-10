@@ -8,22 +8,29 @@ namespace Common.Scripts
     {
         private static readonly int WalkProperty = Animator.StringToHash("Walk");
 
-        [SerializeField] private float speed = 2f;
+        [SerializeField] private float speed = 15f;
 
-        private Animator animator;
+        [Header("References")]
+        [SerializeField] private Animator animator;
+        [SerializeField] private SpriteRenderer spriteRenderer;
+
         private Rigidbody physicsBody;
-        private SpriteRenderer spriteRenderer;
-
         private Vector2 moveInput;
 
         private void Awake()
         {
             physicsBody = GetComponent<Rigidbody>();
-            animator = GetComponentInChildren<Animator>();
-            spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+
+            if (animator == null)
+                animator = GetComponentInChildren<Animator>();
+
+            if (spriteRenderer == null)
+                spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+
+            physicsBody.freezeRotation = true;
+            physicsBody.constraints = RigidbodyConstraints.FreezeRotation;
         }
 
-        // ✅ ESTO ES LO QUE TU INPUT SYSTEM LLAMA
         public void OnMove(InputValue value)
         {
             moveInput = value.Get<Vector2>();
@@ -31,7 +38,6 @@ namespace Common.Scripts
 
         private void Update()
         {
-            // Flip sprite
             if (spriteRenderer != null)
             {
                 if (moveInput.x > 0.01f)
@@ -40,7 +46,6 @@ namespace Common.Scripts
                     spriteRenderer.flipX = true;
             }
 
-            // Animación caminar
             if (animator != null)
             {
                 animator.SetBool(WalkProperty, moveInput.sqrMagnitude > 0.01f);
@@ -49,24 +54,30 @@ namespace Common.Scripts
 
         private void FixedUpdate()
         {
+            if (Camera.main == null) return;
+
             Transform cam = Camera.main.transform;
 
             Vector3 forward = cam.forward;
             Vector3 right = cam.right;
 
-            forward.y = 0;
-            right.y = 0;
+            forward.y = 0f;
+            right.y = 0f;
 
             forward.Normalize();
             right.Normalize();
 
             Vector3 move = right * moveInput.x + forward * moveInput.y;
 
-            physicsBody.linearVelocity = new Vector3(
-                move.x * speed,
-                physicsBody.linearVelocity.y,
-                move.z * speed
-            );
+            Vector3 velocity = move * speed;
+            velocity.y = physicsBody.linearVelocity.y;
+
+            physicsBody.linearVelocity = velocity;
+        }
+
+        private void LateUpdate()
+        {
+            transform.rotation = Quaternion.identity;
         }
     }
 }
