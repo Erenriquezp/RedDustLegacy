@@ -18,10 +18,31 @@ public class GameManager : MonoBehaviour
     public GameState CurrentState { get; private set; } = GameState.MainMenu;
     public event Action<GameState> OnStateChanged;
 
-    private const string MAIN_MENU_SCENE = "MainMenu";
+    private const string MAIN_MENU_SCENE = SceneLoader.MainMenuScene;
+
+    /// <summary>Escenas de UI donde no hay gameplay (menú, pantallas de carga, pausa aislada).</summary>
+    private static readonly string[] MENU_SCENES =
+    {
+        SceneLoader.MainMenuScene,
+        SceneLoader.LoadingLevel01Scene,
+        SceneLoader.LoadingLevel02Scene,
+        "StopMenu",
+    };
 
     private DegradationSystem _degradation;
     private HUDManager _hud;
+
+    // ── Herencia entre niveles (S05, GDD §9.3): SI/celdas con las que se entra
+    // al siguiente nivel. Las guarda LevelExit; se consumen al cargar el nivel.
+    private float _pendingSI = -1f;
+    private int _pendingCells = -1;
+
+    /// <summary>La llama <see cref="LevelExit"/> al cruzar la salida de un nivel.</summary>
+    public void CarryOverToNextLevel(float si, int cells)
+    {
+        _pendingSI = si;
+        _pendingCells = cells;
+    }
 
     // ── Bootstrap automático ──────────────────────────────────────────────
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
@@ -58,7 +79,27 @@ public class GameManager : MonoBehaviour
         _hud = FindFirstObjectByType<HUDManager>(FindObjectsInactive.Include);
         if (_hud != null) _hud.ShowPause(false);
 
-        SetState(scene.name == MAIN_MENU_SCENE ? GameState.MainMenu : GameState.Playing);
+        bool isMenuScene = Array.IndexOf(MENU_SCENES, scene.name) >= 0;
+
+        // Herencia de SI/celdas (GDD §9.3): se aplica una vez al entrar al nivel.
+        // Volver al menú principal la descarta (partida nueva = valores por defecto);
+        // las pantallas de carga intermedias NO la descartan.
+        if (scene.name == MAIN_MENU_SCENE)
+        {
+            _pendingSI = -1f;
+            _pendingCells = -1;
+        }
+        else if (!isMenuScene && _degradation != null)
+        {
+            if (_pendingSI >= 0f)  { _degradation.SetSI(_pendingSI); _pendingSI = -1f; }
+            if (_pendingCells >= 0) { _degradation.SetCells(_pendingCells); _pendingCells = -1; }
+        }
+
+        // HUD y GameManager deben mirar a la MISMA instancia; re-sincroniza la barra
+        // con el estado final (herencia ya aplicada).
+        if (_hud != null && !isMenuScene) _hud.Bind(_degradation);
+
+        SetState(isMenuScene ? GameState.MainMenu : GameState.Playing);
     }
 
     private void Update()

@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 /// <summary>
 /// Sistema de Integridad Estructural (SI) del rover — Sprint 03 T1 (GDD §4).
@@ -34,6 +35,8 @@ public class DegradationSystem : MonoBehaviour
     [Header("Invulnerabilidad (i-frames, GDD §4.3)")]
     [Tooltip("Segundos de invulnerabilidad tras recibir daño. Corta el daño en cascada.")]
     [SerializeField] private float invulnDuration = 0.6f;
+    [Tooltip("Gracia tras respawn/carga de nivel (SetSI): evita morir al aparecer junto a un enemigo.")]
+    [SerializeField] private float respawnGrace = 1f;
 
     // ── Eventos (los consumen HUD / GameManager — Sprint 03 T2/T5) ──────────
     public event Action<float> OnSIChanged;      // SI actual tras el cambio
@@ -104,6 +107,18 @@ public class DegradationSystem : MonoBehaviour
         OnCellsChanged?.Invoke(_cells);
     }
 
+    private void Update()
+    {
+        // Uso de celda solar (GDD §5, S05 T5): tecla Q fija (no reasignable), solo en gameplay.
+        if (GameManager.Instance != null &&
+            GameManager.Instance.CurrentState != GameManager.GameState.Playing)
+            return;
+
+        var keyboard = Keyboard.current;
+        if (keyboard != null && keyboard.qKey.wasPressedThisFrame)
+            UseSolarCell();
+    }
+
     private void OnDestroy()
     {
         // Evita fugas de la copia runtime entre recargas de escena.
@@ -123,11 +138,18 @@ public class DegradationSystem : MonoBehaviour
     /// el daño nuevo (corta la cascada de pinchos/enemigos). Si se pasa la posición de la fuente,
     /// el rover retrocede un poco para notar el impacto (GDD §4.3).
     /// </summary>
-    public void TakeDamage(float amount, Vector2? sourcePosition)
+    public void TakeDamage(float amount, Vector2? sourcePosition) =>
+        TakeDamage(amount, sourcePosition, 0f);
+
+    /// <summary>
+    /// Variante con i-frames por fuente (GDD §8.3: el tentáculo del boss usa 0,8 s
+    /// frente al 0,6 s global). Con <paramref name="invulnOverride"/> ≤ 0 usa el global.
+    /// </summary>
+    public void TakeDamage(float amount, Vector2? sourcePosition, float invulnOverride)
     {
         if (_isDead || amount <= 0f) return;
         if (Time.time < _invulnUntil) return;          // i-frames: corta el daño en cascada
-        _invulnUntil = Time.time + invulnDuration;
+        _invulnUntil = Time.time + (invulnOverride > 0f ? invulnOverride : invulnDuration);
 
         _currentSI = Mathf.Max(0f, _currentSI - amount);
 
@@ -164,12 +186,25 @@ public class DegradationSystem : MonoBehaviour
         return true;
     }
 
+    /// <summary>Fija las celdas en reserva (herencia entre niveles — S05, GDD §9.3).</summary>
+    public void SetCells(int count)
+    {
+        _cells = Mathf.Clamp(count, 0, maxCells);
+        OnCellsChanged?.Invoke(_cells);
+    }
+
     /// <summary>Fija la SI directamente (respawn desde checkpoint — Sprint 03 T4).</summary>
     public void SetSI(float value)
     {
         bool wasDead = _isDead;
         _isDead = false;
         _currentSI = Mathf.Clamp(value, 0f, maxSI);
+
+        // Respawn/teletransporte limpio: sin daño de caída fantasma (el punto de
+        // despegue previo ya no existe) y con gracia contra enemigos que campeen.
+        _hasTakeoff = false;
+        _invulnUntil = Mathf.Max(_invulnUntil, Time.time + respawnGrace);
+
         OnSIChanged?.Invoke(_currentSI);
         RecalculatePhase();
         if (wasDead) _controller.NotifyRevive();   // reactiva animator/audio tras la muerte

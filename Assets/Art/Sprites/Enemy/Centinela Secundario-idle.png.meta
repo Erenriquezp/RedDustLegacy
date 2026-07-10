@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: fe6443fa8578bf849880de08ccba1aaf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 564424822301930610
+    second: Centinela Secundario-idle_0
+  - first:
+      213: 7550142231219826927
+    second: Centinela Secundario-idle_1
+  - first:
+      213: -8360686413396420399
+    second: Centinela Secundario-idle_2
+  - first:
+      213: -9028341702178327687
+    second: Centinela Secundario-idle_3
+  - first:
+      213: 2642485362311878771
+    second: Centinela Secundario-idle_4
+  - first:
+      213: -7659780056760268821
+    second: Centinela Secundario-idle_5
+  - first:
+      213: 2501242849246485470
+    second: Centinela Secundario-idle_6
+  - first:
+      213: 7933688022579685062
+    second: Centinela Secundario-idle_7
+  - first:
+      213: 2758355440376224653
+    second: Centinela Secundario-idle_8
+  - first:
+      213: -6421060819872048163
+    second: Centinela Secundario-idle_9
+  - first:
+      213: -953602313155512974
+    second: Centinela Secundario-idle_10
+  - first:
+      213: 1212494032291545345
+    second: Centinela Secundario-idle_11
+  - first:
+      213: -7151772220309257737
+    second: Centinela Secundario-idle_12
+  - first:
+      213: 747854359801732482
+    second: Centinela Secundario-idle_13
+  - first:
+      213: 5929263589951873712
+    second: Centinela Secundario-idle_14
+  - first:
+      213: 5775109895171504583
+    second: Centinela Secundario-idle_15
+  - first:
+      213: -8769283654913034134
+    second: Centinela Secundario-idle_16
+  - first:
+      213: 1107230111428787951
+    second: Centinela Secundario-idle_17
+  - first:
+      213: 1230121590184055083
+    second: Centinela Secundario-idle_18
+  - first:
+      213: 2338913652435523966
+    second: Centinela Secundario-idle_19
+  - first:
+      213: -4051374011888968833
+    second: Centinela Secundario-idle_20
+  - first:
+      213: 3790974244822610598
+    second: Centinela Secundario-idle_21
+  - first:
+      213: 3309695640967759448
+    second: Centinela Secundario-idle_22
+  - first:
+      213: 2912919877361443841
+    second: Centinela Secundario-idle_23
+  - first:
+      213: -3015028676296339390
+    second: Centinela Secundario-idle_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Centinela Secundario-idle_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1082
+        width: 183
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27438bba26d35d700800000000000000
+      internalID: 564424822301930610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centinela Secundario-idle_1
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1082
+        width: 183
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe0788f5b5e77c860800000000000000
+      internalID: 7550142231219826927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centinela Secundario-idle_2
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1082
+        width: 183
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d8521bf000e8fb80800000000000000
+      internalID: -8360686413396420399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centinela Secundario-idle_3
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 1082
+        width: 183
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 973b0da5e03e4b280800000000000000
+      internalID: -9028341702178327687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centinela Secundario-idle_4
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 1082
+        width: 183
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 378d4c0cf6efba420800000000000000
+      internalID: 2642485362311878771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centinela Secundario-idle_5
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 826
+        width: 183
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be7ce232f9ef2b590800000000000000
+      internalID: -7659780056760268821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centinela Secundario-idle_6
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 826
+        width: 183
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb92568e1336b220800000000000000
+      internalID: 2501242849246485470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centinela Secundario-idle_7
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 826
+        width: 183
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c622a8d83f1a1e60800000000000000
+      internalID: 7933688022579685062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centinela Secundario-idle_8
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 826
+        width: 183
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b14eb98a5a74620800000000000000
+      internalID: 2758355440376224653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centinela Secundario-idle_9
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 826
+        width: 183
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddb195e543fc3e6a0800000000000000
+      internalID: -6421060819872048163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centinela Secundario-idle_10
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 570
+        width: 183
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 275ff53afbf14c2f0800000000000000
+      internalID: -953602313155512974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centinela Secundario-idle_11
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 570
+        width: 183
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101c407f5e4a3d010800000000000000
+      internalID: 1212494032291545345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centinela Secundario-idle_12
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 570
+        width: 183
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f1c5fdae0dcfbc90800000000000000
+      internalID: -7151772220309257737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centinela Secundario-idle_13
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 570
+        width: 183
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28d95b3f399e06a00800000000000000
+      internalID: 747854359801732482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centinela Secundario-idle_14
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 570
+        width: 183
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b22dba02d9f84250800000000000000
+      internalID: 5929263589951873712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centinela Secundario-idle_15
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 314
+        width: 183
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c97a801adf452050800000000000000
+      internalID: 5775109895171504583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centinela Secundario-idle_16
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 314
+        width: 183
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a68f44e3afe3d4680800000000000000
+      internalID: -8769283654913034134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centinela Secundario-idle_17
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 314
+        width: 183
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee34548bebad5f00800000000000000
+      internalID: 1107230111428787951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centinela Secundario-idle_18
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 314
+        width: 183
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b21957d9115421110800000000000000
+      internalID: 1230121590184055083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centinela Secundario-idle_19
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 314
+        width: 183
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e791bb5239d757020800000000000000
+      internalID: 2338913652435523966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centinela Secundario-idle_20
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 58
+        width: 183
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7bdb112dc0a6c7c0800000000000000
+      internalID: -4051374011888968833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centinela Secundario-idle_21
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 58
+        width: 183
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a27e4f7dfe3c9430800000000000000
+      internalID: 3790974244822610598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centinela Secundario-idle_22
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 58
+        width: 183
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 856ca8266a66eed20800000000000000
+      internalID: 3309695640967759448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centinela Secundario-idle_23
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 58
+        width: 183
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 104ad45f135cc6820800000000000000
+      internalID: 2912919877361443841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centinela Secundario-idle_24
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 58
+        width: 183
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2409db9a4677826d0800000000000000
+      internalID: -3015028676296339390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Centinela Secundario-idle_0: 564424822301930610
+      Centinela Secundario-idle_1: 7550142231219826927
+      Centinela Secundario-idle_10: -953602313155512974
+      Centinela Secundario-idle_11: 1212494032291545345
+      Centinela Secundario-idle_12: -7151772220309257737
+      Centinela Secundario-idle_13: 747854359801732482
+      Centinela Secundario-idle_14: 5929263589951873712
+      Centinela Secundario-idle_15: 5775109895171504583
+      Centinela Secundario-idle_16: -8769283654913034134
+      Centinela Secundario-idle_17: 1107230111428787951
+      Centinela Secundario-idle_18: 1230121590184055083
+      Centinela Secundario-idle_19: 2338913652435523966
+      Centinela Secundario-idle_2: -8360686413396420399
+      Centinela Secundario-idle_20: -4051374011888968833
+      Centinela Secundario-idle_21: 3790974244822610598
+      Centinela Secundario-idle_22: 3309695640967759448
+      Centinela Secundario-idle_23: 2912919877361443841
+      Centinela Secundario-idle_24: -3015028676296339390
+      Centinela Secundario-idle_3: -9028341702178327687
+      Centinela Secundario-idle_4: 2642485362311878771
+      Centinela Secundario-idle_5: -7659780056760268821
+      Centinela Secundario-idle_6: 2501242849246485470
+      Centinela Secundario-idle_7: 7933688022579685062
+      Centinela Secundario-idle_8: 2758355440376224653
+      Centinela Secundario-idle_9: -6421060819872048163
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

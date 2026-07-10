@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: ddfaa0ffdb5585048b936e293064a212
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1876462698562087710
+    second: CentinelaPrincipal-eletricAttack_0
+  - first:
+      213: 6477985079875438326
+    second: CentinelaPrincipal-eletricAttack_1
+  - first:
+      213: 794190595491872977
+    second: CentinelaPrincipal-eletricAttack_2
+  - first:
+      213: -6255573719492476072
+    second: CentinelaPrincipal-eletricAttack_3
+  - first:
+      213: -6277631296514942251
+    second: CentinelaPrincipal-eletricAttack_4
+  - first:
+      213: -5762466977371083335
+    second: CentinelaPrincipal-eletricAttack_5
+  - first:
+      213: 9127796052411707443
+    second: CentinelaPrincipal-eletricAttack_6
+  - first:
+      213: -2121881110540290930
+    second: CentinelaPrincipal-eletricAttack_7
+  - first:
+      213: 1462158263427516408
+    second: CentinelaPrincipal-eletricAttack_8
+  - first:
+      213: 6193146637148991825
+    second: CentinelaPrincipal-eletricAttack_9
+  - first:
+      213: -4649311170601256288
+    second: CentinelaPrincipal-eletricAttack_10
+  - first:
+      213: 7027227138249621809
+    second: CentinelaPrincipal-eletricAttack_11
+  - first:
+      213: 4494305792847895552
+    second: CentinelaPrincipal-eletricAttack_12
+  - first:
+      213: 1160881664797000709
+    second: CentinelaPrincipal-eletricAttack_13
+  - first:
+      213: 897017666572176127
+    second: CentinelaPrincipal-eletricAttack_14
+  - first:
+      213: -1464119485150365410
+    second: CentinelaPrincipal-eletricAttack_15
+  - first:
+      213: -572489188546871159
+    second: CentinelaPrincipal-eletricAttack_16
+  - first:
+      213: 4683032437140840099
+    second: CentinelaPrincipal-eletricAttack_17
+  - first:
+      213: -2993725965459172356
+    second: CentinelaPrincipal-eletricAttack_18
+  - first:
+      213: 2676070256366970617
+    second: CentinelaPrincipal-eletricAttack_19
+  - first:
+      213: -668912184870213070
+    second: CentinelaPrincipal-eletricAttack_20
+  - first:
+      213: -7402776278688919280
+    second: CentinelaPrincipal-eletricAttack_21
+  - first:
+      213: -5818510119613159420
+    second: CentinelaPrincipal-eletricAttack_22
+  - first:
+      213: 8524741327048387236
+    second: CentinelaPrincipal-eletricAttack_23
+  - first:
+      213: 5106026986582629389
+    second: CentinelaPrincipal-eletricAttack_24
+  - first:
+      213: 1907113067806792067
+    second: CentinelaPrincipal-eletricAttack_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CentinelaPrincipal-eletricAttack_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1090
+        width: 217
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e49fe91e1775f5e0800000000000000
+      internalID: -1876462698562087710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-eletricAttack_1
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1090
+        width: 216
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f6814abb1d66e950800000000000000
+      internalID: 6477985079875438326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-eletricAttack_2
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1090
+        width: 216
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d0cf388328850b00800000000000000
+      internalID: 794190595491872977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-eletricAttack_3
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 1090
+        width: 216
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 853c16778dcbf29a0800000000000000
+      internalID: -6255573719492476072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-eletricAttack_4
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 1090
+        width: 215
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da1a5c989f51e8a0800000000000000
+      internalID: -6277631296514942251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-eletricAttack_5
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 834
+        width: 216
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bda0ef90da9700b0800000000000000
+      internalID: -5762466977371083335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-eletricAttack_6
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 834
+        width: 216
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 330763606227cae70800000000000000
+      internalID: 9127796052411707443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-eletricAttack_7
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 834
+        width: 216
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8472a64f509d82e0800000000000000
+      internalID: -2121881110540290930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-eletricAttack_8
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 834
+        width: 216
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f7cff89131aa4410800000000000000
+      internalID: 1462158263427516408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-eletricAttack_9
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 834
+        width: 215
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 151bb25cd0a72f550800000000000000
+      internalID: 6193146637148991825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-eletricAttack_10
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 578
+        width: 216
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa7e0a9f145a7fb0800000000000000
+      internalID: -4649311170601256288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-eletricAttack_11
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 578
+        width: 216
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1318a53b9d9b58160800000000000000
+      internalID: 7027227138249621809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-eletricAttack_12
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 578
+        width: 216
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00cdda68e4bfe5e30800000000000000
+      internalID: 4494305792847895552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-eletricAttack_13
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 578
+        width: 216
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5044d7839b74c1010800000000000000
+      internalID: 1160881664797000709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-eletricAttack_14
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 578
+        width: 215
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffac84da0d8d27c00800000000000000
+      internalID: 897017666572176127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-eletricAttack_15
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 322
+        width: 216
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1972e2e5176eabe0800000000000000
+      internalID: -1464119485150365410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-eletricAttack_16
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 322
+        width: 216
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98089eebd1c1e08f0800000000000000
+      internalID: -572489188546871159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-eletricAttack_17
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 322
+        width: 216
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ae596790397df040800000000000000
+      internalID: 4683032437140840099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-eletricAttack_18
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 322
+        width: 216
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf351f988162476d0800000000000000
+      internalID: -2993725965459172356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-eletricAttack_19
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 448
+        width: 7
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6edb048bf432520800000000000000
+      internalID: 2676070256366970617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-eletricAttack_20
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 322
+        width: 215
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a61e279eb87b6f0800000000000000
+      internalID: -668912184870213070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-eletricAttack_21
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 66
+        width: 216
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0111f05323e044990800000000000000
+      internalID: -7402776278688919280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-eletricAttack_22
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 66
+        width: 216
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 408217ebfdf704fa0800000000000000
+      internalID: -5818510119613159420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-eletricAttack_23
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 66
+        width: 216
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aaafc82217fd4670800000000000000
+      internalID: 8524741327048387236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-eletricAttack_24
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 66
+        width: 216
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0cd0dccd704cd640800000000000000
+      internalID: 5106026986582629389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-eletricAttack_25
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 66
+        width: 215
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38911291b3d677a10800000000000000
+      internalID: 1907113067806792067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CentinelaPrincipal-eletricAttack_0: -1876462698562087710
+      CentinelaPrincipal-eletricAttack_1: 6477985079875438326
+      CentinelaPrincipal-eletricAttack_10: -4649311170601256288
+      CentinelaPrincipal-eletricAttack_11: 7027227138249621809
+      CentinelaPrincipal-eletricAttack_12: 4494305792847895552
+      CentinelaPrincipal-eletricAttack_13: 1160881664797000709
+      CentinelaPrincipal-eletricAttack_14: 897017666572176127
+      CentinelaPrincipal-eletricAttack_15: -1464119485150365410
+      CentinelaPrincipal-eletricAttack_16: -572489188546871159
+      CentinelaPrincipal-eletricAttack_17: 4683032437140840099
+      CentinelaPrincipal-eletricAttack_18: -2993725965459172356
+      CentinelaPrincipal-eletricAttack_19: 2676070256366970617
+      CentinelaPrincipal-eletricAttack_2: 794190595491872977
+      CentinelaPrincipal-eletricAttack_20: -668912184870213070
+      CentinelaPrincipal-eletricAttack_21: -7402776278688919280
+      CentinelaPrincipal-eletricAttack_22: -5818510119613159420
+      CentinelaPrincipal-eletricAttack_23: 8524741327048387236
+      CentinelaPrincipal-eletricAttack_24: 5106026986582629389
+      CentinelaPrincipal-eletricAttack_25: 1907113067806792067
+      CentinelaPrincipal-eletricAttack_3: -6255573719492476072
+      CentinelaPrincipal-eletricAttack_4: -6277631296514942251
+      CentinelaPrincipal-eletricAttack_5: -5762466977371083335
+      CentinelaPrincipal-eletricAttack_6: 9127796052411707443
+      CentinelaPrincipal-eletricAttack_7: -2121881110540290930
+      CentinelaPrincipal-eletricAttack_8: 1462158263427516408
+      CentinelaPrincipal-eletricAttack_9: 6193146637148991825
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

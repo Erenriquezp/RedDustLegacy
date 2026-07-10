@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: e23996c019cbe00479bc86ea594f475b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7094990367116964040
+    second: CentinelaPrincipal-morir_0
+  - first:
+      213: 242024248606265203
+    second: CentinelaPrincipal-morir_1
+  - first:
+      213: 1094729622372630258
+    second: CentinelaPrincipal-morir_2
+  - first:
+      213: -7019300418601493033
+    second: CentinelaPrincipal-morir_3
+  - first:
+      213: -1991833813048906178
+    second: CentinelaPrincipal-morir_4
+  - first:
+      213: -8827394307265846633
+    second: CentinelaPrincipal-morir_5
+  - first:
+      213: 3209224990722649112
+    second: CentinelaPrincipal-morir_6
+  - first:
+      213: -7298394789582893686
+    second: CentinelaPrincipal-morir_7
+  - first:
+      213: 8735812365797854058
+    second: CentinelaPrincipal-morir_8
+  - first:
+      213: 1852963881578244956
+    second: CentinelaPrincipal-morir_9
+  - first:
+      213: -8646768686520176751
+    second: CentinelaPrincipal-morir_10
+  - first:
+      213: -1276528197863538970
+    second: CentinelaPrincipal-morir_11
+  - first:
+      213: -5946236635794782952
+    second: CentinelaPrincipal-morir_12
+  - first:
+      213: 5574108582222534113
+    second: CentinelaPrincipal-morir_13
+  - first:
+      213: -5465892788300541713
+    second: CentinelaPrincipal-morir_14
+  - first:
+      213: 5522243108446597657
+    second: CentinelaPrincipal-morir_15
+  - first:
+      213: -6289556919644036127
+    second: CentinelaPrincipal-morir_16
+  - first:
+      213: 7410537058978171670
+    second: CentinelaPrincipal-morir_17
+  - first:
+      213: -1379797036697164374
+    second: CentinelaPrincipal-morir_18
+  - first:
+      213: 8380666784238600944
+    second: CentinelaPrincipal-morir_19
+  - first:
+      213: 4545227204115540946
+    second: CentinelaPrincipal-morir_20
+  - first:
+      213: -1964508953018217337
+    second: CentinelaPrincipal-morir_21
+  - first:
+      213: 7076201770551276370
+    second: CentinelaPrincipal-morir_22
+  - first:
+      213: 3427953485714588252
+    second: CentinelaPrincipal-morir_23
+  - first:
+      213: 779804407185302904
+    second: CentinelaPrincipal-morir_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CentinelaPrincipal-morir_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1090
+        width: 166
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83fcc2b1ad7898d90800000000000000
+      internalID: -7094990367116964040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-morir_1
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1090
+        width: 166
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f053595c7db5300800000000000000
+      internalID: 242024248606265203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-morir_2
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1090
+        width: 166
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe3e9a9ac2413f00800000000000000
+      internalID: 1094729622372630258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-morir_3
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 1090
+        width: 210
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ddd189857f669e90800000000000000
+      internalID: -7019300418601493033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-morir_4
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1090
+        width: 258
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3eab9143b59b54e0800000000000000
+      internalID: -1991833813048906178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-morir_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 834
+        width: 257
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7922d17a5abce7580800000000000000
+      internalID: -8827394307265846633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-morir_6
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 834
+        width: 237
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c64583025798c20800000000000000
+      internalID: 3209224990722649112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-morir_7
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 834
+        width: 211
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d89508b94e6ba90800000000000000
+      internalID: -7298394789582893686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-morir_8
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 834
+        width: 214
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b88d7ff07db3970800000000000000
+      internalID: 8735812365797854058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-morir_9
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 834
+        width: 225
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ba91735dc07b910800000000000000
+      internalID: 1852963881578244956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-morir_10
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 578
+        width: 240
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f6ef031b1800880800000000000000
+      internalID: -8646768686520176751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-morir_11
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 578
+        width: 251
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eef29c0e5cd84ee0800000000000000
+      internalID: -1276528197863538970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-morir_12
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 579
+        width: 256
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 815c905c849ba7da0800000000000000
+      internalID: -5946236635794782952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-morir_13
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 579
+        width: 255
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e594def8363b5d40800000000000000
+      internalID: 5574108582222534113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-morir_14
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 579
+        width: 252
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe01af4f77f3524b0800000000000000
+      internalID: -5465892788300541713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-morir_15
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 322
+        width: 251
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 912fe4a59d2f2ac40800000000000000
+      internalID: 5522243108446597657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-morir_16
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 323
+        width: 252
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e3640a1e4107b8a0800000000000000
+      internalID: -6289556919644036127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-morir_17
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 323
+        width: 248
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61b0343413487d660800000000000000
+      internalID: 7410537058978171670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-morir_18
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 322
+        width: 244
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa56785d7e9f9dce0800000000000000
+      internalID: -1379797036697164374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-morir_19
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 322
+        width: 243
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2057f990c1e4470800000000000000
+      internalID: 8380666784238600944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-morir_20
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 66
+        width: 242
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dbafbc7f04e31f30800000000000000
+      internalID: 4545227204115540946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-morir_21
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 66
+        width: 241
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c46410489acb4e0800000000000000
+      internalID: -1964508953018217337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-morir_22
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 66
+        width: 239
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 253f2bcd408b33260800000000000000
+      internalID: 7076201770551276370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-morir_23
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 66
+        width: 238
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c52849e7889829f20800000000000000
+      internalID: 3427953485714588252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CentinelaPrincipal-morir_24
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 66
+        width: 236
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 875609c0afb62da00800000000000000
+      internalID: 779804407185302904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CentinelaPrincipal-morir_0: -7094990367116964040
+      CentinelaPrincipal-morir_1: 242024248606265203
+      CentinelaPrincipal-morir_10: -8646768686520176751
+      CentinelaPrincipal-morir_11: -1276528197863538970
+      CentinelaPrincipal-morir_12: -5946236635794782952
+      CentinelaPrincipal-morir_13: 5574108582222534113
+      CentinelaPrincipal-morir_14: -5465892788300541713
+      CentinelaPrincipal-morir_15: 5522243108446597657
+      CentinelaPrincipal-morir_16: -6289556919644036127
+      CentinelaPrincipal-morir_17: 7410537058978171670
+      CentinelaPrincipal-morir_18: -1379797036697164374
+      CentinelaPrincipal-morir_19: 8380666784238600944
+      CentinelaPrincipal-morir_2: 1094729622372630258
+      CentinelaPrincipal-morir_20: 4545227204115540946
+      CentinelaPrincipal-morir_21: -1964508953018217337
+      CentinelaPrincipal-morir_22: 7076201770551276370
+      CentinelaPrincipal-morir_23: 3427953485714588252
+      CentinelaPrincipal-morir_24: 779804407185302904
+      CentinelaPrincipal-morir_3: -7019300418601493033
+      CentinelaPrincipal-morir_4: -1991833813048906178
+      CentinelaPrincipal-morir_5: -8827394307265846633
+      CentinelaPrincipal-morir_6: 3209224990722649112
+      CentinelaPrincipal-morir_7: -7298394789582893686
+      CentinelaPrincipal-morir_8: 8735812365797854058
+      CentinelaPrincipal-morir_9: 1852963881578244956
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

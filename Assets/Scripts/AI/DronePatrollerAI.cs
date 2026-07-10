@@ -1,4 +1,5 @@
 using UnityEngine;
+
 public class DronePatrollerAI : MonoBehaviour
 {
     public DronePatrollerStatsSO stats;
@@ -7,6 +8,9 @@ public class DronePatrollerAI : MonoBehaviour
     [Header("Attack")]
     public GameObject projectilePrefab;
     public Transform firePoint;
+
+    [Header("Audio")]
+    [SerializeField] private EnemyAudioController audioController;
 
     [Header("Terrestre")]
     [Tooltip("Capas de suelo/pared sobre las que se apoya y choca. Si se deja vacío, usa Ground + Platform.")]
@@ -146,6 +150,7 @@ public class DronePatrollerAI : MonoBehaviour
         if (distance < stats.detectionRange)
         {
             currentState = State.Chase;
+            ReportAlert(true);   // S04 T4.2: música → Tension
             return;
         }
 
@@ -179,6 +184,7 @@ public class DronePatrollerAI : MonoBehaviour
             {
                 currentState = State.Return;
                 lostPlayerTimer = 0f;
+                ReportAlert(false);   // S04 T4.2: perdió al rover → Exploration
             }
         }
         else
@@ -218,6 +224,7 @@ public class DronePatrollerAI : MonoBehaviour
         if (distance < stats.detectionRange)
         {
             currentState = State.Chase;
+            ReportAlert(true);   // S04 T4.2: re-detecta al rover → Tension
             return;
         }
 
@@ -236,34 +243,53 @@ public class DronePatrollerAI : MonoBehaviour
 
     #endregion
 
+    /// <summary>
+    /// Comunicación de drones — S05 T3 (GDD §8.1): un Detector en Alert reparte la
+    /// posición del rover vía <see cref="AIManager"/>. Si este patrullero está libre
+    /// (Patrol/Return), sale a perseguir aunque el rover esté fuera de su rango de
+    /// detección; si no lo alcanza en loseTime, Return lo devuelve a su zona.
+    /// </summary>
+    public void OnPlayerReported(Vector2 playerPosition)
+    {
+        if (isDead || currentState == State.Chase || currentState == State.Attack)
+            return;
+
+        lostPlayerTimer = 0f;
+        currentState = State.Chase;
+        ReportAlert(true);
+    }
+
     void Shoot()
-{
-    if (projectilePrefab == null)
     {
-        Debug.LogWarning("Projectile Prefab no asignado.");
-        return;
+        if (projectilePrefab == null)
+        {
+            Debug.LogWarning("Projectile Prefab no asignado.");
+            return;
+        }
+
+        if (firePoint == null)
+        {
+            Debug.LogWarning("FirePoint no asignado.");
+            return;
+        }
+
+        GameObject bullet = Instantiate(
+            projectilePrefab,
+            firePoint.position,
+            Quaternion.identity);
+
+        // [AUDIO] Disparo controlado
+        if (audioController != null) audioController.PlayAttackSound();
+
+        EnemyProjectile projectile = bullet.GetComponent<EnemyProjectile>();
+
+        Vector2 dir = (rover.position - firePoint.position).normalized;
+
+        projectile.Initialize(
+            dir,
+            stats.projectileSpeed,
+            stats.projectileLifetime);
     }
-
-    if (firePoint == null)
-    {
-        Debug.LogWarning("FirePoint no asignado.");
-        return;
-    }
-
-    GameObject bullet = Instantiate(
-        projectilePrefab,
-        firePoint.position,
-        Quaternion.identity);
-
-    EnemyProjectile projectile = bullet.GetComponent<EnemyProjectile>();
-
-    Vector2 dir = (rover.position - firePoint.position).normalized;
-
-    projectile.Initialize(
-        dir,
-        stats.projectileSpeed,
-        stats.projectileLifetime);
-}
 
     void Flip()
     {
@@ -311,16 +337,36 @@ public class DronePatrollerAI : MonoBehaviour
         {
             Die();
         }
+        else
+        {
+            // [AUDIO] Recibir Daño controlado
+            if (audioController != null) audioController.PlayDamageSound();
+        }
     }
 
     void Die()
     {
         isDead = true;
 
+        ReportAlert(false);   // S04 T4.2: un muerto no sostiene la Tension
+
+        // [AUDIO] Muerte controlada
+        if (audioController != null) audioController.PlayDeathSound();
+
         animator.SetBool("IsDead", true);
 
         Invoke(nameof(DisableEnemy), 1.5f);
     }
+
+    // S04 T4.2: reporta al AudioManager si este enemigo está en Chase/Attack.
+    // OnDisable cubre el SetActive(false) de la muerte y la descarga de escena.
+    private void ReportAlert(bool inAlert)
+    {
+        if (Core.AudioManager.Instance != null)
+            Core.AudioManager.Instance.ReportEnemyAlert(this, inAlert);
+    }
+
+    private void OnDisable() => ReportAlert(false);
 
     void DisableEnemy()
     {

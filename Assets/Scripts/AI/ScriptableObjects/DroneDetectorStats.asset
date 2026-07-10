@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d47aa3b5714e2946b76b53d2d7c0f78, type: 3}
+  m_Name: DroneDetectorStats
+  m_EditorClassIdentifier: Assembly-CSharp::DroneDetectorStatsSO
+  maxHp: 80
+  moveSpeed: 4.5
+  patrolSpeed: 2.5
+  patrolRange: 4
+  visionDistance: 8
+  visionAngle: 60
+  alertTime: 1.5
+  searchDuration: 6
+  attackDistance: 4
+  attackCooldown: 2
+  projectileSpeed: 7
+  projectileLifetime: 2.5
+  dashDamage: 40

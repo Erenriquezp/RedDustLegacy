@@ -27,6 +27,10 @@ public class PlayerController : MonoBehaviour
     public event Action OnDashed;
     public event Action OnWallJumped;
     public event Action<bool> OnWallSliding;
+
+    public event Action OnScanStarted;
+    public event Action OnScanStopped;
+
     // Sprint 03 (T1): los dispara DegradationSystem vía NotifyDamageReceived/NotifyDeath.
     public event Action<float> OnDamageReceived;   // cantidad de daño recibido
     public event Action OnDeath;                    // SI = 0
@@ -180,8 +184,16 @@ public class PlayerController : MonoBehaviour
     }
     public void OnScanInput(InputAction.CallbackContext ctx)
     {
-        if (ctx.started)  _isScanning = true;
-        if (ctx.canceled) _isScanning = false;
+        if (ctx.started)
+        {
+            _isScanning = true;
+            OnScanStarted?.Invoke(); // ◄ NUEVO: Avisa que inició el escaneo
+        }
+        if (ctx.canceled)
+        {
+            _isScanning = false;
+            OnScanStopped?.Invoke(); // ◄ NUEVO: Avisa que terminó el escaneo
+        }
     }
 
     #endregion
