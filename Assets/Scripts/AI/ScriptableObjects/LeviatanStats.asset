@@ -13,12 +13,21 @@ MonoBehaviour:
   m_Name: LeviatanStats
   m_EditorClassIdentifier: Assembly-CSharp::LeviatanStatsSO
   maxHp: 200
-  moveSpeed: 0.8
+  moveSpeed: 2.2
   introDuration: 2
   tentacleDamage: 15
-  attackCooldown: 2
+  attackCooldown: 1.2
   attackDuration: 1.9
   tentacleIFrames: 0.8
+  lungeMinRange: 5
+  lungeMaxRange: 12
+  lungeCooldown: 5
+  lungeTelegraphTime: 0.5
+  lungeDuration: 0.55
+  lungeArcHeight: 3.5
+  lungeLandingOffset: 2.2
+  lungeDamage: 20
+  lungeImpactRadius: 2.8
   dashDamage: 25
   vulnerableTime: 2
   damageMultiplier: 2

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3080623761753620861}
   - component: {fileID: 3074487210832424350}
   - component: {fileID: 1935640318715561106}
+  - component: {fileID: 1358017429684710003}
   m_Layer: 0
   m_Name: CentinelaSecundario
   m_TagString: Untagged
@@ -32,7 +33,8 @@ Transform:
   m_LocalPosition: {x: 0.04, y: 0.09, z: 0}
   m_LocalScale: {x: 2.2848, y: 2.2045, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1358017429684710002}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &8873098023898494003
@@ -131,7 +133,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 0
+  m_GravityScale: 2
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -189,3 +191,49 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.83, y: 1.26}
   m_EdgeRadius: 0
+--- !u!114 &1358017429684710003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4786504323870657464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8c8a2f2f07517841a0342292095bda8, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  firePoint: {fileID: 1358017429684710002}
+  stats: {fileID: 11400000, guid: 2f8b23282fcc8464db211ab7efa297e6, type: 2}
+  rover: {fileID: 0}
+--- !u!1 &1358017429684710001
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1358017429684710002}
+  m_Layer: 0
+  m_Name: FirePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1358017429684710002
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358017429684710001}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.5, y: 0.35, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3018260971971330634}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -227,9 +227,6 @@ MonoBehaviour:
   hudManager: {fileID: 0}
   secondaryPrefab: {fileID: 4786504323870657464, guid: 28dc2aeead91eb3488a1d6f530a0fde8, type: 3}
   secondarySpawnPoint: {fileID: 208102755}
-  difficultyMultiplier: 1
-  minDifficulty: 0.75
-  maxDifficulty: 1.25
 --- !u!61 &1501355110
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -499,6 +496,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3687573645807426933, guid: 80f87b4d53dca2a4fa564a00e84779da, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3687573645807426933, guid: 80f87b4d53dca2a4fa564a00e84779da, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 3687573645807426933, guid: 80f87b4d53dca2a4fa564a00e84779da, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.0953

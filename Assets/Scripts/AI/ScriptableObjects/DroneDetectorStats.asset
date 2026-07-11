@@ -18,7 +18,10 @@ MonoBehaviour:
   patrolRange: 4
   visionDistance: 8
   visionAngle: 60
+  proximityRadius: 3.5
   alertTime: 1.5
+  alertLoseGrace: 1
+  chaseRange: 11
   searchDuration: 6
   attackDistance: 4
   attackCooldown: 2

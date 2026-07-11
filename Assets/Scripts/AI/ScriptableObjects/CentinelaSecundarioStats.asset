@@ -13,11 +13,18 @@ MonoBehaviour:
   m_Name: CentinelaSecundarioStats
   m_EditorClassIdentifier: Assembly-CSharp::CentinelaSecundarioStatsSO
   maxHp: 100
+  dashDamage: 50
   patrolSpeed: 2
-  patrolDistance: 8
+  chaseSpeed: 3.5
+  patrolDistance: 4
+  leashRange: 8
   detectionRange: 6
-  attackCooldown: 1.2
-  projectileSpeed: 10
+  loseRange: 9
+  attackRange: 5
+  attackCooldown: 1.4
+  projectileDamage: 10
+  projectileSpeed: 7.5
+  trackingShotEvery: 3
   trackingAngle: 30
   projectilePrefab: {fileID: 5929408128900341768, guid: 817c684a59501ce4981841af5a92e4da, type: 3}
-  projectileLifetime: 5
+  projectileLifetime: 3

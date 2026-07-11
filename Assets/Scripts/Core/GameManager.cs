@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
@@ -139,22 +140,49 @@ public class GameManager : MonoBehaviour
     private void HandlePlayerDeath()
     {
         if (CurrentState == GameState.GameOver) return;
+
+        // Contadores de muerte: intentos del checkpoint (reinicio de nivel al
+        // agotarse) y DDA del AIManager (S05 T3) si está en la escena.
+        if (CheckpointManager.Instance != null) CheckpointManager.Instance.RegisterDeath();
+        if (AIManager.Instance != null) AIManager.Instance.RegisterPlayerDeath();
+
+        // El estado cambia YA (bloquea pausa y evita que el freeze del dash
+        // "descongele" el juego), pero el freeze + pantalla esperan a que la
+        // animación de muerte del rover se vea (antes se congelaba en el frame 0).
+        SetState(GameState.GameOver);
+        StartCoroutine(GameOverSequence());
+    }
+
+    /// <summary>Segundos de animación de muerte visibles antes de congelar y mostrar Game Over.</summary>
+    private const float GameOverFreezeDelay = 1.5f;
+
+    private IEnumerator GameOverSequence()
+    {
+        // Realtime: si la muerte ocurrió con el timeScale ya en 0 (freeze del
+        // dash), un WaitForSeconds escalado no avanzaría y el Game Over jamás
+        // aparecería.
+        yield return new WaitForSecondsRealtime(GameOverFreezeDelay);
+
+        // Si el estado ya no es Game Over (p. ej. se recargó la escena), abortar.
+        if (CurrentState != GameState.GameOver) yield break;
+
         Time.timeScale = 0f;
         if (_hud != null) _hud.ShowGameOver();
         if (Core.AudioManager.Instance != null) Core.AudioManager.Instance.TriggerGameOverMusic();
-        SetState(GameState.GameOver);
     }
 
     /// <summary>
     /// Reintentar. Si hay un checkpoint registrado (T4), respawnea SIN recargar
-    /// (no resetea el nivel). Si no, recarga la escena (reinicio desde el principio).
+    /// (no resetea el nivel). Sin checkpoint — o con los intentos del checkpoint
+    /// agotados (3 muertes seguidas) — recarga la escena: nivel desde el
+    /// principio con SI y estado de arranque.
     /// </summary>
     public void RestartFromCheckpoint()
     {
         Time.timeScale = 1f;
 
         var cm = CheckpointManager.Instance;
-        if (cm != null && cm.HasCheckpoint)
+        if (cm != null && cm.HasCheckpoint && !cm.AttemptsExhausted)
         {
             var player = FindFirstObjectByType<PlayerController>(FindObjectsInactive.Include);
             var deg = _degradation != null

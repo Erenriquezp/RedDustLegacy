@@ -25,6 +25,7 @@ public class DroneDetectorAI : MonoBehaviour
     private bool isDead;
 
     private float alertTimer;
+    private float alertLoseTimer;
     private Vector2 lastKnownPosition;
     private Vector3 originalScale;
 
@@ -110,6 +111,7 @@ public class DroneDetectorAI : MonoBehaviour
         {
             currentState = State.Alert;
             alertTimer = 0f;
+            alertLoseTimer = 0f;
 
             // S05 T3: avisa al AIManager (comunicación de drones) y sube la música a Tension.
             NotifyAIManager();
@@ -137,6 +139,7 @@ public class DroneDetectorAI : MonoBehaviour
 
         if (CanSeeRover())
         {
+            alertLoseTimer = 0f;
             alertTimer += Time.deltaTime;
 
             if (alertTimer >= stats.alertTime)
@@ -152,6 +155,11 @@ public class DroneDetectorAI : MonoBehaviour
         }
         else
         {
+            // Gracia antes de rendirse: un salto del rover sacaba el contacto del
+            // cono un instante y la alerta se cancelaba en el acto.
+            alertLoseTimer += Time.deltaTime;
+            if (alertLoseTimer < stats.alertLoseGrace) return;
+
             currentState = State.Patrol;
             alertTimer = 0f;
             ReportAlert(false);
@@ -170,9 +178,13 @@ public class DroneDetectorAI : MonoBehaviour
             stats.moveSpeed * Time.deltaTime
         );
 
-        lastKnownPosition = rover.position;
-
         float distance = Vector2.Distance(transform.position, rover.position);
+
+        // Lock-on: confirmada la detección, persigue mientras el rover esté a
+        // menos de chaseRange — sin exigir visión continua (antes cualquier
+        // esquina o salto lo mandaba a Search al instante).
+        if (distance <= stats.chaseRange)
+            lastKnownPosition = rover.position;
 
         if (distance <= stats.attackDistance)
         {
@@ -182,7 +194,7 @@ public class DroneDetectorAI : MonoBehaviour
             return;
         }
 
-        if (!CanSeeRover())
+        if (distance > stats.chaseRange)
         {
             currentState = State.Search;
             searchTimer = stats.searchDuration;
@@ -271,18 +283,26 @@ public class DroneDetectorAI : MonoBehaviour
         Vector2 directionToRover = (rover.position - transform.position).normalized;
         float distance = Vector2.Distance(transform.position, rover.position);
 
-        // Verificar distancia
-        if (distance > stats.visionDistance)
-            return false;
+        // Detección por proximidad: muy cerca lo "siente" en cualquier dirección
+        // (el cono horizontal era ciego por detrás/arriba/abajo). Las paredes
+        // siguen bloqueando (raycast de abajo).
+        bool inProximity = distance <= stats.proximityRadius;
 
-        // Dirección hacia donde mira el drone
-        Vector2 forward = transform.localScale.x > 0 ? Vector2.right : Vector2.left;
+        if (!inProximity)
+        {
+            // Verificar distancia del cono
+            if (distance > stats.visionDistance)
+                return false;
 
-        // Verificar ángulo de visión
-        float angle = Vector2.Angle(forward, directionToRover);
+            // Dirección hacia donde mira el drone
+            Vector2 forward = transform.localScale.x > 0 ? Vector2.right : Vector2.left;
 
-        if (angle > stats.visionAngle / 2f)
-            return false;
+            // Verificar ángulo de visión
+            float angle = Vector2.Angle(forward, directionToRover);
+
+            if (angle > stats.visionAngle / 2f)
+                return false;
+        }
 
         // Verificar si una pared bloquea la visión
         RaycastHit2D hit = Physics2D.Raycast(
@@ -313,6 +333,12 @@ public class DroneDetectorAI : MonoBehaviour
 
         Gizmos.DrawRay(transform.position, left * stats.visionDistance);
         Gizmos.DrawRay(transform.position, right * stats.visionDistance);
+
+        // Proximidad omnidireccional y rango de persecución
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, stats.proximityRadius);
+        Gizmos.color = new Color(1f, 0.55f, 0.1f);
+        Gizmos.DrawWireSphere(transform.position, stats.chaseRange);
     }
     private void FaceRover()
     {

@@ -22,15 +22,15 @@ public class DegradationSystem : MonoBehaviour
     [SerializeField] private int maxCells = 2;
     [SerializeField] private float cellRestoreAmount = 20f;
 
-    [Header("Daño por caída (GDD §4.3)")]
-    [Tooltip("Descenso neto (u) mínimo para dañar en Fase 1.")]
-    [SerializeField] private float fallMinPhase1 = 3f;
-    [Tooltip("Descenso neto (u) mínimo para dañar en Fase ≥2.")]
-    [SerializeField] private float fallMinPhase2Plus = 2f;
+    [Header("Daño por caída (GDD §4.3 — umbrales subidos S05: solo caídas ALTAS)")]
+    [Tooltip("Descenso neto (u) mínimo para dañar en Fase 1. Bajadas normales del terreno no deben dispararlo.")]
+    [SerializeField] private float fallMinPhase1 = 5f;
+    [Tooltip("Descenso neto (u) mínimo para dañar en Fase ≥2 (algo más frágil, nunca al nivel de un escalón).")]
+    [SerializeField] private float fallMinPhase2Plus = 4f;
     [Tooltip("Descenso neto (u) a partir del cual el daño es máximo.")]
-    [SerializeField] private float fallHeavyDistance = 6f;
-    [SerializeField] private float fallLightDamage = 10f;  // 3–5 u
-    [SerializeField] private float fallHeavyDamage = 25f;  // ≥6 u (cap)
+    [SerializeField] private float fallHeavyDistance = 9f;
+    [SerializeField] private float fallLightDamage = 10f;  // caída media
+    [SerializeField] private float fallHeavyDamage = 25f;  // caída alta (cap)
 
     [Header("Invulnerabilidad (i-frames, GDD §4.3)")]
     [Tooltip("Segundos de invulnerabilidad tras recibir daño. Corta el daño en cascada.")]
@@ -206,7 +206,14 @@ public class DegradationSystem : MonoBehaviour
         _invulnUntil = Mathf.Max(_invulnUntil, Time.time + respawnGrace);
 
         OnSIChanged?.Invoke(_currentSI);
-        RecalculatePhase();
+
+        // Respawn: reaplica SIEMPRE los modificadores (no solo si la fase cambió).
+        // Blinda salto/dash/wall-jump contra cualquier toggle heredado del estado
+        // previo a la muerte (la muerte pasa por Fase 6, que los desactiva).
+        _currentPhase = CalculatePhase(_currentSI);
+        ApplyPhaseModifiers(_currentPhase);
+        OnPhaseChanged?.Invoke(_currentPhase);
+
         if (wasDead) _controller.NotifyRevive();   // reactiva animator/audio tras la muerte
     }
 

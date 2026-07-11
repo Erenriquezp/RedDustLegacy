@@ -3,9 +3,12 @@ using System.Collections;
 using UnityEngine;
 
 /// <summary>
-/// Boss del Nivel 1 — Leviatán (S04 T3, GDD §8.3).
+/// Boss del Nivel 1 — Leviatán (S04 T3 + S05, GDD §8.3).
 /// FSM: Dormant → Intro (lockdown/emersión) → Idle/Track → Attack → Vulnerable → …
-/// → Death. Enrage a &lt;50% HP (tentáculos ×1,5 + un 4º golpe por ciclo).
+/// → Death. A media/larga distancia usa la EMBESTIDA: telegraph (tinte + rugido)
+/// → salto en arco que cae DELANTE del rover (objetivo fijado al despegar, para
+/// que se pueda esquivar) → onda de impacto → combo de tentáculos → Vulnerable.
+/// Enrage a &lt;50% HP (todo ×1,5 + un 4º golpe por ciclo).
 /// Solo recibe daño en el núcleo (<see cref="LeviatanCore"/>) durante Vulnerable;
 /// los tentáculos (<see cref="LeviatanTentacle"/>) son invulnerables.
 /// En la arena real: dejar <see cref="startDormant"/> activo y que
@@ -39,6 +42,8 @@ public class LeviatanAI : MonoBehaviour
     public Color vulnerableTint = new Color(0.45f, 1f, 0.9f);
     [Tooltip("Color del flash al recibir daño en el núcleo.")]
     public Color damageFlashColor = new Color(1f, 0.25f, 0.2f);
+    [Tooltip("Tinte del aviso de embestida (el jugador DEBE poder leer que viene el salto).")]
+    public Color lungeTelegraphTint = new Color(1f, 0.55f, 0.1f);
 
     /// <summary>HP actual, HP máximo (para la barra del HUD).</summary>
     public event Action<int, int> OnHealthChanged;
@@ -58,10 +63,15 @@ public class LeviatanAI : MonoBehaviour
     private float attackTimer;
     private float attackCooldown;
 
+    // Embestida
+    private float lungeCooldownTimer;
+    private Vector3 _lungeStart;
+    private Vector3 _lungeTarget;   // fijado al despegar: da al jugador el vuelo para esquivar
+
     private Color _baseColor;
     private Coroutine _flashRoutine;
 
-    private enum State { Dormant, Intro, Idle, Attack, Vulnerable, Death }
+    private enum State { Dormant, Intro, Idle, LungeTelegraph, Lunge, Attack, Vulnerable, Death }
     private State currentState;
 
     private void Start()
@@ -89,12 +99,16 @@ public class LeviatanAI : MonoBehaviour
 
     private void Update()
     {
+        if (lungeCooldownTimer > 0f) lungeCooldownTimer -= Time.deltaTime;
+
         switch (currentState)
         {
-            case State.Intro:      UpdateIntro();      break;
-            case State.Idle:       UpdateIdle();       break;
-            case State.Attack:     UpdateAttack();     break;
-            case State.Vulnerable: UpdateVulnerable(); break;
+            case State.Intro:          UpdateIntro();          break;
+            case State.Idle:           UpdateIdle();           break;
+            case State.LungeTelegraph: UpdateLungeTelegraph(); break;
+            case State.Lunge:          UpdateLunge();          break;
+            case State.Attack:         UpdateAttack();         break;
+            case State.Vulnerable:     UpdateVulnerable();     break;
         }
     }
 
@@ -141,9 +155,19 @@ public class LeviatanAI : MonoBehaviour
 
         if (distance > attackRange)
         {
+            // Rover a media distancia y embestida lista → salto rápido en vez de caminar.
+            if (lungeCooldownTimer <= 0f &&
+                distance >= stats.lungeMinRange && distance <= stats.lungeMaxRange)
+            {
+                BeginLungeTelegraph();
+                return;
+            }
+
+            // Persecución (en enrage camina ×1,5).
+            float speed = stats.moveSpeed * (isEnraged ? stats.enrageSpeedMultiplier : 1f);
             animator.SetBool("IsWalking", true);
             transform.position = Vector2.MoveTowards(
-                transform.position, rover.position, stats.moveSpeed * Time.deltaTime);
+                transform.position, rover.position, speed * Time.deltaTime);
             return;
         }
 
@@ -155,6 +179,95 @@ public class LeviatanAI : MonoBehaviour
             attackTimer = 0f;
             BeginAttack();
         }
+    }
+
+    // ── Embestida (telegraph → salto en arco → impacto frente al rover) ────
+
+    private void BeginLungeTelegraph()
+    {
+        currentState = State.LungeTelegraph;
+        stateTimer = 0f;
+
+        animator.SetBool("IsWalking", false);
+        if (audioController != null) audioController.PlayAttackSound();   // rugido de aviso
+
+        // El aviso tiene que LEERSE: tinte naranja durante el telegraph.
+        if (bodySprite != null && _flashRoutine == null)
+            bodySprite.color = lungeTelegraphTint;
+    }
+
+    private void UpdateLungeTelegraph()
+    {
+        if (rover == null) { CancelLunge(); return; }
+
+        FaceRover();   // apunta hasta el último instante…
+
+        stateTimer += Time.deltaTime;
+        float telegraph = stats.lungeTelegraphTime / (isEnraged ? stats.enrageSpeedMultiplier : 1f);
+        if (stateTimer < telegraph) return;
+
+        // …pero el objetivo se FIJA aquí: el vuelo completo es la ventana de esquiva.
+        // Cae DELANTE del rover (del lado del boss), nunca encima: entre ambos siempre
+        // hay lungeLandingOffset y el punto queda dentro de la arena por construcción.
+        float dir = Mathf.Sign(rover.position.x - transform.position.x);
+        if (dir == 0f) dir = 1f;
+
+        _lungeStart = transform.position;
+        _lungeTarget = new Vector3(
+            rover.position.x - dir * stats.lungeLandingOffset,
+            _lungeStart.y,                 // arena plana: despega y aterriza a la misma altura
+            _lungeStart.z);
+
+        currentState = State.Lunge;
+        stateTimer = 0f;
+    }
+
+    private void UpdateLunge()
+    {
+        float duration = stats.lungeDuration / (isEnraged ? stats.enrageSpeedMultiplier : 1f);
+        stateTimer += Time.deltaTime;
+        float t = Mathf.Clamp01(stateTimer / duration);
+
+        // Arco parabólico: interpola en X y suma altura 4t(1−t) (máximo en t=0,5).
+        Vector3 pos = Vector3.Lerp(_lungeStart, _lungeTarget, t);
+        pos.y += stats.lungeArcHeight * 4f * t * (1f - t);
+        transform.position = pos;
+
+        if (t >= 1f) LandLunge();
+    }
+
+    private void LandLunge()
+    {
+        transform.position = _lungeTarget;
+        lungeCooldownTimer = stats.lungeCooldown / (isEnraged ? stats.enrageSpeedMultiplier : 1f);
+
+        // Restaurar el tinte del telegraph antes de encadenar el combo.
+        if (bodySprite != null && _flashRoutine == null)
+            bodySprite.color = _baseColor;
+
+        // Onda de impacto: castiga quedarse pegado al punto de caída.
+        if (rover != null &&
+            Vector2.Distance(transform.position, rover.position) <= stats.lungeImpactRadius)
+        {
+            var degradation = rover.GetComponentInParent<DegradationSystem>();
+            if (degradation != null)
+                degradation.TakeDamage(stats.lungeDamage, transform.position);
+        }
+
+        FaceRover();
+
+        // Aterriza y encadena directamente el slam de tentáculos → Vulnerable:
+        // la embestida siempre termina en una ventana de castigo cerca del jugador.
+        attackTimer = 0f;
+        BeginAttack();
+    }
+
+    /// <summary>Aborta el telegraph (rover perdido) sin dejar el tinte pegado.</summary>
+    private void CancelLunge()
+    {
+        if (bodySprite != null && _flashRoutine == null)
+            bodySprite.color = _baseColor;
+        currentState = State.Idle;
     }
 
     // ── Attack (3 tentáculos alternos; +1 golpe en enrage) ─────────────────
@@ -317,5 +430,26 @@ public class LeviatanAI : MonoBehaviour
             ? -Mathf.Abs(scale.x)
             :  Mathf.Abs(scale.x);
         transform.localScale = scale;
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        if (stats == null) return;
+
+        // Rango de combo cuerpo a cuerpo
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, attackRange);
+
+        // Banda de embestida (min–max)
+        Gizmos.color = new Color(1f, 0.55f, 0.1f);
+        Gizmos.DrawWireSphere(transform.position, stats.lungeMinRange);
+        Gizmos.DrawWireSphere(transform.position, stats.lungeMaxRange);
+
+        // Onda de impacto en el punto de aterrizaje (en juego) o aquí (en editor)
+        Gizmos.color = Color.yellow;
+        Vector3 impactCenter = Application.isPlaying && currentState == State.Lunge
+            ? _lungeTarget
+            : transform.position;
+        Gizmos.DrawWireSphere(impactCenter, stats.lungeImpactRadius);
     }
 }

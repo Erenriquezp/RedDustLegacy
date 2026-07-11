@@ -62,6 +62,7 @@ public class PlayerController : MonoBehaviour
     private bool _jumpHeld;
     private bool _jumpConsumed;
     private bool _isScanning;
+    private bool _controlEnabled = true;   // false entre NotifyDeath y NotifyRevive
 
     // ── API pública ───────────────────────────────────────────────────────
     public RoverStatsSO GetStats() => _stats;
@@ -82,8 +83,33 @@ public class PlayerController : MonoBehaviour
 
     // Permiten a DegradationSystem notificar a los hermanos (audio/animator/HUD).
     public void NotifyDamageReceived(float amount) => OnDamageReceived?.Invoke(amount);
-    public void NotifyDeath() => OnDeath?.Invoke();
-    public void NotifyRevive() => OnRevive?.Invoke();
+
+    /// <summary>
+    /// Muerte: corta el control ANTES de propagar el evento. Sin este gate el rover
+    /// seguía respondiendo al input con la animación de muerte puesta si algo
+    /// restauraba el timeScale durante el Game Over (p. ej. el freeze del dash).
+    /// </summary>
+    public void NotifyDeath()
+    {
+        _controlEnabled = false;
+        _isDashing = false;
+        _inputX = 0f;
+        _frameVelocity.x = 0f;   // el cuerpo cae por gravedad pero no se desliza
+
+        if (_isScanning)
+        {
+            _isScanning = false;
+            OnScanStopped?.Invoke();
+        }
+
+        OnDeath?.Invoke();
+    }
+
+    public void NotifyRevive()
+    {
+        _controlEnabled = true;
+        OnRevive?.Invoke();
+    }
 
     /// <summary>Anula la velocidad acumulada (respawn desde checkpoint — Sprint 03 T4).</summary>
     public void ResetMotion()
@@ -129,7 +155,9 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         TickTimers();
-        ReadInput();
+
+        if (_controlEnabled) ReadInput();
+        else _inputX = 0f;
     }
 
     private void FixedUpdate()
@@ -167,29 +195,29 @@ public class PlayerController : MonoBehaviour
 
     public void OnJumpInput(InputAction.CallbackContext ctx)
     {
-        if (ctx.started)
+        if (ctx.started && _controlEnabled)
         {
             _jumpBufferTimer = _stats.jumpBufferTime;
             _jumpHeld = true;
         }
         else if (ctx.canceled)
         {
-            _jumpHeld = false;
+            _jumpHeld = false;   // soltar siempre se procesa (evita _jumpHeld pegado)
         }
     }
 
     public void OnDashInput(InputAction.CallbackContext ctx)
     {
-        if (ctx.started) TryStartDash();
+        if (ctx.started && _controlEnabled) TryStartDash();
     }
     public void OnScanInput(InputAction.CallbackContext ctx)
     {
-        if (ctx.started)
+        if (ctx.started && _controlEnabled)
         {
             _isScanning = true;
             OnScanStarted?.Invoke(); // ◄ NUEVO: Avisa que inició el escaneo
         }
-        if (ctx.canceled)
+        if (ctx.canceled && _isScanning)
         {
             _isScanning = false;
             OnScanStopped?.Invoke(); // ◄ NUEVO: Avisa que terminó el escaneo
@@ -373,7 +401,15 @@ public class PlayerController : MonoBehaviour
     {
         Time.timeScale = 0f;
         yield return new WaitForSecondsRealtime(_stats.dashSleepTime);
-        Time.timeScale = 1f;
+
+        // Si durante el freeze el juego pasó a Game Over/pausa (morir dasheando
+        // contra un enemigo), NO restaurar el timeScale: eso descongelaba el juego
+        // y dejaba al rover jugable con la animación de muerte puesta.
+        if (GameManager.Instance == null ||
+            GameManager.Instance.CurrentState == GameManager.GameState.Playing)
+        {
+            Time.timeScale = 1f;
+        }
     }
 
     #endregion

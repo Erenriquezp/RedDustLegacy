@@ -26,4 +26,11 @@ public class EnemyStatsSO : ScriptableObject
     public float stunDuration = 2f;
     [Tooltip("Daño que recibe el enemigo cuando el rover lo embiste con dash (dash ofensivo).")]
     public int dashDamage = 20;
+
+    [Header("Cadáver (S05 T1 — espécimen escaneable)")]
+    [Tooltip("Segundos que el cadáver permanece en escena (escaneable) antes de desintegrarse.")]
+    public float corpseDuration = 10f;
+
+    [Tooltip("Ficha que muestra el escáner sobre el cadáver (p. ej. SC-B1). Si el objeto de la escena no trae un Scannable, se le añade uno al morir con esta ficha.")]
+    public ScanDataSO fichaEscaneo;
 }

@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 7964769743486093870}
   - component: {fileID: 57891119657076960}
   - component: {fileID: 878774065415714313}
+  - component: {fileID: 878774065415799001}
   m_Layer: 7
   m_Name: SerBioluminiscente
   m_TagString: Untagged
@@ -411,3 +412,19 @@ MonoBehaviour:
   volActions: 0.6
   loopAudioSource: {fileID: 7964769743486093870}
   oneShotAudioSource: {fileID: 57891119657076960}
+--- !u!114 &878774065415799001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2213265887049640967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2c3d4e5f60718293a4b5c6d7e8f90a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: 6071829304a5b6c7d8e90a1b2c3d4e5f, type: 2}
+  onScanned:
+    m_PersistentCalls:
+      m_Calls: []

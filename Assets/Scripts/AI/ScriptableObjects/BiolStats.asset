@@ -17,3 +17,5 @@ MonoBehaviour:
   loseRange: 8
   loseTime: 3
   alertTime: 0.5
+  corpseDuration: 10
+  fichaEscaneo: {fileID: 11400000, guid: 6071829304a5b6c7d8e90a1b2c3d4e5f, type: 2}

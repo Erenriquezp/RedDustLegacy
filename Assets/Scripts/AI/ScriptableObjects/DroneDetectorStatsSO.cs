@@ -20,7 +20,16 @@ public class DroneDetectorStatsSO : ScriptableObject
     [Range(0, 180)]
     public float visionAngle = 60f;
 
+    [Tooltip("Radio omnidireccional: a esta distancia detecta al rover aunque esté fuera del cono (las paredes siguen bloqueando).")]
+    public float proximityRadius = 3.5f;
+
     public float alertTime = 1.5f;
+
+    [Tooltip("Gracia (s) antes de abandonar Alert si pierde el contacto un instante (saltos del rover).")]
+    public float alertLoseGrace = 1f;
+
+    [Tooltip("Ya en Chase, persigue mientras el rover esté a menos de esta distancia, sin exigir visión continua.")]
+    public float chaseRange = 11f;
 
     public float searchDuration = 6f;
 

@@ -14,6 +14,7 @@ public class BioluminescentAI : MonoBehaviour
     private float attackTimer;
     private int _currentHp;
     private float stunCooldown;
+    private bool _isDead;
 
     // ─── LÍNEA NUEVA 1: Referencia a tu controlador de audio ───
     private EnemyAudioController audioController; 
@@ -172,7 +173,7 @@ public class BioluminescentAI : MonoBehaviour
 
     private void DamageOnContact(Collider2D other)
     {
-        if (!other.CompareTag("Player")) return;
+        if (_isDead || !other.CompareTag("Player")) return;
 
         // Dash ofensivo: si el rover embiste con dash, el Biol recibe daño y el player NO.
         PlayerController player = other.GetComponentInParent<PlayerController>();
@@ -217,6 +218,8 @@ public class BioluminescentAI : MonoBehaviour
 
     public void TakeDamage(int amount)
     {
+        if (_isDead) return;
+
         _currentHp -= amount;
 
         Debug.Log($"Biol recibe {amount} daño. HP: {_currentHp}");
@@ -232,6 +235,8 @@ public class BioluminescentAI : MonoBehaviour
 
     private void Die()
     {
+        _isDead = true;
+
         Debug.Log("Biol muerto");
 
         animator.SetBool("IsDead", true);
@@ -239,13 +244,51 @@ public class BioluminescentAI : MonoBehaviour
         // ─── LÍNEA NUEVA 4: Apagar loops y disparar alarido de muerte ───
         if (audioController != null) audioController.PlayDeathSound();
 
-        Collider2D col = GetComponent<Collider2D>();
-        if (col != null)
+        ReportAlert(false);
+
+        // Cadáver escaneable (S05 T1): el espécimen queda corpseDuration segundos
+        // en capa Interactable para poder analizarlo (Scannable en el prefab).
+        // El collider trigger SIGUE activo — es el objetivo del escaneo; el daño
+        // por contacto/dash queda cortado por _isDead.
+        int interactable = LayerMask.NameToLayer("Interactable");
+        if (interactable >= 0) gameObject.layer = interactable;
+
+        // Garantiza el Scannable aunque este Biol no venga del prefab (hay Biols
+        // montados a mano en escenas sandbox): la ficha viaja en el stats SO.
+        var scannable = GetComponent<Scannable>();
+        if (scannable == null && stats.fichaEscaneo != null)
         {
-            col.enabled = false;
+            scannable = gameObject.AddComponent<Scannable>();
+            scannable.data = stats.fichaEscaneo;
         }
+        Debug.Log($"[Biol] Cadáver escaneable {stats.corpseDuration}s — capa=" +
+                  $"{LayerMask.LayerToName(gameObject.layer)}, Scannable=" +
+                  $"{(scannable != null ? "sí" : "NO")}, ficha=" +
+                  $"{(scannable != null && scannable.data != null ? scannable.data.id : "NULL")}", this);
+
+        // El fade sigue corriendo aunque el componente quede disabled
+        // (las corrutinas solo mueren con SetActive(false)/Destroy).
+        StartCoroutine(CorpseFadeRoutine());
 
         enabled = false;
-        Destroy(gameObject, 1.0f);
+        Destroy(gameObject, stats.corpseDuration);
+    }
+
+    /// <summary>Desvanece el cadáver en los últimos 1,5 s antes de desintegrarse.</summary>
+    private System.Collections.IEnumerator CorpseFadeRoutine()
+    {
+        const float fadeTime = 1.5f;
+        yield return new WaitForSeconds(Mathf.Max(0f, stats.corpseDuration - fadeTime));
+
+        var sprite = GetComponentInChildren<SpriteRenderer>();
+        if (sprite == null) yield break;
+
+        Color c = sprite.color;
+        for (float t = 0f; t < fadeTime; t += Time.deltaTime)
+        {
+            c.a = Mathf.Lerp(1f, 0f, t / fadeTime);
+            sprite.color = c;
+            yield return null;
+        }
     }
 }

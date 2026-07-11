@@ -9,9 +9,20 @@ public class CheckpointManager : MonoBehaviour
 {
     public static CheckpointManager Instance { get; private set; }
 
+    [Header("Intentos")]
+    [Tooltip("Muertes seguidas desde el último checkpoint antes de reiniciar el nivel completo (0 = sin límite).")]
+    [SerializeField] private int maxAttemptsBeforeRestart = 3;
+
     public bool HasCheckpoint { get; private set; }
     public Vector3 RespawnPosition => _respawnPosition;
     public float SavedSI => _savedSI;
+
+    /// <summary>Muertes desde que se registró el checkpoint actual.</summary>
+    public int FailedAttempts { get; private set; }
+
+    /// <summary>Al agotarse, GameManager recarga la escena en vez de respawnear (nivel desde cero).</summary>
+    public bool AttemptsExhausted =>
+        maxAttemptsBeforeRestart > 0 && FailedAttempts >= maxAttemptsBeforeRestart;
 
     private Vector3 _respawnPosition;
     private float _savedSI;
@@ -33,6 +44,13 @@ public class CheckpointManager : MonoBehaviour
         _respawnPosition = position;
         _savedSI = si;
         HasCheckpoint = true;
+        FailedAttempts = 0;   // progresar hasta un checkpoint nuevo limpia el contador
+    }
+
+    /// <summary>Lo llama GameManager en cada muerte del jugador.</summary>
+    public void RegisterDeath()
+    {
+        if (HasCheckpoint) FailedAttempts++;
     }
 
     /// <summary>Mueve al Player al último checkpoint y restaura la SI guardada (no a 100).</summary>

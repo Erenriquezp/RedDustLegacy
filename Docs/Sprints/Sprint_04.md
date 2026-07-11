@@ -1,6 +1,6 @@
 # Sprint 04 — Pantallas, Nivel 1 completo, Boss Leviatán y audio
 
-> 🔄 En progreso · Revisión: 2026-07-07 · Prerequisito: S03 · Ref. GDD: §8.3, §9.2, §10, §12.2, §14
+> 🔄 En progreso · Revisión: 2026-07-10 · Prerequisito: S03 · Ref. GDD: §8.3, §9.2, §10, §12.2, §14
 
 ## Estado
 
@@ -16,6 +16,7 @@
 - **T1:** flujo real menú → carga async (barra real, mín. 2 s) → nivel; pausa y botones cableados por nombre; Build Settings corregidos.
 - **T3:** boss completo y jugable en Level01 — FSM con enrage <50%, dash al núcleo (50×4 = 200 HP), tentáculos 15 SI (inofensivos en la ventana vulnerable), arena con `BossArenaTrigger` + `LevelExit`, barra de boss en `HUD_Canvas`, feedback visual (tinte vulnerable + flash de daño).
 - **T4:** Mixer 4 buses, música adaptativa Exploration↔Tension↔Combat↔Cinematic (enemigos y boss reportan), SFX de Biol/Drone/rover/UI/GameOver.
+- **T3.3/T4.1 (2026-07-07):** SFX del Leviatán (Attack/Damage/Death/Idle) y del Drone Detector (Alert/Damage/Death/Idle) asignados en los prefabs con `EnemyAudioController`.
 
 ## 🔴 Pendiente
 
@@ -35,13 +36,11 @@
 ### T3 — Leviatán: flecos
 1. Verificar el `BossArenaTrigger` (215, −2, collider 2×14) en la Scene view — que no quede dentro de una pared.
 2. **`barrier`:** muro que cierre la arena durante el combate (hoy se puede huir); asignarlo en el trigger.
-3. **SFX:** `EnemyAudioController` + clips en el prefab del boss (el código ya los dispara).
-4. Ajustar hitboxes al sprite (cuerpo 1.2×1.1, tentáculos 0.35×1.2 — dimensionados a ojo). *(Opcional)* AnimationEvents en `LeviatanAtack.anim` y clips Vulnerable/Enrage.
+3. Ajustar hitboxes al sprite (cuerpo 1.2×1.1, tentáculos 0.35×1.2 — dimensionados a ojo). *(Opcional)* AnimationEvents en `LeviatanAtack.anim` y clips Vulnerable/Enrage.
 
 ### T4 — Audio
-1. Clips del Leviatán (ver T3.3).
-2. Ambiente del Nivel 1 (bus Ambient): viento/goteo, géiseres Z4, silencio pre-boss.
-3. Verificar clips asignados: UI (back/pause/tick) y `clipTension/clipCombat/clipCinematic` en las escenas de nivel.
+1. Ambiente del Nivel 1 (bus Ambient): viento/goteo, géiseres Z4, silencio pre-boss.
+2. Verificar clips asignados: UI (back/pause/tick) y `clipTension/clipCombat/clipCinematic` en las escenas de nivel.
 
 ## Reglas
 
