@@ -6,7 +6,7 @@
 
 | Tarea | Responsable | Estado |
 |-------|-------------|--------|
-| T1 — Pantallas (menú/carga/pausa) | Technical Director | 🟢 ~85% |
+| T1 — Pantallas (menú/carga/pausa) | Technical Director | 🟢 ~90% |
 | T2 — Nivel 1 completo | Level Designer | 🟡 **bloqueante** — falta poblar el recorrido |
 | T3 — Boss Leviatán | AI Programmer | 🟢 ~95% — jugable; flecos de editor/arte |
 | T4 — Audio integral | Technical Director | 🟢 ~90% |
@@ -17,13 +17,14 @@
 - **T3:** boss completo y jugable en Level01 — FSM con enrage <50%, dash al núcleo (50×4 = 200 HP), tentáculos 15 SI (inofensivos en la ventana vulnerable), arena con `BossArenaTrigger` + `LevelExit`, barra de boss en `HUD_Canvas`, feedback visual (tinte vulnerable + flash de daño).
 - **T4:** Mixer 4 buses, música adaptativa Exploration↔Tension↔Combat↔Cinematic (enemigos y boss reportan), SFX de Biol/Drone/rover/UI/GameOver.
 - **T3.3/T4.1 (2026-07-07):** SFX del Leviatán (Attack/Damage/Death/Idle) y del Drone Detector (Alert/Damage/Death/Idle) asignados en los prefabs con `EnemyAudioController`.
+- **T1.3 (2026-07-11):** pantalla de carga con silueta del rover (`bot_id`) avanzando por la barra + `ui_loading_tick` por segmento (`ControladorBarraSegmentada`; el clip ya estaba asignado en ambas escenas de carga).
 
 ## 🔴 Pendiente
 
 ### T1 — Pantallas
 1. **Panel de Opciones** (menú y pausa): sliders → `AudioManager.SetMusicVolume/SetSFXVolume/SetAmbientVolume/SetUIVolume`; rehabilitar `Btn_Opciones`/`Btn_Configuracion`.
-2. **Arte de pausa:** copiar el layout de `StopMenu` al `PausePanel` del prefab `HUD_Canvas` + `PauseMenuController`.
-3. Pantalla de carga: silueta del rover avanzando + `ui_loading_tick`. **CONTINUAR** real cuando exista guardado.
+2. **Arte de pausa ✅ (2026-07-11):** ejecutado `Tools → Red Dust → Copiar arte de StopMenu al PausePanel` — el `PausePanel` de `HUD_Canvas` ya tiene el layout de `StopMenu` (12 elementos) + `PauseMenuController`. Re-ejecutable tras retocar StopMenu. Queda verificar en Play mode (Level01): Esc → Reanudar/Reiniciar/Abandonar operativos, Configuración/Archivo deshabilitados.
+3. **CONTINUAR** real cuando exista guardado → S06 T5.
 
 ### T2 — Poblar Level01 (bloqueante · HUD §4.1.2)
 - **Enemigos:** 6 Biol + 2 Drones repartidos para llegar al boss con **SI 47–61%**; checkpoints ≥8 u del enemigo más cercano.

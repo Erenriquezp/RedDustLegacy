@@ -8,23 +8,22 @@ Objetivo: convertir el prototipo en un juego completo de cara al jugador — tra
 
 | Tarea | Responsable | Prioridad | Estado |
 |-------|-------------|-----------|--------|
-| T1 — Interludio isométrico N1→N2 | Level Designer + Gameplay Programmer | 🔴 | ⬜ 0% |
+| T1 — Interludio isométrico N1→N2 | Level Designer + Gameplay Programmer | 🔴 | 🟡 código + flujo ✅ 2026-07-11; falta el pase de escena del LD y el viento |
 | T2 — Opciones: audio, video y dificultad | Technical Director | 🔴 | ⬜ 0% |
 | T3 — Historia / Archivo de Misión | Technical Director | 🟡 | ⬜ 0% |
 | T4 — Códex de objetos y enemigos | Gameplay Programmer | 🟡 | ⬜ 0% |
-| T5 — Guardado + CONTINUAR real | Gameplay Programmer | 🔴 | ⬜ 0% |
+| T5 — Guardado + CONTINUAR real | Gameplay Programmer | 🔴 | 🟢 código ✅ 2026-07-11; falta verificación en Play y el borrado en la victoria (S05 T4) |
 | T6 — Gamepad completo | Gameplay Programmer | 🟡 | ⬜ 0% |
 | T7 — Build + beta (PRUEBAS.md) + balance | Technical Director + equipo | 🔴 | ⬜ 0% |
 
 ## 🔴 Pendiente
 
-### T1 — Interludio isométrico N1→N2 (decisión de diseño: la escena `Isometric` del PR #30 deja de ser sandbox)
-- **Flujo:** `LevelExit` de Level01 → pantalla de carga → `Isometric` (recorrido corto en superficie: el rover cruza el terreno marciano hasta la entrada del Relicto) → trigger de entrada → pantalla de carga N2 → Level02.
-- `SceneLoader`: constante `IsometricScene` + método `LoadIsometric()`; `LoadNextLevel()` pasa a Level01 → Isometric → Level02 → menú; añadir la escena a Build Settings.
-- **Herencia de SI/celdas:** `GameManager.CarryOverToNextLevel` ya sobrevive escenas sin `DegradationSystem` (solo consume el pendiente donde hay uno) — verificar que N1 → Isometric → N2 conserva SI/celdas de punta a punta.
-- **La escena es un interludio, no un nivel:** sin daño, sin HUD de SI, sin muerte; `GameManager` debe tratarla como gameplay (pausa disponible) aunque no encuentre `DegradationSystem` (hoy solo loguea un warning — validar que nada más se rompa).
-- `BasicCharacter`: hoy solo camina (`OnMove`); necesita el trigger de salida, límites de cámara y colliders del recorrido (`EditableColliderTool` ya está para los meshes). Sin enemigos ni mecánicas nuevas: es un beat narrativo/visual de ~60–90 s.
-- Ambiente sonoro de superficie (viento marciano — bus Ambient) y, si T4 de S05 llega, aquí encaja FB/lore de transición.
+### T1 — Interludio isométrico N1→N2 (código ✅ 2026-07-11 — la escena `Isometric` del PR #30 deja de ser sandbox)
+- **Hecho (código):** `SceneLoader.IsometricScene` + `LoadIsometric()` (comparte `PantallaCargaNivel2` — "rumbo al Relicto"; si el Artist hace una pantalla propia, cambiarla ahí); `LoadNextLevel()` ahora encadena Level01 → Isometric → Level02 → menú; `Isometric` añadida a Build Settings. `InterludeExit` (`Scripts/Level/`): trigger 3D que reconoce al `BasicCharacter` (va sin tag) y carga Level02. `GameManager`: el interludio autosava (persiste la herencia pendiente al no haber `DegradationSystem`) y CONTINUAR puede retomar en él. `HUDManager`: sin `DegradationSystem` oculta barra de SI y celdas — el HUD queda como contenedor de pausa (GDD: el interludio no tiene daño ni muerte). La herencia N1→N2 sobrevive el interludio por diseño (solo se consume donde hay `DegradationSystem`).
+- **Manual (1 clic):** ejecutar `Tools → Red Dust → Preparar interludio (Isometric)` — instancia `HUD_Canvas` (pausa), crea el `EventSystem` y un `InterludeExit` placeholder junto al Player; idempotente.
+- **Pendiente (LD):** mover el `InterludeExit` a la entrada del Relicto; recorrido de ~60–90 s con colliders (`EditableColliderTool`) y límites/confiner de cámara (la escena ya tiene `CinemachineCamera`); sin enemigos ni mecánicas nuevas.
+- **Pendiente (TD):** viento marciano por el bus Ambient — **no hay clip en el repo** (`Assets/Audio/` no tiene ambientes); conseguir el asset y colocar un `AudioSource` en loop ruteado al grupo Ambient. Si T4 de S05 llega, aquí encaja FB/lore de transición.
+- **Verificar en Play:** N1 completo → salida → interludio (pausa con Esc, sin barra de SI) → `InterludeExit` → N2 con la misma SI/celdas de la salida de N1; y CONTINUAR tras salir del juego en pleno interludio.
 
 ### T2 — Opciones: audio, video y dificultad (retoma S04 T1.1, que quedó pendiente)
 - **Panel único** accesible desde menú principal y pausa (rehabilitar `Btn_Opciones`/`Btn_Configuracion`).
@@ -45,11 +44,10 @@ Objetivo: convertir el prototipo en un juego completo de cara al jugador — tra
 - UI con pestañas Objetos/Enemigos dentro del Archivo de Misión (T3) — una sola pantalla contenedora, no dos sistemas.
 - Estado de desbloqueo persiste en el guardado (T5).
 
-### T5 — Guardado + CONTINUAR real (limitación conocida de la beta — PRUEBAS.md)
-- **Alcance mínimo:** un solo slot, autosave al completar nivel y al registrar checkpoint. Datos: escena actual, SI, celdas, upgrades (S05 T5), lore/códex desbloqueado, dificultad y opciones.
-- JSON en `Application.persistentDataPath` (`SaveSystem` estático + `SaveData` serializable); sin encriptar — es un prototipo.
-- **Menú:** `CONTINUAR` habilitado solo si existe guardado (carga escena + estado); `NUEVA MISIÓN` con confirmación si hay guardado previo ("se perderá el progreso").
-- Borrar guardado al completar la secuencia final (S05 T4) para que la victoria cierre limpia.
+### T5 — Guardado + CONTINUAR real (código ✅ 2026-07-11)
+- **Hecho:** `SaveSystem` estático + `SaveData` (JSON en `persistentDataPath/save.json`, un slot, sin encriptar) con campos ya reservados para upgrades (S05 T5), códex (T4) y dificultad/opciones (T2 — el autosave preserva los campos que no gestiona). `GameManager`: autosave al entrar a Level01/Level02 y al registrar checkpoint (vía `CheckpointManager.Register`), rastreo de fichas SC-XX escaneadas (`IsScanned`/`ScannedIds`, se suscribe a `ScanSystem.OnScanCompleted`), `ContinueFromSave()` (restaura lore y SI/celdas por la herencia pendiente) y `StartNewGame()`. Autosave también en cada `OnCellsChanged` (recoger/usar celda persiste al momento — una celda tomada tras el último checkpoint no se pierde al salir). Round-trip verificado headless con `Editor.SaveSmokeTest.Run` (⚠ borra el slot local). Menú: `Btn_Continuar` deshabilitado sin guardado (cierra BUG-003 de PRUEBAS.md); `NUEVA MISIÓN` con confirmación de dos pulsaciones ("¿SEGURO? SE PERDERÁ EL PROGRESO", timeout 4 s) si hay guardado.
+- **Decisión de alcance:** no se guarda posición — CONTINUAR retoma el nivel guardado desde su inicio con la SI/celdas/lore del último autosave (el spec no lista posición). Las escenas sandbox (Dev/Enemy/Isometric) no escriben el slot; al volverse interludio (T1), añadir `Isometric` a `GameManager.AutoSave`.
+- **Pendiente:** verificar en Play el ciclo menú → N1 → checkpoint → salir → CONTINUAR; la victoria (S05 T4) debe llamar a `SaveSystem.Delete()` para cerrar limpia; T2 aplica `difficulty` y opciones desde `SaveData` al arrancar.
 
 ### T6 — Gamepad completo (limitación conocida de la beta — PRUEBAS.md)
 - Saltar/dash/escanear/celda con gamepad (hoy solo movimiento y pausa): completar los bindings del `InputActions` y el polling de `Gamepad.current` donde aplique (celda `Q` en `DegradationSystem`, escaneo).

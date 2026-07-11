@@ -88,9 +88,14 @@ public class HUDManager : MonoBehaviour
         if (_subscribed) return;
         if (_degradation == null)
         {
-            Debug.LogWarning("[HUDManager] No hay DegradationSystem en la escena; el HUD no se actualizará.");
+            // Interludio isométrico (S06 T1) u otra escena sin supervivencia:
+            // el HUD queda solo como contenedor de pausa/Game Over.
+            Debug.Log("[HUDManager] Sin DegradationSystem en la escena: se ocultan barra de SI " +
+                      "y celdas (esperado en el interludio; en un nivel es un bug).");
+            SetSurvivalWidgetsActive(false);
             return;
         }
+        SetSurvivalWidgetsActive(true);
 
         _degradation.OnSIChanged      += UpdateSIBar;
         _degradation.OnPhaseChanged   += UpdatePhaseEffects;
@@ -113,6 +118,21 @@ public class HUDManager : MonoBehaviour
         _degradation.OnDamageReceived -= HandleDamage;
         if (GameManager.Instance == null) _degradation.OnDeath -= ShowGameOver;
         _subscribed = false;
+    }
+
+    /// <summary>
+    /// Muestra/oculta los widgets de supervivencia (barra de SI y celdas). En el
+    /// interludio isométrico no hay DegradationSystem y mostrarlos congelados
+    /// sería mentirle al jugador (GDD: el interludio no tiene daño ni muerte).
+    /// </summary>
+    private void SetSurvivalWidgetsActive(bool active)
+    {
+        if (_siPulseRoot != null) _siPulseRoot.gameObject.SetActive(active);
+        if (_siSlider != null) _siSlider.gameObject.SetActive(active);
+        if (_cellSlots != null)
+            foreach (var slot in _cellSlots)
+                if (slot != null && slot.transform.parent != null)
+                    slot.transform.parent.gameObject.SetActive(active);
     }
 
     /// <summary>Refresca barra y celdas con el estado actual (no espera al próximo evento).</summary>

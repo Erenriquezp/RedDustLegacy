@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
@@ -32,6 +33,11 @@ public class GameManager : MonoBehaviour
 
     private DegradationSystem _degradation;
     private HUDManager _hud;
+    private ScanSystem _scan;
+
+    // ── Lore escaneado (S06 T5): sobrevive entre escenas y se persiste en el
+    // guardado; lo consultan Archivo de Misión (T3) y códex (T4).
+    private readonly HashSet<string> _scannedIds = new HashSet<string>();
 
     // ── Herencia entre niveles (S05, GDD §9.3): SI/celdas con las que se entra
     // al siguiente nivel. Las guarda LevelExit; se consumen al cargar el nivel.
@@ -66,6 +72,7 @@ public class GameManager : MonoBehaviour
     {
         if (Instance == this) SceneManager.sceneLoaded -= OnSceneLoaded;
         UnsubscribeDegradation();
+        UnsubscribeScan();
     }
 
     // ── Carga de escena: re-localizar referencias y fijar estado ──────────
@@ -75,7 +82,17 @@ public class GameManager : MonoBehaviour
 
         UnsubscribeDegradation();
         _degradation = FindFirstObjectByType<DegradationSystem>(FindObjectsInactive.Include);
-        if (_degradation != null) _degradation.OnDeath += HandlePlayerDeath;
+        if (_degradation != null)
+        {
+            _degradation.OnDeath += HandlePlayerDeath;
+            // Autosave al recoger/usar celda (S06 T5): sin esto, una celda tomada
+            // después del último checkpoint se perdería del guardado al salir.
+            _degradation.OnCellsChanged += HandleCellsChanged;
+        }
+
+        UnsubscribeScan();
+        _scan = FindFirstObjectByType<ScanSystem>(FindObjectsInactive.Include);
+        if (_scan != null) _scan.OnScanCompleted += HandleScanCompleted;
 
         _hud = FindFirstObjectByType<HUDManager>(FindObjectsInactive.Include);
         if (_hud != null) _hud.ShowPause(false);
@@ -99,6 +116,10 @@ public class GameManager : MonoBehaviour
         // HUD y GameManager deben mirar a la MISMA instancia; re-sincroniza la barra
         // con el estado final (herencia ya aplicada).
         if (_hud != null && !isMenuScene) _hud.Bind(_degradation);
+
+        // Autosave al entrar a un nivel (S06 T5): cubre "al completar nivel"
+        // (se guarda al pisar el siguiente) y el arranque de NUEVA MISIÓN.
+        AutoSave();
 
         SetState(isMenuScene ? GameState.MainMenu : GameState.Playing);
     }
@@ -217,6 +238,88 @@ public class GameManager : MonoBehaviour
         SetState(active ? GameState.Cinematic : GameState.Playing);
     }
 
+    // ── Guardado + CONTINUAR real (S06 T5) ────────────────────────────────
+
+    /// <summary>Fichas SC-XX ya escaneadas en esta partida (para Archivo/códex, T3/T4).</summary>
+    public bool IsScanned(string id) => _scannedIds.Contains(id);
+    public IReadOnlyCollection<string> ScannedIds => _scannedIds;
+
+    /// <summary>
+    /// Autosave de slot único: al entrar a un nivel o al interludio (lo llama
+    /// OnSceneLoaded), al registrar checkpoint (CheckpointManager) y en cada
+    /// cambio de celdas. Las escenas sandbox (Dev/Enemy) no pisan el slot.
+    /// </summary>
+    public void AutoSave()
+    {
+        string scene = SceneManager.GetActiveScene().name;
+        bool isLevel = scene == SceneLoader.Level01Scene || scene == SceneLoader.Level02Scene;
+        bool isInterlude = scene == SceneLoader.IsometricScene;
+        if (!isLevel && !isInterlude) return;
+
+        // Partir del slot existente para no pisar campos de otros sistemas
+        // (opciones/dificultad T2, upgrades S05 T5, códex T4).
+        var data = SaveSystem.Load() ?? new SaveData();
+        data.sceneName = scene;
+        if (_degradation != null)
+        {
+            data.si = _degradation.CurrentSI;
+            data.cells = _degradation.CellsInReserve;
+        }
+        else
+        {
+            // Interludio sin DegradationSystem (S06 T1): persistir la herencia
+            // pendiente — los valores exactos con los que se salió de N1.
+            if (_pendingSI >= 0f)   data.si = _pendingSI;
+            if (_pendingCells >= 0) data.cells = _pendingCells;
+        }
+        data.scannedIds = new List<string>(_scannedIds);
+        SaveSystem.Save(data);
+    }
+
+    /// <summary>
+    /// CONTINUAR del menú: restaura lore + SI/celdas (vía la herencia pendiente,
+    /// que la pantalla de carga no descarta) y carga la escena guardada.
+    /// </summary>
+    public void ContinueFromSave()
+    {
+        var data = SaveSystem.Load();
+        if (data == null) { StartNewGame(); return; }
+
+        _scannedIds.Clear();
+        if (data.scannedIds != null)
+            foreach (var id in data.scannedIds) _scannedIds.Add(id);
+
+        CarryOverToNextLevel(data.si, data.cells);
+
+        if (SceneLoader.Instance == null) { SceneManager.LoadScene(data.sceneName); return; }
+        if (data.sceneName == SceneLoader.Level02Scene) SceneLoader.Instance.LoadLevel02();
+        else if (data.sceneName == SceneLoader.IsometricScene) SceneLoader.Instance.LoadIsometric();
+        else SceneLoader.Instance.LoadLevel01();
+    }
+
+    /// <summary>NUEVA MISIÓN: borra el slot (la UI ya confirmó) y arranca Level01 limpio.</summary>
+    public void StartNewGame()
+    {
+        SaveSystem.Delete();
+        _scannedIds.Clear();
+        _pendingSI = -1f;
+        _pendingCells = -1;
+
+        if (SceneLoader.Instance != null) SceneLoader.Instance.LoadLevel01();
+        else SceneManager.LoadScene(SceneLoader.Level01Scene);
+    }
+
+    private void HandleScanCompleted(ScanDataSO data)
+    {
+        if (data != null && !string.IsNullOrEmpty(data.id)) _scannedIds.Add(data.id);
+    }
+
+    /// <summary>
+    /// Cada cambio de reserva persiste el estado actual (SI + celdas coherentes:
+    /// usar una celda guarda la SI ya restaurada). AutoSave ignora escenas no-nivel.
+    /// </summary>
+    private void HandleCellsChanged(int _) => AutoSave();
+
     // ── Internos ──────────────────────────────────────────────────────────
     private void SetState(GameState state)
     {
@@ -226,7 +329,17 @@ public class GameManager : MonoBehaviour
 
     private void UnsubscribeDegradation()
     {
-        if (_degradation != null) _degradation.OnDeath -= HandlePlayerDeath;
+        if (_degradation != null)
+        {
+            _degradation.OnDeath -= HandlePlayerDeath;
+            _degradation.OnCellsChanged -= HandleCellsChanged;
+        }
         _degradation = null;
+    }
+
+    private void UnsubscribeScan()
+    {
+        if (_scan != null) _scan.OnScanCompleted -= HandleScanCompleted;
+        _scan = null;
     }
 }

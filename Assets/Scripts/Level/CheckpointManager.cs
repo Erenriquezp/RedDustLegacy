@@ -45,6 +45,10 @@ public class CheckpointManager : MonoBehaviour
         _savedSI = si;
         HasCheckpoint = true;
         FailedAttempts = 0;   // progresar hasta un checkpoint nuevo limpia el contador
+
+        // Autosave (S06 T5): el guardado en disco no incluye posición — CONTINUAR
+        // retoma el nivel desde el inicio, pero con la SI/celdas/lore de aquí.
+        if (GameManager.Instance != null) GameManager.Instance.AutoSave();
     }
 
     /// <summary>Lo llama GameManager en cada muerte del jugador.</summary>

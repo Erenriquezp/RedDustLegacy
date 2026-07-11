@@ -1,4 +1,6 @@
+using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -7,21 +9,36 @@ using UnityEngine.UI;
 /// Controlador del menú principal (S04 T1, HUD §10.1) para MenuPrincipal.unity.
 /// Localiza los botones por nombre y les cablea callbacks + SFX de UI en runtime,
 /// para no depender de referencias de Inspector mientras el Artist itera la escena.
+/// S06 T5: CONTINUAR real (habilitado solo si hay guardado) y NUEVA MISIÓN con
+/// confirmación de dos pulsaciones cuando pisaría un guardado existente.
 /// Nombres esperados: Btn_Continuar, Btn_NuevaMision, Btn_ArchivoDeMision,
 /// Btn_Opciones, Btn_Sailr (sic — se acepta también Btn_Salir).
 /// </summary>
 public class MainMenuController : MonoBehaviour
 {
+    [Tooltip("Segundos que la confirmación de NUEVA MISIÓN espera la segunda pulsación.")]
+    [SerializeField] private float confirmTimeout = 4f;
+
+    private const string ConfirmText = "¿SEGURO? SE PERDERÁ EL PROGRESO";
+
     private UIAudioController _uiAudio;
+    private Button _newMissionButton;
+    private TMP_Text _newMissionLabel;
+    private string _newMissionOriginalText;
+    private Coroutine _confirmRoutine;
+    private bool _awaitingConfirm;
 
     private void Start()
     {
         _uiAudio = FindFirstObjectByType<UIAudioController>(FindObjectsInactive.Include);
         var buttons = CollectButtons();
 
-        // CONTINUAR: placeholder — sin sistema de guardado aún, carga Level01 (spec T1.1).
-        Button first = Wire(buttons, "Btn_Continuar", OnPlayPressed);
-        Wire(buttons, "Btn_NuevaMision", OnPlayPressed);
+        // CONTINUAR real (S06 T5): solo con guardado — carga escena + estado.
+        Button first = null;
+        if (SaveSystem.HasSave) first = Wire(buttons, "Btn_Continuar", OnContinuePressed);
+        else Disable(buttons, "Btn_Continuar");
+
+        _newMissionButton = Wire(buttons, "Btn_NuevaMision", OnNewMissionPressed);
         Wire(buttons, "Btn_Sailr", OnQuitPressed, "Btn_Salir");
 
         // Sin contenido todavía: Log Screen es V2 y el panel de Opciones no existe aún.
@@ -29,9 +46,61 @@ public class MainMenuController : MonoBehaviour
         Disable(buttons, "Btn_Opciones");
 
         // Navegación con teclado/gamepad: dejar una opción seleccionada de entrada.
-        if (first == null) first = Find(buttons, "Btn_NuevaMision");
+        if (first == null) first = _newMissionButton;
         if (first != null && EventSystem.current != null)
             EventSystem.current.SetSelectedGameObject(first.gameObject);
+    }
+
+    public void OnContinuePressed()
+    {
+        if (GameManager.Instance != null) GameManager.Instance.ContinueFromSave();
+        else OnPlayPressed();   // GameManager se autoarranca; esto es solo red de seguridad
+    }
+
+    /// <summary>
+    /// Sin guardado arranca directo. Con guardado pide una segunda pulsación
+    /// (el rótulo del botón avisa que se perderá el progreso) con timeout.
+    /// </summary>
+    public void OnNewMissionPressed()
+    {
+        if (!SaveSystem.HasSave || _awaitingConfirm)
+        {
+            StartNewMission();
+            return;
+        }
+
+        _awaitingConfirm = true;
+        _newMissionLabel = _newMissionButton != null
+            ? _newMissionButton.GetComponentInChildren<TMP_Text>()
+            : null;
+        if (_newMissionLabel != null)
+        {
+            _newMissionOriginalText = _newMissionLabel.text;
+            _newMissionLabel.text = ConfirmText;
+        }
+        _confirmRoutine = StartCoroutine(RevertConfirmAfterTimeout());
+    }
+
+    private void StartNewMission()
+    {
+        CancelConfirm();
+        if (GameManager.Instance != null) GameManager.Instance.StartNewGame();
+        else OnPlayPressed();
+    }
+
+    private IEnumerator RevertConfirmAfterTimeout()
+    {
+        yield return new WaitForSeconds(confirmTimeout);
+        _confirmRoutine = null;
+        CancelConfirm();
+    }
+
+    private void CancelConfirm()
+    {
+        if (_confirmRoutine != null) { StopCoroutine(_confirmRoutine); _confirmRoutine = null; }
+        if (_awaitingConfirm && _newMissionLabel != null)
+            _newMissionLabel.text = _newMissionOriginalText;
+        _awaitingConfirm = false;
     }
 
     public void OnPlayPressed()

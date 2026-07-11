@@ -17,6 +17,7 @@ public class SceneLoader : MonoBehaviour
     public const string MainMenuScene       = "MenuPrincipal";
     public const string Level01Scene        = "Level01";
     public const string Level02Scene        = "Level02";
+    public const string IsometricScene      = "Isometric";
     public const string LoadingLevel01Scene = "PantallaCargaNivel1";
     public const string LoadingLevel02Scene = "PantallaCargaNivel2";
 
@@ -56,15 +57,23 @@ public class SceneLoader : MonoBehaviour
     public void LoadLevel02() => LoadLevelWithLoadingScreen(LoadingLevel02Scene, Level02Scene);
 
     /// <summary>
-    /// Avanza por nombre (Level01 → Level02 → menú). Con las pantallas de carga
-    /// intercaladas en Build Settings el buildIndex ya no es secuencial.
+    /// Interludio isométrico N1→N2 (S06 T1). Comparte la pantalla de carga del
+    /// Relicto (temáticamente "rumbo al Relicto"); si el Artist crea una pantalla
+    /// propia del interludio, cambiar aquí la escena de carga.
+    /// </summary>
+    public void LoadIsometric() => LoadLevelWithLoadingScreen(LoadingLevel02Scene, IsometricScene);
+
+    /// <summary>
+    /// Avanza por nombre (Level01 → Isometric → Level02 → menú). Con las pantallas
+    /// de carga intercaladas en Build Settings el buildIndex ya no es secuencial.
     /// </summary>
     public void LoadNextLevel()
     {
         string current = SceneManager.GetActiveScene().name;
-        if (current == Level01Scene)      LoadLevel02();
-        else if (current == Level02Scene) LoadMainMenu();
-        else                              LoadLevel01();
+        if (current == Level01Scene)        LoadIsometric();
+        else if (current == IsometricScene) LoadLevel02();
+        else if (current == Level02Scene)   LoadMainMenu();
+        else                                LoadLevel01();
     }
 
     public void ReloadCurrentScene()
