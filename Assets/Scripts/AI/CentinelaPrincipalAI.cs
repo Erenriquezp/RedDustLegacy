@@ -361,6 +361,10 @@ public class CentinelaPrincipalAI : MonoBehaviour
         currentState = State.Dead;
 
         animator.SetBool("IsMoving", false);
+        // Un Attack/Invoke encolado y sin consumir sacaría al animator del
+        // estado Dead (ambos entran por Any State).
+        animator.ResetTrigger("Attack");
+        animator.ResetTrigger("Invoke");
         animator.SetTrigger("Dead");
 
         if (audioController != null)

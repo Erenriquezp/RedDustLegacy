@@ -353,9 +353,14 @@ public class DronePatrollerAI : MonoBehaviour
         // [AUDIO] Muerte controlada
         if (audioController != null) audioController.PlayDeathSound();
 
+        // Limpiar los parámetros de combate ANTES de morir: IsAttacking/Speed
+        // disparan transiciones Any State y sacarían al animator del estado Death.
+        animator.SetBool("IsAttacking", false);
+        animator.SetFloat("Speed", 0f);
         animator.SetBool("IsDead", true);
 
-        Invoke(nameof(DisableEnemy), 1.5f);
+        // El clip DroneDead dura ~1,7 s: dejarlo terminar + un beat de cadáver.
+        Invoke(nameof(DisableEnemy), 3f);
     }
 
     // S04 T4.2: reporta al AudioManager si este enemigo está en Chase/Attack.

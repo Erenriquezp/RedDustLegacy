@@ -386,6 +386,7 @@ public class LeviatanAI : MonoBehaviour
         SetCoreExposed(false);
         animator.speed = 1f;
         animator.SetBool("IsWalking", false);
+        animator.ResetTrigger("AttackTrigger");   // sin ataques encolados post-mortem
         animator.SetBool("IsDead", true);
 
         // Apagar hitboxes: que el cadáver no dañe ni bloquee.

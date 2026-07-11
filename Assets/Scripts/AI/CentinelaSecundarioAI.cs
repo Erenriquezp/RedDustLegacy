@@ -328,6 +328,10 @@ public class CentinelaSecundarioAI : MonoBehaviour
         currentState = State.Dead;
 
         Stop();
+        // Un ataque encolado y sin consumir sacaría al animator del estado Dead
+        // (Attack1/Attack2 entran por Any State).
+        animator.ResetTrigger("Attack1");
+        animator.ResetTrigger("Attack2");
         animator.SetTrigger("Dead");
 
         if (audioController != null)
@@ -337,8 +341,10 @@ public class CentinelaSecundarioAI : MonoBehaviour
             bodyCollider.enabled = false;
         rb.simulated = false;   // el cadáver no sigue empujando ni cayendo
 
+        // El clip CentinelaSecundarioDead dura ~1,8 s: dejarlo terminar
+        // + un beat de cadáver antes de desaparecer.
         enabled = false;
-        Destroy(gameObject, 1f);
+        Destroy(gameObject, 3f);
     }
 
     private void FaceRover()

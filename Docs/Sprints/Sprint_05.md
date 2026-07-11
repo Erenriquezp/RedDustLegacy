@@ -17,6 +17,7 @@ Objetivo: el segundo nivel + los sistemas que faltan para el prototipo completo 
 
 ## ✅ Hecho
 
+- **Animaciones de muerte (2026-07-11):** los enemigos ya no se congelan en el frame 1 al morir — las transiciones Any State → Death tenían `Can Transition To Self` activo y el bool (`IsDead`) las re-disparaba cada frame (Leviatán, Drone Patroller; desactivado también en Centinelas como defensa). Los clips Dead de CP/CS/Drone ya no loopean (quedan en el último frame) y el despawn respeta la animación (~1,8 s): Drone 1,5→3 s, Centinela Secundario 1→3 s. Los `Die()` limpian triggers/bools de combate pendientes para que nada saque al animator del estado Death. (El Detector sigue sin clip de muerte — pendiente de arte T3.)
 - **Combate N2 completo:** Centinelas Secundario y Principal jugables de punta a punta — FSM, daño por dash, proyectiles con impacto real, fases del boss (F1/F2 + invocación + `OnDefeated`), prefabs autosuficientes, valores GDD en los `.asset`.
 - **Locomoción y detección de enemigos:** Centinelas terrestres (ya no flotan; el Secundario camina con gravedad, el boss se mueve solo en X y dispara desde su ancla); Detector con proximidad omnidireccional 3,5 u, gracia de alerta 1 s y lock-on <11 u.
 - **Leviatán mejorado:** embestida telegrafiada que cae frente al rover + onda de impacto; persecución 2,2 u/s, cd 1,2 s; el enrage acelera todo ×1,5 (`LeviatanStatsSO`).
