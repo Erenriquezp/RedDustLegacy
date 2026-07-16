@@ -253,8 +253,9 @@ public class GameManager : MonoBehaviour
     {
         string scene = SceneManager.GetActiveScene().name;
         bool isLevel = scene == SceneLoader.Level01Scene || scene == SceneLoader.Level02Scene;
-        bool isInterlude = scene == SceneLoader.IsometricScene;
-        if (!isLevel && !isInterlude) return;
+        // La escena isométrica ya no forma parte del flujo automático;
+        // no se usa como punto de guardado.
+        if (!isLevel) return;
 
         // Partir del slot existente para no pisar campos de otros sistemas
         // (opciones/dificultad T2, upgrades S05 T5, códex T4).
@@ -264,13 +265,6 @@ public class GameManager : MonoBehaviour
         {
             data.si = _degradation.CurrentSI;
             data.cells = _degradation.CellsInReserve;
-        }
-        else
-        {
-            // Interludio sin DegradationSystem (S06 T1): persistir la herencia
-            // pendiente — los valores exactos con los que se salió de N1.
-            if (_pendingSI >= 0f)   data.si = _pendingSI;
-            if (_pendingCells >= 0) data.cells = _pendingCells;
         }
         data.scannedIds = new List<string>(_scannedIds);
         SaveSystem.Save(data);
@@ -293,7 +287,9 @@ public class GameManager : MonoBehaviour
 
         if (SceneLoader.Instance == null) { SceneManager.LoadScene(data.sceneName); return; }
         if (data.sceneName == SceneLoader.Level02Scene) SceneLoader.Instance.LoadLevel02();
-        else if (data.sceneName == SceneLoader.IsometricScene) SceneLoader.Instance.LoadIsometric();
+        // La escena isométrica ya no es un punto de guardado; si hay un save
+        // antiguo que apuntaba a ella, redirigir a Level02.
+        else if (data.sceneName == SceneLoader.IsometricScene) SceneLoader.Instance.LoadLevel02();
         else SceneLoader.Instance.LoadLevel01();
     }
 

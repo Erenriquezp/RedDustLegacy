@@ -64,13 +64,13 @@ public class SceneLoader : MonoBehaviour
     public void LoadIsometric() => LoadLevelWithLoadingScreen(LoadingLevel02Scene, IsometricScene);
 
     /// <summary>
-    /// Avanza por nombre (Level01 → Isometric → Level02 → menú). Con las pantallas
-    /// de carga intercaladas en Build Settings el buildIndex ya no es secuencial.
+    /// Avanza por nombre (Level01 → Level02 → menú). El interludio isométrico
+    /// está desactivado del flujo automático; se puede cargar con LoadIsometric().
     /// </summary>
     public void LoadNextLevel()
     {
         string current = SceneManager.GetActiveScene().name;
-        if (current == Level01Scene)        LoadIsometric();
+        if (current == Level01Scene)        LoadLevel02();
         else if (current == IsometricScene) LoadLevel02();
         else if (current == Level02Scene)   LoadMainMenu();
         else                                LoadLevel01();

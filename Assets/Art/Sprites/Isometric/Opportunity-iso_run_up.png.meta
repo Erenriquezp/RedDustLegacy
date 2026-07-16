@@ -1,0 +1,806 @@
+fileFormatVersion: 2
+guid: 38beca13bdf6372429b5c022f5a5768c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3618157296891895761
+    second: Opportunity-iso_run_up_0
+  - first:
+      213: -8313407740680460783
+    second: Opportunity-iso_run_up_1
+  - first:
+      213: -6283167924657167986
+    second: Opportunity-iso_run_up_2
+  - first:
+      213: -5570916633059972389
+    second: Opportunity-iso_run_up_3
+  - first:
+      213: 2738823966049229303
+    second: Opportunity-iso_run_up_4
+  - first:
+      213: -7660908170177206225
+    second: Opportunity-iso_run_up_5
+  - first:
+      213: -4206326228150728665
+    second: Opportunity-iso_run_up_6
+  - first:
+      213: 3786850296940863042
+    second: Opportunity-iso_run_up_7
+  - first:
+      213: -4967906123083620699
+    second: Opportunity-iso_run_up_8
+  - first:
+      213: 2602767706588508761
+    second: Opportunity-iso_run_up_9
+  - first:
+      213: 487263184980729593
+    second: Opportunity-iso_run_up_10
+  - first:
+      213: -4850460757146910176
+    second: Opportunity-iso_run_up_11
+  - first:
+      213: 2179069785709297461
+    second: Opportunity-iso_run_up_12
+  - first:
+      213: -8247595338672265090
+    second: Opportunity-iso_run_up_13
+  - first:
+      213: -1607650285474616142
+    second: Opportunity-iso_run_up_14
+  - first:
+      213: -176602437220043812
+    second: Opportunity-iso_run_up_15
+  - first:
+      213: 799961637932432605
+    second: Opportunity-iso_run_up_16
+  - first:
+      213: 372367602481807245
+    second: Opportunity-iso_run_up_17
+  - first:
+      213: 5997815979470400529
+    second: Opportunity-iso_run_up_18
+  - first:
+      213: -5581234547195900942
+    second: Opportunity-iso_run_up_19
+  - first:
+      213: 5722022136994971472
+    second: Opportunity-iso_run_up_20
+  - first:
+      213: 6409536182271550449
+    second: Opportunity-iso_run_up_21
+  - first:
+      213: 2546576855465790422
+    second: Opportunity-iso_run_up_22
+  - first:
+      213: -6776614798261049992
+    second: Opportunity-iso_run_up_23
+  - first:
+      213: -7563107206567269290
+    second: Opportunity-iso_run_up_24
+  - first:
+      213: -3136799546164180348
+    second: Opportunity-iso_run_up_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Opportunity-iso_run_up_0
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1073
+        width: 138
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f206549bb19b9cdc0800000000000000
+      internalID: -3618157296891895761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-iso_run_up_1
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1073
+        width: 139
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11622c7c4b7d0ac80800000000000000
+      internalID: -8313407740680460783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-iso_run_up_2
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 1072
+        width: 142
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e816eaaef04bdc8a0800000000000000
+      internalID: -6283167924657167986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-iso_run_up_3
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 1070
+        width: 147
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda252596d020b2b0800000000000000
+      internalID: -5570916633059972389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-iso_run_up_4
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 1069
+        width: 153
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f9d0bed2e1420620800000000000000
+      internalID: 2738823966049229303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-iso_run_up_5
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 810
+        width: 161
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2823b3cb9cfea590800000000000000
+      internalID: -7660908170177206225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-iso_run_up_6
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 808
+        width: 166
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 728caa1e49020a5c0800000000000000
+      internalID: -4206326228150728665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-iso_run_up_7
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 807
+        width: 169
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e1ebe08489d8430800000000000000
+      internalID: 3786850296940863042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-iso_run_up_8
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 807
+        width: 168
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aedc10c3b37e0bb0800000000000000
+      internalID: -4967906123083620699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-iso_run_up_9
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 809
+        width: 159
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 952f0186073ee1420800000000000000
+      internalID: 2602767706588508761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-iso_run_up_10
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 557
+        width: 147
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fed6ecf84b13c600800000000000000
+      internalID: 487263184980729593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-iso_run_up_11
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 562
+        width: 142
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0224945e3a3bfacb0800000000000000
+      internalID: -4850460757146910176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-iso_run_up_12
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 560
+        width: 157
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f3df5cc6c9d3e10800000000000000
+      internalID: 2179069785709297461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-iso_run_up_13
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 556
+        width: 167
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e78a543bcb7aa8d80800000000000000
+      internalID: -8247595338672265090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-iso_run_up_14
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 555
+        width: 169
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bcea33459a70b9e0800000000000000
+      internalID: -1607650285474616142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-iso_run_up_15
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 299
+        width: 165
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd3f70fd4059c8df0800000000000000
+      internalID: -176602437220043812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-iso_run_up_16
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 301
+        width: 156
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddcf6ee0fd80a1b00800000000000000
+      internalID: 799961637932432605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-iso_run_up_17
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 304
+        width: 145
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8fbacf8c5aea2500800000000000000
+      internalID: 372367602481807245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-iso_run_up_18
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 349
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11cae740bd58c3350800000000000000
+      internalID: 5997815979470400529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-iso_run_up_19
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 307
+        width: 134
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb004effb87b82b0800000000000000
+      internalID: -5581234547195900942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-iso_run_up_20
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 309
+        width: 132
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05fb18821d4b86f40800000000000000
+      internalID: 5722022136994971472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-iso_run_up_21
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 52
+        width: 134
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f32f47d23f33f850800000000000000
+      internalID: 6409536182271550449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-iso_run_up_22
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 51
+        width: 135
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db054f5822475320800000000000000
+      internalID: 2546576855465790422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-iso_run_up_23
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 50
+        width: 136
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 875aef9beb0a4f1a0800000000000000
+      internalID: -6776614798261049992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-iso_run_up_24
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 49
+        width: 138
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c6c5211127a0790800000000000000
+      internalID: -7563107206567269290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Opportunity-iso_run_up_25
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 48
+        width: 139
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a0747ae69d774d0800000000000000
+      internalID: -3136799546164180348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Opportunity-iso_run_up_0: -3618157296891895761
+      Opportunity-iso_run_up_1: -8313407740680460783
+      Opportunity-iso_run_up_10: 487263184980729593
+      Opportunity-iso_run_up_11: -4850460757146910176
+      Opportunity-iso_run_up_12: 2179069785709297461
+      Opportunity-iso_run_up_13: -8247595338672265090
+      Opportunity-iso_run_up_14: -1607650285474616142
+      Opportunity-iso_run_up_15: -176602437220043812
+      Opportunity-iso_run_up_16: 799961637932432605
+      Opportunity-iso_run_up_17: 372367602481807245
+      Opportunity-iso_run_up_18: 5997815979470400529
+      Opportunity-iso_run_up_19: -5581234547195900942
+      Opportunity-iso_run_up_2: -6283167924657167986
+      Opportunity-iso_run_up_20: 5722022136994971472
+      Opportunity-iso_run_up_21: 6409536182271550449
+      Opportunity-iso_run_up_22: 2546576855465790422
+      Opportunity-iso_run_up_23: -6776614798261049992
+      Opportunity-iso_run_up_24: -7563107206567269290
+      Opportunity-iso_run_up_25: -3136799546164180348
+      Opportunity-iso_run_up_3: -5570916633059972389
+      Opportunity-iso_run_up_4: 2738823966049229303
+      Opportunity-iso_run_up_5: -7660908170177206225
+      Opportunity-iso_run_up_6: -4206326228150728665
+      Opportunity-iso_run_up_7: 3786850296940863042
+      Opportunity-iso_run_up_8: -4967906123083620699
+      Opportunity-iso_run_up_9: 2602767706588508761
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

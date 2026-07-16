@@ -64,6 +64,7 @@ public class DegradationSystem : MonoBehaviour
     // Valores base de los campos modificables (para reaplicar sin acumular error).
     private float _baseMaxRunSpeed, _baseGroundAccel, _baseJumpBuffer;
     private float _baseDashCooldown, _baseJumpForce, _baseCoyote;
+    private float _baseDashSpeed, _baseDashDuration;
 
     // Tracking de caída (descenso neto por debajo del punto de despegue).
     private float _takeoffY;
@@ -89,6 +90,8 @@ public class DegradationSystem : MonoBehaviour
         _baseDashCooldown = _runtime.dashCooldown;
         _baseJumpForce    = _runtime.jumpForce;
         _baseCoyote       = _runtime.coyoteTime;
+        _baseDashSpeed    = _runtime.dashSpeed;
+        _baseDashDuration = _runtime.dashDuration;
 
         _currentSI    = Mathf.Clamp(startSI, 0f, maxSI);
         _cells        = Mathf.Clamp(startingCells, 0, maxCells);
@@ -263,6 +266,8 @@ public class DegradationSystem : MonoBehaviour
         _runtime.dashCooldown       = _baseDashCooldown;
         _runtime.jumpForce          = _baseJumpForce;
         _runtime.coyoteTime         = _baseCoyote;
+        _runtime.dashSpeed          = _baseDashSpeed;
+        _runtime.dashDuration       = _baseDashDuration;
         _controller.AerialDashEnabled = true;
         _controller.WallJumpEnabled   = true;
         _controller.DashEnabled       = true;
@@ -285,10 +290,12 @@ public class DegradationSystem : MonoBehaviour
             _runtime.coyoteTime  = 0.06f;
             _controller.WallJumpEnabled = false;
         }
-        if (phase >= 6) // EXTINCIÓN
+        if (phase >= 6) // EXTINCIÓN — dash degradado (siempre disponible, efecto reducido)
         {
-            _runtime.maxRunSpeed *= 0.50f;  // acumulativo sobre el ×0.75 de Fase 4
-            _controller.DashEnabled = false;
+            _runtime.maxRunSpeed  *= 0.50f; // acumulativo sobre el ×0.75 de Fase 4
+            _runtime.dashSpeed    *= 0.50f; // dash más corto y lento
+            _runtime.dashDuration *= 0.60f; // duración reducida
+            // DashEnabled se mantiene en true: el jugador conserva el dash pero degradado.
         }
     }
 

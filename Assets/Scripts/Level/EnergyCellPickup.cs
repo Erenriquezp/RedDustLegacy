@@ -25,7 +25,7 @@ public class EnergyCellPickup : MonoBehaviour
         var deg = other.GetComponentInParent<DegradationSystem>();
         if (deg == null) return;
 
-        // Reserva llena: avisa y deja el pickup en el mundo (GDD §5: máx. 2 en reserva).
+        // Reserva llena: avisa y deja el pickup en el mundo (GDD §5: max. 2 en reserva).
         if (!deg.AddCell())
         {
             var hudFull = FindFirstObjectByType<HUDManager>();
@@ -36,8 +36,9 @@ public class EnergyCellPickup : MonoBehaviour
         if (pickupSfx != null && Core.AudioManager.Instance != null)
             Core.AudioManager.Instance.PlayGlobalSFX(pickupSfx);
 
-        var hud = FindFirstObjectByType<HUDManager>();
-        if (hud != null) hud.ShowAlert("CELDA DE ENERGIA RECOGIDA — Q PARA USAR", 2f);
+        // Primera vez que se recoge una celda → hint tutorial (solo 1 vez en toda la partida).
+        // Las siguientes veces no se muestra ningun aviso para no saturar el HUD.
+        TutorialHintSystem.NotifyCellPickedUp();
 
         Destroy(gameObject);
     }
